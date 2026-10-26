@@ -653,6 +653,16 @@
    "method_zh": "Chelsea 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
    "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
   },
+  "hanover-everett": {
+   "area": "Everett",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Everett 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
   "urbane-at-alewife": {
    "area": "Cambridge",
    "available": true,

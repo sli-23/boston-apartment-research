@@ -1,0 +1,44 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": null,
+  "walk_in_closet": null
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": true,
+  "elevator": true,
+  "bike_storage": null,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official amenities: 'Private patios and balconies*' (select units). Official unit data 2026-10-26: real balcony tag 'Balcony (50 - 58 SF)' only on 1BR #628 and 'Balcony*' on 3BR #219; 2b2b plans N/O/Q/S plan images say 'Select residences will have Romeo & Juliet Balcony' (Juliet = railing at a door, not a walk-out balcony); 2b2b O #149 (and #155 per plan image) has a 69 SF private patio. No 2b2b plan has a walk-out balcony, so balcony_2b2b_plans is empty. https://www.hanovereverett.com/everett/hanover-everett/conventional/ ; https://www.hanovereverett.com/everett/hanover-everett/amenities/",
+  "in_unit_wd": "W/D drawn on every 2b2b floor plan (N, O, P, Q, R, S); MCO affordable info package (2025-10): 'Each unit includes ... a washer and dryer'. https://www.apartmentlist.com/ma/everett/hanover-everett ; https://mcohousingservices.com/pdfs/rentals/HanoverEverett-Application.pdf",
+  "central_ac": "Not stated on official site. 2D plans show 'HP' (heat pump) closets in each unit; VeryApt and BostonPads list 'Air Conditioning'. Type (central/ducted vs other) not confirmed. https://www.veryapt.com/ApartmentReview-a41312-hanover-everett-everett",
+  "dishwasher": "'DW' drawn on 2D plans; VeryApt lists Dishwasher. https://www.veryapt.com/ApartmentReview-a41312-hanover-everett-everett",
+  "hardwood": "Official: 'modern wood-style flooring' (likely not real hardwood); unit tags say 'Wood Floor'. https://www.hanovereverett.com/everett/hanover-everett/amenities/",
+  "walk_in_closet": "Plans show large closets but none labeled WIC. Not confirmed.",
+  "garage_parking": "MCO info package (2025-10): 'Additional garage parking spaces ... $150/mo unreserved, $215/mo reserved'; official fee sheet lists unreserved $125 / reserved $175 / reserved EV $225. https://mcohousingservices.com/pdfs/rentals/HanoverEverett-Application.pdf ; https://www.canva.com/design/DAGn5XJ0NGA/lV-DAtP0t9GzAeOKWhNPXg/view",
+  "ev_charging": "Official: 'EV charging stations available'. https://www.hanovereverett.com/everett/hanover-everett/amenities/",
+  "dogs": "Official: up to two pets, dog breed restrictions, pet spa and dog park; fee sheet dog rent $75. https://www.hanovereverett.com/everett/hanover-everett/amenities/",
+  "cats": "Fee sheet cat rent $45/month; ApartmentList 'Cats allowed'.",
+  "package_room": "Official: 'Package receiving system with refrigerated storage'.",
+  "roof_deck": "Not on official amenities page; ORA says 'rooftop terrace' and a Google reviewer (~2026-07) describes 'The rooftop common area offers stunning views of the Boston skyline'. https://theoraapp.com/scores/us/ma/everett/hanover-everett ; https://www.google.com/maps?cid=14114738930766052262",
+  "elevator": "VeryApt lists 'Elevators'; 6-story midrise (Hanover Company: Midrise, 340 units). https://www.hanoverco.com/property/hanover-everett/",
+  "coworking": "Official: 'Collaborative workspaces with communal seating and lounge areas'; separate office suites (hanovereverettofficesuite.prospectportal.com).",
+  "pool": "Official: 'Resort-style pool'.",
+  "gym": "Official: 'Fully equipped fitness center with Echelon Reflect Touch Mirror & Smart Connect Bikes'."
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "official_url": "https://www.hanovereverett.com",
+ "floorplans_url": "https://www.hanovereverett.com/everett/hanover-everett/conventional/",
+ "virtual_tours": [
+  {"label": "SightMap 互動樓層圖（看每間空房位置）", "url": "https://sightmap.com/embed/8ywkljkgvlx"},
+  {"label": "官方相簿", "url": "https://www.hanovereverett.com/everett/hanover-everett/photos/"},
+  {"label": "官方手冊（Issuu）", "url": "https://issuu.com/hanovercompany/docs/everett_brochure"},
+  {"label": "Instagram 實景", "url": "https://www.instagram.com/hanovereverett/"},
+  {"label": "YouTube 頻道", "url": "https://www.youtube.com/@HanoverEverett"}
+ ],
+ "plans_2b2b": [
+  {"name": "O", "sqft": "1,136–1,178", "price": "$3,526–3,601", "price_min": 3526, "as_of": "2026-10-26", "available": "5 間可租（#203、#249、#255、#149、#411），現在入住；#149 有私人露台", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/d1314674024fcefbb67c44c125c32b89.jpg"},
+  {"name": "N", "sqft": "1,141", "price": "$3,592–3,742", "price_min": 3592, "as_of": "2026-10-26", "available": "2 間可租（#154、#454），現在入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/c3fffb6408ce7d5459cde647c56d8469.jpg"},
+  {"name": "S", "sqft": "1,204", "price": "$3,715", "price_min": 3715, "as_of": "2026-10-26", "available": "1 間（#469），現在入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/0c80042d6e21189e087e46bb3429013e.jpg"},
+  {"name": "P", "sqft": "1,153", "price": "$3,750", "price_min": 3750, "as_of": "2026-10-26", "available": "1 間（#474），12/30 入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ce75dca84eaa7983b9e6b01f8ddcf9e5.jpg"},
+  {"name": "Q", "sqft": "1,167", "price": "$3,859", "price_min": 3859, "as_of": "2026-10-26", "available": "1 間（#144），現在入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/f7f98fd6495d3eb58a512a29c3d33203.jpg"},
+  {"name": "R", "sqft": "1,178", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://medialibrarycfo.entrata.com/3156/MLv3/4/23/2025/05/05/040101/68188c5d464358.44995161938.jpg"}
+ ],
+ "fees": {
+  "parking_garage": "官方費用表：不指定車位 $125/月、指定車位 $175/月、指定電動車充電車位 $225/月；每戶最多 1 個車位（官網設施頁另寫「每房 1 個不指定車位」，兩者不一致，要再確認）",
+  "parking_surface": "沒找到室外停車的資料",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；費用表沒提到垃圾費",
+  "electric_heat": "電和瓦斯住戶自付，按用量計費（第三方收費，沒找到月平均金額）",
+  "internet": "官網寫「整合高速光纖網路」，但沒寫是否含在租金內；費用表說網路由住戶自己開通",
+  "pet_rent": "貓 $45/月、狗 $75/月，按每隻計算（官方費用表，ApartmentList 相同）",
+  "pet_deposit_or_fee": "費用表沒有列寵物押金或一次性寵物費（官網寫「可能另收費用和押金」）",
+  "other": "押金 $500，信用條件通過的話押金提高到 1 個月房租；必須買租客保險（第三方）；一次性維修套餐（MLE）$119；儲藏室 $50–120/月；門禁卡 $100/張；遲繳費為月租 10%。現在 18 個月以上租約最多送 10 週免租、12 個月以上送 8 週（官網橫幅；ApartmentList 2026-10-23 更新的內容相同）",
+  "source": "https://www.canva.com/design/DAGn5XJ0NGA/lV-DAtP0t9GzAeOKWhNPXg/view",
+  "as_of": "官方費用表（Hanover Everett Fee Sheet），2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻。狗有品種限制（官網沒列出具體品種）。申請時要交疫苗紀錄、體重、照片，並簽動物附約。2025-10 的平價房資料包寫「沒有體重限制」。全棟禁菸。",
+ "notes_zh": "租金是 2026-10-26 在官網和 ApartmentList 看到的價格，兩邊每間房的價格一樣。官網寫明這是「最便宜租期」的價格，標示為 15 個月租約；ApartmentList 標的是 12 個月。官網說明沒寫這個價格有沒有把免租優惠攤進去（ApartmentList 的說明有寫「已套用所有優惠」），實際每月要付多少，簽約前要跟辦公室確認。另有收入限制的平價房 Oa、Pa（2 房 2 衛 $2,637，目前沒空房）。R 戶型官網參考價 $4,206 起，但目前沒空房。沒有 Matterport 之類的 3D 看房，可以用 SightMap 互動樓層圖看空房位置。2025 年建成，340 戶，6 層樓。",
+ "sources": [
+  {"name": "官網房型與空房", "url": "https://www.hanovereverett.com/everett/hanover-everett/conventional/"},
+  {"name": "官方費用表", "url": "https://www.canva.com/design/DAGn5XJ0NGA/lV-DAtP0t9GzAeOKWhNPXg/view"},
+  {"name": "ApartmentList（房型、價格、優惠）", "url": "https://www.apartmentlist.com/ma/everett/hanover-everett"},
+  {"name": "ApartmentGuide（押金、寵物租金）", "url": "https://www.apartmentguide.com/a/Hanover-Everett-Everett-MA-6466577/"},
+  {"name": "MCO 平價房資料包（2025-10）", "url": "https://mcohousingservices.com/pdfs/rentals/HanoverEverett-Application.pdf"},
+  {"name": "Hanover Company", "url": "https://www.hanoverco.com/property/hanover-everett/"}
+ ]
+}

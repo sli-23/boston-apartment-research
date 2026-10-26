@@ -1,0 +1,39 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": 4.9,
+  "google_count": 111,
+  "alt": {"value": 94, "label": "ORA 住戶滿意度分數（滿分 100，2026-10-04 查詢）"},
+  "summary_zh": "2025 年才建成的新樓，Google 4.9 分（111 則），但大部分五星評價是在誇帶看的租賃人員（Athena、Perla），真正住過的人寫的內容不多。住戶說大樓乾淨、安靜、設施好（泳池、健身房、頂樓看得到 Boston 天際線、狗公園、共享辦公室）。唯一找到的一星評價（約 2026-07）說入住後生活品質一直變差：影音室/活動室不開放、7 月 4 日連假公共廁所全關也沒通知。大樓離 Newburyport/Rockport 通勤鐵路只有約 60 公尺，交通噪音約 58 dB。Everett 全市暴力犯罪約等於全美平均、財產犯罪較低。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":3,
+   "points_zh":["大樓離 Newburyport/Rockport 通勤鐵路約 60 公尺，離 Route 16 約 370 公尺；BTS 2020 交通噪音約 58 dB，臨路一側可達 63 dB（本站噪音資料）","一位 2026 年剛入住的住戶說大樓「安靜」（Google，約 2026-08）","沒有找到住戶談火車聲、鄰居噪音或隔音的評價"]},
+  {"key":"safety","label_zh":"安全","score":3,
+   "points_zh":["Everett 全市 2025 年 FBI NIBRS：暴力犯罪每千人 3.18 起（約全美平均 1.0 倍），財產犯罪每千人 12.76 起（約 0.8 倍）","沒找到大樓附近街區的報案資料，也沒有住戶談安全","Reddit 上有人說大樓周邊走路環境不如 Chelsea 那一側（2025-10）"]},
+  {"key":"management","label_zh":"物業管理","score":4,
+   "points_zh":["Google 評價幾乎都誇租賃團隊熱心專業，有住戶說員工主動幫忙把重家具搬上樓（約 2026-08）","要打折看：很多五星是帶看體驗，甚至有「還沒入住的潛在住戶」寫的評價","一星評價：影音室/活動室不開放，7 月 4 日連假無預警關閉公共廁所（約 2026-07）"]},
+  {"key":"amenities","label_zh":"設施","score":5,
+   "points_zh":["度假風泳池、有壁爐和烤肉台的庭院、影音室、共享辦公區、Echelon 健身器材的健身房（官網）","寵物美容室、專屬狗公園、有冷藏格的包裹室、電動車充電（官網）","住戶說頂樓公共區看得到 Boston 天際線，包裹室整理得很好；套內有洗衣機烘乾機"]},
+  {"key":"value","label_zh":"性價比","score":4,
+   "points_zh":["2026-10-26 官網兩房兩衛 $3,526–3,859，現在有 10 間可租","現在 12 個月以上租約送 8 週、18 個月以上送 10 週免租","停車 $125–225/月、押金 $500，比劍橋便宜；但要自付水電瓦斯"]}
+ ],
+ "pros_zh":["2025 年新樓，Google 4.9 分","設施齊全：泳池、健身房、狗公園、共享辦公室","套內有洗衣機烘乾機","走路 8 分鐘到 Chelsea 站（通勤鐵路、Silver Line）","目前送 8–10 週免租，空房多"],
+ "cons_zh":["離通勤鐵路只有約 60 公尺，可能聽到火車聲","附近沒有地鐵（只有通勤鐵路和公車）","大多數好評是帶看體驗，實際住戶評價少","有住戶抱怨設施沒開放、管理變差","周邊走路環境普通"],
+ "quotes":[
+  {"text":"我剛搬進來，但開心得不得了！大樓很漂亮、乾淨又安靜。","source":"Google · 約 2026-08","url":"https://www.google.com/maps?cid=14114738930766052262"},
+  {"text":"頂樓公共區可以看到很棒的 Boston 天際線……健身房寬敞、現代、器材齊全。","source":"Google · 約 2026-07","url":"https://www.google.com/maps?cid=14114738930766052262"},
+  {"text":"一開始是很棒的地方，但生活品質一直在下降。住戶現在不能用影音室/活動室，明明是主打的設施。","source":"Google · 約 2026-07","url":"https://www.google.com/maps?cid=14114738930766052262"},
+  {"text":"7 月 4 日連假，管理處把所有公共廁所關了整個週末，完全沒有通知。","source":"Google · 約 2026-07","url":"https://www.google.com/maps?cid=14114738930766052262"},
+  {"text":"Chelsea 那邊走路的環境比 Hanover 所在的地方好很多。","source":"Reddit r/CambridgeMA · 2025-10","url":"https://www.reddit.com/r/CambridgeMA/comments/1o7lspn/new_apartments_in_chelseaeverett_area/"}
+ ],
+ "sources":[
+  {"name":"Google 評價","url":"https://www.google.com/maps?cid=14114738930766052262"},
+  {"name":"ORA 分數","url":"https://theoraapp.com/scores/us/ma/everett/hanover-everett"},
+  {"name":"Reddit r/CambridgeMA 討論","url":"https://www.reddit.com/r/CambridgeMA/comments/1o7lspn/new_apartments_in_chelseaeverett_area/"},
+  {"name":"FBI Crime Data Explorer（Everett）","url":"https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"},
+  {"name":"Apartments.com（自己看）","url":"https://www.apartments.com/hanover-everett-everett-ma/tn796p9/"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=%22Hanover%20Everett%22"}
+ ],
+ "gaps_zh":"Google 只抓得到 5 則評價全文（評價時間是相對時間，日期為推算）。Apartments.com、Trulia、Homes.com、ApartmentFinder 擋了自動抓取，web.archive.org 當天離線；Reddit 原文也被擋，只看到搜尋摘要。VeryApt 沒有評價。"
+}

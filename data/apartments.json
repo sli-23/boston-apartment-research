@@ -168,6 +168,13 @@
   "gid": "/g/11fp3k1yz8"
  },
  {
+  "slug": "hanover-everett",
+  "name": "Hanover Everett",
+  "address": "337 2nd Street, Everett, MA 02149",
+  "lat": 42.3991079,
+  "lng": -71.0485606
+ },
+ {
   "slug": "urbane-at-alewife",
   "name": "Urbane at Alewife",
   "address": "50 Cambridgepark Dr, Cambridge, MA 02140",

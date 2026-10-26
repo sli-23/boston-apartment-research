@@ -483,6 +483,25 @@
    },
    "note_zh": "交通噪音約 52 dB，接近「一般住宅區」，主要來自飛機。"
   },
+  "hanover-everett": {
+   "combined_db": 58.0,
+   "road_db": 62.0,
+   "aviation_db": 52.1,
+   "rail_db": 54.3,
+   "max_50m_db": 63.4,
+   "max_50m_source": "road",
+   "below_threshold": [],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 16（Revere Beach Parkway）",
+    "m": 370
+   },
+   "rail": {
+    "name": "Eastern Route (Newburyport/Rockport Line)",
+    "m": 60
+   },
+   "note_zh": "交通噪音約 58 dB，接近「一般住宅區」，50 公尺內臨道路一側可達 63 dB。"
+  },
   "urbane-at-alewife": {
    "combined_db": 47.3,
    "road_db": null,
