@@ -2,6 +2,18 @@
 
 Instructions for an AI agent maintaining this repo. Read all of it before changing anything.
 
+## Routine update (when the owner says "更新一下" / "update the data")
+
+1. **Prices (weekly):** for every slug in `data/apartments.json`, refresh `data/units/<slug>.json` — 2b2b plans, `price_min`, `as_of` (today), availability, specials. Use parallel agents, one output file each.
+2. **Monthly:** `python3 -I scripts/build_data.py` (places, driving times, commute, photos) and `python3 -I scripts/crime.py`.
+3. **Every 2–3 months:** refresh `data/reviews/*.json` and `data/place_reviews/*.json` for places whose `checked` date is old.
+4. **Rebuild:** `python3 -I scripts/build_html.py` (stamps 最後更新).
+5. **Verify:** `python3 -I scripts/phone_check.py` on the list, one apartment tab, `compare.html`, `guide.html` — zero `ERROR` lines, screenshots look right at 390 px.
+6. **Publish:** `git add -A && git commit -m "Update data YYYY-MM-DD" && git push origin main`. GitHub Pages redeploys automatically in ~1 min: https://sli-23.github.io/boston-apartment-research/
+7. Tell the owner what changed (new/changed prices, units that became available, anything that broke).
+
+Ask before: adding or removing apartments, changing ranking formulas, or changing the look.
+
 ## What this is
 
 A static apartment-hunting site for 21 Boston-area apartments, published with GitHub Pages
