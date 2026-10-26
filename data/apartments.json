@@ -301,48 +301,5 @@
    "官網寫 45 戶（ApartmentHomeLiving 寫 37 戶）的精品小樓，由仲介（Fenway Property Advisors）負責租賃，沒有大型物業的管理處和包裹室資訊"
   ],
   "built": "2023（ApartmentHomeLiving／Apartment Finder：Built in 2023，37 戶、5 層；官網稱 brand new construction）"
- },
- {
-  "slug": "50-stedman-street",
-  "name": "50 Stedman Street",
-  "address": "50 Stedman St, Jamaica Plain, MA 02130",
-  "lat": 42.3034562,
-  "lng": -71.1078952,
-  "ai": true,
-  "why_zh": [
-   "套內洗烘：ApartmentList 上的房源描述寫「In unit laundry, private balcony, large closets, central air」，2b2b 的 MLS 房源（#107）也寫「In unit laundry」；但 ApartmentList 的設施標籤寫 On-site laundry，兩邊不一致",
-   "安靜：BTS 門牌點約 51.4 dB，50 公尺內最高 52.1 dB，是這次看過的 JP 新樓裡最安靜的，比名單中位數 52.4 dB 還低一點；東北走廊鐵路／橘線約 290 公尺，道路噪音低於 45 dB 的建模門檻",
-   "車庫：房源描述寫「Underground garage parking available $200 per month」",
-   "2b2b：房源寫「2 bed and 2 ensuite bath」（兩間臥室各有衛浴）；ApartmentList 列 2 Bed 2 Bath 1,010 呎，#107 為 1,100 呎；2026-03 #107 以 $3,300 租出",
-   "交通：步行約 11 分鐘（843–885 公尺）到 Forest Hills 橘線，到 Green Street 也約 11 分鐘；估算到 BOS17 大眾運輸約 41 分鐘、BOS21 約 47 分鐘，開車無塞車約 15 分鐘",
-   "狗／現代內裝：Redfin 寫 Dogs allowed、Cats allowed，房源寫「Pets ok with restrictions」；工程木地板、石英檯面、不鏽鋼家電、中央空調、公共屋頂露台"
-  ],
-  "concerns_zh": [
-   "沒有官網，只有 21 戶，房源都是透過 JP Rentals 等仲介零星上架；2026-10-26 在 ApartmentList（9/24 更新）和 Redfin 都看不到 2b2b 空房",
-   "套內洗烘是房源描述寫的，ApartmentList 的設施標籤卻是 On-site laundry；沒找到房型圖，看房時要確認洗烘機在屋內",
-   "到 Forest Hills 走路約 11 分鐘、通勤 41–47 分鐘，是三棟中最遠的；狗的限制內容沒公開，水費按用量另計"
-  ],
-  "built": "2022（MLS 房源描述「Built in 2022」；BMN Boston 的 Year Built 2022；21 戶電梯大樓）"
- },
- {
-  "slug": "3200-washington",
-  "name": "3200 Washington",
-  "address": "3200 Washington St, Jamaica Plain, MA 02130",
-  "lat": 42.3126771,
-  "lng": -71.1009149,
-  "ai": true,
-  "why_zh": [
-   "套內洗烘：官網 Features 寫「in-apartment washer/dryers for private use」，Apartment Amenities 也列 Washer/Dryer；官網 2 房房型圖（Type A／F／I）都畫了 W/D",
-   "2b2b：官網 Two Bedrooms 房型是 2 房 2 衛、858–1,073 呎；ApartmentHomeLiving（2026-10-25 更新）列 #1202（897 呎，11/11 入住）、#2503（1,073 呎，11/25）、#2204（928 呎，12/11）",
-   "車庫／狗：官網 FAQ 說「We do have a garage」，但目前沒有空位；可養狗，每戶最多 2 隻、每隻 40 磅以下，狗每月 $75、貓 $40，有寵物清洗站",
-   "交通：步行約 8 分鐘（626 公尺）到 Stony Brook 橘線，到 Green Street 約 10 分鐘；估算到 BOS17 大眾運輸約 36 分鐘、BOS21 約 42 分鐘，開車無塞車約 13 分鐘",
-   "現代內裝：不鏽鋼家電、仿木地板（luxury laminate）、大窗，部分戶有陽台和壁爐；屋頂露台、健身房、圖書室／會議室、電動車充電、單車維修間；目前「Get 1 Month FREE」"
-  ],
-  "concerns_zh": [
-   "三棟中最吵：直接臨 Washington St，BTS 門牌點約 60.1 dB（主要是道路），50 公尺內最高 62.9 dB，比名單中位數 52.4 dB 高很多，最好挑不臨街的戶",
-   "車庫目前沒有空位（官網 FAQ），狗限 40 磅以下，大型犬不行",
-   "官網和 ApartmentHomeLiving 都沒公布租金（Call for Rates），ApartmentList 上也找不到這棟；水、瓦斯、電、下水道都要自己付"
-  ],
-  "built": "2018（ApartmentHomeLiving：Built in 2018，73 戶、6 層）"
  }
 ]

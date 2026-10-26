@@ -30,7 +30,51 @@
    ],
    "official_url": "https://www.211greenst.com/",
    "apartmentlist_url": "https://www.apartmentlist.com/ma/boston/211-green-st"
+  }
+ ],
+ "candidates_considered": [
+  {
+   "name": "225 Centre（225 Centre St, Jackson Square）",
+   "reason_rejected_zh": "BostonPads 寫 Year Built 2013，早於 2015；ApartmentList 也寫沒有套內洗衣。BTS 54.5 dB，離橘線約 110 公尺"
   },
+  {
+   "name": "250 Centre（250 Centre St, Jackson Square）",
+   "reason_rejected_zh": "2023 年秋天開幕，有車庫、Washer/Dryer、可養 70 磅以下的狗；但官網 2 房只有 1 衛（2 Bedroom A／B 都是 1 Bath），而且緊鄰橘線，BTS 60.9 dB"
+  },
+  {
+   "name": "270 Centre（270 Centre St, Jackson Square）",
+   "reason_rejected_zh": "官網寫 Pets Not Allowed，停車只有 Surface Lot，2 房沒寫有 2 衛"
+  },
+  {
+   "name": "A.O. Flats at Forest Hills（95 Hyde Park Ave）",
+   "reason_rejected_zh": "2019 年建、官網有 In-Unit Washer/Dryer 和車庫；但官網寫 100% affordable，2 房 2 衛是 120% AMI 限收入（2 人上限 $134,640），且離東北走廊鐵路約 30 公尺，50 公尺內 73.8 dB"
+  },
+  {
+   "name": "Holtzer Park（137 Amory St）",
+   "reason_rejected_zh": "RentCafe 寫 100% affordable、限收入，Point2 只列 1–1.5 衛"
+  },
+  {
+   "name": "3193 Washington Street",
+   "reason_rejected_zh": "新樓、有套內洗烘，但房源只看到 2 房 1 衛，停車寫的是 nearby parking available，沒有車庫"
+  },
+  {
+   "name": "3383–3399 Washington St",
+   "reason_rejected_zh": "仲介房源寫 2 房 2 衛、電梯、laundry in unit，BTS 52.8 dB；但找不到建成年份、車庫和狗的政策，沒辦法確認硬性條件"
+  },
+  {
+   "name": "Tilia（119–165 Hyde Park Ave）",
+   "reason_rejected_zh": "是 24 戶的新建公寓式產權住宅（condo），不是整棟出租大樓，只有個別屋主零星出租"
+  },
+  {
+   "name": "197–201 Green St",
+   "reason_rejected_zh": "ApartmentList 標 Recently renovated（舊樓翻新，年份不明），目前只有 2 房 1 衛，停車是 surface lot"
+  },
+  {
+   "name": "The Lyndia（3368 Washington St）",
+   "reason_rejected_zh": "2025 年開幕，但是 Pine Street Inn 的支持性／可負擔住宅，不是一般市價出租"
+  }
+ ],
+ "removed_by_owner": [
   {
    "slug": "50-stedman-street",
    "name": "50 Stedman Street",
@@ -75,48 +119,6 @@
    ],
    "official_url": "https://www.3200washingtonjp.com/",
    "apartmentlist_url": null
-  }
- ],
- "candidates_considered": [
-  {
-   "name": "225 Centre（225 Centre St, Jackson Square）",
-   "reason_rejected_zh": "BostonPads 寫 Year Built 2013，早於 2015；ApartmentList 也寫沒有套內洗衣。BTS 54.5 dB，離橘線約 110 公尺"
-  },
-  {
-   "name": "250 Centre（250 Centre St, Jackson Square）",
-   "reason_rejected_zh": "2023 年秋天開幕，有車庫、Washer/Dryer、可養 70 磅以下的狗；但官網 2 房只有 1 衛（2 Bedroom A／B 都是 1 Bath），而且緊鄰橘線，BTS 60.9 dB"
-  },
-  {
-   "name": "270 Centre（270 Centre St, Jackson Square）",
-   "reason_rejected_zh": "官網寫 Pets Not Allowed，停車只有 Surface Lot，2 房沒寫有 2 衛"
-  },
-  {
-   "name": "A.O. Flats at Forest Hills（95 Hyde Park Ave）",
-   "reason_rejected_zh": "2019 年建、官網有 In-Unit Washer/Dryer 和車庫；但官網寫 100% affordable，2 房 2 衛是 120% AMI 限收入（2 人上限 $134,640），且離東北走廊鐵路約 30 公尺，50 公尺內 73.8 dB"
-  },
-  {
-   "name": "Holtzer Park（137 Amory St）",
-   "reason_rejected_zh": "RentCafe 寫 100% affordable、限收入，Point2 只列 1–1.5 衛"
-  },
-  {
-   "name": "3193 Washington Street",
-   "reason_rejected_zh": "新樓、有套內洗烘，但房源只看到 2 房 1 衛，停車寫的是 nearby parking available，沒有車庫"
-  },
-  {
-   "name": "3383–3399 Washington St",
-   "reason_rejected_zh": "仲介房源寫 2 房 2 衛、電梯、laundry in unit，BTS 52.8 dB；但找不到建成年份、車庫和狗的政策，沒辦法確認硬性條件"
-  },
-  {
-   "name": "Tilia（119–165 Hyde Park Ave）",
-   "reason_rejected_zh": "是 24 戶的新建公寓式產權住宅（condo），不是整棟出租大樓，只有個別屋主零星出租"
-  },
-  {
-   "name": "197–201 Green St",
-   "reason_rejected_zh": "ApartmentList 標 Recently renovated（舊樓翻新，年份不明），目前只有 2 房 1 衛，停車是 surface lot"
-  },
-  {
-   "name": "The Lyndia（3368 Washington St）",
-   "reason_rejected_zh": "2025 年開幕，但是 Pine Street Inn 的支持性／可負擔住宅，不是一般市價出租"
   }
  ]
 }
