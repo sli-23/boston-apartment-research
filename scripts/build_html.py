@@ -24,6 +24,11 @@ for pr in (f for f in files if f.exists()):
         name, _, ll = k.rpartition("|")
         lat, lng = (float(x) for x in ll.split(","))
         data["place_reviews"][f"{name}|{lat:.4f},{lng:.4f}"] = v
+# only ship per-apartment noise/crime for apartments that are still on the list
+_live = {a["slug"] for a in data["apartments"]}
+for _k in ("noise", "crime_near"):
+    if data.get(_k) and isinstance(data[_k].get("apartments"), dict):
+        data[_k] = {**data[_k], "apartments": {k: v for k, v in data[_k]["apartments"].items() if k in _live}}
 blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 html = (ROOT / "scripts" / "template.html").read_text().replace("/*__DATA__*/null", blob).replace("__UPDATED__", UPDATED)
 (ROOT / "index.html").write_text(html)
