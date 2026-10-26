@@ -1,0 +1,75 @@
+{
+ "Rita Hester Green|42.3561,-71.1411": {
+  "rating": 5.0,
+  "count": 1,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=3330048629149088027",
+  "other": [
+   {
+    "source": "Google (Dog Park at Rita Hester Green)",
+    "rating": 5.0,
+    "count": 1,
+    "url": "https://www.google.com/maps?cid=17712307612489233041"
+   }
+  ],
+  "summary_zh": "Google 5.0 分（僅 1 則，無文字），Allston Yards 旁的新綠地，同區有獨立狗公園（Dog Park at Rita Hester Green，5.0 分、1 則）。",
+  "good_zh": [
+   "旁邊有圍起來的狗公園，評論稱「Stop & Shop 外面的可愛狗公園」",
+   "照片可見步道、植栽與狗用飲水設施"
+  ],
+  "bad_zh": [
+   "評論數極少（各 1 則），參考性低",
+   "是否有兒童遊樂場、面積大小未查到"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc0TLbswWscbbs-M-tlACkOuzatQbBgPLUPaWqF1poR0ZLMaFNF-EcL0rsuYl4zMPNP65DOCHTQCR0W3uITEZUGxU-XznrH4uNGL9_quT-ptCO-X7uPqm6FPPiML-hXtFZa_PT1iZqZEJV8=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3330048629149088027",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd9AvA4DUO-BysT23UsYOZfurF6InWX4jZahJXwLiWEtabS_CFuXblfD7iJ3KH8_2QHasNcpNhcHZhllupm0HnWf3Tr0EAQa_--muD1WVIRzV9jrtGs3D5RayqG9AjByxI80gZXhp8rdOWY=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3330048629149088027",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4m4isyQq298Sfw_PZBuPB1_AgC6UxgJgnwIRdMJh_XORzDmHCBr20jlvBam_d5JlOSwBsQXcFOOOApj2lZLPvrsq2obaP6irbc-PBXS-VmYtV1mqg6Li1lePqyUt98hp5CfqrDGfF_nY=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3330048629149088027",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Athletes Park|42.3570,-71.1427": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [],
+  "summary_zh": "Google 地圖上查無「Athletes Park」條目，評分未找到；附近約 100 公尺有 Boston Landing 田徑場（The TRACK at New Balance）。",
+  "good_zh": [],
+  "bad_zh": [
+   "查無評分與評論",
+   "是否可帶狗、有無遊樂場未查到"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Penniman Road Play Area|42.3550,-71.1371": {
+  "rating": 5.0,
+  "count": 1,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=11267610239008819936",
+  "other": [],
+  "summary_zh": "Google 5.0 分（僅 1 則，無文字評論），小型社區兒童遊戲區；是否可帶狗、清潔狀況未查到。",
+  "good_zh": [
+   "Google 類別為城市公園"
+  ],
+  "bad_zh": [
+   "評論數極少，無文字評論",
+   "Google 上沒有照片"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ }
+}

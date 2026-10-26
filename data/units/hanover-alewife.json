@@ -1,0 +1,35 @@
+{
+ "official_url": "https://www.hanoveralewife.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/cambridge/hanover-alewife#bedrooms-2",
+ "virtual_tours": [
+  {"label": "Instagram 實景", "url": "https://www.instagram.com/hanoveralewife/"}
+ ],
+ "plans_2b2b": [
+  {"name": "O", "sqft": "1,114", "price": "$4,016–4,166", "price_min": 4016, "as_of": "2026-10-26", "available": "2 間可租（#207、#231），現在入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/lvh8hkirlg7rvg9tib86.jpg"},
+  {"name": "Q", "sqft": "1,243", "price": "$4,351", "price_min": 4351, "as_of": "2026-10-26", "available": "1 間（#533），11/27 入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/98745893ca8f19096b196617f091659d.jpg"},
+  {"name": "T", "sqft": "1,383", "price": "$4,564", "price_min": 4564, "as_of": "2026-10-26", "available": "1 間（#421），現在入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/db7c8462c46c1d51d769b484f9e3d86e.jpg"},
+  {"name": "N", "sqft": "1,020", "price": "目前沒空房", "as_of": "", "available": "", "image": ""},
+  {"name": "P", "sqft": "1,224", "price": "目前沒空房", "as_of": "", "available": "", "image": ""},
+  {"name": "R", "sqft": "1,274", "price": "目前沒空房", "as_of": "", "available": "", "image": ""},
+  {"name": "S", "sqft": "1,318", "price": "目前沒空房", "as_of": "", "available": "", "image": ""}
+ ],
+ "fees": {
+  "parking_garage": "預留標準車位 $265/月；預留小型車位 $230/月；高級預留車位 $300/月（ApartmentList）",
+  "parking_surface": "限時停車 $150/月（費用表沒寫是室內還是室外）",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；垃圾包含在租金內",
+  "electric_heat": "電和瓦斯住戶自付，按用量計費（沒找到月平均金額）",
+  "internet": "自己申請，自己付",
+  "pet_rent": "官方費用表：貓 $50/月、狗 $75/月，按每隻計算（ApartmentList 寫的金額比較低，要再確認）",
+  "pet_deposit_or_fee": "押金 $500（ApartmentList）",
+  "other": "2 房押金 $600；換鎖入住費 $250；一次性維修套餐 $119；必須買租客保險；儲藏室 $150–250/月。現在 11/15 前入住、簽 12 個月約，最多送 4 週免租",
+  "source": "https://www.canva.com/design/DAFjqLaAiuE/-2_lwisoSFjEOSulErjpXw/view",
+  "as_of": "官方費用表，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻。禁養 Staffordshire Bull Terrier、Doberman、Rottweiler、Chow Chow 以及這些品種的混種。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（頁面寫 1 小時前由公寓更新過），是 12 個月租約的價格。這個價格可能已經把「送 4 週免租」的優惠平均攤進去了，實際每月要付的金額可能更高，簽約前要跟辦公室確認。官網擋了自動抓取，也沒找到 Matterport 之類的 3D 看房，要預約實地或視訊看房請上官網。",
+ "sources": [
+  {"name": "ApartmentList（房型、價格）", "url": "https://www.apartmentlist.com/ma/cambridge/hanover-alewife"},
+  {"name": "官方費用表", "url": "https://www.canva.com/design/DAFjqLaAiuE/-2_lwisoSFjEOSulErjpXw/view"},
+  {"name": "Hanover Company", "url": "https://www.hanoverco.com/property/hanover-alewife/"}
+ ]
+}

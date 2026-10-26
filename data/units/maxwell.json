@@ -1,0 +1,219 @@
+{
+ "official_url": "https://www.livemaxwellma.com/",
+ "floorplans_url": "https://www.livemaxwellma.com/floorplans/",
+ "virtual_tours": [
+  {
+   "label": "SightMap 互動樓層圖（看哪間空著）",
+   "url": "https://sightmap.com/embed/n9w60l2rw71"
+  },
+  {
+   "label": "Panoskin 360° · 公共設施",
+   "url": "https://v1.panoskin.com/?tour=66ab72aba6da49164dd6adaf"
+  },
+  {
+   "label": "Instagram 實景",
+   "url": "https://www.instagram.com/maxwellapts_ma/"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "B4.2",
+   "sqft": "993",
+   "price": "$3,360–3,785",
+   "price_min": 3360,
+   "as_of": "2026-10-26",
+   "available": "6 間可租（#212、#528、#541、#335、#465、#665），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/4cb3087a8f104169fefa2b24affeada6.jpg"
+  },
+  {
+   "name": "B7",
+   "sqft": "993",
+   "price": "$3,560",
+   "price_min": 3560,
+   "as_of": "2026-10-26",
+   "available": "1 間（#135），12/18 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/8191dc96879f3ef1bb3677378aa1c8cf.jpg"
+  },
+  {
+   "name": "B9.Den",
+   "sqft": "1,058",
+   "price": "$3,780",
+   "price_min": 3780,
+   "as_of": "2026-10-26",
+   "available": "1 間（#168），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/cc283350e917631c9f56bdea1ce9d917.jpg"
+  },
+  {
+   "name": "B16",
+   "sqft": "1,167",
+   "price": "$3,915",
+   "price_min": 3915,
+   "as_of": "2026-10-26",
+   "available": "1 間（#319），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/6e09426ed22042da0716c005c642661e.jpg"
+  },
+  {
+   "name": "B18.Den.H",
+   "sqft": "1,181",
+   "price": "$4,000",
+   "price_min": 4000,
+   "as_of": "2026-10-26",
+   "available": "1 間（#426），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/bf01d29717243e02016ea0367a158016.jpg"
+  },
+  {
+   "name": "B12",
+   "sqft": "1,063",
+   "price": "$4,085",
+   "price_min": 4085,
+   "as_of": "2026-10-26",
+   "available": "1 間（#680），12/5 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e9493091f1a61f142ed6e70775c99e43.jpg"
+  },
+  {
+   "name": "B14",
+   "sqft": "1,086",
+   "price": "$4,095",
+   "price_min": 4095,
+   "as_of": "2026-10-26",
+   "available": "1 間（#649），2027/1/14 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/bcadf9071e6f4f9004830478533a6415.jpg"
+  },
+  {
+   "name": "B13.Den.1",
+   "sqft": "1,064",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/64241b68248d98a151515ad533e63296.jpg"
+  },
+  {
+   "name": "B3",
+   "sqft": "974",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/45664305739137ec58b9c58b1ab2c183.jpg"
+  },
+  {
+   "name": "B4.1",
+   "sqft": "991",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/b07ba4dde5a1b7d99b3b117882d6e5f3.jpg"
+  },
+  {
+   "name": "B6.H",
+   "sqft": "991",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b6.h_single1.svg"
+  },
+  {
+   "name": "B7.1",
+   "sqft": "993",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b7.1_single1.svg"
+  },
+  {
+   "name": "B7.1.H",
+   "sqft": "993",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b7.1.h_single1.svg"
+  },
+  {
+   "name": "B8.H",
+   "sqft": "996",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b8.h_single1.svg"
+  },
+  {
+   "name": "B11",
+   "sqft": "1,063",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b11_single1.svg"
+  },
+  {
+   "name": "B12.H",
+   "sqft": "1,063",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b12.h_single1.svg"
+  },
+  {
+   "name": "B15.Den",
+   "sqft": "1,162",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b15.n_single1.svg"
+  },
+  {
+   "name": "B17.H",
+   "sqft": "1,167",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b17.h_single1.svg"
+  },
+  {
+   "name": "B18.Den",
+   "sqft": "1,181",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b18.n_single1.svg"
+  },
+  {
+   "name": "B19",
+   "sqft": "1,362",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b19_single1.svg"
+  },
+  {
+   "name": "B20.H",
+   "sqft": "1,362",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemaxwellma.com/assets/images/b20.h_single1.svg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "沒找到停車價格（官網費用清單要開網頁互動才看得到，自動抓取拿不到）",
+  "parking_surface": "沒找到",
+  "water_sewer_trash": "官網註明水、電、瓦斯、網路要住戶自己開通和付費；垃圾費沒找到",
+  "electric_heat": "住戶自付（沒找到月平均金額）",
+  "internet": "住戶自己申請、自己付",
+  "pet_rent": "可以養貓狗，但沒找到寵物月租金額",
+  "pet_deposit_or_fee": "沒找到",
+  "other": "押金 $500（ApartmentList）；收入要達到月租 2.5 倍。目前優惠：送 6 週基本租金（ApartmentList 2026-10-09 登錄，要問細節）",
+  "source": "https://www.apartmentlist.com/ma/everett/maxwell",
+  "as_of": "2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗。沒找到隻數限制、禁養品種和收費，要問辦公室。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 和官網同時看到的價格，兩邊一致；官網標明是 15 個月租約，價格叫「每月總租賃價格」，已含固定必付月費，不含水電等按用量的費用。「送 6 週租金」是否已攤進價格沒寫，要問清楚。沒空房的戶型圖用的是官網的 SVG 圖。這棟由 Greystar 管理，共 384 戶。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/everett/maxwell"
+  },
+  {
+   "name": "官網房型頁",
+   "url": "https://www.livemaxwellma.com/floorplans/"
+  }
+ ]
+}

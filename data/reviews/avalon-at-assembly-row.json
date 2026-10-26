@@ -1,0 +1,119 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.6,
+   "label": "官網顯示 · 177 條評價（評價連結指向 Google）"
+  },
+  "summary_zh": "就在 Assembly Row 商場裡，離橘線 Assembly 站約 0.3 英里（官網），樓下就是商場和餐廳。噪音主要來自旁邊的 I-93 高速公路、橘線和 Haverhill 通勤鐵路，再加上 Assembly Row 的餐廳酒吧人潮；不過一位住了 3 年的住戶說這一帶「安靜、沒什麼事、感覺很安全」。評價好壞參半：有人誇維修和管理，也有人說陽台門漏水幾個月都不換、AI 租賃助理很難找到真人。2020 年有人說住這裡像住在商場裡，周圍被高速公路隔開，走路不方便。沒找到犯罪統計。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "OpenStreetMap：大樓旁就是 I-93 匝道、Route 28（Fellsway）、橘線和 Haverhill 通勤鐵路",
+    "Assembly Row 有很多餐廳、酒吧和電影院，晚上和週末人多",
+    "但住了 3 年的住戶說這一帶「安靜、沒什麼事」（2025-03）；沒找到抱怨鄰居噪音的評價"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 4,
+   "points_zh": [
+    "2025-03 Reddit 住戶：這一帶「整體感覺很安全」",
+    "2022 年 Reddit 有人說 Assembly 是明顯「不差」的區域",
+    "沒找到這棟樓附近的犯罪統計"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "2025-03：住了 3 年，維修和管理團隊很好，續約只漲了約 $200（15 個月租約）",
+    "2026-02：陽台門雨雪天漏水，從 10 月報修到 2 月還沒換門，地板已經泡壞換過",
+    "2025-12：有準租客說 AI 租賃助理一直回答不了問題，很難找到真人"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "室外泳池、健身房、交誼廳、電動車充電、自行車房，套內有洗衣機烘乾機（2015 年建成，195 戶）",
+    "車庫租約含 1 個車位，住戶說停車費比市內其他大樓便宜",
+    "2019 年有人說中庭手機訊號很差（Verizon）"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 兩房兩衛底價 $4,180–4,790/月，另加必付網路費約 $57–63/月",
+    "含 1 個車位，算進去會比較划算；現在有指定房源送 2 個月的優惠",
+    "住戶說租金「有點貴」，但附近吃喝玩樂多"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "離橘線 Assembly 站約 0.3 英里",
+  "樓下就是商場和餐廳",
+  "租約含 1 個車庫車位",
+  "有泳池、健身房",
+  "有住戶說續約漲幅小"
+ ],
+ "cons_zh": [
+  "旁邊有 I-93 高速公路和鐵路",
+  "商場人多，像住在商場裡",
+  "有住戶說報修（陽台門漏水）拖了好幾個月",
+  "AI 租賃助理難找到真人",
+  "要另付必付網路費"
+ ],
+ "quotes": [
+  {
+   "text": "這一帶安靜、沒什麼事，整體感覺很安全。維修和管理團隊都很好，停車費跟市內其他公寓比也不算貴。",
+   "source": "Reddit r/Somerville · 2025-03",
+   "url": "https://www.reddit.com/r/Somerville/comments/1j9t24u/assembly_row_living_any_recos/mhk09ru/"
+  },
+  {
+   "text": "我 10 月就報修陽台門下雨下雪會漏水，地板都泡軟要換了，他們還是不換門。",
+   "source": "Reddit r/Somerville · 2026-02",
+   "url": "https://www.reddit.com/r/Somerville/comments/1rcdfmu/any_towing_companies_that_do_this/o6xgaq6/"
+  },
+  {
+   "text": "我們想搬進 Avalon at Assembly Row，但一直沒辦法從他們的 AI 租賃助理那裡得到答案，很擔心以後也是這樣。",
+   "source": "Reddit r/Somerville · 2025-12",
+   "url": "https://www.reddit.com/r/Somerville/comments/1j9t24u/assembly_row_living_any_recos/nshrijf/"
+  },
+  {
+   "text": "感覺很像住在商場裡……周圍被高速公路切開，走路不太方便。",
+   "source": "Reddit r/boston · 2020-12",
+   "url": "https://www.reddit.com/r/boston/comments/k9hcal/apartment_advice_couple_interested_in_2_bedroom/gf63r90/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "官網",
+   "url": "https://www.avaloncommunities.com/massachusetts/somerville-apartments/avalon-at-assembly-row/"
+  },
+  {
+   "name": "Reddit r/Somerville · Assembly Row 住哪好",
+   "url": "https://www.reddit.com/r/Somerville/comments/1j9t24u/assembly_row_living_any_recos/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://search.google.com/local/reviews?placeid=ChIJI9aF69hw44kRuqSqPPY4FYo"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Avalon%20at%20Assembly%20Row%22"
+  }
+ ],
+ "gaps_zh": "Apartments.com、Yelp、ApartmentRatings、Google 都攔截了自動抓取，Apartments.com 的存檔只到 2016 年。官網的 4.6 分沒有寫來源，評價連結指向 Google，所以沒有直接填成 Google 分數。沒找到犯罪統計。下面的鏈接可以自己點開看。"
+}

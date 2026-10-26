@@ -1,0 +1,44 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "unknown",
+  "in_unit_wd": true,
+  "central_ac": true,
+  "dishwasher": true,
+  "hardwood": null,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "SOURCES DISAGREE / UNVERIFIED: ApartmentList lists 'Patio / balcony'; official amenities page does not mention balconies; the 14 ApartmentList 2b2b 3D plan renders (unlabeled) show no obvious balcony. https://www.apartmentlist.com/ma/cambridge/urbane-at-alewife ; https://www.urbaneatalewife.com/amenities/",
+  "in_unit_wd": "ApartmentList 'In unit laundry' (also in its highlight text); official amenities page does not mention W/D; 3D plans show a small laundry-closet-like nook near the entry (not labeled). https://www.apartmentlist.com/ma/cambridge/urbane-at-alewife",
+  "central_ac": "Official: 'Central AC & heat'; 'Programmable smart thermostats'. https://www.urbaneatalewife.com/amenities/",
+  "dishwasher": "ApartmentList 'Dishwasher'. https://www.apartmentlist.com/ma/cambridge/urbane-at-alewife",
+  "hardwood": "Official: 'Modern wide-plank wood-like flooring in all homes' (not real hardwood); ApartmentList says 'Hardwood floors'. https://www.urbaneatalewife.com/amenities/",
+  "walk_in_closet": "Official: 'Custom-designed walk-in closets with space saving options'. https://www.urbaneatalewife.com/amenities/",
+  "pool": "Official: 'Resort-style pool with pool-side seating'. https://www.urbaneatalewife.com/amenities/",
+  "gym": "Official: '24-hour fitness facility feat. Technogym equipment'. https://www.urbaneatalewife.com/amenities/",
+  "garage_parking": "Official: 'Garage Parking Available *' with '*Only Available in Select Units'; fee guide: garage $250-275/mo. https://www.urbaneatalewife.com/amenities/",
+  "ev_charging": "ApartmentList 'Car charging'; fee guide 'Parking - EV $330.00 monthly'. https://www.canva.com/design/DAGNdlYK6oY/xxVKDzFlVv-irpvDVlgZMg/view",
+  "dogs": "Official: 'Pet-friendly living including dog run and pet wash station'; ApartmentList 'Cats allowed', 'Dogs allowed'. https://www.urbaneatalewife.com/amenities/",
+  "coworking": "Official: 'Co-working spaces and private offices with WiFi'. https://www.urbaneatalewife.com/amenities/",
+  "bike_storage": "Official: 'Bike storage room and bike maintenance station'. https://www.urbaneatalewife.com/amenities/",
+  "package_room": "ApartmentList 'Package receiving'. https://www.apartmentlist.com/ma/cambridge/urbane-at-alewife",
+  "roof_deck": "Not stated; official lists a 'Two-story open air loggia w/ gas fireplaces and outdoor TVs' (reviews call it the third-floor common space), not a roof deck. https://www.urbaneatalewife.com/amenities/",
+  "concierge": "Not stated on official site or ApartmentList. https://www.urbaneatalewife.com/amenities/"
+ }
+}

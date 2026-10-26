@@ -1,0 +1,40 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": false,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": null,
+  "walk_in_closet": null
+ },
+ "balcony_2b2b_plans": [
+  "Two Bed/Two Bath - 1 (306/406/505/605)",
+  "Two Bed/Two Bath - 2 (203/303/403/502/602)"
+ ],
+ "building": {
+  "gym": true,
+  "pool": null,
+  "garage_parking": true,
+  "ev_charging": null,
+  "dogs": null,
+  "cats": null,
+  "concierge": null,
+  "package_room": null,
+  "roof_deck": true,
+  "elevator": null,
+  "bike_storage": null,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official: 'Private Balcony with City Views *Available only in select units'. Official floor-plan images show a DECK on 2b2b plan 1 (915 sf) and plan 2 (930 sf); plans 3 (207/307/407) and 4 (606) have none. https://www.walterhuntington.com/amenities ; https://www.walterhuntington.com/pricing-%26-floor-plans",
+  "in_unit_wd": "Official FAQ: 'laundry room located on the first floor ... reloadable card system'; amenities: 'Shared Laundry Room'. https://www.walterhuntington.com/faqs",
+  "central_ac": "Official: 'Tenant-Controlled Air Conditioning and Heating' (type not stated). https://www.walterhuntington.com/amenities",
+  "dishwasher": "Official: 'Dishwasher & Garbage Disposal'; DW on all 2b2b plans. https://www.walterhuntington.com/amenities",
+  "garage_parking": "Official: basement parking garage, $250/mo, subject to availability. https://www.walterhuntington.com/faqs",
+  "roof_deck": "Official: '5th floor ... rooftop deck that overlooks Jamaica Pond'. https://www.walterhuntington.com/amenities",
+  "coworking": "Official: 'Business Room/Work Space'. https://www.walterhuntington.com/amenities",
+  "dogs": "Official: 'Pet Friendly Building' ($50/pet/mo) but species not specified. https://www.walterhuntington.com/faqs",
+  "pool": "No pool listed on official amenities page (left null, not explicitly denied)."
+ }
+}

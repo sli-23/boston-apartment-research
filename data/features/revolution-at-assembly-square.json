@@ -1,0 +1,45 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "none",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": null,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "SOURCES DISAGREE: ApartmentList lists 'Patio / balcony' at property level, but none of the 8 drawn 2b2b plans (B1, B2, B4, B5, B6, B8, B9, B10) shows a balcony; B7 image is 'Coming Soon'. Official site does not mention balconies. https://www.apartmentlist.com/ma/somerville/revolution-at-assembly-square",
+  "in_unit_wd": "Official floor-plans page: 'Full-size Samsung washer and dryer'; W/D drawn on every 2b2b plan. https://www.revolutionatassemblysquare.com/floor-plans/",
+  "central_ac": "Not stated on official site; 2b2b plans show an AHU (air handler) closet, ApartmentList 'Air conditioning'. https://www.apartmentlist.com/ma/somerville/revolution-at-assembly-square",
+  "dishwasher": "ApartmentList 'Dishwasher'; official 'Samsung stainless steel appliance package'.",
+  "hardwood": "Official: 'Wide plank flooring' (material not stated); ApartmentList says 'Hardwood floors'. https://www.revolutionatassemblysquare.com/floor-plans/",
+  "walk_in_closet": "Official 'Spacious walk-in closets'; W.I.C drawn on 2b2b plans.",
+  "garage_parking": "Official amenities: 'Bike storage and garage parking available'; fee sheet 'Parking - Reserved $375.00 - $600.00'. https://www.revolutionatassemblysquare.com/amenities/",
+  "ev_charging": "Fee sheet: 'Parking - EV Station (Third Party) Usage Based'. https://communityfees.bozzuto.com/property/6CF2B5/export",
+  "dogs": "ApartmentList pet policy allows dogs and cats, limit 2, breed restrictions; official 'private pet spa and pet wash ... enclosed pet park'.",
+  "cats": "ApartmentList allowed_pets: dogs, cats.",
+  "concierge": "Not on official site; a 2022 Apartments.com review mentions 'the concierge who walked me to the leasing office' (may be outdated).",
+  "package_room": "ApartmentList 'Package receiving'.",
+  "roof_deck": "Not mentioned on official site or ApartmentList.",
+  "elevator": "ApartmentList 'Elevator'.",
+  "coworking": "Official: 'Dedicated Creative Studio with sound booths and workstations', 'Private meeting/dining room'; ApartmentList 'Business center', 'Conference room'. https://www.revolutionatassemblysquare.com/amenities/",
+  "pool": "Official: 'Resort-inspired pool with sundeck'.",
+  "gym": "Official: 'State-of-the-art fitness center'."
+ }
+}

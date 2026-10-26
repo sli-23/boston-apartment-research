@@ -1,0 +1,37 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": true,
+  "dishwasher": true,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": null
+ },
+ "evidence": {
+  "balcony": "Official: 'Balcony/Patio (Select Homes)'; site filter option 'Inset Balcony'; description mentions 'outdoor balconies'. No per-unit/plan balcony data for 2b2b (B1, B2, B3, B6...). Reviews mention balcony-door leak. https://www.avaloncommunities.com/massachusetts/somerville-apartments/avalon-at-assembly-row/",
+  "in_unit_wd": "Official schema 'In-Unit Washer/Dryer': true; plan images named '*_stackedwd'",
+  "central_ac": "Official unit filter 'Air conditioning > Central A/C'",
+  "hardwood": "Finish packages: 'hard surface flooring' in kitchen/living, 'Carpet in common areas and bedroom' (Classic) - not hardwood",
+  "dishwasher": "ApartmentList 'Dishwasher' https://www.apartmentlist.com/ma/somerville/avalon-at-assembly-row--6",
+  "walk_in_closet": "Official description: 'walk-in closets'",
+  "garage_parking": "Official: EV 'Smart Charging Stations ... in the Resident portion of the garage on the 4th floor'",
+  "elevator": "ApartmentList 'Elevator'",
+  "package_room": "Official 'Package Acceptance'"
+ }
+}

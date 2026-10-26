@@ -1,0 +1,45 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": null,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [
+  "2 Bed/2 Bath-B2",
+  "2 Bed/2 Bath-B3",
+  "2 Bed/2 Bath-B4",
+  "2 Bed/2 Bath-B15",
+  "2 Bed/2 Bath-B16",
+  "2 Bed/2 Bath Den-B3D"
+ ],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": null,
+  "dogs": true,
+  "cats": null,
+  "concierge": true,
+  "package_room": true,
+  "roof_deck": true,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official features: 'Balconies/patios and Boston views* ... *In select residences'. ApartmentList plan images label 'Balcony' on B2, B3, B4, B15, B16, B3D; B10, B13, B14 show an unlabeled outdoor projection (possibly patio/balcony, not confirmed). https://www.livethelaurent.com/features/ ; https://www.apartmentlist.com/ma/cambridge/the-laurent",
+  "in_unit_wd": "SOURCES DISAGREE: official says 'Full-size in-home washer and dryer' and W/D is drawn on every 2b2b plan; ApartmentList FAQ says 'No, The Laurent does not offer units with in unit laundry' (lists 'On-site laundry') - ApartmentList appears wrong. https://www.livethelaurent.com/features/ ; https://www.apartmentlist.com/ma/cambridge/the-laurent",
+  "hardwood": "Official: 'Hardwood-style flooring' (likely not real hardwood); ApartmentList says 'Hardwood floors'. https://www.livethelaurent.com/features/",
+  "central_ac": "Not stated; plans show an AHU (air handler) in each unit, ApartmentList 'Air conditioning'. https://www.apartmentlist.com/ma/cambridge/the-laurent",
+  "walk_in_closet": "WIC drawn on most 2b2b plans; official 'Oversized closets'. https://www.livethelaurent.com/features/",
+  "dogs": "Official: 'Pet spa with dog wash and drying station'; fee sheet has pet rent. Cats not stated. https://www.livethelaurent.com/amenities/",
+  "roof_deck": "Official: 'Roof deck with comfortable seating and views of Fresh Pond and Boston'. https://www.livethelaurent.com/amenities/",
+  "coworking": "Official: 'Multiple coworking areas with lounge space, conference, and phone rooms'. https://www.livethelaurent.com/amenities/",
+  "concierge": "Official: 'Concierge and hospitality bar'. https://www.livethelaurent.com/amenities/",
+  "garage_parking": "ApartmentList 'Garage'. https://www.apartmentlist.com/ma/cambridge/the-laurent"
+ }
+}

@@ -1,0 +1,957 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F4F1EA">
+<title>Boston 找房 · Apartment Notes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{
+  --paper:#F4F1EA; --card:#FBFAF6; --ink:#1B1A17; --ink-2:#55524A; --ink-3:#8E897D;
+  --rule:#E2DDD1; --rule-2:#CFC8B8; --accent:#B4532A;
+  --grocery:#4E7A4B; --vet:#B4532A; --park:#6E8F3A; --hospital:#2F5E8C; --costco:#3A4A6B; --office:#1B1A17;
+  --panel:440px;
+  --font:"Schibsted Grotesk","Noto Sans TC","PingFang TC",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:var(--font);background:var(--paper);color:var(--ink);font-size:14px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;font-feature-settings:"tnum" 1}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+a{color:inherit}
+
+.app{display:grid;grid-template-columns:var(--panel) 1fr;height:100vh;height:100dvh}
+#map{height:100%;background:#EAE6DC}
+.panel{height:100%;overflow-y:auto;border-right:1px solid var(--rule);background:var(--paper);position:relative;scroll-behavior:smooth}
+
+/* header */
+.masthead{padding:28px 28px 18px;border-bottom:1px solid var(--ink)}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);display:flex;justify-content:space-between}
+.masthead h1{font-size:30px;font-weight:600;letter-spacing:-.02em;margin-top:10px;line-height:1.1}
+.masthead p{color:var(--ink-2);margin-top:8px;font-size:13px}
+
+/* top links + filters */
+.toplinks{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:12.5px}
+.toplinks a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule-2)}
+.toplinks button{border:1px solid var(--ink);padding:6px 12px;font-size:12.5px}
+.toplinks button.on{background:var(--ink);color:var(--paper)}
+.toplinks button b{font-weight:600}
+.filters{border-bottom:1px solid var(--ink);padding:6px 28px 18px;background:var(--card)}
+.fgroup{padding-top:12px}
+.fgroup h4{font-size:10.5px;letter-spacing:.12em;color:var(--ink-3);font-weight:500;margin-bottom:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chipf{border:1px solid var(--rule-2);background:var(--paper);padding:5px 10px;font-size:12.5px;color:var(--ink-2);cursor:pointer;user-select:none}
+.chipf.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.chipf i{display:inline-block;width:8px;height:8px;margin-right:6px;vertical-align:0}
+.range{display:grid;grid-template-columns:110px 1fr 74px;align-items:center;gap:10px;font-size:12.5px;color:var(--ink-2);margin:6px 0}
+.range input{width:100%;accent-color:var(--ink)}
+.range b{text-align:right;color:var(--ink);font-weight:600}
+.fsum{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:12.5px;color:var(--ink-2)}
+.fsum button{text-decoration:underline;color:var(--ink-2);font-size:12.5px}
+.fsum small{color:var(--ink-3)}
+.row.hide,.grp.hide{display:none}
+.nomatch{padding:30px 28px;color:var(--ink-3)}
+
+/* list */
+.list{list-style:none}
+.row{display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:baseline;padding:14px 28px;border-bottom:1px solid var(--rule);
+  cursor:pointer;transition:background .15s}
+.row:hover{background:var(--card)}
+.row .idx{font-size:12px;color:var(--ink-3)}
+.row .nm{font-weight:500;font-size:15px}
+.row .ad{font-size:12px;color:var(--ink-3);margin-top:2px}
+.row .st{font-size:11px;color:var(--ink-3);letter-spacing:.04em;white-space:nowrap}
+.row .st.ready{color:var(--accent)}
+.row .pf{font-weight:600;color:var(--ink)}
+.row.active{background:var(--card)}
+.row.active .nm{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+
+/* detail */
+.detail{display:none;animation:rise .35s ease both}
+.panel.open .detail{display:block}
+.panel.open .listwrap{display:none}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.back{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--ink-2);padding:18px 28px 0;letter-spacing:.04em}
+.back:hover{color:var(--ink)}
+.hero{padding:16px 28px 22px;border-bottom:1px solid var(--ink)}
+.hero h2{font-size:28px;font-weight:600;letter-spacing:-.02em;line-height:1.1}
+.hero .addr{color:var(--ink-2);margin-top:8px;font-size:13px}
+.hero .links{margin-top:12px;display:flex;gap:16px;font-size:12px}
+.hero .links a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule-2);padding-bottom:1px}
+.hero .links a:hover{color:var(--ink);border-color:var(--ink)}
+
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-bottom:1px solid var(--rule)}
+.fact{padding:14px 0 14px 18px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);cursor:pointer;text-align:left;min-width:0}
+.fact:nth-child(4n){border-right:0}
+.fact:nth-child(4n+1){padding-left:28px}
+.fact:nth-last-child(-n+4){border-bottom:0}
+.fact .k{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fact .k{font-size:11.5px;color:var(--ink-2);display:flex;align-items:center;gap:6px}
+.fact .v{font-size:24px;font-weight:600;letter-spacing:-.02em;margin-top:2px}
+.fact .v small{font-size:12px;font-weight:400;color:var(--ink-3);margin-left:2px}
+.fact .m{font-size:10.5px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fact:hover .v{color:var(--accent)}
+.dot{width:7px;height:7px;border-radius:50%;display:inline-block;flex:none}
+
+.tabs{display:flex;gap:22px;padding:0 28px;border-bottom:1px solid var(--rule);position:sticky;top:0;background:var(--paper);z-index:5;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{padding:14px 0 12px;font-size:13px;color:var(--ink-3);border-bottom:2px solid transparent;white-space:nowrap;margin-bottom:-1px}
+.tab[aria-selected=true]{color:var(--ink);border-color:var(--ink);font-weight:500}
+
+.pane{padding:6px 0 40px}
+.sec-note{padding:14px 28px 6px;font-size:12px;color:var(--ink-3)}
+.place{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:16px 28px;border-bottom:1px solid var(--rule);cursor:pointer;position:relative}
+.place::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:transparent;transition:background .15s}
+.place:hover{background:var(--card)}
+.place.on{background:var(--card)}
+.place.on::before{background:var(--c,var(--ink))}
+.place .pn{font-weight:500;font-size:15px;display:flex;align-items:center;gap:8px}
+.place .pm{font-size:12px;color:var(--ink-3);grid-column:1}
+.place .time{grid-row:1 / span 2;grid-column:2;text-align:right;align-self:center}
+.place .time b{font-size:22px;font-weight:600;letter-spacing:-.02em}
+.place .time span{display:block;font-size:11px;color:var(--ink-3)}
+.place .go{grid-column:1 / -1;font-size:12px;margin-top:4px;display:none}
+.place .pm ul{list-style:none;margin-top:3px}
+.place .pm li{position:relative;padding-left:12px;line-height:1.55}
+.place .pm li::before{content:"";position:absolute;left:2px;top:.62em;width:4px;height:4px;border-radius:50%;background:var(--ink-3)}
+.dogf{display:flex;flex-wrap:wrap;gap:4px;margin:3px 0}
+.dogf span{font-size:11px;border:1px solid var(--rule-2);padding:0 6px;color:var(--ink-2);background:var(--card)}
+.ai-tag{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.04em;padding:1px 6px;margin-left:6px;color:#fff;
+  background:linear-gradient(90deg,#3D5A99,#7A5BA6);vertical-align:2px}
+.aibox{padding:16px 28px;border-bottom:1px solid var(--rule);background:linear-gradient(180deg,rgba(122,91,166,.07),transparent)}
+.aibox h4{font-size:13px;font-weight:600;margin-bottom:6px}
+.aibox ul{list-style:none;font-size:13px;color:var(--ink-2)}
+.aibox li{padding-left:16px;position:relative;margin:3px 0}
+.aibox li::before{content:"✓";position:absolute;left:0;color:#4E7A4B;font-weight:700}
+.aibox li.c::before{content:"!";color:var(--accent)}
+.ptag{font-size:11.5px;color:var(--ink-3);margin:2px 0 2px}
+.ptag b{font-weight:600;padding:1px 6px;margin-right:4px;font-size:11px}
+.ptag b.dog{background:#6E8F3A;color:#fff}
+.ptag b.walk{border:1px solid #6E8F3A;color:#4E6F2A}
+.prv{display:flex;align-items:baseline;gap:6px;margin-top:4px;color:var(--ink-2)}
+.prv b{color:var(--ink);font-weight:600}
+.prv .star{color:#C8902A;letter-spacing:-1px}
+.prv-more{display:none;grid-column:1 / -1;font-size:12.5px;color:var(--ink-2);margin-top:6px}
+.place.on .prv-more{display:block}
+.prv-more ul{list-style:none}
+.prv-more li{padding-left:16px;position:relative;margin:2px 0}
+.prv-more li.g::before{content:"+";position:absolute;left:2px;color:var(--grocery);font-weight:600}
+.prv-more li.b::before{content:"−";position:absolute;left:2px;color:var(--accent);font-weight:600}
+.place.on .go{display:block}
+.place .go a{color:var(--ink-2)}
+
+.line-badge{display:inline-flex;align-items:center;height:20px;padding:0 7px;font-size:11px;font-weight:600;letter-spacing:.02em;border-radius:2px}
+.bus{display:inline-block;font-size:11px;border:1px solid var(--rule-2);padding:0 5px;margin:2px 4px 0 0;border-radius:2px;color:var(--ink-2)}
+.subhead{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);padding:22px 28px 8px;border-bottom:1px solid var(--rule)}
+
+/* areas */
+.grp{display:flex;align-items:center;gap:8px;padding:16px 28px 8px;font-size:11px;letter-spacing:.08em;color:var(--ink-2);border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:0;z-index:3}
+.grp i{width:10px;height:10px;display:inline-block}
+.grp span{color:var(--ink-3);margin-left:auto;letter-spacing:0}
+.row{border-left:3px solid var(--ac,transparent)}
+.chip{display:inline-flex;align-items:center;gap:6px}
+.chip i{width:8px;height:8px;display:inline-block}
+.leaflet-tooltip.area-label{background:none;border:0;box-shadow:none;font-weight:600;font-size:12px;letter-spacing:.04em;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 6px #fff;padding:0}
+.leaflet-tooltip.area-label::before{display:none}
+
+/* photos */
+.photos{display:flex;gap:8px;overflow-x:auto;padding:0 28px 20px;scroll-snap-type:x mandatory;scrollbar-width:none}
+.photos::-webkit-scrollbar{display:none}
+.photos a{flex:none;scroll-snap-align:start;position:relative;display:block;width:172px;height:116px;background:var(--rule);overflow:hidden}
+.photos img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.9);transition:transform .4s}
+.photos a:hover img{transform:scale(1.04)}
+.photos figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 8px 5px;font-size:10px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.55));white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.photos.inrow{padding:2px 0 12px;margin-top:6px}
+.photos.inrow a{width:132px;height:90px}
+.place.has-pic{grid-template-columns:64px 1fr auto}
+.place.has-pic .thumb{grid-row:1 / span 2;width:64px;height:64px;object-fit:cover;background:var(--rule)}
+.place.has-pic .thumb.site{object-fit:contain;background:#fff;border:1px solid var(--rule)}
+.place.has-pic .pn,.place.has-pic .pm{grid-column:2}
+.place.has-pic .time{grid-column:3}
+.mode{font-size:10.5px;letter-spacing:.06em;color:var(--ink-3)}
+.price-tag{display:inline-block;margin-top:12px;font-size:13px}
+.price-tag b{font-size:18px;font-weight:600;letter-spacing:-.01em}
+
+/* commute */
+.office{border-bottom:1px solid var(--rule)}
+.office h4{font-size:15px;font-weight:600;padding:18px 28px 2px}
+.office .oa{font-size:12px;color:var(--ink-3);padding:0 28px 6px}
+.legs{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:12px;color:var(--ink-2);margin-top:4px}
+.legs .arrow{color:var(--ink-3)}
+
+/* units */
+.plans{width:100%;border-collapse:collapse;font-size:13px}
+.plans th{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:500;text-align:left;padding:10px 0 8px;border-bottom:1px solid var(--rule)}
+.plans td{padding:12px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.plans td.num{text-align:right;white-space:nowrap;font-weight:600}
+.plans th.num{text-align:right}
+.plans small{display:block;color:var(--ink-3);font-weight:400;font-size:11px}
+.plans .fp{display:block;margin-top:8px;width:150px;height:110px;background:#fff;border:1px solid var(--rule)}
+.plans .fp img{width:100%;height:100%;object-fit:contain;display:block}
+.plans .fp:hover{border-color:var(--ink)}
+.block{padding:16px 28px;border-bottom:1px solid var(--rule)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;font-size:13px}
+.kv dt{color:var(--ink-3)}
+.kv dd{color:var(--ink)}
+.btns{display:flex;flex-wrap:wrap;gap:8px}
+.btn{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 14px;border:1px solid var(--ink);font-size:12.5px;text-decoration:none;color:var(--ink);transition:background .15s,color .15s}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.solid{background:var(--ink);color:var(--paper)}
+.btn.solid:hover{background:var(--accent);border-color:var(--accent)}
+
+/* safety + noise */
+.bar{display:grid;grid-template-columns:88px 1fr 52px;align-items:center;gap:10px;font-size:12px;margin:7px 0}
+.bar .track{height:8px;background:var(--rule);position:relative}
+.bar .fill{position:absolute;left:0;top:0;bottom:0}
+.bar b{text-align:right;font-weight:600}
+.bar span{color:var(--ink-2)}
+.db{display:flex;align-items:baseline;gap:8px}
+.db b{font-size:40px;font-weight:600;letter-spacing:-.03em;line-height:1}
+.scale{position:relative;height:10px;margin:14px 0 4px;background:linear-gradient(90deg,#6E8F3A,#D4B62A 40%,#D4862A 65%,#B4532A 85%,#7A2A1A)}
+.scale i{position:absolute;top:-5px;width:2px;height:20px;background:var(--ink)}
+.ticks{display:flex;justify-content:space-between;font-size:10px;color:var(--ink-3)}
+.toggle{margin-top:12px}
+.noise-legend{background:rgba(251,250,246,.94);border:1px solid var(--rule-2);padding:8px 10px;font-size:11px;line-height:1.5;display:flex;flex-direction:column;gap:2px;min-width:118px}
+.noise-legend b{font-weight:600;margin-bottom:2px}
+.noise-legend span{display:flex;align-items:center;gap:6px}
+.noise-legend i{width:14px;height:8px;display:inline-block;opacity:.75}
+.noise-legend small{color:var(--ink-3);margin-top:2px}
+
+/* reviews */
+.verdict{padding:20px 28px;border-bottom:1px solid var(--rule)}
+.verdict .big{display:flex;align-items:baseline;gap:10px}
+.verdict .big b{font-size:40px;font-weight:600;letter-spacing:-.03em;line-height:1}
+.verdict .big span{color:var(--ink-3);font-size:12px}
+.verdict p{margin-top:10px;color:var(--ink-2);font-size:13.5px}
+.dim{padding:16px 28px;border-bottom:1px solid var(--rule)}
+.dim header{display:flex;justify-content:space-between;align-items:center}
+.dim h4{font-size:14px;font-weight:500}
+.meter{display:flex;gap:3px}
+.meter i{width:18px;height:6px;background:var(--rule)}
+.meter i.f{background:var(--ink)}
+.dim ul{margin-top:8px;padding-left:16px;color:var(--ink-2);font-size:13px}
+.dim li{margin:3px 0}
+.pc{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--rule)}
+.pc>div{padding:16px 28px}
+.pc>div+div{border-left:1px solid var(--rule)}
+.pc h5{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.pc ul{list-style:none;font-size:13px;color:var(--ink-2)}
+.pc li{padding:3px 0}
+.pc li::before{content:"+ ";color:var(--grocery)}
+.pc .con li::before{content:"− ";color:var(--accent)}
+.quote{padding:16px 28px;border-bottom:1px solid var(--rule);font-size:13.5px}
+.quote q{quotes:"“" "”"}
+.quote cite{display:block;font-style:normal;font-size:11px;color:var(--ink-3);margin-top:6px}
+.sources{padding:16px 28px;font-size:12px;color:var(--ink-3)}
+.sources a{color:var(--ink-2);margin-right:12px;white-space:nowrap}
+.empty{padding:40px 28px;color:var(--ink-3)}
+.foot{padding:22px 28px 40px;font-size:11px;color:var(--ink-3);border-top:1px solid var(--rule)}
+
+/* map bits */
+.leaflet-container{font-family:var(--font);background:#EEECE6}
+.base-tiles{filter:grayscale(1) sepia(.12) brightness(1.07) contrast(.88)}
+.pin-apt{width:22px;height:22px;background:var(--ac,var(--ink));color:var(--paper);font-size:10px;font-weight:600;display:grid;place-items:center;border:2px solid var(--paper);box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.pin-apt.muted{background:var(--paper);color:var(--ac,var(--ink));border-color:var(--ac,var(--ink))}
+.pin-apt.sel{width:30px;height:30px;font-size:12px;background:var(--ac,var(--accent));outline:2px solid var(--ink);outline-offset:1px}
+.pin-poi{width:14px;height:14px;border-radius:50%;border:2.5px solid var(--paper);box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.pin-poi.on{width:20px;height:20px;box-shadow:0 0 0 4px rgba(27,26,23,.12)}
+.pin-bus{width:16px;height:16px;background:#FBFAF6;border:2px solid #55524A;color:#55524A;font-size:9px;font-weight:700;display:grid;place-items:center;line-height:1}
+.pin-bus.on{width:20px;height:20px;background:#55524A;color:#FBFAF6}
+.leaflet-tooltip.tip{background:var(--ink);color:var(--paper);border:0;border-radius:0;box-shadow:none;font-size:12px;padding:4px 8px}
+.leaflet-tooltip.tip::before{display:none}
+.leaflet-control-attribution{font-size:9px;background:rgba(244,241,234,.8)!important}
+.leaflet-bar a{border-radius:0!important;color:var(--ink)!important}
+
+/* mobile: map on top, sheet below */
+@media (max-width:820px){
+  /* map pinned on top, content scrolls underneath it, so routes stay visible while browsing */
+  .app{display:flex;flex-direction:column;height:100vh;height:100dvh}
+  #map{flex:0 0 40%;order:0;height:auto;z-index:0}
+  .panel{order:1;flex:1 1 auto;height:auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;border:0;
+    border-radius:14px 14px 0 0;margin-top:-14px;box-shadow:0 -6px 24px rgba(27,26,23,.10);z-index:2}
+  .panel::before{content:"";display:block;width:36px;height:4px;background:var(--rule-2);border-radius:2px;margin:8px auto 0}
+  .masthead{padding:16px 20px 14px}
+  .masthead h1{font-size:24px}
+  .row,.place,.dim,.quote,.verdict,.sources,.pc>div,.subhead,.sec-note,.foot,.grp,.filters,.nomatch,.aibox{padding-left:20px;padding-right:20px}
+  .range{grid-template-columns:96px 1fr 64px}
+  .hero,.back{padding-left:20px;padding-right:20px}
+  .hero h2{font-size:23px}
+  .tabs{padding:0 20px;gap:18px}
+  .fact{padding:10px 0 10px 12px!important}
+  .fact:nth-child(4n+1){padding-left:20px!important}
+  .fact .k{font-size:11px;gap:4px}
+  .fact .v{font-size:20px}
+  .fact .v small{font-size:10.5px}
+  .fact .m{font-size:10px}
+  .photos{padding:0 20px 18px}
+  .photos a{width:150px;height:100px}
+  .office h4,.office .oa,.block{padding-left:20px;padding-right:20px}
+  .pc{grid-template-columns:1fr}
+  .pc>div+div{border-left:0;border-top:1px solid var(--rule)}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="panel" id="panel">
+    <div class="listwrap">
+      <header class="masthead">
+        <div class="eyebrow"><span>Apartment Notes · 最後更新 __UPDATED__</span><span id="count"></span></div>
+        <h1>Boston 找房</h1>
+        <p>點開公寓，看上班通勤、地鐵、超市、Costco、醫院、寵物醫院、公園，2b2b 房型價格和住戶口碑。</p>
+        <div class="toplinks"><span><a href="compare.html">排行榜 →</a>　<a href="guide.html">生活科普 →</a></span><button id="filterBtn" type="button">篩選 <b id="fcount"></b></button></div>
+      </header>
+      <div class="filters" id="filters" hidden></div>
+      <ol class="list" id="list"></ol>
+      <div class="foot">地圖 © Esri · OpenStreetMap　路線 OSRM（開車不含塞車；地鐵站為步行）　交通 MBTA v3 API　照片 Wikimedia Commons　口碑、房型、價格為人工整理，以官網為準</div>
+    </div>
+    <section class="detail" id="detail"></section>
+  </aside>
+  <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+
+const CATS = {
+  grocery:{zh:"超市", hex:"#4E7A4B"},
+  hospital:{zh:"醫院", hex:"#2F5E8C"},
+  vet:{zh:"寵物醫院", hex:"#B4532A"},
+  park:{zh:"遛狗公園", hex:"#6E8F3A"},
+};
+const COSTCO_HEX = "#3A4A6B", OFFICE_HEX = "#1B1A17";
+const isDrive = r => r && r.mode === "drive";
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const gdir = (a, b, mode) => `https://www.google.com/maps/dir/?api=1&origin=${a.lat},${a.lng}&destination=${b.lat},${b.lng}&travelmode=${mode}`;
+
+/* ---------- map ---------- */
+const map = L.map("map", {zoomControl:false, attributionControl:true, maxZoom:19}).setView([42.37, -71.08], 12);
+L.control.zoom({position:"bottomright"}).addTo(map);
+// Esri street tiles: sharp to z19, no API key, works from file:// and GitHub Pages.
+// Desaturated in CSS (.base-tiles) to match the paper palette. Falls back to OSM tiles if Esri fails.
+const base = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+  maxZoom:19, maxNativeZoom:19, className:"base-tiles", detectRetina:false,
+  attribution:'Tiles © Esri — Esri, HERE, Garmin, © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+let tileErrors = 0, tileOk = 0;
+base.on("tileload", () => tileOk++);
+base.on("tileerror", () => {
+  if (++tileErrors === 6 && tileOk === 0){
+    map.removeLayer(base);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom:19, className:"base-tiles",
+      attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+  }
+});
+// keep Leaflet's size in sync when the container changes (rotation, DevTools device mode, sheet resize)
+// only react to real size changes (the observer also fires once on load, which would cancel a running zoom)
+let lastMapSize = "";
+if (window.ResizeObserver) new ResizeObserver(([e]) => {
+  const k = Math.round(e.contentRect.width) + "x" + Math.round(e.contentRect.height);
+  if (lastMapSize && k !== lastMapSize) map.invalidateSize({pan:false});
+  lastMapSize = k;
+}).observe(document.getElementById("map"));
+
+const AREAS = DATA.areas || {areas:{}, apartments:{}};
+const areaOf = slug => { const n = AREAS.apartments[slug]; return {name:n, ...(AREAS.areas[n] || {color:"#1B1A17", zh:n || ""})}; };
+const areaLayer = L.layerGroup().addTo(map);
+Object.entries(AREAS.areas).forEach(([name, a]) => {
+  a.rings.forEach((ring, k) => {
+    const poly = L.polygon(ring.map(([x, y]) => [y, x]), {color:a.color, weight:1.5, opacity:.8, fillColor:a.color, fillOpacity:.13, interactive:false}).addTo(areaLayer);
+    if (k === 0) poly.bindTooltip(a.zh, {permanent:true, direction:"center", className:"area-label"}).openTooltip();
+    poly._area = name;
+  });
+});
+// area label color follows the area
+map.whenReady(() => document.querySelectorAll(".area-label").forEach(el => {
+  const a = Object.values(AREAS.areas).find(x => x.zh === el.textContent); if (a) el.style.color = a.color;
+}));
+function setAreaFocus(name){
+  areaLayer.eachLayer(l => {
+    const on = !name || l._area === name;
+    l.setStyle({fillOpacity: name ? (on ? .10 : .03) : .13, opacity: on ? .8 : .25});
+    const t = l.getTooltip(); if (t) t.setOpacity(on ? 1 : .35);
+  });
+}
+
+const aptMarkers = {};
+const layer = L.layerGroup().addTo(map);   // POIs for selected apartment
+const routeLayer = L.layerGroup().addTo(map);
+let current = null, poiMarkers = {};
+
+function aptIcon(i, cls=""){
+  const s = cls === "sel" ? 30 : 22, color = areaOf(DATA.apartments[i].slug).color;
+  return L.divIcon({className:"", html:`<div class="pin-apt ${cls}" style="--ac:${color}">${i+1}</div>`, iconSize:[s,s], iconAnchor:[s/2,s/2]});
+}
+function busIcon(on){
+  const s = on ? 20 : 16;
+  return L.divIcon({className:"", html:`<div class="pin-bus ${on ? "on" : ""}">B</div>`, iconSize:[s,s], iconAnchor:[s/2,s/2]});
+}
+function poiIcon(hex, on){
+  return L.divIcon({className:"", html:`<div class="pin-poi ${on?"on":""}" style="background:${hex}"></div>`, iconSize:on?[20,20]:[14,14], iconAnchor:on?[10,10]:[7,7]});
+}
+
+DATA.apartments.forEach((a, i) => {
+  const m = L.marker([a.lat, a.lng], {icon:aptIcon(i), zIndexOffset:500})
+    .bindTooltip(a.name, {className:"tip", direction:"top", offset:[0,-12]})
+    .on("click", () => openApt(a.slug))
+    .addTo(map);
+  aptMarkers[a.slug] = m;
+});
+map.fitBounds(L.latLngBounds(DATA.apartments.map(a => [a.lat, a.lng])), {padding:[40,40], animate:false});  // instant, so a deep-link zoom isn't overwritten
+
+/* ---------- list ---------- */
+$("#count").textContent = `${DATA.apartments.length} 處`;
+function priceFrom(slug){
+  return DATA.units[slug]?.plans_2b2b?.map(p => p.price_min).filter(Boolean).sort((x, y) => x - y)[0];
+}
+const groups = {};
+// AI picks live inside their own area group (tagged), listed after your own apartments
+DATA.apartments.forEach((a, i) => (groups[AREAS.apartments[a.slug] || "Other"] ||= []).push([a, i]));
+Object.values(groups).forEach(items => items.sort((x, y) => (!!x[0].ai - !!y[0].ai) || x[1] - y[1]));
+$("#list").innerHTML = Object.entries(groups).sort((x, y) => Math.min(...x[1].map(e => e[1])) - Math.min(...y[1].map(e => e[1]))).map(([name, items]) => {
+  const ar = AREAS.areas[name] || {color:"#8E897D", zh:name};
+  const nAi = items.filter(([a]) => a.ai).length;
+  return `<li class="grp"><i style="background:${ar.color}"></i>${esc(ar.zh)}${ar.zh !== name ? ` · ${esc(name)}` : ""}<span>${items.length} 處${nAi ? `（含 ${nAi} 間 AI 推薦）` : ""}</span></li>` + items.map(([a, i]) => {
+    const ready = !!DATA.nearby[a.slug];
+    return `<li class="row" data-slug="${a.slug}" style="--ac:${ar.color}">
+      <span class="idx">${String(i+1).padStart(2,"0")}</span>
+      <div><div class="nm">${esc(a.name)}${a.ai ? `<span class="ai-tag">【AI 推薦】</span>` : ""}</div><div class="ad">${esc(a.address.split(",")[0])}${priceFrom(a.slug) ? ` · <b class="pf">2b2b 從 $${priceFrom(a.slug).toLocaleString()} 起</b>` : ""}</div></div>
+      <span class="st ${ready?"ready":""}">${ready?"已整理 →":"整理中"}</span></li>`;
+  }).join("");
+}).join("");
+$("#list").addEventListener("click", e => { const r = e.target.closest(".row"); if (r) openApt(r.dataset.slug); });
+
+/* ---------- filters (state lives in ?query so refresh/share keep it) ---------- */
+const FEAT = [
+  ["房型", [["balcony", "有陽台", f => { const b = f?.unit?.balcony; return b === "all" || b === "some" ? true : b === "none" ? false : null; }], ["wd", "套內洗烘", f => f?.unit?.in_unit_wd],
+            ["ac", "中央空調", f => f?.unit?.central_ac], ["dw", "洗碗機", f => f?.unit?.dishwasher]]],
+  ["大樓", [["gym", "健身房", f => f?.building?.gym], ["pool", "泳池", f => f?.building?.pool], ["garage", "室內車位", f => f?.building?.garage_parking],
+            ["ev", "電動車充電", f => f?.building?.ev_charging], ["dogs", "可養狗", f => f?.building?.dogs], ["cats", "可養貓", f => f?.building?.cats],
+            ["concierge", "門房", f => f?.building?.concierge], ["roof", "屋頂露台", f => f?.building?.roof_deck]]],
+];
+const RANGES = [
+  ["price", "2b2b 月租 ≤", 3000, 9000, 100, v => "$" + v.toLocaleString(), slug => priceFrom(slug)],
+  ["subway", "走到地鐵 ≤", 3, 30, 1, v => v + " 分", slug => DATA.nearby[slug]?.transit?.rapid?.[0]?.route?.minutes],
+  ["bos17", "BOS17 開車 ≤", 10, 45, 1, v => v + " 分", slug => DATA.nearby[slug]?.commute?.BOS17?.drive?.minutes],
+  ["bos21", "BOS21 開車 ≤", 10, 45, 1, v => v + " 分", slug => DATA.nearby[slug]?.commute?.BOS21?.drive?.minutes],
+  ["noise", "噪音 ≤", 45, 70, 1, v => v + " dB", slug => DATA.noise?.apartments?.[slug] ? (DATA.noise.apartments[slug].combined_db ?? 45) : undefined],
+];
+const fstate = (() => {
+  const q = new URLSearchParams(location.search);
+  return {on:new Set((q.get("f") || "").split(",").filter(Boolean)), areas:new Set((q.get("area") || "").split(",").filter(Boolean)),
+          avail:q.get("avail") === "1", r:Object.fromEntries(RANGES.map(([k]) => [k, q.get(k) ? +q.get(k) : null]))};
+})();
+function saveFilters(){
+  const q = new URLSearchParams();
+  if (fstate.on.size) q.set("f", [...fstate.on].join(","));
+  if (fstate.areas.size) q.set("area", [...fstate.areas].join(","));
+  if (fstate.avail) q.set("avail", "1");
+  Object.entries(fstate.r).forEach(([k, v]) => v != null && q.set(k, v));
+  const qs = q.toString();
+  history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
+}
+function matches(slug){  // returns true / false / "unknown"
+  const f = DATA.features[slug];
+  if (fstate.areas.size && !fstate.areas.has(AREAS.apartments[slug])) return false;
+  if (fstate.avail && !priceFrom(slug)) return false;
+  let unknown = false;
+  for (const [, items] of FEAT) for (const [k, , test] of items) if (fstate.on.has(k)){
+    const v = test(f);
+    if (v === false) return false;
+    if (!v) unknown = true;
+  }
+  for (const [k, , , , , , get] of RANGES) if (fstate.r[k] != null){
+    const v = get(slug);
+    if (v == null) unknown = true; else if (v > fstate.r[k]) return false;
+  }
+  return unknown ? "unknown" : true;
+}
+function renderFilters(){
+  const areaChips = Object.entries(AREAS.areas).map(([n, a]) => `<span class="chipf ${fstate.areas.has(n) ? "on" : ""}" data-area="${esc(n)}"><i style="background:${a.color}"></i>${esc(a.zh)}</span>`).join("");
+  $("#filters").innerHTML = FEAT.map(([g, items]) => `<div class="fgroup"><h4>${g}</h4><div class="chips">${items.map(([k, label]) =>
+      `<span class="chipf ${fstate.on.has(k) ? "on" : ""}" data-k="${k}">${label}</span>`).join("")}</div></div>`).join("")
+    + `<div class="fgroup"><h4>條件</h4>${RANGES.map(([k, label, lo, hi, step, fmt]) => `<label class="range"><span>${label}</span>
+        <input type="range" min="${lo}" max="${hi + step}" step="${step}" value="${fstate.r[k] ?? hi + step}" data-r="${k}">
+        <b data-out="${k}">${fstate.r[k] != null ? fmt(fstate.r[k]) : "不限"}</b></label>`).join("")}
+        <div class="chips" style="margin-top:6px"><span class="chipf ${fstate.avail ? "on" : ""}" data-avail="1">只看 2b2b 有空房</span></div></div>
+      <div class="fgroup"><h4>區域</h4><div class="chips">${areaChips}</div></div>
+      <div class="fsum"><span id="fsum"></span><button type="button" id="freset">清除篩選</button></div>`;
+  $("#filters").querySelectorAll("[data-k]").forEach(el => el.onclick = () => { fstate.on.has(el.dataset.k) ? fstate.on.delete(el.dataset.k) : fstate.on.add(el.dataset.k); el.classList.toggle("on"); applyFilters(); });
+  $("#filters").querySelectorAll("[data-area]").forEach(el => el.onclick = () => { const n = el.dataset.area; fstate.areas.has(n) ? fstate.areas.delete(n) : fstate.areas.add(n); el.classList.toggle("on"); applyFilters(); });
+  $("#filters").querySelector("[data-avail]").onclick = e => { fstate.avail = !fstate.avail; e.currentTarget.classList.toggle("on"); applyFilters(); };
+  $("#filters").querySelectorAll("[data-r]").forEach(el => el.oninput = () => {
+    const [k, , , hi, step, fmt] = RANGES.find(r => r[0] === el.dataset.r), v = +el.value;
+    fstate.r[k] = v > hi ? null : v;
+    $(`[data-out="${k}"]`).textContent = fstate.r[k] == null ? "不限" : fmt(v);
+    applyFilters();
+  });
+  $("#freset").onclick = () => { fstate.on.clear(); fstate.areas.clear(); fstate.avail = false; Object.keys(fstate.r).forEach(k => fstate.r[k] = null); renderFilters(); applyFilters(); };
+}
+function applyFilters(){
+  let shown = 0, unknown = 0;
+  const active = fstate.on.size || fstate.areas.size || fstate.avail || Object.values(fstate.r).some(v => v != null);
+  DATA.apartments.forEach((a, i) => {
+    const m = matches(a.slug), ok = m === true;
+    if (m === "unknown") unknown++;
+    if (ok) shown++;
+    document.querySelector(`.row[data-slug="${a.slug}"]`)?.classList.toggle("hide", !ok);
+    const mk = aptMarkers[a.slug];
+    if (mk && !current){ mk.setOpacity(ok ? 1 : .18); mk.setZIndexOffset(ok ? 500 : 0); }
+  });
+  document.querySelectorAll(".grp").forEach(g => {
+    let n = g.nextElementSibling, any = false;
+    while (n && n.classList.contains("row")){ if (!n.classList.contains("hide")) any = true; n = n.nextElementSibling; }
+    g.classList.toggle("hide", !any);
+  });
+  $("#fcount").textContent = active ? `${shown}/${DATA.apartments.length}` : "";
+  $("#filterBtn").classList.toggle("on", !!active);
+  const sum = $("#fsum");
+  if (sum) sum.innerHTML = `符合 <b>${shown}</b> 間${unknown ? ` <small>· ${unknown} 間資料不足沒列出</small>` : ""}`;
+  let nm = $("#nomatch");
+  if (!shown && !nm) $("#list").insertAdjacentHTML("afterend", `<div class="nomatch" id="nomatch">沒有符合的公寓，放寬一點條件試試。</div>`);
+  if (shown && nm) nm.remove();
+  saveFilters();
+}
+$("#filterBtn").onclick = () => { const f = $("#filters"); f.hidden = !f.hidden; if (!f.hidden) renderFilters(); };
+if (fstate.on.size || fstate.areas.size || fstate.avail || Object.values(fstate.r).some(v => v != null)){ $("#filters").hidden = false; renderFilters(); }
+
+/* ---------- detail ---------- */
+function minOf(arr){ return arr && arr.length ? Math.min(...arr.map(p => p.route.minutes)) : null; }
+
+// URL state: #<slug>/<tab> so refresh / share / back keep the view
+function setHash(h){ const want = h ? "#" + h : location.pathname + location.search; if (location.hash !== (h ? "#" + h : "")) history.pushState(null, "", want); }
+
+function openApt(slug, fromHash){
+  const i = DATA.apartments.findIndex(a => a.slug === slug);
+  const a = DATA.apartments[i], n = DATA.nearby[slug], rv = DATA.reviews[slug];
+  current = {a, n, rv, i};
+  document.querySelectorAll(".row").forEach(r => r.classList.toggle("active", r.dataset.slug === slug));
+  Object.entries(aptMarkers).forEach(([s, m], j) => m.setIcon(aptIcon(j, s === slug ? "sel" : "muted")).setOpacity(1));
+  layer.clearLayers(); routeLayer.clearLayers(); poiMarkers = {};
+
+  const panel = $("#panel"); panel.classList.add("open");
+  const gm = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(a.name + " " + a.address)}`;
+  let html = `<button class="back" id="back">← 全部公寓</button>
+    <div class="hero"><div class="eyebrow"><span>No. ${String(i+1).padStart(2,"0")}</span><span class="chip" style="color:${areaOf(slug).color}"><i style="background:${areaOf(slug).color}"></i>${esc(areaOf(slug).zh)}</span></div>
+      <h2 style="margin-top:10px">${esc(a.name)}${a.ai ? `<span class="ai-tag">【AI 推薦】</span>` : ""}</h2><div class="addr">${esc(a.address)}</div>
+      <div class="links"><a href="${gm}" target="_blank" rel="noopener">在 Google Maps 打開 ↗</a></div></div>`;
+
+  if (!n){
+    html += `<div class="empty">這個公寓的周邊資料還在整理中。<br>先看看 Hanover Alewife 的示例。</div>`;
+    $("#detail").innerHTML = html; bindBack();
+    setAreaFocus(AREAS.apartments[slug]);
+    map.setView([a.lat, a.lng], 15, {animate:false});
+    scrollPanelTop();
+    if (!fromHash) setHash(slug);
+    return;
+  }
+
+  const rapid = n.transit.rapid[0], c = n.commute || {}, u = DATA.units[slug];
+  const tabs = [["commute","上班"],["transit","地鐵公車"],["grocery","超市 · Costco"],["hospital","醫院"],["vet","寵物醫院"],["park","遛狗公園"],["units","房型價格"],["safety","安全 · 噪音"],["reviews","口碑"]];
+  html += `<div class="facts">
+    ${fact("transit", "地鐵", rapid ? rapid.route.minutes : "—", "步行" + (rapid ? " · " + rapid.lines.map(l=>l.name.replace(" Line","")).join("/") : ""), rapid?.lines[0]?.color)}
+    ${fact("commute", "BOS17", c.BOS17?.drive.minutes, "開車", OFFICE_HEX)}
+    ${fact("commute", "BOS21", c.BOS21?.drive.minutes, "開車", OFFICE_HEX)}
+    ${fact("grocery", "超市", minOf(n.grocery), "開車", CATS.grocery.hex)}
+    ${fact("grocery", "Costco", minOf(n.costco), "開車", COSTCO_HEX)}
+    ${fact("hospital", "醫院", minOf(n.hospital), "開車", CATS.hospital.hex)}
+    ${fact("vet", "寵物醫院", minOf(n.vet), "開車", CATS.vet.hex)}
+    ${fact("park", "遛狗公園", minOf(n.park), "開車", CATS.park.hex)}
+  </div>
+  <nav class="tabs" role="tablist">
+    ${tabs.map(([k,l],j)=>`<button class="tab" role="tab" data-tab="${k}" aria-selected="${j===0}">${l}</button>`).join("")}
+  </nav><div class="pane" id="pane"></div>`;
+  $("#detail").innerHTML = html; bindBack();
+  // price line + photos go into the hero
+  const hero = $("#detail .hero");
+  const from = priceFrom(slug);
+  if (from) hero.insertAdjacentHTML("beforeend", `<div class="price-tag">2b2b 從 <b>$${from.toLocaleString()}</b> /月起</div>`);
+  if (a.ai && (a.why_zh?.length || a.concerns_zh?.length)) hero.insertAdjacentHTML("afterend", `<div class="aibox"><h4>為什麼推薦${/\d{4}/.test(a.built || "") ? `<span style="font-weight:400;color:var(--ink-3)"> · ${a.built.match(/\d{4}/)[0]} 年建成</span>` : ""}</h4><ul>
+    ${(a.why_zh || []).map(x => `<li>${esc(x)}</li>`).join("")}${(a.concerns_zh || []).map(x => `<li class="c">${esc(x)}</li>`).join("")}</ul></div>`);
+  if (n.photos?.length) hero.insertAdjacentHTML("afterend", `<div class="photos" style="padding-top:18px;border-bottom:1px solid var(--rule)">${n.photos.map(photoCard).join("")}</div>`);
+  if (u?.official_url) hero.querySelector(".links").insertAdjacentHTML("beforeend", `<a href="${esc(u.official_url)}" target="_blank" rel="noopener">官網 ↗</a>`);
+  if (u?.virtual_tours?.[0]) hero.querySelector(".links").insertAdjacentHTML("beforeend", `<a href="${esc(u.virtual_tours[0].url)}" target="_blank" rel="noopener">${esc(u.virtual_tours[0].label || "Virtual Tour")} ↗</a>`);
+
+  // all POIs on map
+  Object.keys(CATS).forEach(cat => (n[cat] || []).forEach((p, j) => addPoi(`${cat}:${j}`, p, CATS[cat].hex)));
+  (n.costco || []).forEach((p, j) => addPoi(`costco:${j}`, p, COSTCO_HEX));
+  n.transit.rapid.concat(n.transit.commuter).forEach(s => addPoi(`transit:${s.id}`, s, s.lines[0]?.color || "#555"));
+  n.transit.bus.forEach(s => addPoi(`bus:${s.id}`, s, "#55524A", null));
+  Object.entries(c).forEach(([code, o]) => addPoi(`commute:${code}:drive`, o, OFFICE_HEX, code));
+  L.marker([a.lat, a.lng], {icon:aptIcon(i, "sel"), zIndexOffset:1000}).addTo(layer);
+
+  document.querySelectorAll(".tab").forEach(t => t.onclick = () => showTab(t.dataset.tab));
+  document.querySelectorAll(".fact").forEach(f => f.onclick = () => showTab(f.dataset.tab));
+  setAreaFocus(AREAS.apartments[slug]);
+  showTab("commute", true);
+  fitLocal();
+  scrollPanelTop();
+  if (!fromHash) setHash(slug);
+}
+
+// zoom to the apartment's own neighborhood: the building plus its nearby (non-commute) places
+function fitLocal(){
+  const {a, n} = current, pts = [[a.lat, a.lng]];
+  ["grocery", "hospital", "vet", "park"].forEach(c => (n[c] || []).forEach(p => p.route.meters < 4000 && pts.push([p.lat, p.lng])));
+  n.transit.rapid.forEach(s => pts.push([s.lat, s.lng]));
+  map.fitBounds(L.latLngBounds(pts), {padding: mapPad(), maxZoom:16, animate:false});
+}
+
+function photoCard(ph){
+  return `<a href="${esc(ph.page)}" target="_blank" rel="noopener" title="${esc(ph.title)} — ${esc(ph.artist)} · ${esc(ph.license)}">
+    <img src="${esc(ph.thumb)}" alt="${esc(ph.title)}" loading="lazy"><figcaption>${esc(ph.title)}</figcaption></a>`;
+}
+
+function fact(tab, label, mins, mode, color){
+  return `<button class="fact" data-tab="${tab}"><div class="k"><span class="dot" style="background:${color}"></span><span style="overflow:hidden;text-overflow:ellipsis">${label}</span></div>
+    <div class="v">${mins ?? "—"}<small>分</small></div><div class="m">${esc(mode)}</div></button>`;
+}
+function closeApt(){
+  $("#panel").classList.remove("open"); layer.clearLayers(); routeLayer.clearLayers(); current = null;
+  document.querySelectorAll(".row").forEach(r => r.classList.remove("active"));
+  Object.entries(aptMarkers).forEach(([s, m], j) => m.setIcon(aptIcon(j)));
+  setAreaFocus(null);
+  map.fitBounds(L.latLngBounds(DATA.apartments.map(a => [a.lat, a.lng])), {padding:[40,40]});
+  applyFilters();
+}
+function bindBack(){ $("#back").onclick = () => { closeApt(); setHash(""); }; }
+function scrollPanelTop(){ $("#panel").scrollTop = 0; }
+
+function addPoi(key, p, hex, label){
+  const m = L.marker([p.lat, p.lng], {icon:poiIcon(hex, false)})
+    .bindTooltip(label || p.name, {className:"tip", direction:"top", offset:[0,-8], permanent:!!label})
+    .on("click", () => {
+      const tab = {costco:"grocery", bus:"transit"}[key.split(":")[0]] || key.split(":")[0]; if (currentTab !== tab) showTab(tab);
+      const el = document.querySelector(`.place[data-key="${CSS.escape(key)}"]`); if (el) { el.click(); el.scrollIntoView({block:"nearest", behavior:"smooth"}); }
+    }).addTo(layer);
+  m._hex = hex; m._bus = key.startsWith("bus:"); poiMarkers[key] = m;
+  if (m._bus) m.setIcon(busIcon(false));
+}
+
+let currentTab = null;
+function showTab(tab, quiet){
+  currentTab = tab;
+  if (!quiet && current) setHash(`${current.a.slug}/${tab}`);
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.tab === tab));
+  const {a, n, rv} = current, pane = $("#pane");
+  routeLayer.clearLayers(); resetPois();
+  if (noiseLayer && tab !== "safety") toggleNoise();
+  if (tab === "reviews"){ pane.innerHTML = renderReviews(rv); fitLocal(); return; }
+  if (tab === "units"){ pane.innerHTML = renderUnits(DATA.units[a.slug]); fitLocal(); return; }
+  if (tab === "safety"){ pane.innerHTML = renderSafety(a.slug); fitLocal(); return; }
+  if (tab === "commute") pane.innerHTML = renderCommute(n.commute);
+  else if (tab === "transit") pane.innerHTML = renderTransit(n.transit);
+  else {
+    if (!n[tab]){ pane.innerHTML = `<div class="empty">這一項資料整理中。</div>`; return; }
+    const NO_DOGS = ["Belle Isle Marsh Reservation"];  // keep in sync with build_data.NO_DOGS
+    // also drop parks whose Google listing turns out to be a playground (OSM sometimes tags them as plain parks)
+    const kidsy = p => p.kind !== "dog" && /playground|tot lot/i.test(placeReview(p)?.matched_name || "");
+    const items = tab === "park" ? n[tab].filter(p => p.dog_rule !== "no" && !NO_DOGS.includes(p.name) && !kidsy(p) && (p.kind || !/playground|tot lot/i.test(p.name))) : n[tab];
+    const meta = placeMeta;
+    pane.innerHTML = items.length
+      ? `<div class="sec-note">${tab === "grocery" ? "附近超市：" + items.map(p => esc(p.name)).join("、")
+          : tab === "park" ? "狗公園（圍起來、可以放狗跑）優先，其他是可以牽狗散步的大公園；不含兒童遊樂場和球場"
+          : `最近的 ${items.length} 家`} · 開車時間不含塞車</div>`
+        + items.map((p, j) => placeRow(`${tab}:${j}`, p, CATS[tab].hex, meta(p))).join("")
+      : `<div class="empty">附近 OpenStreetMap 沒有記錄，建議在 Google Maps 搜索確認。</div>`;
+    if (tab === "grocery" && n.costco?.length)
+      pane.innerHTML += `<div class="subhead">Costco</div>` + n.costco.map((p, j) => placeRow(`costco:${j}`, p, COSTCO_HEX, meta(p))).join("");
+  }
+  pane.querySelectorAll(".place[data-key]").forEach(el => el.onclick = e => { if (!e.target.closest("a")) selectPlace(el.dataset.key); });
+  const first = pane.querySelector(".place[data-key]"); if (first && !quiet) selectPlace(first.dataset.key, true);
+}
+
+function placeRow(key, p, hex, meta, extra=""){
+  const {a} = current, drive = isDrive(p.route);
+  const rvPics = (placeReview(p)?.photos || []).map(ph => ({thumb:ph.url || ph.thumb, page:ph.page || placeReview(p).url,
+    title:p.name, artist:ph.credit || "Google Maps 使用者", license:"Google Maps 使用者照片"}));
+  if (rvPics.length) p = {...p, photos:[...(p.photos || []), ...rvPics].slice(0, 4), photo:p.photo || rvPics[0]};
+  const pic = p.photo ? `<img class="thumb${p.photo.license === "官網圖片" ? " site" : ""}" src="${esc(p.photo.thumb)}" alt="" loading="lazy" title="${esc(p.photo.artist)} · ${esc(p.photo.license)}">` : "";
+  return `<div class="place ${pic ? "has-pic" : ""}" data-key="${esc(key)}" style="--c:${hex}">${pic}
+    <div class="pn"><span class="dot" style="background:${hex}"></span>${esc(p.name)}</div>
+    <div class="pm">${extra}${meta || ""}</div>
+    <div class="time"><b>${p.route.minutes}</b> 分鐘<span>${drive ? "開車" : "步行"} ${(p.route.meters/1000).toFixed(1)} km</span></div>
+    ${placeMore(p)}
+    <div class="go">${p.photos?.length > 1 ? `<div class="photos inrow">${p.photos.map(photoCard).join("")}</div>` : ""}
+      <a href="${gdir(a, p, drive ? "driving" : "walking")}" target="_blank" rel="noopener">Google Maps 導航 ↗</a>
+      ${p.photos ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name + " " + (p.address || "") + " " + p.lat + "," + p.lng)}" target="_blank" rel="noopener" style="margin-left:14px">${p.photos.length ? "更多照片" : "在 Google 看照片"} ↗</a>` : ""}</div></div>`;
+}
+
+function findPlace(key){
+  const [cat, id] = key.split(":"), n = current.n;
+  if (cat === "transit") return n.transit.rapid.concat(n.transit.commuter).find(s => s.id === id);
+  if (cat === "bus"){
+    const s = n.transit.bus.find(b => b.id === id); if (!s) return null;
+    return s.route ? s : {...s, route:{mode:"walk", meters:s.crow_m, minutes:Math.max(1, Math.round(s.crow_m / 64)),
+      line:[[current.a.lat, current.a.lng], [s.lat, s.lng]]}};
+  }
+  if (cat === "commute"){
+    const o = n.commute[id], mode = key.split(":")[2];
+    return mode === "drive" ? {...o, route:o.drive} : {...o, legs:o.transit.legs, total:o.transit.total};
+  }
+  return n[cat][+id];
+}
+
+function selectPlace(key, initial){
+  const p = findPlace(key), m = poiMarkers[key]; if (!p) return;
+  document.querySelectorAll(".place").forEach(el => el.classList.toggle("on", el.dataset.key === key));
+  resetPois(); if (m) m.setIcon(m._bus ? busIcon(true) : poiIcon(m._hex, true)).setZIndexOffset(900);
+  routeLayer.clearLayers();
+  const hex = m ? m._hex : OFFICE_HEX, {a} = current;
+  let pts = [[a.lat, a.lng]];
+  if (p.legs){  // transit commute: dotted walks + solid line-colored rides
+    p.legs.forEach(l => { drawLine(l.line, l.type === "ride" ? l.color : "#55524A", l.type !== "ride"); pts = pts.concat(l.line); });
+    const ride = p.legs.find(l => l.type === "ride");
+    if (ride) L.tooltip({permanent:true, className:"tip", direction:"center"}).setLatLng(ride.line[Math.floor(ride.line.length/2)]).setContent(`大眾運輸 約 ${p.total} 分鐘`).addTo(routeLayer);
+  } else {
+    const drive = isDrive(p.route);
+    drawLine(p.route.line, hex, !drive);
+    pts = pts.concat(p.route.line);
+    const mid = p.route.line[Math.floor(p.route.line.length/2)];
+    L.tooltip({permanent:true, className:"tip", direction:"center"}).setLatLng(mid).setContent(`${drive ? "開車" : "步行"} ${p.route.minutes} 分鐘`).addTo(routeLayer);
+  }
+  map.fitBounds(L.latLngBounds(pts), {padding: mapPad(), maxZoom:17});
+}
+function drawLine(line, hex, dotted){
+  L.polyline(line, {color:"#FBFAF6", weight:dotted ? 8 : 9, opacity:.9}).addTo(routeLayer);
+  if (dotted){
+    L.polyline(line, {color:hex, weight:4, dashArray:"1 7", lineCap:"round"}).addTo(routeLayer);
+    L.polyline(line, {color:hex, weight:2, opacity:.5}).addTo(routeLayer);
+  } else L.polyline(line, {color:hex, weight:5, opacity:.9}).addTo(routeLayer);
+}
+function resetPois(){ Object.values(poiMarkers).forEach(m => m.setIcon(m._bus ? busIcon(false) : poiIcon(m._hex, false)).setZIndexOffset(0)); }
+function fitAll(){
+  const {a} = current; const pts = [[a.lat, a.lng]]; Object.values(poiMarkers).forEach(m => pts.push(m.getLatLng()));
+  map.fitBounds(L.latLngBounds(pts), {padding: mapPad()});
+}
+function mapPad(){ return matchMedia("(max-width:820px)").matches ? [30,30] : [60,60]; }
+
+function hoursList(h){
+  if (!h) return [];
+  if (/^24\/7$/.test(h.trim())) return ["24 小時營業"];
+  return h.split(";").map(r => r.trim()).filter(Boolean).map(r => fmtHours(r)
+    .replace(/PH off/g, "國定假日休息").replace(/\boff\b/g, "休息")
+    .replace(/(\d\d:\d\d)-(\d\d:\d\d) open "Executive Members"/g, "$1–$2 Executive 會員")
+    .replace(/open "([^"]+)"/g, "（$1）")
+    .replace(/(\d\d:\d\d)-(\d\d:\d\d)/g, "$1–$2")
+    .replace(/(週.)-(週.)/g, "$1至$2")
+    .replace(/^((?:週.(?:至週.)?[，,]?)+)\s+(?=\d)/, "$1：")
+    .replace(/,\s*/g, "、").replace(/，\s*/g, "、"));
+}
+function placeReview(p){ return DATA.place_reviews?.[`${p.name}|${p.lat.toFixed(4)},${p.lng.toFixed(4)}`]; }
+const DOG_RULE = {yes:"可帶狗", leashed:"可帶狗（需牽繩）", unleashed:"可放繩", designated:"指定遛狗區", off_leash:"可放繩"};
+function dogFacts(p){
+  const d = placeReview(p)?.dog; if (!d) return "";
+  const f = [d.fenced === true && "有圍欄", d.fenced === false && "沒圍欄", d.off_leash === "yes" && "可放繩", d.off_leash === "hours" && "限時段放繩",
+    d.off_leash === "no" && "要牽繩", d.license_required && "需狗牌", d.water === true && "有水", d.small_dog_area === true && "有小狗區"].filter(Boolean);
+  return f.length ? `<div class="dogf">${f.map(x => `<span>${x}</span>`).join("")}</div>` : "";
+}
+function parkTag(p){
+  if (!p.kind) return "";
+  const size = p.area_ha ? ` · 約 ${p.area_ha >= 10 ? Math.round(p.area_ha) : p.area_ha} 公頃` : "";
+  return `<div class="ptag"><b class="${p.kind}">${p.kind === "dog" ? "狗公園" : "散步公園"}</b>${size}${DOG_RULE[p.dog_rule] ? ` · ${DOG_RULE[p.dog_rule]}` : ""}</div>`;
+}
+function placeMeta(p){
+  const addr = /[A-Za-z]/.test(p.address || "") ? `<div>${esc(p.address.replace(/;/g, "、"))}</div>` : "";
+  const hrs = hoursList(p.hours);
+  const r = placeReview(p);
+  const stars = r?.rating != null ? `<div class="prv"><span class="star">${"★".repeat(Math.round(r.rating))}${"☆".repeat(5 - Math.round(r.rating))}</span><b>${r.rating.toFixed(1)}</b><span>${r.count ? r.count.toLocaleString() + " 則" : ""} · ${esc(r.source || "")}</span></div>` : "";
+  return parkTag(p) + dogFacts(p) + addr + (hrs.length ? `<ul>${hrs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "") + stars;
+}
+function placeMore(p){
+  const r = placeReview(p); if (!r) return "";
+  const li = (arr, c) => (arr || []).map(x => `<li class="${c}">${esc(x)}</li>`).join("");
+  return `<div class="prv-more">${r.summary_zh ? `<div>${esc(r.summary_zh)}</div>` : ""}<ul>${li(r.good_zh, "g")}${li(r.bad_zh, "b")}</ul>
+    ${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener" style="color:var(--ink-3)">看評價來源 ↗</a>` : ""}</div>`;
+}
+
+function fmtHours(h){
+  return h.replace(/Mo/g,"週一").replace(/Tu/g,"週二").replace(/We/g,"週三").replace(/Th/g,"週四").replace(/Fr/g,"週五")
+    .replace(/Sa/g,"週六").replace(/Su/g,"週日").replace(/;/g,"，");
+}
+
+function lineBadge(l){ return `<span class="line-badge" style="background:${l.color};color:${l.text}">${esc(l.name)}</span>`; }
+
+function renderTransit(t){
+  let h = "";
+  if (t.rapid.length){
+    h += `<div class="subhead">地鐵 Subway · 步行</div>`;
+    h += t.rapid.map(s => placeRow(`transit:${s.id}`, s, s.lines[0]?.color || "#555",
+      "", s.lines.map(l => `${lineBadge(l)} <span style="margin-left:6px">往 ${esc(l.dest.join(" / "))}</span><br>`).join(""))).join("");
+  } else h += `<div class="empty">附近 2 km 內沒有地鐵站。</div>`;
+  if (t.commuter.length){
+    h += `<div class="subhead">通勤火車 Commuter Rail</div>` + t.commuter.map(s => placeRow(`transit:${s.id}`, s, s.lines[0]?.color || "#80276C",
+      "", s.lines.map(l => lineBadge(l)).join(" ") + "<br>")).join("");
+  }
+  if (t.bus.length){
+    h += `<div class="subhead">公車 Bus · 步行</div>` + t.bus.map(s => {
+      const p = findPlace(`bus:${s.id}`);
+      return placeRow(`bus:${s.id}`, p, "#55524A", "", s.lines.map(l => `<span class="bus">${esc(l.name)}</span>`).join("") + "<br>");
+    }).join("");
+  }
+  return h;
+}
+
+function renderCommute(c){
+  if (!c) return `<div class="empty">通勤資料整理中。</div>`;
+  return Object.entries(c).map(([code, o]) => {
+    const t = o.transit, legs = t.legs.map(l => l.type === "ride"
+      ? `${lineBadge({name:l.short || l.name, color:l.color, text:l.text})}<span>${esc(l.from)} → ${esc(l.to)} · ${l.stops} 站 ${l.minutes} 分</span>`
+      : `<span>步行 ${l.minutes} 分</span>`).join(`<span class="arrow">→</span>`);
+    const {a} = current;
+    return `<div class="office"><h4>${esc(o.name)}</h4><div class="oa">${esc(o.address)}</div>
+      <div class="place" data-key="commute:${code}:drive" style="--c:${OFFICE_HEX}">
+        <div class="pn"><span class="dot" style="background:${OFFICE_HEX}"></span>開車</div>
+        <div class="pm">${(o.drive.meters/1000).toFixed(1)} km · 不含塞車，早高峰通常要多 50–100%</div>
+        <div class="time"><b>${o.drive.minutes}</b> 分鐘<span>開車</span></div>
+        <div class="go"><a href="${gdir(a, o, "driving")}" target="_blank" rel="noopener">Google Maps 即時路況 ↗</a></div></div>
+      <div class="place" data-key="commute:${code}:transit" style="--c:${t.legs.find(l => l.type === "ride")?.color || "#555"}">
+        <div class="pn"><span class="dot" style="background:${t.legs.find(l => l.type === "ride")?.color || "#555"}"></span>地鐵 / Silver Line</div>
+        <div class="pm"><div class="legs">${legs}</div></div>
+        <div class="time"><b>${t.total}</b> 分鐘<span>含候車估計</span></div>
+        <div class="go"><a href="${gdir(a, o, "transit")}" target="_blank" rel="noopener">Google Maps 大眾運輸 ↗</a></div></div></div>`;
+  }).join("") + `<div class="sec-note">大眾運輸時間依 MBTA 平日時刻表，每次上車加 4–6 分鐘候車估計。</div>`;
+}
+
+function renderUnits(u){
+  if (!u) return `<div class="empty">房型和價格還在整理中。</div>`;
+  const links = [u.official_url && `<a class="btn solid" href="${esc(u.official_url)}" target="_blank" rel="noopener">公寓官網 ↗</a>`,
+    u.floorplans_url && `<a class="btn" href="${esc(u.floorplans_url)}" target="_blank" rel="noopener">官網房型 ↗</a>`,
+    ...(u.virtual_tours || []).map(v => `<a class="btn" href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.label || "Virtual Tour")} ↗</a>`)].filter(Boolean);
+  let h = links.length ? `<div class="block"><div class="btns">${links.join("")}</div></div>` : "";
+  h += `<div class="subhead">2 房 2 衛 (2b2b)</div><div class="block" style="padding-top:0">`;
+  h += u.plans_2b2b?.length ? `<table class="plans"><thead><tr><th>房型</th><th>面積</th><th class="num">月租</th></tr></thead><tbody>${u.plans_2b2b.map(p => `<tr>
+      <td>${esc(p.name)}${p.available ? `<small>${esc(p.available)}</small>` : ""}
+        ${p.image ? `<a class="fp" href="${esc(p.image)}" target="_blank" rel="noopener" title="點擊放大"><img src="${esc(p.image)}" alt="${esc(p.name)} 平面圖" loading="lazy"></a>` : ""}</td>
+      <td>${esc(p.sqft || "—")}${p.sqft && /^\d/.test(p.sqft) && !/ft/.test(p.sqft) ? " ft²" : ""}</td>
+      <td class="num">${esc(p.price || "—")}<small>${esc(p.as_of || "")}</small></td></tr>`).join("")}</tbody></table>`
+    : `<div class="empty" style="padding:16px 0">沒找到 2b2b 的公開資料，請看官網。</div>`;
+  h += `</div>`;
+  const f = u.fees || {};
+  const rows = [["車位 (室內)", f.parking_garage], ["車位 (室外)", f.parking_surface], ["電動車充電", f.ev_charging], ["水 / 下水道 / 垃圾", f.water_sewer_trash],
+    ["電 / 暖氣", f.electric_heat], ["網路", f.internet], ["設施費", f.amenity_fee], ["寵物月租", f.pet_rent], ["寵物押金/費用", f.pet_deposit_or_fee],
+    ["申請費", f.application_fee], ["行政費", f.admin_fee], ["其他", f.other]].filter(([, v]) => v);
+  if (rows.length) h += `<div class="subhead">每月雜費 / 停車</div><div class="block"><dl class="kv">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+      ${f.source ? `<div class="sec-note" style="padding:10px 0 0">來源：<a href="${esc(f.source)}" target="_blank" rel="noopener">${esc(f.as_of || "連結")} ↗</a></div>` : ""}</div>`;
+  if (u.pet_policy_zh || u.parking_zh) h += `<div class="block"><dl class="kv">${u.pet_policy_zh ? `<dt>寵物</dt><dd>${esc(u.pet_policy_zh)}</dd>` : ""}${u.parking_zh ? `<dt>停車</dt><dd>${esc(u.parking_zh)}</dd>` : ""}</dl></div>`;
+  if (u.notes_zh) h += `<div class="sec-note" style="padding:14px 28px">${esc(u.notes_zh)}</div>`;
+  if (u.sources?.length) h += `<div class="sources">來源：<br>${u.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`).join("")}</div>`;
+  return h;
+}
+
+function renderSafety(slug){
+  const area = AREAS.apartments[slug], ar = areaOf(slug), ca = DATA.crime_areas, cn = DATA.crime_near?.apartments?.[slug], nz = DATA.noise?.apartments?.[slug];
+  let h = "";
+  // --- noise
+  h += `<div class="subhead">噪音（美國交通部國家交通噪音地圖）</div><div class="block">`;
+  if (nz){
+    const v = nz.combined_db ?? nz.max_50m_db;
+    const pos = v == null ? 0 : Math.max(0, Math.min(100, (v - 40) / 45 * 100));
+    const label = v == null ? "低於 45 dB 模型門檻（偏安靜）" : (DATA.noise.scale_zh || []).reduce((acc, [t, l]) => v >= t ? l : acc, "很安靜");
+    h += `<div class="db"><b>${v == null ? "<45" : Math.round(v)}</b><span>dBA（24 小時平均）· ${esc(label)}</span></div>
+      <div class="scale">${v == null ? "" : `<i style="left:${pos}%"></i>`}</div><div class="ticks"><span>40 安靜</span><span>55 住宅</span><span>65 繁忙街道</span><span>85 很吵</span></div>
+      <dl class="kv" style="margin-top:14px">
+        ${nz.road_db != null ? `<dt>道路</dt><dd>${Math.round(nz.road_db)} dB</dd>` : ""}
+        ${nz.aviation_db != null ? `<dt>飛機</dt><dd>${Math.round(nz.aviation_db)} dB</dd>` : ""}
+        ${nz.rail_db != null ? `<dt>鐵路</dt><dd>${Math.round(nz.rail_db)} dB</dd>` : ""}
+        ${nz.max_50m_db != null ? `<dt>50 m 內最吵</dt><dd>${Math.round(nz.max_50m_db)} dB${nz.max_50m_source ? `（主要來自${{road:"道路", rail:"鐵路", aviation:"飛機"}[nz.max_50m_source] || nz.max_50m_source}）` : ""}</dd>` : ""}
+        ${nz.highway ? `<dt>最近高速路</dt><dd>${esc(nz.highway.name)} · ${nz.highway.m} m</dd>` : ""}
+        ${nz.rail ? `<dt>最近鐵軌</dt><dd>${esc(nz.rail.name)} · ${nz.rail.m} m</dd>` : ""}
+        ${nz.logan_contour != null ? `<dt>Logan 機場噪音區</dt><dd>${nz.logan_contour ? "在 65 dB 範圍內" : "不在範圍內"}</dd>` : ""}
+      </dl>${nz.note_zh ? `<div class="sec-note" style="padding:10px 0 0">${esc(nz.note_zh)}</div>` : ""}
+      ${DATA.noise.overlay ? `<button class="btn toggle" id="noiseBtn">在地圖上顯示噪音圖層</button>` : ""}
+      <div class="sec-note" style="padding:10px 0 0">來源：<a href="${esc(DATA.noise.source_url)}" target="_blank" rel="noopener">${esc(DATA.noise.source_name)} ${esc(DATA.noise.year || "")} ↗</a></div>`;
+  } else h += `<div class="empty" style="padding:8px 0">噪音資料整理中。</div>`;
+  h += `</div>`;
+  // --- crime near the building
+  h += `<div class="subhead">公寓附近犯罪 · 近 12 個月${DATA.crime_near?.window ? `（${esc(DATA.crime_near.window.replace("..", " 至 "))}）` : ""}</div><div class="block">`;
+  if (cn && cn.available){
+    const tot = (cn.violent || 0) + (cn.property || 0) + (cn.other || 0);
+    h += `<dl class="kv"><dt>暴力</dt><dd><b>${cn.violent ?? "—"}</b> 起</dd><dt>財產</dt><dd><b>${cn.property ?? "—"}</b> 起</dd><dt>其他</dt><dd>${cn.other ?? "—"} 起</dd><dt>合計</dt><dd>${tot} 起</dd></dl>
+      ${cn.top?.length ? `<div class="sec-note" style="padding:10px 0 0">最常見：${cn.top.slice(0, 5).map(([t, k]) => `${esc(t)} ${k}`).join("、")}</div>` : ""}`;
+  } else if (cn) h += `<div class="sec-note" style="padding:0">這個城市沒有公開到街區的犯罪資料。</div>`;
+  else h += `<div class="empty" style="padding:8px 0">資料整理中。</div>`;
+  if (cn?.method_zh) h += `<div class="sec-note" style="padding:8px 0 0">${esc(cn.method_zh)}</div>`;
+  if (cn?.source_url) h += `<div class="sec-note" style="padding:6px 0 0"><a href="${esc(cn.source_url)}" target="_blank" rel="noopener">資料來源 ↗</a></div>`;
+  h += `</div>`;
+  // --- area rates vs MA / US
+  const crimeArea = cn?.area || area, A = ca?.areas?.[crimeArea];
+  const V = x => x.violent_per_1k_scaled_to_fbi ?? x.violent_per_1k, P = x => x.property_per_1k_scaled_to_fbi ?? x.property_per_1k;
+  h += `<div class="subhead">地區犯罪率 · 每千人</div><div class="block">`;
+  if (A){
+    const label = AREAS.areas[crimeArea]?.zh || crimeArea;
+    const rows = [[label, A, ar.color], ["麻州平均", ca.massachusetts, "#8E897D"], ["全美平均", ca.national, "#CFC8B8"]].filter(([, x]) => x);
+    const bars = f => { const max = Math.max(...rows.map(([, x]) => f(x) || 0)) || 1;
+      return rows.map(([n, x, c]) => `<div class="bar"><span>${esc(n)}</span><div class="track"><div class="fill" style="width:${(f(x) || 0) / max * 100}%;background:${c}"></div></div><b>${f(x) != null ? f(x).toFixed(1) : "—"}</b></div>`).join(""); };
+    const scaled = A.violent_per_1k_scaled_to_fbi != null;
+    h += `<div class="sec-note" style="padding:0 0 4px">暴力犯罪${scaled ? "（按 FBI 口徑估算）" : ""}</div>${bars(V)}
+      <div class="sec-note" style="padding:12px 0 4px">財產犯罪</div>${bars(P)}
+      ${A.note_zh ? `<div class="sec-note" style="padding:10px 0 0">${esc(A.note_zh)}</div>` : ""}
+      <div class="sec-note" style="padding:6px 0 0">${esc(A.year || "")} · <a href="${esc(A.source_url)}" target="_blank" rel="noopener">${esc(A.source_name)} ↗</a></div>`;
+  } else h += `<div class="empty" style="padding:8px 0">資料整理中。</div>`;
+  h += `</div>`;
+  setTimeout(() => { const b = $("#noiseBtn"); if (b) b.onclick = toggleNoise; });
+  return h;
+}
+
+// BTS noise tiles only exist to z12; Leaflet stretches them when zoomed in further.
+map.createPane("noise").style.zIndex = 350;  // above base tiles, below area outlines and markers
+const NOISE_LEGEND = [["45–50", "#FFC107"], ["50–55", "#FF8000"], ["55–60", "#FF0000"], ["60–70", "#FF3399"], ["70–80", "#A300CC"], ["80+", "#5200CC"]];
+const noiseLegend = L.control({position:"bottomleft"});
+noiseLegend.onAdd = () => {
+  const d = L.DomUtil.create("div", "noise-legend");
+  d.innerHTML = `<b>交通噪音 dBA</b>${NOISE_LEGEND.map(([t, c]) => `<span><i style="background:${c}"></i>${t}</span>`).join("")}<small>沒顏色 = 低於 45 dB（安靜）</small>`;
+  return d;
+};
+let noiseLayer = null;
+function toggleNoise(){
+  const o = DATA.noise.overlay, b = $("#noiseBtn");
+  if (noiseLayer){
+    map.removeLayer(noiseLayer); noiseLegend.remove(); noiseLayer = null;
+    if (b) b.textContent = "在地圖上顯示噪音圖層"; return;
+  }
+  noiseLayer = L.tileLayer(o.url, {pane:"noise", opacity:.65, maxNativeZoom:12, maxZoom:19, attribution:o.attribution}).addTo(map);
+  noiseLegend.addTo(map);
+  if (map.getZoom() > 15) map.setZoom(15);
+  if (b) b.textContent = "隱藏噪音圖層";
+}
+
+function renderReviews(rv){
+  if (!rv) return `<div class="empty">口碑還在整理中。</div>`;
+  const o = rv.overall;
+  let h = `<div class="verdict"><div class="big">${o.google_rating ? `<b>${o.google_rating}</b><span>Google · ${o.google_count ?? "?"} 條評價</span>` : o.alt ? `<b>${o.alt.value ?? "—"}</b><span>${esc(o.alt.label)}</span>` : `<b>—</b><span>暫無評分</span>`}</div>
+    <p>${esc(o.summary_zh)}</p></div>`;
+  h += rv.dimensions.map(d => `<div class="dim"><header><h4>${esc(d.label_zh)}</h4>
+      <div class="meter" title="${d.score}/5">${[1,2,3,4,5].map(k => `<i class="${k <= Math.round(d.score) ? "f" : ""}"></i>`).join("")}</div></header>
+      <ul>${d.points_zh.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>`).join("");
+  h += `<div class="pc"><div><h5>優點</h5><ul>${rv.pros_zh.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
+    <div class="con"><h5>注意</h5><ul>${rv.cons_zh.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div></div>`;
+  if (rv.quotes?.length){
+    h += `<div class="subhead">住戶原話</div>` + rv.quotes.map(q => `<div class="quote"><q>${esc(q.text)}</q>
+      <cite>— ${q.url ? `<a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.source)}</a>` : esc(q.source)}</cite></div>`).join("");
+  }
+  h += `<div class="sources">${rv.gaps_zh ? esc(rv.gaps_zh) + "<br><br>" : ""}來源（${esc(rv.checked)} 整理，各項評分是綜合判斷）：<br>${rv.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`).join("")}</div>`;
+  return h;
+}
+
+// deep link: #<slug> or #<slug>/<tab>; also follows browser back/forward
+function routeFromHash(){
+  const [slug, tab] = decodeURIComponent(location.hash.slice(1)).split("/");
+  if (slug && DATA.apartments.some(a => a.slug === slug)){
+    if (current?.a.slug !== slug) openApt(slug, true);
+    if (tab && current?.n && tab !== currentTab) showTab(tab, false);
+  } else if (current) closeApt();
+}
+window.addEventListener("popstate", routeFromHash);
+applyFilters();
+routeFromHash();
+</script>
+</body>
+</html>

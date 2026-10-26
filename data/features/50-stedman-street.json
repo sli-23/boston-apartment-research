@@ -1,0 +1,37 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": true,
+  "dishwasher": null,
+  "hardwood": null,
+  "walk_in_closet": null
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": null,
+  "pool": null,
+  "garage_parking": true,
+  "ev_charging": null,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": null,
+  "roof_deck": true,
+  "elevator": true,
+  "bike_storage": null,
+  "coworking": null
+ },
+ "evidence": {
+  "in_unit_wd": "ApartmentList 頁面上的房源描述：「In unit laundry, private balcony, large closets, central air and on demand hot water」；2b2b #107 的 MLS 房源也寫「In unit laundry」。注意：ApartmentList 設施標籤寫 On-site laundry，FAQ 說沒有套內洗衣，兩者矛盾；沒有官網可查。https://www.apartmentlist.com/ma/boston/50-stedman-street ; https://bmnboston.com/property/50-stedman-street-boston-ma-02130-2-bed-for-rent-73481618/",
+  "balcony": "1 房房源寫「private balcony」；ApartmentList 標 Patio / balcony；2b2b 房源（#107）沒提到陽台，房型層級不明。",
+  "central_ac": "房源：「Central Air」。",
+  "dishwasher": "房源描述沒提；ApartmentList FAQ 說沒有洗碗機，不確定。",
+  "hardwood": "房源：「engineered wood flooring throughout」（工程木地板，不是實木）。",
+  "garage_parking": "房源：「Underground garage parking available $200 per month」。",
+  "dogs": "Redfin：「Dogs allowed, Cats allowed」；房源：「Pets ok with restrictions」。https://www.redfin.com/MA/Jamaica-Plain/50-Stedman-St-02130/apartment/179938172",
+  "roof_deck": "房源：「there is a large common roof deck」。",
+  "elevator": "房源：「a brand new 21 unit elevator building」。"
+ }
+}

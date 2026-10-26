@@ -1,0 +1,967 @@
+{
+ "as_of": "2026-10-26",
+ "radius_m": 400,
+ "window": "2025-10-01..2026-09-30",
+ "groups": {
+  "violent": "assault (simple+aggravated), robbery, homicide, sexual assault (where published)",
+  "property": "burglary/B&E, larceny/theft (incl. shoplifting, from MV, bicycle), auto theft, vandalism, arson",
+  "other": "other criminal offenses (fraud, threats, harassment, drugs, trespass, weapons, OUI...)",
+  "excluded_noncrime_or_traffic": "non-crime service records & traffic (sick assist, accidents, hit-and-run, lost property, warrants, MV-law violations) — not in violent/property/other"
+ },
+ "comparability_note_zh": "三市地理方法不同：Boston 為 400 公尺半徑；Cambridge 為大樓所在報案區（面積通常小於半徑圈）；Somerville 為中心點在 400 公尺內的普查街區。跨城市比較數字時請保留誤差空間。Everett、Chelsea、Malden、Melrose、Revere 無事件級公開資料。",
+ "data_through": {
+  "boston": "2026-10-23",
+  "cambridge": "2026-09-28",
+  "somerville": "2026-09-25"
+ },
+ "apartments": {
+  "the-pioneer": {
+   "area": "Everett",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Everett 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "corey-10-luxury-apartments": {
+   "area": "Melrose",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Melrose 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "cambridge-park-apartments": {
+   "area": "Cambridge",
+   "available": true,
+   "violent": 1,
+   "property": 77,
+   "other": 24,
+   "excluded_noncrime_or_traffic": 40,
+   "total_reports": 142,
+   "top": [
+    [
+     "Larceny of Bicycle",
+     17
+    ],
+    [
+     "Larceny from Residence",
+     15
+    ],
+    [
+     "Larceny from MV",
+     10
+    ],
+    [
+     "Mal. Dest. Property",
+     7
+    ],
+    [
+     "Trespassing",
+     7
+    ],
+    [
+     "Commercial Break",
+     6
+    ]
+   ],
+   "geography": "reporting_area",
+   "reporting_area": "1110",
+   "neighborhood": "North Cambridge",
+   "method_zh": "Cambridge 資料只有警方報案區（reporting area）與街段，沒有精確座標；此處統計大樓所在報案區 1110（North Cambridge 社區）2025-10-01 至 2026-09-30 的報案（依報案日期）。資料集中沒有性侵類別。",
+   "alt_own_area_plus_areas_centroid_within_400m": {
+    "reporting_areas": [
+     "1110"
+    ],
+    "violent": 1,
+    "property": 77,
+    "other": 24,
+    "total_reports": 142
+   },
+   "source_url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  "the-laurent": {
+   "area": "Cambridge",
+   "available": true,
+   "violent": 11,
+   "property": 60,
+   "other": 28,
+   "excluded_noncrime_or_traffic": 30,
+   "total_reports": 129,
+   "top": [
+    [
+     "Larceny from Residence",
+     24
+    ],
+    [
+     "Larceny of Bicycle",
+     9
+    ],
+    [
+     "Shoplifting",
+     9
+    ],
+    [
+     "Mal. Dest. Property",
+     8
+    ],
+    [
+     "Simple Assault",
+     7
+    ],
+    [
+     "Threats",
+     6
+    ]
+   ],
+   "geography": "reporting_area",
+   "reporting_area": "1201",
+   "neighborhood": "Highlands",
+   "method_zh": "Cambridge 資料只有警方報案區（reporting area）與街段，沒有精確座標；此處統計大樓所在報案區 1201（Highlands 社區）2025-10-01 至 2026-09-30 的報案（依報案日期）。資料集中沒有性侵類別。",
+   "alt_own_area_plus_areas_centroid_within_400m": {
+    "reporting_areas": [
+     "1201",
+     "1204"
+    ],
+    "violent": 18,
+    "property": 168,
+    "other": 38,
+    "total_reports": 286
+   },
+   "source_url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  "hanover-alewife": {
+   "area": "Cambridge",
+   "available": true,
+   "violent": 1,
+   "property": 77,
+   "other": 24,
+   "excluded_noncrime_or_traffic": 40,
+   "total_reports": 142,
+   "top": [
+    [
+     "Larceny of Bicycle",
+     17
+    ],
+    [
+     "Larceny from Residence",
+     15
+    ],
+    [
+     "Larceny from MV",
+     10
+    ],
+    [
+     "Mal. Dest. Property",
+     7
+    ],
+    [
+     "Trespassing",
+     7
+    ],
+    [
+     "Commercial Break",
+     6
+    ]
+   ],
+   "geography": "reporting_area",
+   "reporting_area": "1110",
+   "neighborhood": "North Cambridge",
+   "method_zh": "Cambridge 資料只有警方報案區（reporting area）與街段，沒有精確座標；此處統計大樓所在報案區 1110（North Cambridge 社區）2025-10-01 至 2026-09-30 的報案（依報案日期）。資料集中沒有性侵類別。",
+   "alt_own_area_plus_areas_centroid_within_400m": {
+    "reporting_areas": [
+     "1110",
+     "1201"
+    ],
+    "violent": 12,
+    "property": 137,
+    "other": 52,
+    "total_reports": 271
+   },
+   "source_url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  "walter-huntington-apartments": {
+   "area": "Jamaica Plain",
+   "available": true,
+   "violent": 12,
+   "property": 23,
+   "other": 20,
+   "excluded_noncrime_or_traffic": 212,
+   "total_reports": 267,
+   "top": [
+    [
+     "ASSAULT - SIMPLE",
+     9
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     7
+    ],
+    [
+     "VANDALISM",
+     7
+    ],
+    [
+     "THREATS TO DO BODILY HARM",
+     5
+    ],
+    [
+     "HARASSMENT/ CRIMINAL HARASSMENT",
+     4
+    ],
+    [
+     "ASSAULT - AGGRAVATED",
+     3
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。半徑圈約 70% 位於 Boston 社區邊界內，其餘為鄰鎮或水域（鄰鎮事件未計入）。",
+   "geography": "radius",
+   "bpda_neighborhood": "Jamaica Plain",
+   "circle_share_in_boston": 0.7,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "bell-olmsted-park-apartments": {
+   "area": "Jamaica Plain",
+   "available": true,
+   "violent": 5,
+   "property": 16,
+   "other": 4,
+   "excluded_noncrime_or_traffic": 152,
+   "total_reports": 177,
+   "top": [
+    [
+     "LARCENY THEFT FROM BUILDING",
+     4
+    ],
+    [
+     "VANDALISM",
+     3
+    ],
+    [
+     "ASSAULT - AGGRAVATED",
+     3
+    ],
+    [
+     "LARCENY THEFT FROM MV - NON-ACCESSORY",
+     3
+    ],
+    [
+     "BURGLARY - RESIDENTIAL",
+     2
+    ],
+    [
+     "LARCENY ALL OTHERS",
+     2
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。半徑圈約 87% 位於 Boston 社區邊界內，其餘為鄰鎮或水域（鄰鎮事件未計入）。",
+   "geography": "radius",
+   "bpda_neighborhood": "Jamaica Plain",
+   "circle_share_in_boston": 0.87,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "the-benjamin-seaport-residences-apartments": {
+   "area": "South Boston Waterfront",
+   "available": true,
+   "violent": 42,
+   "property": 37,
+   "other": 22,
+   "excluded_noncrime_or_traffic": 212,
+   "total_reports": 313,
+   "top": [
+    [
+     "ASSAULT - SIMPLE",
+     32
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     11
+    ],
+    [
+     "LARCENY SHOPLIFTING",
+     11
+    ],
+    [
+     "ASSAULT - AGGRAVATED",
+     9
+    ],
+    [
+     "THREATS TO DO BODILY HARM",
+     7
+    ],
+    [
+     "VANDALISM",
+     4
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。",
+   "geography": "radius",
+   "bpda_neighborhood": "South Boston Waterfront",
+   "circle_share_in_boston": 1.0,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "the-brynx": {
+   "area": "Jamaica Plain",
+   "available": true,
+   "violent": 2,
+   "property": 10,
+   "other": 4,
+   "excluded_noncrime_or_traffic": 110,
+   "total_reports": 126,
+   "top": [
+    [
+     "LARCENY THEFT FROM MV - NON-ACCESSORY",
+     3
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     2
+    ],
+    [
+     "THREATS TO DO BODILY HARM",
+     2
+    ],
+    [
+     "ASSAULT - SIMPLE",
+     2
+    ],
+    [
+     "LARCENY ALL OTHERS",
+     2
+    ],
+    [
+     "BALLISTICS EVIDENCE/FOUND",
+     1
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。",
+   "geography": "radius",
+   "bpda_neighborhood": "Jamaica Plain",
+   "circle_share_in_boston": 0.91,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "avalon-at-assembly-row": {
+   "area": "Somerville",
+   "available": true,
+   "violent": 18,
+   "property": 279,
+   "other": 30,
+   "excluded_noncrime_or_traffic": 37,
+   "total_reports": 364,
+   "top": [
+    [
+     "Shoplifting",
+     165
+    ],
+    [
+     "All Other Larceny",
+     36
+    ],
+    [
+     "Destruction/Vandalism Property",
+     22
+    ],
+    [
+     "Motor Vehicle Theft",
+     21
+    ],
+    [
+     "Theft From Building",
+     14
+    ],
+    [
+     "Theft From Motor Vehicle",
+     14
+    ]
+   ],
+   "geography": "census_blocks",
+   "census_blocks_2020": 17,
+   "method_zh": "Somerville 資料只有 2020 人口普查街區代碼（沒有座標）；統計街區中心點在大樓 400 公尺內（含大樓所在街區）的 17 個街區、2025-10-01 至 2026-09-30 的犯罪報告；只含 Somerville 市內，跨市界部分未計入。",
+   "source_url": "https://data.somervillema.gov/Public-Safety/Police-Data-Crime-Reports/aghs-hqvg"
+  },
+  "windsor-at-maxwell-s-green-apartments": {
+   "area": "Somerville",
+   "available": true,
+   "violent": 3,
+   "property": 33,
+   "other": 9,
+   "excluded_noncrime_or_traffic": 14,
+   "total_reports": 59,
+   "top": [
+    [
+     "All Other Larceny",
+     12
+    ],
+    [
+     "Theft From Motor Vehicle",
+     9
+    ],
+    [
+     "Motor Vehicle Theft",
+     5
+    ],
+    [
+     "Destruction/Vandalism Property",
+     4
+    ],
+    [
+     "Identity Theft",
+     4
+    ],
+    [
+     "False Pretenses/Swindle/Game",
+     2
+    ]
+   ],
+   "geography": "census_blocks",
+   "census_blocks_2020": 28,
+   "method_zh": "Somerville 資料只有 2020 人口普查街區代碼（沒有座標）；統計街區中心點在大樓 400 公尺內（含大樓所在街區）的 28 個街區、2025-10-01 至 2026-09-30 的犯罪報告；只含 Somerville 市內，跨市界部分未計入。",
+   "source_url": "https://data.somervillema.gov/Public-Safety/Police-Data-Crime-Reports/aghs-hqvg"
+  },
+  "j-malden-center": {
+   "area": "Malden",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Malden 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "maxwell": {
+   "area": "Everett",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Everett 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "amaya": {
+   "area": "Revere",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Revere 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "the-brookliner": {
+   "area": "Brighton",
+   "available": true,
+   "violent": 19,
+   "property": 30,
+   "other": 20,
+   "excluded_noncrime_or_traffic": 221,
+   "total_reports": 290,
+   "top": [
+    [
+     "ASSAULT - SIMPLE",
+     14
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     11
+    ],
+    [
+     "VANDALISM",
+     8
+    ],
+    [
+     "THREATS TO DO BODILY HARM",
+     8
+    ],
+    [
+     "HARASSMENT/ CRIMINAL HARASSMENT",
+     6
+    ],
+    [
+     "ASSAULT - AGGRAVATED",
+     4
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。半徑圈約 53% 位於 Boston 社區邊界內，其餘為鄰鎮或水域（鄰鎮事件未計入）。",
+   "geography": "radius",
+   "bpda_neighborhood": "Brighton",
+   "circle_share_in_boston": 0.53,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "mason": {
+   "area": "Everett",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Everett 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "v2-apartments": {
+   "area": "Chelsea",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Chelsea 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "alder-at-allston-yards": {
+   "area": "Allston",
+   "available": true,
+   "violent": 18,
+   "property": 37,
+   "other": 18,
+   "excluded_noncrime_or_traffic": 152,
+   "total_reports": 225,
+   "top": [
+    [
+     "VANDALISM",
+     15
+    ],
+    [
+     "ASSAULT - SIMPLE",
+     11
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     10
+    ],
+    [
+     "DRUGS - POSSESSION/ SALE/ MANUFACTURING/ USE",
+     5
+    ],
+    [
+     "ASSAULT - AGGRAVATED",
+     4
+    ],
+    [
+     "LARCENY ALL OTHERS",
+     4
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。（依 BPDA 社區邊界，此地址屬 Brighton。）",
+   "geography": "radius",
+   "bpda_neighborhood": "Brighton",
+   "circle_share_in_boston": 1.0,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "the-eddy": {
+   "area": "East Boston",
+   "available": true,
+   "violent": 12,
+   "property": 26,
+   "other": 30,
+   "excluded_noncrime_or_traffic": 185,
+   "total_reports": 253,
+   "top": [
+    [
+     "DRUGS - POSSESSION/ SALE/ MANUFACTURING/ USE",
+     16
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     7
+    ],
+    [
+     "BURGLARY - RESIDENTIAL",
+     6
+    ],
+    [
+     "VANDALISM",
+     6
+    ],
+    [
+     "ASSAULT - AGGRAVATED",
+     6
+    ],
+    [
+     "ASSAULT - SIMPLE",
+     4
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。半徑圈約 88% 位於 Boston 社區邊界內，其餘為鄰鎮或水域（鄰鎮事件未計入）。",
+   "geography": "radius",
+   "bpda_neighborhood": "East Boston",
+   "circle_share_in_boston": 0.88,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "zinc": {
+   "area": "Cambridge",
+   "available": true,
+   "violent": 6,
+   "property": 36,
+   "other": 24,
+   "excluded_noncrime_or_traffic": 26,
+   "total_reports": 92,
+   "top": [
+    [
+     "Larceny of Bicycle",
+     13
+    ],
+    [
+     "Larceny from Residence",
+     9
+    ],
+    [
+     "Mal. Dest. Property",
+     7
+    ],
+    [
+     "Forgery",
+     7
+    ],
+    [
+     "Flim Flam",
+     5
+    ],
+    [
+     "Simple Assault",
+     4
+    ]
+   ],
+   "geography": "reporting_area",
+   "reporting_area": "101",
+   "neighborhood": "East Cambridge",
+   "method_zh": "Cambridge 資料只有警方報案區（reporting area）與街段，沒有精確座標；此處統計大樓所在報案區 101（East Cambridge 社區）2025-10-01 至 2026-09-30 的報案（依報案日期）。資料集中沒有性侵類別。",
+   "alt_own_area_plus_areas_centroid_within_400m": {
+    "reporting_areas": [
+     "101",
+     "104",
+     "107"
+    ],
+    "violent": 10,
+    "property": 65,
+    "other": 47,
+    "total_reports": 191
+   },
+   "source_url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  "vero-apartments": {
+   "area": "Chelsea",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Chelsea 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "urbane-at-alewife": {
+   "area": "Cambridge",
+   "available": true,
+   "violent": 1,
+   "property": 77,
+   "other": 24,
+   "excluded_noncrime_or_traffic": 40,
+   "total_reports": 142,
+   "top": [
+    [
+     "Larceny of Bicycle",
+     17
+    ],
+    [
+     "Larceny from Residence",
+     15
+    ],
+    [
+     "Larceny from MV",
+     10
+    ],
+    [
+     "Mal. Dest. Property",
+     7
+    ],
+    [
+     "Trespassing",
+     7
+    ],
+    [
+     "Commercial Break",
+     6
+    ]
+   ],
+   "geography": "reporting_area",
+   "reporting_area": "1110",
+   "neighborhood": "North Cambridge",
+   "method_zh": "Cambridge 資料只有警方報案區（reporting area）與街段，沒有精確座標；此處統計大樓所在報案區 1110（North Cambridge 社區）2025-10-01 至 2026-09-30 的報案（依報案日期）。資料集中沒有性侵類別。",
+   "alt_own_area_plus_areas_centroid_within_400m": {
+    "reporting_areas": [
+     "1110",
+     "1201"
+    ],
+    "violent": 12,
+    "property": 137,
+    "other": 52,
+    "total_reports": 271
+   },
+   "source_url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  "prism-apartments": {
+   "area": "Cambridge",
+   "available": true,
+   "violent": 3,
+   "property": 14,
+   "other": 19,
+   "excluded_noncrime_or_traffic": 54,
+   "total_reports": 90,
+   "top": [
+    [
+     "Mal. Dest. Property",
+     7
+    ],
+    [
+     "Forgery",
+     5
+    ],
+    [
+     "Threats",
+     5
+    ],
+    [
+     "Larceny of Bicycle",
+     2
+    ],
+    [
+     "Larceny from Residence",
+     2
+    ],
+    [
+     "Drugs",
+     2
+    ]
+   ],
+   "geography": "reporting_area",
+   "reporting_area": "108",
+   "neighborhood": "East Cambridge",
+   "method_zh": "Cambridge 資料只有警方報案區（reporting area）與街段，沒有精確座標；此處統計大樓所在報案區 108（East Cambridge 社區）2025-10-01 至 2026-09-30 的報案（依報案日期）。資料集中沒有性侵類別。",
+   "alt_own_area_plus_areas_centroid_within_400m": {
+    "reporting_areas": [
+     "102",
+     "103",
+     "108"
+    ],
+    "violent": 20,
+    "property": 106,
+    "other": 68,
+    "total_reports": 287
+   },
+   "source_url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  "clippership-apartments-on-the-wharf": {
+   "area": "East Boston",
+   "available": true,
+   "violent": 41,
+   "property": 46,
+   "other": 63,
+   "excluded_noncrime_or_traffic": 288,
+   "total_reports": 438,
+   "top": [
+    [
+     "DRUGS - POSSESSION/ SALE/ MANUFACTURING/ USE",
+     37
+    ],
+    [
+     "ASSAULT - SIMPLE",
+     20
+    ],
+    [
+     "ASSAULT - AGGRAVATED",
+     16
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     11
+    ],
+    [
+     "VANDALISM",
+     10
+    ],
+    [
+     "BURGLARY - RESIDENTIAL",
+     7
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。",
+   "geography": "radius",
+   "bpda_neighborhood": "East Boston",
+   "circle_share_in_boston": 0.91,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "revolution-at-assembly-square": {
+   "area": "Somerville",
+   "available": true,
+   "violent": 17,
+   "property": 200,
+   "other": 29,
+   "excluded_noncrime_or_traffic": 21,
+   "total_reports": 267,
+   "top": [
+    [
+     "Shoplifting",
+     104
+    ],
+    [
+     "All Other Larceny",
+     25
+    ],
+    [
+     "Motor Vehicle Theft",
+     18
+    ],
+    [
+     "Theft From Motor Vehicle",
+     17
+    ],
+    [
+     "All Other Offenses",
+     14
+    ],
+    [
+     "Destruction/Vandalism Property",
+     14
+    ]
+   ],
+   "geography": "census_blocks",
+   "census_blocks_2020": 20,
+   "method_zh": "Somerville 資料只有 2020 人口普查街區代碼（沒有座標）；統計街區中心點在大樓 400 公尺內（含大樓所在街區）的 20 個街區、2025-10-01 至 2026-09-30 的犯罪報告；只含 Somerville 市內，跨市界部分未計入。",
+   "source_url": "https://data.somervillema.gov/Public-Safety/Police-Data-Crime-Reports/aghs-hqvg"
+  },
+  "modera-medford": {
+   "area": "Medford",
+   "available": false,
+   "violent": null,
+   "property": null,
+   "other": null,
+   "top": [],
+   "method_zh": "Medford 未發布可下載的事件級犯罪開放資料；僅有 FBI CDE 全市月度統計（見區域數據）。",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+  },
+  "211-green-street": {
+   "area": "Jamaica Plain",
+   "available": true,
+   "violent": 67,
+   "property": 433,
+   "other": 294,
+   "excluded_noncrime_or_traffic": 996,
+   "total_reports": 1790,
+   "top": [
+    [
+     "LARCENY ALL OTHERS",
+     101
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     98
+    ],
+    [
+     "DRUGS - POSSESSION/ SALE/ MANUFACTURING/ USE",
+     93
+    ],
+    [
+     "THREATS TO DO BODILY HARM",
+     63
+    ],
+    [
+     "LARCENY THEFT FROM MV - NON-ACCESSORY",
+     59
+    ],
+    [
+     "AUTO THEFT",
+     50
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。",
+   "geography": "radius",
+   "bpda_neighborhood": "Jamaica Plain",
+   "circle_share_in_boston": 1.0,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "50-stedman-street": {
+   "area": "Jamaica Plain",
+   "available": true,
+   "violent": 8,
+   "property": 38,
+   "other": 14,
+   "excluded_noncrime_or_traffic": 137,
+   "total_reports": 197,
+   "top": [
+    [
+     "VANDALISM",
+     10
+    ],
+    [
+     "LARCENY THEFT FROM MV - NON-ACCESSORY",
+     9
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     8
+    ],
+    [
+     "ASSAULT - SIMPLE",
+     6
+    ],
+    [
+     "THREATS TO DO BODILY HARM",
+     5
+    ],
+    [
+     "DRUGS - POSSESSION/ SALE/ MANUFACTURING/ USE",
+     4
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。",
+   "geography": "radius",
+   "bpda_neighborhood": "Jamaica Plain",
+   "circle_share_in_boston": 1.0,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  "3200-washington": {
+   "area": "Jamaica Plain",
+   "available": true,
+   "violent": 23,
+   "property": 54,
+   "other": 30,
+   "excluded_noncrime_or_traffic": 289,
+   "total_reports": 396,
+   "top": [
+    [
+     "LARCENY ALL OTHERS",
+     16
+    ],
+    [
+     "ASSAULT - AGGRAVATED",
+     10
+    ],
+    [
+     "LARCENY THEFT FROM BUILDING",
+     10
+    ],
+    [
+     "ASSAULT - SIMPLE",
+     10
+    ],
+    [
+     "VANDALISM",
+     6
+    ],
+    [
+     "BURGLARY - RESIDENTIAL",
+     6
+    ]
+   ],
+   "method_zh": "Boston 警方事件資料（有經緯度）：統計大樓 400 公尺半徑內、2025-10-01 至 2026-09-30 發生的事件；同一案件同一罪名只算一次；不含性侵（公開資料未提供）及非犯罪類服務紀錄。",
+   "geography": "radius",
+   "bpda_neighborhood": "Jamaica Plain",
+   "circle_share_in_boston": 1.0,
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "Pine Banks Animal Hospital|42.4403,-71.0680": {
+  "rating": 4.4,
+  "count": 65,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=12132459595923066032",
+  "other": [],
+  "summary_zh": "Google 4.4 分（65 則），社區型老字號動物醫院，醫師不趕時間、不過度檢查，價格合理。",
+  "good_zh": [
+   "醫師看診不趕、會電話追蹤",
+   "價格合理、不強迫推銷",
+   "可臨時插號；Google 類別含急症與寄宿"
+  ],
+  "bad_zh": [
+   "評論數較少（65 則）",
+   "本次讀到的評論都是好評，負面資訊不足"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Livermore Park|42.4571,-71.0625": {
+  "rating": 5,
+  "count": 3,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9869398972657212831",
+  "other": [],
+  "summary_zh": "Google 5.0 分（僅 3 則，Mary Livermore Park），死巷旁的安靜小公園；設施與是否可帶狗未查到。",
+  "good_zh": [
+   "位於死巷，很安靜"
+  ],
+  "bad_zh": [
+   "評論數極少，參考性低"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUipcG5OP8a_EuI3KXWnTMuc_j2yubKJJxKj2SRiyCoL0kQdf-gGetWehdo5rQA-Ej8rciUKe7SNRgh8VV7nzOBAFM0aUnckdkIVdgbaNJW5GR7y0J18tlECcXsH3j_u6G0zQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9869398972657212831",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Ell Pond|42.4601,-71.0626": {
+  "rating": 4.9,
+  "count": 8,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=4453839146133808568",
+  "other": [],
+  "summary_zh": "Google 4.9 分（8 則），Melrose 的湖泊，適合散步、賞鳥，停車方便；是否可帶狗未查到。",
+  "good_zh": [
+   "湖景漂亮，適合散步放鬆",
+   "西側有步道，可賞鳥",
+   "停車方便"
+  ],
+  "bad_zh": [
+   "評論數少"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfwVU7o_F0eIwcCQBbo7j1_p7t0Irsn3rd19DpPr-7YXgiY9_ta6Arjo4SfCc3LJvMV6-T4pu4cTqYuhpDridTjt1k9o0eKFxXdmfFRbmBbpTeBRZnbaioCmuCowGkoQIOx44E=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4453839146133808568",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeVc6sqXZNkhmia5Gy5C19ZjyOUdfeCCKKmDfvKcFmQr6rl-S57KMzS8k0F134gSNqIyb_Hav9KAZUBi22MFqQUcCoI3kRNmN6Ny_Yqd-1k6xvvKDZ4uSwHk6uvedClsXMKVnsi=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4453839146133808568",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwpS7S-5p0dir3WhW8jTREv0o_F7OwfDCxGMhE4whknEITo5a4PZgbV5QwiWNS-yQxXJtvkGjuyXSCNivsSoVWujNVUmd6E-pTXgItr1yo6nPF1KJy4P9bDXPLoJuM_ukVOnWL7w=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4453839146133808568",
+    "credit": "Mohammad Azazi"
+   }
+  ]
+ },
+ "Holy Child Park|42.4543,-71.0674": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [],
+  "summary_zh": "Google Maps 上找不到這個 Melrose 公園（搜尋結果是印度同名公園），評分未知。",
+  "good_zh": [],
+  "bad_zh": [
+   "查無評分與評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "official_url": "https://www.prismapartmenthomes.com/",
+ "floorplans_url": "https://www.prismapartmenthomes.com/residences.html",
+ "virtual_tours": [
+  {
+   "label": "Matterport 3D：2 房 #1",
+   "url": "https://my.matterport.com/show/?m=RN8ZCvrA5Qg"
+  },
+  {
+   "label": "Matterport 3D：2 房 #2",
+   "url": "https://my.matterport.com/show/?m=ewrKHTvEF2B"
+  },
+  {
+   "label": "Matterport 3D：2 房 #3",
+   "url": "https://my.matterport.com/show/?m=xGsLh7WbmsY"
+  },
+  {
+   "label": "Matterport 3D：2 房 #4",
+   "url": "https://my.matterport.com/show/?m=CdGXjex75Kf"
+  },
+  {
+   "label": "Matterport 3D：2 房 #5",
+   "url": "https://my.matterport.com/show/?m=bUZiEt8cc9F"
+  },
+  {
+   "label": "Instagram 實景",
+   "url": "https://www.instagram.com/prism_apts/"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "Spectrum 2D",
+   "sqft": "1,064",
+   "price": "$4,706",
+   "price_min": 4706,
+   "as_of": "2026-10-26",
+   "available": "1 間（#419），現在入住；有陽台",
+   "image": "https://s7d9.scene7.com/is/image/aimcoprod/TypeC_Spectrum2D_Parent_DIMS_BW_SKETCH_500x500-01-3"
+  },
+  {
+   "name": "Spectrum 2A",
+   "sqft": "1,047",
+   "price": "$4,930",
+   "price_min": 4930,
+   "as_of": "2026-10-26",
+   "available": "1 間（#226），現在入住",
+   "image": "https://s7d9.scene7.com/is/image/aimcoprod/TypeE_Spectrum2A_Parent_DIMS_BW_SKETCH_500x500-01-2"
+  },
+  {
+   "name": "Spectrum 2B",
+   "sqft": "1,054",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://s7d9.scene7.com/is/image/aimcoprod/TypeD_Spectrum2B_Parent_DIMS_BW_SKETCH_500x500-01-2"
+  },
+  {
+   "name": "Spectrum 2C",
+   "sqft": "1,058",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://s7d9.scene7.com/is/image/aimcoprod/TypeK_Spectrum2C_Parent_DIMS_BW_SKETCH_500x500-01-2"
+  },
+  {
+   "name": "Spectrum 2F",
+   "sqft": "1,101",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://s7d9.scene7.com/is/image/aimcoprod/Spectrum2F_Parent_BW_SKETCH_500x500-01-2"
+  }
+ ],
+ "fees": {
+  "parking_garage": "門禁地下車庫：一般車位 $380/月起、小型車位 $335/月起、電動車充電車位 $380/月起（官網 FAQ）。ApartmentList 寫一般 $300、電動車 $340，數字較舊，以官網為準",
+  "parking_surface": "沒有看到室外車位",
+  "water_sewer_trash": "官網和 ApartmentList 都沒寫水、下水道、垃圾怎麼收費，要問辦公室",
+  "electric_heat": "官網和 ApartmentList 都沒寫電費、暖氣怎麼收，要問辦公室（官網只說月費可能包含 Base Rent、Utilities、Service Fees）",
+  "internet": "沒寫；公共區域有 Wi-Fi",
+  "pet_rent": "每隻 $65/月（官網 FAQ）",
+  "pet_deposit_or_fee": "沒找到寵物押金或一次性費用",
+  "other": "押金 $1,000（ApartmentList；可用 Obligo 免押金方案改付月費）；申請費 $0、入住費 $0（ApartmentList）；必須有租客責任保險；每月必付雜費約 $6.59（ApartmentList 的 total 和 base 差額，已含在上面價格內）；租期最長 24 個月。目前沒看到優惠",
+  "source": "https://www.prismapartmenthomes.com/faq.html",
+  "as_of": "官網 FAQ 和 ApartmentList，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻，狗沒有體重限制。禁養 Akita、American Staffordshire Terrier、Bull Terrier、Chow、Doberman、German Shepherd、Husky、Pit Bull、Presa Canario、Rottweiler、Belgian Malinois、Wolf Hybrid，以及長得像這些品種或其混種的狗（官網 FAQ）。",
+ "notes_zh": "價格是 2026-10-26 官網「Starting at」的金額，已含每月必付費用；ApartmentList 同日顯示的基本租金是 2D $4,699、2A $4,923（12 個月租約）。官網說價格會隨入住日和租期變動。平面圖用官網的手繪圖：2D 有陽台、2F 有大露台（23×8 呎），2A、2B、2C 沒有。官網另外列了一些檔名帶 B80／B100／B120 的 2b2b 房型，看起來是收入限制房（另有 prismmiddleincomeapts.com 網站），這裡沒有列入，資格要另外查。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/cambridge/prism-apartments"
+  },
+  {
+   "name": "官網 Residences（價格）",
+   "url": "https://www.prismapartmenthomes.com/residences.html"
+  },
+  {
+   "name": "官網 FAQ（寵物、車位）",
+   "url": "https://www.prismapartmenthomes.com/faq.html"
+  },
+  {
+   "name": "官網 Community Features",
+   "url": "https://www.prismapartmenthomes.com/community.html"
+  }
+ ]
+}

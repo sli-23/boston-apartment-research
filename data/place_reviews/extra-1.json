@@ -1,0 +1,878 @@
+{
+ "Stop & Shop|42.3558,-71.1401": {
+  "rating": 3.8,
+  "count": 124,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=2236199638230373578",
+  "other": [],
+  "summary_zh": "Google 3.8 分（124 則），Allston 新開的大型 Stop & Shop，明亮乾淨、品項多，地下車庫免費停車，但有收銀員態度差的負評。",
+  "good_zh": [
+   "新店寬敞明亮，品項與品牌比附近分店多",
+   "樓下車庫免費停車（出場前要掃停車券）",
+   "門口有兩個公車候車亭與自行車道"
+  ],
+  "bad_zh": [
+   "有收銀員粗魯、結帳出錯的負評",
+   "紙袋容易破",
+   "評論數較少（124 則），價格評論不多"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd01WbPmb3qAP7JggP6UPs9YHVOlrTYsscQe3lTLaJJniz8OELEr6cbfTq2ybyN2vHT8b3M99tSkSN3o9VRmEi4YE8dMgHbxJBUmNgddx4qiMEBMa1O1MQWWg6rVf-BT8mthkwXQXRdjhY0=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2236199638230373578",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc1SpfNHQfKdzY8GBBQLeFE1zsxURYbom27SBXw6rydqZmCbeiM36vfMXqp7YyPt3KMi6vEyWEfd3hgU9bIDiDKgEpEIFyCdjg9n6ZXh21ecGfY_KGFthvisA_czNWIiG7AkWIK4KY2dYM=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2236199638230373578",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Trader Joe's|42.3634,-71.1300": {
+  "rating": 4.7,
+  "count": 736,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=10845612274491725018",
+  "other": [],
+  "summary_zh": "Google 4.7 分（736 則），空間大、品項齊全的 Trader Joe's，有酒類區與免費驗證停車，評論普遍很好。",
+  "good_zh": [
+   "店面寬敞、品項比附近 TJ 多，很少缺貨",
+   "有啤酒、葡萄酒區",
+   "車庫停車免費（結帳時驗證停車券）"
+  ],
+  "bad_zh": [
+   "有評論抱怨購物袋與保冷袋長期缺貨",
+   "偶有冷凍品品質問題（如麻糬冰淇淋）"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcuGBY8Bx79OSegoypMOYwIsp922lz0aTT5EjGevvoXQVyZ92G46-hhUrFqr-BpLMdxcHYm7CcIjT4xHtYN2XZkzyTr3cZhHP_YkzznyPdSKQUvY9v6sJ2REF4v5043aVWtqQik6KTtBfU=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10845612274491725018",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdvfaQatmQ1QuoZk0xvWxzLp1zBY3Ut-dqfCT29D32BOOf-FW_I8B33JnnCbOmLqhwkEVrrAbzsU3Wg7eeUrd97vhhoyFa1qx3HJgHDQeQAxcxNx73j4fxdbhBaGVmpaCo4FL1xzg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10845612274491725018",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Boston Medical Center – Brighton|42.3486,-71.1480": {
+  "rating": 4.1,
+  "count": 412,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=15310056899558546682",
+  "matched_name": "Emergency Room at Boston Medical Center - Brighton",
+  "other": [
+   {
+    "source": "Google (main hospital listing, no rating)",
+    "rating": null,
+    "count": null,
+    "url": "https://www.google.com/maps?cid=1552472417626816163"
+   }
+  ],
+  "summary_zh": "Google 上醫院主頁沒有評分；同院急診（Emergency Room at BMC - Brighton）為 4.1 分（412 則），評價兩極：有人 15 分鐘內就進診間，也有人等了好幾小時並覺得被輕忽。",
+  "good_zh": [
+   "多則好評稱急診 15 分鐘內就有床位",
+   "護理師與醫師溝通清楚、態度溫暖",
+   "步行可達的社區醫院急診"
+  ],
+  "bad_zh": [
+   "有等候數小時、症狀不被重視的負評",
+   "精神科相關就診的家屬抱怨照護不足",
+   "有廁所沒肥皂等清潔抱怨；Leapfrog 安全評級本次未能取得"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfKOGbBqK8mKbUk5PT-PHNI5bZENPQMj9S7Fmb8AQwXTiKMaLO9e-0LY0UiKRvCQkcwVdVF9wQGmPq3jZE4iKdz_cL5v6mxseBpiqpG4YufQloWkxsDcOgiFMt8pWlZg6w-DhKHQamkCi4=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=15310056899558546682",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc7nR0hpJoFy16nv3dJSPSL8zwRgJB4LKl5QTX8W_qS5VASvq1QQ_Rq1MLIlE4D9GsikB_KpNvK8H-CDtt8M6yS75Aq3EYMSkhZ-kB2xKSMMSRKqOQ1hDZhFG67C4uLB6p46__s=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=15310056899558546682",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Price Rite|42.4266,-71.0109": {
+  "rating": 4.2,
+  "count": 1058,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=4617842644547705804",
+  "other": [],
+  "summary_zh": "Google 4.2 分（1058 則），Revere 的平價超市，價格比附近超市便宜，拉丁美洲食材多，停車場大。",
+  "good_zh": [
+   "價格便宜，評論稱比附近超市都划算",
+   "拉丁美洲食材選擇多（豆類、乾辣椒、玉米餅）",
+   "停車場大，有自助結帳"
+  ],
+  "bad_zh": [
+   "特價品常缺貨",
+   "有員工找不到商品的抱怨",
+   "停車場推車亂放（舊評論提到車被撞凹）"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcKy2uB0iTDkudBAkKh96bFKecOuEptlPAzRVfv4Fp4kGQLLZvbZvBULWYXr3OtzLFEifYsrgekKLfwbDeGEiOUJvdJbaVp0k5k_SO6B-jrsbx15Z11GaO0gxGCBsCjplO2vmk=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4617842644547705804",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfjiXq-bxDDXdn9TeFAIWrTQjlTEpZMsHlQ8SyHJyiJZv-25joSs6TeEOSaIA8oTJpL-SSUNXMBVVJlWgi56WVVTicaZrRbHFafN9KFsj6laepd1hfsLEJQ776PlqDyqQNE0waLIQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4617842644547705804",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Stop & Shop|42.4294,-71.0204": {
+  "rating": 4,
+  "count": 1188,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=15700493909486168035",
+  "other": [],
+  "summary_zh": "Google 4.0 分（1188 則），店大乾淨、熟食與海鮮櫃口碑好，但多則評論嫌價格比 Walmart、Market Basket 貴。",
+  "good_zh": [
+   "店面大、乾淨，蔬果新鮮",
+   "熟食區與魚、肉櫃台員工專業受好評",
+   "常有特價"
+  ],
+  "bad_zh": [
+   "多則評論稱價格偏貴、漲價多",
+   "彩券櫃台下午 3、4 點就關",
+   "有裝袋不當的抱怨"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTIgV4FNvktJvseW8VIj2Sk4xOaSIRrA4PH6GkfU3XubXzwG468TC1uvRCYdNVNJnxw2bowZ1XKfSVSUu1vfGqB7lkhR1HKP0e3Oahu6jlubpVD9lDCXSlY5N06-jt4RJDTutK73DmduI=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=15700493909486168035",
+    "credit": "Michelle"
+   }
+  ]
+ },
+ "CHA Everett Hospital|42.4093,-71.0395": {
+  "rating": 4.4,
+  "count": 1505,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=6040104845591070679",
+  "other": [],
+  "summary_zh": "Google 4.4 分（1505 則），CHA 體系的社區醫院，多則近期好評稱急診快速、約 2 小時內看完，但也有櫃台態度差與探病規定混亂的負評。",
+  "good_zh": [
+   "近期多則評論稱急診不用久等、2 小時內處理完",
+   "護理師親切有耐心，對焦慮病人照顧周到",
+   "可用 MyChart 追蹤後續"
+  ],
+  "bad_zh": [
+   "有急診櫃台人員態度差、探病規定不一致的負評",
+   "住院餐點單調、清潔需改進",
+   "有轉院接送溝通不順的評論；Leapfrog 評級本次未能取得"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLclTU-McTB6qJtGgcDCGduzi82n27jqM4VkM9zrNsiDmSGxn4Ns4wC6azooc_35H4L0INzYrFhmJ6iPS65tN79Rq4ooSWmQwavNBqQP127NMn_nZJylXw12JgIXZ8hRclo6Ovs=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6040104845591070679",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeztTeMhi_tmuA2w9YQJhNdHVGPy80oR68M9PptZKAMpvU2LSLdXLzXCD-empdZ1Zl7bUsd8-lAu5n0xOAkfgHI4zbl4SQu3chGMoJs7dbQaYTGUNTovzoRYKDrm2M0s9kPEgtR3kAluxJa=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6040104845591070679",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Costco|42.5570,-70.9772": {
+  "rating": 4.5,
+  "count": 3318,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=5597585861716185283",
+  "other": [],
+  "summary_zh": "Google 4.5 分（3318 則），Danvers 的 Costco，有加油站與輪胎中心；店面不算大，評論對停車與人潮看法兩極。",
+  "good_zh": [
+   "價格與品質受好評，有加油站、輪胎中心",
+   "員工會耐心查規格、解說商品",
+   "有評論稱平日去不擠"
+  ],
+  "bad_zh": [
+   "有評論稱尖峰時停車要花 30 分鐘",
+   "店面比其他 Costco 小",
+   "有眼鏡部等候 45 分鐘的評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc9uRaJAPH1pPMfgTfl-WOTqalW1DXQeqpMPGwHxXKM9c69upBAIYI4_KVitvVgjNrzXVzfTZ7MLOFUDCixQD64w67-6dxm4xLpje8kssBMsv2ktGb5_0FoAyCo9FwlVu1Rdr6rTr8dZp7z=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5597585861716185283",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcNKu5ByQUsFS4q9zDHEaifYFOEqrE88FsWxUy5VOiezs_zCQEa5NEQyou3r1LsU6VO6C_Fcg6nUexNvCrYX3zqGUCu1JeihMsZAYEPqZNrtOnqwnnnWUhq23sef_ntrojWGTmRSGOndes6=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5597585861716185283",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Stop & Shop|42.3916,-71.0855": {
+  "rating": 4.1,
+  "count": 1478,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=2060118152442603878",
+  "other": [],
+  "summary_zh": "Google 4.1 分（1478 則），停車位多、店面寬敞，但近期多則負評提到蔬果品質變差、過期品與結帳櫃台開太少。",
+  "good_zh": [
+   "停車位多，店面寬敞明亮",
+   "員工友善",
+   "有評論稱價格比預期便宜、廁所乾淨"
+  ],
+  "bad_zh": [
+   "多則評論稱蔬果不新鮮、架上有過期品",
+   "常只開 1–2 個收銀台，排隊久",
+   "重新排貨架後難找東西、常缺貨"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLehZvuWsaSnlhQMXApWkXZ1BG7zRrlW2vBUTShIS2k1yKGS3lQnQ_I2C5qgv6qWEGNA1KWHR0vSp57uDTwo2X6gzyFqZlOGBFdaM6gLGjJkuL37aPm17Bce44v7IH6c3RYIN2HbMQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2060118152442603878",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeVybJm943xgJL2S5RwXb7uZd3wNcFlrMG8X0geof1ATo-dlBmghj7y00pbESKiHcfWYQ_EmvnO4qyCNB0RKaDiWw51Q60X2g7H8mwP6exP1vGdp0P1hYRwXxecyjEYVDRVJq4=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2060118152442603878",
+    "credit": "Zachary “Zacarías”"
+   }
+  ]
+ },
+ "Mineirão One Stop Mart Mercado Brasileiro|42.3799,-71.0958": {
+  "rating": 4.7,
+  "count": 61,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=7968016219420950686",
+  "other": [],
+  "summary_zh": "Google 4.7 分（61 則），Union Square 的巴西小超市，後面有自助餐與熟食，起司麵包（pão de queijo）很受好評。",
+  "good_zh": [
+   "巴西食材、零食選擇多",
+   "後方小餐廳的家常自助餐、起司麵包口碑好",
+   "肉品選擇多、價格合理"
+  ],
+  "bad_zh": [
+   "有 Too Good To Go 訂單到店卻提早關門的負評",
+   "評論數少（61 則），屬便利店規模"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2p8ZjuYVvof8lElct01W0ERNy2hRI1_-MRo9yQHj0O_WjfS007MW1WIRSKWxsXzuHv3LwSkcQEJri7Zudy2bnilzqSAA6nrVCdnERH3phf7q6jOkb1i_rD329qSv0-0gsnNCyRLwkDYtT=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=7968016219420950686",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Kurkman's Market|42.3272,-71.1246": {
+  "rating": 4.5,
+  "count": 132,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=4382456650821459004",
+  "other": [],
+  "summary_zh": "Google 4.5 分（132 則），Brookline 的老字號社區小超市，員工親切，但近期多則負評指標價與結帳價不符、有過期品與清潔問題。",
+  "good_zh": [
+   "社區型小超市，有蔬果、熟食、啤酒與葡萄酒",
+   "員工親切樂於幫忙",
+   "居民覺得方便，附近少有替代"
+  ],
+  "bad_zh": [
+   "多則評論稱貨架標價與結帳價格不同、拒絕退差價",
+   "有買到過期商品的抱怨",
+   "店內清潔度差、雜亂"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeiU3Aicwovbxl3RdAZ1jD-1MdmNIVdUyYUtcta2X7odv3EKj_mqlze9VmNxyAb5W_cP7c5WHDBCX8XJ3-kh3piPWszS6GalkUq0U2IHJnQiFUb3HRJkLx46EkkuGw-ibNnTrh4=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4382456650821459004",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdD25Uid_c62VKsF6NdobjoSevR6gcYckKD7md_SZF_ZpqnrY3qV17Xx03qJG1QrrHLiw3JwNyt0VfaZvqsWv8V2t5kYlH2uPmOf67I7BckW5OAZ8mb2t75c3Hm9yCxh9oP3OhN=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4382456650821459004",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Star Market|42.3435,-71.1005": {
+  "rating": 4.1,
+  "count": 1914,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=8620728868872393809",
+  "other": [],
+  "summary_zh": "Google 4.1 分（1914 則），Fenway 旁的 Star Market，蔬果熟食新鮮、進口特色食品多但偏貴；有免費停車但多則評論警告會被拖車。",
+  "good_zh": [
+   "蔬果、熟食新鮮，肉品選擇多",
+   "特色進口食品、熟食冷肉與葡萄酒選擇好",
+   "有顧客免費停車位"
+  ],
+  "bad_zh": [
+   "價格偏高",
+   "多則評論稱購物中車就被拖走（停車管制嚴格）",
+   "有門口垃圾箱異味、人行道有鼠糞的近期負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd1qv4_eZdS0B5dKz5FO-PNnnVte13e_Qvwla1Arp5xjsO8MsWC1AN-x9EFAA1yLbwuVeyTNuSOj2awtiNYu5MUYk4JOxyeoiquM7D041iPZcqo_hmzUTznlk3RYd1PBnjBvh1z2wrSf3c=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8620728868872393809",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfrZzi8I0hhl5Xpp9VEgNQJJXJvQOBr8cvZDqUbMbgYYkPJGdYLyJ0J__rLb2jnmnMjGxFt9fdWAry4OEFY_Xq-eyuxuq0QvdxJBpNL2djA06lCdAYDhPQ0geai3lr2nb37gAKJ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8620728868872393809",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Brigham and Women's Hospital|42.3356,-71.1060": {
+  "rating": 3.3,
+  "count": 700,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=2838076614897860675",
+  "other": [],
+  "summary_zh": "Google 3.3 分（700 則），哈佛教學醫院，不少人稱讚醫護與手術水準，但負評集中在帳單收費、預約困難與部分人員態度。",
+  "good_zh": [
+   "多則評論稱手術與治療成果好、醫護專業有同理心",
+   "護理師受到特別稱讚",
+   "有評論稱員工餐廳選擇不錯"
+  ],
+  "bad_zh": [
+   "多則抱怨收費與帳單制度不合理",
+   "沒有家庭醫師（PCP）就很難約專科",
+   "有警衛態度差、住院照護疏失的嚴重負評；Leapfrog 評級本次未能取得"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdwvMKatSvCZosrBBhlQLae5MSLZmnOQ09poVHx6FJNN7hAAm9dmcl3XaLeq8wVE0YqA8UccV4lUCvgCYhcdR4062HQAfqvuTteQqNkYX_VXTsNVuimXT9TqxVQ9C5EnqHpDDNt=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2838076614897860675",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Costco|42.2321,-71.1731": {
+  "rating": 4.5,
+  "count": 4011,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=3175529027324471024",
+  "other": [],
+  "summary_zh": "Google 4.5 分（4011 則），Dedham Legacy Place 的 Costco，有便宜加油站、停車位多，但比其他分店擁擠。",
+  "good_zh": [
+   "加油便宜、停車位多",
+   "退貨櫃台與藥局服務好",
+   "品項非常齊全，美食區披薩受好評"
+  ],
+  "bad_zh": [
+   "比 Avon 等分店擁擠",
+   "美食區尖峰時很混亂",
+   "有收銀員態度冷淡的評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeo8tL_JhYpSoRdn3SC0hAMndB0jksJ-hpjKHmAY4tJi2tYpgT51D6D8W0wj3085w8WTYw_RBKnYEzA9BeBvRxVkfma9WdTAeshDSkOLld36Idrnn5yujOuCBs1VJO_TyfFeZpIV2sL6PvB=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3175529027324471024",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqWK4bz5qF9JsxEffWKJT0fVvYlvfhyzYyLKkjwpZn_in9kKSwJdcwOAwK4NPQqDWjKiiYKShd47n2Jl8kVrpJ2Z5qHusfClYvvnhdXElIyiemHsAx2TqMOf1AUkM4ktu1O7vj87r60JCw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3175529027324471024",
+    "credit": "Boston guy"
+   }
+  ]
+ },
+ "Shaw's|42.4563,-71.0660": {
+  "rating": 3.8,
+  "count": 921,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=12356177078438516287",
+  "other": [],
+  "summary_zh": "Google 3.8 分（921 則），Melrose 市中心的 Shaw's，員工友善、熟食區好評，但多則評論嫌價格比附近超市貴、特價品常缺貨。",
+  "good_zh": [
+   "員工友善，烘焙與熟食區受好評",
+   "熟食區雞肉派好評",
+   "App 與店內有優惠券"
+  ],
+  "bad_zh": [
+   "多則評論稱價格很高（蔬果、肉類尤其貴）",
+   "特價品常缺貨",
+   "有切好的水果裡發現頭髮的負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeR7cTaLRpYthPTtD25l3HttuDyS1mm_T2c-D7eD_a2OTQtqhSK7ntP6iqpUgEt10JMZuDeaBQPjSjR4-3XDudlGhdQ4951WhbI6RGt9sV6LAYB_iIw5q7GWoa-0oq7uAFo9qyOxktlp_p2=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12356177078438516287",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeFVsC_l16XLBG5w8G5x1jeckn5mlJvHfu7BuDZWw6mrEPQsa1t4l1C_32NRdrHY-fOQXwxBywVkvbip52e8HvUJ5VnelxltWizU2pL2Rtc92VmYfFYwGcn_2zQeqfBU87aKrdfnHbdWP8=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12356177078438516287",
+    "credit": "Imad agoujgal"
+   }
+  ]
+ },
+ "Safy Halal Market|42.4264,-71.0679": {
+  "rating": 3.8,
+  "count": 103,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=12333679094010577535",
+  "other": [],
+  "summary_zh": "Google 3.8 分（103 則），Malden 的中東清真小超市，香料、茶葉與烘焙材料特別，但評價兩極，有肉品品質與態度的負評。",
+  "good_zh": [
+   "中東香料、烘焙材料（馬哈利、乳香膠等）與茶葉選擇多",
+   "有清真肉品與冷凍熟食",
+   "多數評論稱店主友善"
+  ],
+  "bad_zh": [
+   "有評論稱肉品不乾淨、價格高",
+   "有店員態度差的負評",
+   "停車位有限"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfEWFJaB4CnrJB3gNA6aCjXmQtEyrvDwrDlks1Mx5A9LE5vrMgwyAfKoLFlxBzJvyJXBddd2mvbq82EG5hS-p6lY5Dcm5pnRfCoufrv_g-vnYy5mmb1nndlIxemrilQ80TyrGFq=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12333679094010577535",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdt278uwLhvd0FzLiP4DIOUmyqWKdCxzJJo_hVj7UHNTPjnl7AIi3QgFiR9UYLAjk0uvxNUM_CWukY2oggU5-q5nVNvqql1YPRnZGS3DHySKubcxi35-41wVtqb2oGddgYCXE9hLQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12333679094010577535",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "MelroseWakefield Hospital|42.4600,-71.0611": {
+  "rating": 3.1,
+  "count": 662,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=2788334066531312612",
+  "other": [],
+  "summary_zh": "Google 3.1 分（662 則），產科、腸胃科等專科常獲好評，但急診負評集中在等候過久（有骨折等 4 小時以上的評論）。",
+  "good_zh": [
+   "產房與產後病房護理師備受讚譽",
+   "腸胃鏡等門診流程順、團隊親切",
+   "有評論稱急診雖擁擠但盡量加快處理"
+  ],
+  "bad_zh": [
+   "多則評論稱急診等候數小時、人手床位不足",
+   "有住院病房護理態度冷漠的負評",
+   "Leapfrog 評級本次未能取得"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcGmWO23vkQaiLFAR56EOz6pzaSQFdGOWwpL5PmwzW45MzuAKNHXyPJfsZCTYjam0Czv-2W7WIlXdp7XLNvnBO8_opTAiHjFkX3aWqySy9eA_K4P28jK3wPcUOciIpL7Hh_2qGaKrWqmeOH=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2788334066531312612",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfpADtkDeewS6KxOwMqJ8-6Cef1svOQ40gfCvYIqqNbXUJ23wJge8DyfwpTuJfyJ6Plujz7X-2xpcoYc65xBTIkF9k7ijsi_DFPFPx-slCNXsHPyL2xXmRs2taM7wm19VxIu8I=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2788334066531312612",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Super 88 香港超市|42.4215,-71.0740": {
+  "rating": 4,
+  "count": 1310,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=7121106530032235075",
+  "other": [],
+  "summary_zh": "Google 4.0 分（1310 則），Malden 大型亞洲超市，中、越、韓、日食材齊全、價格便宜，停車場大，但魚區有異味、要注意保存期限。",
+  "good_zh": [
+   "亞洲食材、調味料、乾貨選擇多，價格便宜",
+   "停車場大，好停車",
+   "有活海鮮、鮮肉與熟食"
+  ],
+  "bad_zh": [
+   "魚區有異味，有人提醒注意交叉污染",
+   "有接近過期或快壞的蔬果，要看保存期限",
+   "常只開兩個收銀台；結帳先收塑膠袋錢的抱怨"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLchtaMH8l97Fx4Rt9Hh0Ku9Yq1mHy5CoqDoa3JZj4AAuZLD8DcFTkG-AjXFZgWkvLJEDHjpXHcrlrQYYMwGrhWd5KBBhzQmx1p7zPQ0CSNP0kFTy9LTdr9XGLLt6dT3vAS0qL_n=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=7121106530032235075",
+    "credit": "Juma Nyumba"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdY_y0MBpQAa_uhmY2-ULTuNJeSxdNrW_ODNpZ_jIlTXLboCBlq00xLU7_i5-_K6JJ_rrww0zAVygrENn1WV3GwBXxCHNVRaZ22ysLIGxCs_GeN90GwSqwdex-W0Xof1N5n1oM=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=7121106530032235075",
+    "credit": "Juma Nyumba"
+   }
+  ]
+ },
+ "Mass General Brigham (Medford, Cardiology)|42.4154,-71.1108": {
+  "rating": 3,
+  "count": 12,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17927775149529037698",
+  "matched_name": "Mass General Brigham Community Physicians – Medford (137 Main St)",
+  "other": [
+   {
+    "source": "Google (individual cardiologist listing at 127 Main St: David Pladziewicz, MD)",
+    "rating": 4.8,
+    "count": 6,
+    "url": "https://www.google.com/maps?cid=84950517862685489"
+   }
+  ],
+  "summary_zh": "Google 上找不到 127 Main St 心臟科的獨立評分；約 50 公尺外的 MGB Community Physicians – Medford 為 3.0 分（僅 12 則），評論多為家庭醫師門診，非急診。",
+  "good_zh": [
+   "有評論稱家庭醫師細心、願意傾聽",
+   "有行政人員協助解決帳單問題的好評"
+  ],
+  "bad_zh": [
+   "評論僅 12 則且多為數年前，參考性低",
+   "有櫃台改約困難、護理師電話態度差的負評",
+   "門診診所，沒有急診"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuC3tGCAPfazFh63ZBhxbAQvtLNre47-QxZ0iu4hEFgpaPkd2jEyfwso6FfPn3ESt6-m6dXXrigKAED02ZYp9okWWN2ryLTO1p1SFOFfn69-cMYk238ENl8Ey0Eum1n5KB-vWl=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17927775149529037698",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "McKinnon's Market & Super Butcher|42.4123,-71.0509": {
+  "rating": 4.7,
+  "count": 441,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=158034644028878270",
+  "other": [],
+  "summary_zh": "Google 4.7 分（441 則），Everett 的家族經營肉鋪超市，肉品選擇多、價格實惠，常有組合箱特價，員工服務很受好評。",
+  "good_zh": [
+   "肉品、海鮮選擇多，價格實惠，常有肉品組合箱特價",
+   "員工熱心、會依預算推薦",
+   "可電話預訂取貨，熟食好吃"
+  ],
+  "bad_zh": [
+   "規模比大型超市小，其他分店品項更多",
+   "本次讀到的近期評論幾乎都是好評，負面資訊不足"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdMMh8N3we-u0P-A0lzVqTQYccDFDEx4aaty9sK9DEfjIrpSJEuhwIEsWuKaFEQOSCXHiPDiaDGqqoIy-vlHoMpvW_wAG6z3DwSJzJcHzd1Uxs99rXrN5CGQfm0JxyQlGHOEGGHkQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=158034644028878270",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "East Boston Neighborhood Health Center|42.3723,-71.0383": {
+  "rating": 2.5,
+  "count": 273,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9810731448717400978",
+  "matched_name": "NeighborHealth",
+  "other": [],
+  "summary_zh": "Google 2.5 分（273 則，現名 NeighborHealth），東波士頓社區健康中心，兼有急診/急症，負評集中在急診等候數小時與醫護態度。",
+  "good_zh": [
+   "科別齊全（兒科、牙科、藥局、眼科、急症）",
+   "老病人可用 MyChart 方便預約",
+   "社區少數就近的醫療選擇"
+  ],
+  "bad_zh": [
+   "多則評論稱急診擁擠、等候 2 小時以上",
+   "有醫護態度冷淡、輕忽症狀的負評",
+   "帳單相關資訊本次評論中未提到"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-GDf2Jctnf2kVo_Ls2LPKy1IvPzM8xILeFwyq0JsPK6oOpQJ22ekUBd_Cld4YQhf94TsmgdNDks4AesPgO_lSXAu7MDqISjD0tqYPY4yu4sdrEawu77GvCWzGU3GWgW7xucY=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9810731448717400978",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfoARQ2eKbxjoz7gNvX0BvPS5zyU8RpkFhTG0ufAdLge7MTgIzcB4--nBrf71zal17Odz-4ILPqHdpaYgi-x38HYGGxAqg45Mn5Ci7GcZBEixS3Z2Tyzpj-4te07hyZx2wgBwMr8g=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9810731448717400978",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Roche Bros.|42.3555,-71.0600": {
+  "rating": 4.3,
+  "count": 1504,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=16302758823791045713",
+  "other": [],
+  "summary_zh": "Google 4.3 分（1504 則），Downtown Crossing 的市中心超市，蔬果與烘焙受好評、收銀台多結帳快，但價格偏高，近期有過期品與海鮮品質負評。",
+  "good_zh": [
+   "蔬果新鮮、烘焙甜點受好評",
+   "收銀台多，結帳快",
+   "位在地鐵站旁，市中心方便"
+  ],
+  "bad_zh": [
+   "價格偏高",
+   "有架上過期商品、生蠔吃壞肚子的近期負評",
+   "有揹背包被保全緊盯的抱怨；無停車場評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcjpKnS2lfHv2Orh12sJVtB7ODBFa4M10Tl3t6oK566zgOG8wGq1bqtnHr8AqD75fUBgo5WdV6GS-z02hQHoqnLC95k_ssVLpVgaS-4Zu24xZadTeg1BUJ_HfgX8DnxH8dQQjmpRaLlAVj5=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16302758823791045713",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf2icLFSuG2j7l6ksCSyKYxwdHzElQSo_IVqLbWY9Hf6Alb9ooPQJG9r4kex_Afjgs-l2A7rdsl0aumaEgN7hXf4VyzAnIsv9ih8REBqVOT5iOZ-R1KedkGjIxs8k1eUzI35QU=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16302758823791045713",
+    "credit": "April Williams"
+   }
+  ]
+ },
+ "Whole Foods Market|42.3620,-71.0653": {
+  "rating": 4.3,
+  "count": 1502,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=10108010047354637863",
+  "other": [],
+  "summary_zh": "Google 4.3 分（1502 則），MGH 旁的 Whole Foods，有自家停車場（付費、可驗證折抵）、熱食吧與用餐區，員工親切，但有人嫌貴。",
+  "good_zh": [
+   "有自家停車場（付費，驗證後較便宜），在這區很難得",
+   "熱食吧、烘焙與用餐區受好評",
+   "員工與保全親切樂於幫忙"
+  ],
+  "bad_zh": [
+   "有評論稱價格偏高、湯品品質差、選擇少",
+   "停車需付費"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcLIvB6ja5PF3_m70B2GQP7f8FXoXWuSQo998ixtHEfcSXWRR8bCTRf-9hKq2mWzVcUX2eZAf9yFUBdcheWaCn4aWCOhkhNuP5TRwNiFeMKpbR_HtWARa88YdrhfPJrTigRm8tMGg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10108010047354637863",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd7HmrLziN9ertUawj99wewQwew1u7i4j8fuDk6n0gNT4Vkeh0Q2f7seHbFgMYZKd-iSxvYIvbuv_Fd6LrPvmxYQmowJUGaqpAYjcgYh_-UqBvTZRtwhfyOwCDJj9vpHE3eLFccjW0tMdY=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10108010047354637863",
+    "credit": "GLFVI"
+   }
+  ]
+ },
+ "Tufts Medical Center|42.3496,-71.0634": {
+  "rating": 3.2,
+  "count": 598,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=279553353060170734",
+  "other": [],
+  "summary_zh": "Google 3.2 分（598 則），市中心教學醫院，近期評論大力稱讚腫瘤科、外科與產科護理，但整體分數偏低；本次讀到的負評摘要提到急診半夜不給用廁所與喝水。",
+  "good_zh": [
+   "腫瘤科（North 8）醫護備受家屬感謝",
+   "外科病房與剖腹產照護受好評",
+   "醫師解說清楚、願意傾聽"
+  ],
+  "bad_zh": [
+   "整體評分僅 3.2，負評比例不低",
+   "Google 負評摘要提到凌晨 3 點不讓用廁所、沒水喝",
+   "本次未讀到急診等候時間的具體評論；Leapfrog 評級未能取得"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcB5R9fX1_Q81JxJoP7hDlGseMSDZ0MmXEC4T-RlCy3M_8YGGShOTmAO6cOvxNGsDh7oAhIe5J8tX7KHnqfrh8a1Z7McpoWyQAlAD92UB3ydMmG2GGm_qhVOqnvQ9J28bdFozJk=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=279553353060170734",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe2KYxDEXa9qyraDMjQN85zp08C69fiNy49icZ1oMg_sO1B14zxUKs2qnQn_ZZYo_bPgO3DGQGsNNhtI7czlIaFA-Vw5-WcwVF3T7XoKXvs989t_QpATuCBAtU9WXMiVYzc8jc=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=279553353060170734",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Trader Joe's|42.3419,-71.1205": {
+  "rating": 4.6,
+  "count": 3773,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=13958273466212330849",
+  "other": [],
+  "summary_zh": "Google 4.6 分（3773 則），Coolidge Corner 的 Trader Joe's，乾淨、員工友善、價格便宜，還有賣酒，但幾乎總是很擠、停車場小又難開。",
+  "good_zh": [
+   "價格便宜，香料、香蕉等特價多",
+   "員工友善，店內乾淨補貨勤",
+   "少數有賣葡萄酒與烈酒的 TJ，價格合理"
+  ],
+  "bad_zh": [
+   "幾乎總是人擠人，要避開尖峰",
+   "停車場很小、動線混亂（有延伸停車場較好停）",
+   "熱門新品很快賣完"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdk20TytJPPHDdXDAB2z-O-KQTCIlZQHa0HkuYFQfVypI10b7NJcrs2nZrUkMubMv7cdBrwjNfsiFH-Oyt9v4k5-mq1upmQbr7aA9DKSd1ZD0R89524eEU9zN-QZP28GRG4-TNVKNmBaYw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13958273466212330849",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWeIHTdVf7dRaQBn5rmF_ExJP3jy7qNZy9IQ1sr9IDYpAltQQFafUAFM_aesz4yCJdeNPG99Z2nahKUvtDSditMN9q9YkXeWQJ8tYksFTMY5vQMYx2_QtHjeh-cecggDCecTkvEEk_tsC1=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13958273466212330849",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "New England Baptist Hospital|42.3295,-71.1068": {
+  "rating": 4.2,
+  "count": 176,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=5663808278240523704",
+  "other": [],
+  "summary_zh": "Google 4.2 分（176 則），以骨科與脊椎手術聞名的醫院，評論大多稱讚手術團隊、護理與餐點，但停車按小時收費。",
+  "good_zh": [
+   "脊椎融合、膝關節置換等手術評價極高",
+   "護理、麻醉團隊專業有同理心",
+   "環境乾淨現代，餐點受好評"
+  ],
+  "bad_zh": [
+   "停車按小時收費",
+   "有護理助理不聽病人說明的負評",
+   "評論未提到急診，急診資訊本次未查到；Leapfrog 評級未能取得"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfXH70eHufomqS7fdEgRQ0PtbR9RIdLItTIgMg69Koq397LFlovCS3OW6MTm2Vro5cpiKSyc7GX2ikzrzcmyVuwlrDBT0Aq_PgdTxfv27NxUCjZWcD6GbVZs4bR3URPZQikybQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5663808278240523704",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdg2GFWpJ9LUaNJ92nOn2ApGCPMSOI6QRLSBbYz3MnfMuGzsYKk-WHUHt4cV_altoGVIXwW0bjzk9banMd3taGzCqSexiDQn2oe--aVJynB6qvLcsOPUhJWNYmyVuyiHMhsd13vwO_KFtWD=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5663808278240523704",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Nazar Halal Food & Bakery|42.4107,-71.0753": {
+  "rating": 4.6,
+  "count": 401,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=16345639041242809399",
+  "matched_name": "Nazar Market",
+  "other": [],
+  "summary_zh": "Google 4.6 分（401 則，Google 名為 Nazar Market），Medford 的土耳其清真超市兼餐廳，麵包現烤、肉品新鮮、好停車，但有夏天冷藏櫃不夠冷的負評。",
+  "good_zh": [
+   "現烤麵包、甜點與清真肉品新鮮",
+   "土耳其/阿拉伯食材多，附設餐廳好吃",
+   "評論稱價格合理、總是有停車位"
+  ],
+  "bad_zh": [
+   "有評論稱夏天開放式冷藏櫃不夠冷，香腸、起司變質",
+   "本次評論中負評較少，資訊有限"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfmSjtL2KdR6sTituHWzBMHKdQ8uOGxs48UwLcfCx5j8abJ7YqoibaEk9lcE0fSYX1xVxLnG6m5u2HFRFhmYkickvaXVFjgWymLY33XpHycT_hPOyVN4aakayWsr_L-UFTRfxwBjg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16345639041242809399",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8OwM7iRVxVBX8JLuUeSkdGgcqMc8hor5yUWU5IGrQPOwJoidD07i8xwXdOhQRSjJk2-5JQOEEwrOvI6YgS4zr4-rc0qRH5_9JmDm63xiGnhfeMX2Xuj2tNqyYBK-99qd3YyVw-Kf7y-pX=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16345639041242809399",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Market Basket|42.3807,-71.1016": {
+  "rating": 4.4,
+  "count": 4818,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=6402191768350306653",
+  "other": [],
+  "summary_zh": "Google 4.4 分（4818 則），離市區最近的 Market Basket，價格明顯比附近便宜，但店小走道窄、停車場常滿，幾乎隨時都很擠。",
+  "good_zh": [
+   "價格明顯比附近超市便宜，有清真雞肉",
+   "熱食吧與壽司便宜好吃",
+   "可搭公車或從 Union Square 站步行到"
+  ],
+  "bad_zh": [
+   "店面老舊狹小、走道窄，隨時都很擠",
+   "停車場小、常常客滿",
+   "有冷凍肉凍傷、水果腐爛味的負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfrhlUXqKlp6QyiQ4T8ZUCSTbZmWC_wp-hxpZRq0YMLSrJxepVK4nBWB3_1FEEkrlJnyvBtG5ashsCaR9MpmSOiS0BtSDKJUvVvezLqd3tSYzcHtHSi-jLq9WBDRRkKmaGN-QBvP0bcVH0=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6402191768350306653",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc3AjTFDddWT34hyHPHMDbbCXhgOS9z8eJbjsBhEEnnJkzPgdUj0S4JM-K-YCB1JUX7zpvLwOhvMdD23WCG3MfrOAeYYtHCA6KC5yl8eW0w_-SrMKEwEVJwGs60mwXNFX2o6GR1=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6402191768350306653",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Target|42.3763,-71.0906": {
+  "rating": 4,
+  "count": 1080,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=3722936472423671531",
+  "other": [],
+  "summary_zh": "Google 4.0 分（1080 則），Somerville 的 Target，有星巴克、店面乾淨，但近期負評提到很多商品上鎖要等店員開、熱門商品難買。",
+  "good_zh": [
+   "店面乾淨，有星巴克",
+   "品項齊全（生活用品、食品、服飾）",
+   "有員工主動幫忙找缺貨商品"
+  ],
+  "bad_zh": [
+   "很多商品上鎖，要等店員來開",
+   "商品常不在原本區域、難找",
+   "有網路顯示有貨、到店卻說賣完的抱怨"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdEyQp9pgHeoRxPhYQZiwhU5DWRPqADlllkB5KfY30r2i-M1hCr4gtgJcUL6D2lVQ5jnL3lW38UOn_l5g1iK6nB52q1hoHlftX7BuUW4rkb9-uf9QegTkPpV-KJCKzkBYbRCwDRWwmIr8Q=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3722936472423671531",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdNOoGYmCR2UhZJOzO3wg2FffP1v7wLiN0obYWrcrvwd_2FSx6a8NVJsI9ME2AmCfk3CTnHjhJJ3bFEDu0tBAy_cggsBBCedboWiOxorShr0sGuOHJ7lM0kq84aqbJqzzdNeVIaM2bHWZc=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3722936472423671531",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Tropical Dimension Food Store|42.3733,-71.0986": {
+  "rating": 4.3,
+  "count": 6,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=14562319963325001712",
+  "matched_name": "Tropical Dimension",
+  "other": [],
+  "summary_zh": "Google 4.3 分（僅 6 則），Cambridge St 的小型加勒比/熱帶食品店，本次沒有取得文字評論，價格、新鮮度與停車資訊不明。",
+  "good_zh": [],
+  "bad_zh": [
+   "評論僅 6 則、無文字評論，參考性低"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLds7sUbStNiAyh8a9WC_CiwnyvIJECyrGBXfrEv564WQlyDMFEnBQGb-Yi63Q6TbV95pdSa9keinrvzYim-Pj6djr508JpnALTnv-smqUNiqjgrjO15FeOeEItOqWbsv49LYPTC=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14562319963325001712",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ }
+}

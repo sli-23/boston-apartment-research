@@ -1,0 +1,39 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {"value": null, "label": "沒找到任何網站的評分（RentCafe 2024 存檔也沒有評價）"},
+  "summary_zh": "2023 年完工，在 Chelsea 的 Mystic Mall 附近，離 Silver Line 和 Newburyport/Rockport 通勤火車站幾個路口。網友普遍說 V2 的戶型比附近其他新樓大，兩房兩衛有 1,000–1,380 平方英尺。住戶親身評價很少，多是轉述：朋友住過、誇物業管理好；也有 Chelsea 居民說 V2「要看單位朝向，有好有壞」。噪音：通勤火車經過，附近住戶說聽得到，但最晚一班約 11:30、最早約 7 點，不至於吵醒人；Chelsea 一帶還有機場噪音、重工業和大馬路車流。安全：Chelsea 的評價兩極，有人住 5 年只丟過一個包裹，也有人說治安差、常被搭訕騷擾。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":3,
+   "points_zh":["靠近通勤火車軌道：附近住戶（2025-11）說聽得到火車，最晚一班約 11:30、最早約 7 點，「不算太吵，從沒被吵醒」，每小時 1–2 班","Chelsea 居民（2026-06）：比起 Quincy，這裡更靠近機場噪音和重工業","另一位網友：如果樓靠近大馬路，噪音和車流「很誇張」；新樓隔音通常不錯"]},
+  {"key":"safety","label_zh":"安全","score":3,
+   "points_zh":["住 Chelsea 5 年的居民（2026-06）：唯一遇過的犯罪是一個亞馬遜包裹被偷；大型公寓住的多是年輕上班族","另一位住過 6 個月的人：常被搭訕騷擾，治安差，停在路邊的車被偷車的人撞爛","有網友建議打警局非緊急電話，報 V2 地址查犯罪統計；這次沒查到 Chelsea 的開放資料"]},
+  {"key":"management","label_zh":"物業管理","score":4,
+   "points_zh":["2026-06：朋友住過 V2，誇物業管理好，說「漂亮、管理得好的社區」","2026-06：另一位網友的單身朋友住 V2，很喜歡","有看房者聽說同一家公司管理的 Vero 有老鼠問題，所以對 V2 有疑慮（沒證實）"]},
+  {"key":"amenities","label_zh":"設施","score":4,
+   "points_zh":["健身房有 Omnia 訓練器材和 Echelon 健身鏡；三個獨立中庭，一年四季都能用","停車位充足；可以養貓狗","有網友說 Maxwell、Pioneer 的健身房比 V2 大"]},
+  {"key":"value","label_zh":"性價比","score":4,
+   "points_zh":["2026-10-26 ApartmentList：兩房兩衛 B04V $3,211–3,261（1,105–1,205 平方英尺），16 個月租約","同價位面積比附近新樓大，網友多次提到「V2 面積最大」","優惠：現在簽約送 1 個月免租（有附加條件）；2024-12 RentCafe 存檔時兩房是 $3,030–3,565"]}
+ ],
+ "pros_zh":["兩房面積大（1,000–1,380 平方英尺）","離 Silver Line 和通勤火車站近","網友轉述物業管理不錯","停車位充足","租金比 Boston 市區便宜","有部分朝南、採光好的單位"],
+ "cons_zh":["通勤火車聲","Chelsea 有機場噪音、重工業","Chelsea 治安評價兩極","住戶親身評價很少","採光要看單位朝向","附近沒有地鐵（只有 Silver Line 公車和通勤火車）"],
+ "quotes":[
+  {"text":"V2 是一個漂亮、管理得好的社區，戶型比這一帶其他樓大。朋友住過，誇物業管理好。","source":"Reddit r/ChelseaMA · 2026-06","url":"https://www.reddit.com/r/ChelseaMA/comments/1ty6tgn/help_me_pick_my_new_home_v2_maxwell_pioneer_and/oqw0rze/"},
+  {"text":"我住在同一條路上的另一棟樓。你會聽到火車，不過最晚一班大約 11:30，最早大約 7 點。噪音不算太吵，我從來沒被吵醒。","source":"Reddit r/bostonhousing · 2025-11","url":"https://www.reddit.com/r/bostonhousing/comments/1ouqb37/v2_apartments_in_chelsea_ma/nonyo9q/"},
+  {"text":"V2 要看單位朝向，有好有壞。看房時一定要看樓梯間和垃圾間，比大廳更能看出清潔和管理。","source":"Reddit r/bostonhousing · 2026-06","url":"https://www.reddit.com/r/bostonhousing/comments/1ty6lfu/help_me_pick_new_home_v2_maxwell_pioneer_and_duo/oq16aw8/"},
+  {"text":"我在 Chelsea 住了 5 年，唯一遇過的犯罪是一個亞馬遜包裹被偷。","source":"Reddit r/bostonhousing · 2026-06","url":"https://www.reddit.com/r/bostonhousing/comments/1u70vhv/quincy_to_chelsea_move/os5zopd/"},
+  {"text":"Chelsea 比 Quincy 稍微亂一點，但不誇張。更大的問題是靠近機場噪音和重工業。","source":"Reddit r/bostonhousing · 2026-06","url":"https://www.reddit.com/r/bostonhousing/comments/1u70vhv/quincy_to_chelsea_move/orwrxxe/"}
+ ],
+ "sources":[
+  {"name":"ApartmentList","url":"https://www.apartmentlist.com/ma/chelsea/v2"},
+  {"name":"RentCafe（2024-12 存檔）","url":"https://web.archive.org/web/20241208041222/https://www.rentcafe.com/apartments/ma/chelsea/v2/default.aspx"},
+  {"name":"Reddit：V2 火車噪音討論","url":"https://www.reddit.com/r/bostonhousing/comments/1ouqb37/v2_apartments_in_chelsea_ma/"},
+  {"name":"Reddit：V2、Maxwell、Pioneer、Duo 比較","url":"https://www.reddit.com/r/ChelseaMA/comments/1ty6tgn/help_me_pick_my_new_home_v2_maxwell_pioneer_and/"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/V2+Apartments+250+Vale+St+Chelsea+MA"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=V2%20apartments%20Chelsea"}
+ ],
+ "gaps_zh":"官網、Google、Yelp、Apartments.com、RentCafe 都擋了自動抓取。Reddit 上的意見多是朋友轉述，沒找到住戶親自寫的長篇評價。2025-11 有網友說看到「一些評價提到火車噪音」，但原始評價找不到。Chelsea 的治安開放資料沒查到。"
+}

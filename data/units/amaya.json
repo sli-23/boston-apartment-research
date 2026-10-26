@@ -1,0 +1,37 @@
+{
+ "official_url": "https://www.liveamaya.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/revere/amaya#bedrooms-2",
+ "virtual_tours": [
+  {"label": "360 度虛擬導覽（大廳、泳池、健身房、樣品屋）", "url": "https://viewer.tourbuilder.com?tour=66dde99fcf5929616aa88253"},
+  {"label": "Instagram 實景", "url": "https://www.instagram.com/liveamaya/"}
+ ],
+ "plans_2b2b": [
+  {"name": "C2", "sqft": "1,035", "price": "$3,659", "price_min": 3659, "as_of": "2026-10-26", "available": "1 間（#301），12/7 入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/dc3ddb9b068211e1920b1c5c02722245.jpg"},
+  {"name": "C1.1", "sqft": "977", "price": "$3,794–3,984", "price_min": 3794, "as_of": "2026-10-26", "available": "2 間（#577 現在入住 $3,794；#877 11/1 入住 $3,984）", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/c257873f70f89d6a277a7f84c080dac8.jpg"},
+  {"name": "C4", "sqft": "991", "price": "$3,839", "price_min": 3839, "as_of": "2026-10-26", "available": "1 間（#668），現在入住", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/8f6773eb40bea45821602c328b5fd9c8.jpg"},
+  {"name": "C1", "sqft": "1,011", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/89592aa41fa99d186bf42168061eedfb.jpg"},
+  {"name": "C1.2", "sqft": "977", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/abf79f8e3a69bad82a69cbf8a2ad6f48.jpg"},
+  {"name": "C2 BF", "sqft": "1,035", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/cdb408399e86fdf719370c9a733cc9a6.jpg"},
+  {"name": "C2.1", "sqft": "1,016", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/36eecb680d64f265bb90d06ce2117703.jpg"},
+  {"name": "C3", "sqft": "1,149", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/de0994f28ab601c20d5c5f4cf5e5406c.jpg"}
+ ],
+ "fees": {
+  "parking_garage": "預留車位 $175–200/月（官方費用表；沒寫是室內還是室外）",
+  "parking_surface": "另有第三方停車，價格不定（官方費用表）",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；垃圾包含在租金內",
+  "electric_heat": "電由第三方收費，住戶自付（沒找到月平均金額）。2025 年有轉租貼文說含暖氣，跟費用表不一致，簽約前要確認",
+  "internet": "第三方，自己申請、自己付",
+  "pet_rent": "$50–75/月（官方費用表）",
+  "pet_deposit_or_fee": "費用表和 ApartmentList 都沒寫寵物押金",
+  "other": "標準押金 $500；必須有租客責任險（物業方案 $20.60/月，可自己買）；儲藏室 $75–150/月；遲交 $150；轉換戶型 $1,000；提前解約 1 個月房租；月租制每月加 $1,000。現在 12/31 前入住送 3 個月免租（有附加條件）",
+  "source": "https://communityfees.bozzuto.com/property/F264E6/export",
+  "as_of": "官方費用表（Bozzuto），2026-10-26 產生並讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，有部分犬種限制（ApartmentList 沒列出是哪些犬種）。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（頁面資料 2026-10-25 更新），12 個月租約。ApartmentList 的優惠欄寫「12/31 前入住送 3 個月免租」，沒說明上面的價格有沒有已經攤進優惠，簽約前要跟辦公室確認實際每月要付多少。申請條件：家庭稅前總收入要有房租的 3 倍。360 導覽裡有樣品屋，但不一定是兩房戶型。",
+ "sources": [
+  {"name": "ApartmentList（房型、價格）", "url": "https://www.apartmentlist.com/ma/revere/amaya"},
+  {"name": "官方費用表（Bozzuto）", "url": "https://communityfees.bozzuto.com/property/F264E6/export"},
+  {"name": "官方網站", "url": "https://www.liveamaya.com/floor-plans/"}
+ ]
+}

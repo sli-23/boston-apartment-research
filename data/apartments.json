@@ -1,0 +1,341 @@
+[
+ {
+  "slug": "the-pioneer",
+  "name": "The Pioneer",
+  "address": "1760 Revere Beach Pkwy, Everett, MA 02149",
+  "lat": 42.4016434,
+  "lng": -71.0455053,
+  "gid": "/g/11gr5y0bdg"
+ },
+ {
+  "slug": "corey-10-luxury-apartments",
+  "name": "Corey 10 Luxury Apartments",
+  "address": "10 Corey St, Melrose, MA 02176",
+  "lat": 42.4521176,
+  "lng": -71.0679011,
+  "gid": "/g/11f6l5768j"
+ },
+ {
+  "slug": "cambridge-park-apartments",
+  "name": "Cambridge Park Apartments",
+  "address": "30 Cambridgepark Dr, Cambridge, MA 02140",
+  "lat": 42.3943583,
+  "lng": -71.1429028,
+  "gid": "/g/1th0zccj"
+ },
+ {
+  "slug": "the-laurent",
+  "name": "The Laurent",
+  "address": "55 Wheeler St, Cambridge, MA 02138",
+  "lat": 42.3908894,
+  "lng": -71.1443926,
+  "gid": "/g/11v9kkqt9d"
+ },
+ {
+  "slug": "hanover-alewife",
+  "name": "Hanover Alewife",
+  "address": "130 Cambridgepark Dr, Cambridge, MA 02140",
+  "lat": 42.3937014,
+  "lng": -71.14521239999999,
+  "gid": "/g/11c54wxg2w"
+ },
+ {
+  "slug": "walter-huntington-apartments",
+  "name": "Walter Huntington Apartments",
+  "address": "33-37 S Huntington Ave, Jamaica Plain, MA 02130",
+  "lat": 42.3310483,
+  "lng": -71.11186769999999,
+  "gid": "/g/11d_bck3t3"
+ },
+ {
+  "slug": "bell-olmsted-park-apartments",
+  "name": "Bell Olmsted Park Apartments",
+  "address": "161 S Huntington Ave, Boston, MA 02130",
+  "lat": 42.3270091,
+  "lng": -71.1120627,
+  "gid": "/g/11b7fptt_n"
+ },
+ {
+  "slug": "the-benjamin-seaport-residences-apartments",
+  "name": "The Benjamin Seaport Residences Apartments",
+  "address": "25 Northern Ave, Boston, MA 02210",
+  "lat": 42.353496899999996,
+  "lng": -71.0474227,
+  "gid": "/g/11c4vj4rkv"
+ },
+ {
+  "slug": "the-brynx",
+  "name": "The Brynx",
+  "address": "201 S Huntington Ave, Boston, MA 02130",
+  "lat": 42.325738799999996,
+  "lng": -71.1122855,
+  "gid": "/g/11h5q864cw"
+ },
+ {
+  "slug": "avalon-at-assembly-row",
+  "name": "Avalon at Assembly Row",
+  "address": "333 Great River Rd, Somerville, MA 02145",
+  "lat": 42.3955329,
+  "lng": -71.08051139999999,
+  "gid": "/g/11b6c5x018"
+ },
+ {
+  "slug": "windsor-at-maxwell-s-green-apartments",
+  "name": "Windsor at Maxwell's Green Apartments",
+  "address": "1 Maxwells Green, Somerville, MA 02144",
+  "lat": 42.393556,
+  "lng": -71.107325,
+  "gid": "/g/11h1792nj"
+ },
+ {
+  "slug": "j-malden-center",
+  "name": "J Malden Center",
+  "address": "190 Pleasant St, Malden, MA 02148",
+  "lat": 42.4270567,
+  "lng": -71.0727465,
+  "gid": "/g/11hdzbnrrk"
+ },
+ {
+  "slug": "maxwell",
+  "name": "Maxwell",
+  "address": "102 Mill Rd, Everett, MA 02149",
+  "lat": 42.4000434,
+  "lng": -71.045879,
+  "gid": "/g/11w3t4h56y"
+ },
+ {
+  "slug": "amaya",
+  "name": "Amaya",
+  "address": "50 Salt St, Revere, MA 02151",
+  "lat": 42.3972769,
+  "lng": -70.99352189999999,
+  "gid": "/g/11vz0qlc8_"
+ },
+ {
+  "slug": "the-brookliner",
+  "name": "The Brookliner",
+  "address": "5 Washington St, Brighton, MA 02135",
+  "lat": 42.3423547,
+  "lng": -71.1400555,
+  "gid": "/g/11khc_n7ks"
+ },
+ {
+  "slug": "mason",
+  "name": "Mason",
+  "address": "101 Mill Rd, Everett, MA 02149",
+  "lat": 42.4002701,
+  "lng": -71.0445215,
+  "gid": "/g/11s3k752d0"
+ },
+ {
+  "slug": "v2-apartments",
+  "name": "V2 Apartments",
+  "address": "250 Vale St, Chelsea, MA 02150",
+  "lat": 42.398328899999996,
+  "lng": -71.0419519,
+  "gid": "/g/11ssw_zzry"
+ },
+ {
+  "slug": "alder-at-allston-yards",
+  "name": "Alder at Allston Yards",
+  "address": "301 Guest St, Boston, MA 02134",
+  "lat": 42.3558886,
+  "lng": -71.1401106,
+  "gid": "/g/11vf7wwy0p"
+ },
+ {
+  "slug": "the-eddy",
+  "name": "The Eddy",
+  "address": "10 New St, Boston, MA 02128",
+  "lat": 42.3713039,
+  "lng": -71.0440556,
+  "gid": "/g/11cp7l3ttp"
+ },
+ {
+  "slug": "zinc",
+  "name": "Zinc",
+  "address": "22 Water St, Cambridge, MA 02141",
+  "lat": 42.373109299999996,
+  "lng": -71.07869269999999,
+  "gid": "/g/11bw2fwzcj"
+ },
+ {
+  "slug": "vero-apartments",
+  "name": "Vero Apartments",
+  "address": "255 Vale St, Chelsea, MA 02150",
+  "lat": 42.3996023,
+  "lng": -71.0417294,
+  "gid": "/g/11fp3k1yz8"
+ },
+ {
+  "slug": "urbane-at-alewife",
+  "name": "Urbane at Alewife",
+  "address": "50 Cambridgepark Dr, Cambridge, MA 02140",
+  "lat": 42.3940903,
+  "lng": -71.143837,
+  "ai": true,
+  "why_zh": [
+   "安靜：BTS 2020 交通噪音模型在門牌點約 47.3 dB，50 公尺內最高 48.0 dB（現有 21 棟中位數 52.9 dB）；Route 2 約 270 公尺、Fitchburg 通勤鐵路約 160 公尺",
+   "安全：Cambridge 全市 2025 年暴力 4.36／財產 26.0 每千人（FBI），高於全美；但同街的 Cambridge Park Apartments 所在報案區 1110 一年僅 1 件暴力、77 件財產",
+   "新／現代：2022 年完工；官網列中央空調（Central AC & heat）、石英／花崗岩檯面、不鏽鋼家電、寬版木紋地板、四種裝潢方案；ApartmentList 列室內洗烘",
+   "交通：步行約 6 分鐘（519 公尺）到 Alewife 紅線；估算到 BOS17 大眾運輸約 36 分鐘（紅線 20 分）、開車無塞車約 17 分鐘",
+   "2b2b／狗／車位：ApartmentList 有 14 種 2b2b 房型，目前 4 間開放 $4,019–$4,615；官網有 dog run、寵物清洗站，並列 Garage Parking Available"
+  ],
+  "concerns_zh": [
+   "Cambridge 全市犯罪率是名單各區中最高的（財產 26.0／千人）",
+   "與名單上 Cambridge Park、The Laurent、Hanover Alewife 同在 Alewife 一帶，區位重複；離 Seaport 較遠，Alewife 一帶開車上班常塞車",
+   "官網的 Garage Parking 標註「*Only Available in Select Units」，車位需先確認"
+  ],
+  "built": "2022（ApartmentList year_built；官網稱 brand-new / newly-built）"
+ },
+ {
+  "slug": "prism-apartments",
+  "name": "Prism Apartments",
+  "address": "50 Rogers St, Cambridge, MA 02142",
+  "lat": 42.3656129,
+  "lng": -71.0789763,
+  "ai": true,
+  "why_zh": [
+   "安靜：BTS 門牌點約 47.9 dB（名單上只有兩棟比它更安靜），50 公尺內臨路一側最高 56.6 dB；離 US 1 約 970 公尺",
+   "安全：Cambridge 全市 2025 年暴力 4.36／財產 26.0 每千人（FBI），各區中最高，屬普通水準",
+   "新／現代：2021 年新建；官網列室內洗烘、石英檯面、全新不鏽鋼家電、智慧家居",
+   "交通：步行約 10 分鐘（約 800 公尺）到 Kendall/MIT 紅線或 Lechmere 綠線；估算到 BOS17 大眾運輸約 27 分鐘、開車無塞車約 7 分鐘",
+   "2b2b／狗／車位：5 種 Spectrum 2b2b 房型（2A $4,923、2D $4,699）；官網 FAQ 說狗沒有體重限制（有品種限制，每隻寵物 $65／月）；有門禁地下車庫，Garage 每月 $380 起"
+  ],
+  "concerns_zh": [
+   "Cambridge 全市財產犯罪率偏高（26.0／千人）",
+   "到捷運站剛好約 10 分鐘，是 5 棟中最遠的",
+   "官網與 ApartmentList 都只寫「Air Conditioning」，沒說是不是中央空調"
+  ],
+  "built": "2021（ApartmentList year_built，標示 New Construction）"
+ },
+ {
+  "slug": "clippership-apartments-on-the-wharf",
+  "name": "Clippership Apartments on the Wharf",
+  "address": "63 Lewis St, Boston, MA 02128",
+  "lat": 42.3671664,
+  "lng": -71.0412266,
+  "ai": true,
+  "why_zh": [
+   "安靜：BTS 門牌點約 50.0 dB、50 公尺內最高 50.1 dB；道路與鐵路噪音都低於 45 dB 的建模門檻，主要是飛機（48.9 dB）",
+   "安全：East Boston 2025 年暴力 1.68／財產 8.66 每千人（Analyze Boston）；附近 The Eddy（約 500 公尺）的 400 公尺圈內一年 12 件暴力、26 件財產",
+   "新／現代：2021 年完工；官網寫 modern finishes and fixtures、in-home laundry；ApartmentList 列冷氣、硬木地板、陽台／露台",
+   "交通：步行約 4 分鐘（327 公尺）到 Maverick 藍線；估算到 BOS17 大眾運輸約 28 分鐘、開車無塞車約 9 分鐘（BOS21 也約 9 分鐘），官網也列有水上計程車",
+   "2b2b／狗／車位：5 種 2b2b 房型（2.2B $4,540、2.2C $4,981、2.2E $4,013）；可養狗（2 隻上限），有狗公園和洗狗區；官網列地下車庫（Underground garage）"
+  ],
+  "concerns_zh": [
+   "附近 400 公尺內近 12 個月有 41 起暴力案件（Boston 警方開放資料），比清單上大部分公寓多，晚上出入要注意",
+   "緊鄰 Logan 機場，BTS 模型沒算直升機和地面作業的噪音，實際聽到的飛機聲可能比數字更明顯，看房時最好挑起降時段去",
+   "冷氣型式未註明是不是中央空調；ApartmentList 沒有建成年份",
+   "Seaport 辦公室離藍線站還要步行約 17 分鐘，開車需經過收費隧道"
+  ],
+  "built": "2021（Lendlease Clippership Wharf 專案頁 completion 2021）"
+ },
+ {
+  "slug": "revolution-at-assembly-square",
+  "name": "Revolution at Assembly Square",
+  "address": "290 Revolution Dr, Somerville, MA 02145",
+  "lat": 42.3913085,
+  "lng": -71.0806255,
+  "ai": true,
+  "why_zh": [
+   "安靜：BTS 門牌點約 51.7 dB、50 公尺內最高 52.2 dB，和名單上的 Avalon at Assembly Row（50.9）差不多；I-93 約 180 公尺、橘線約 290 公尺",
+   "安全：Somerville 全市 2025 年暴力 1.95／財產 15.8 每千人（FBI），暴力犯罪約為全美的 0.6 倍",
+   "新／現代：2022 年新建；官網列石英檯面、Samsung 不鏽鋼家電、寬版地板、全尺寸 Samsung 洗烘、LED 背光鏡",
+   "交通：步行約 4 分鐘（301 公尺）到 Assembly 橘線；估算到 BOS17 大眾運輸約 30 分鐘、開車無塞車約 8 分鐘",
+   "2b2b／狗／車位：官網有 2 Bedrooms/2 Bath 房型，$4,586 起（ApartmentList 共 9 種，$4,586–$4,972）；可養狗，有寵物公園和寵物 spa；官網列 garage parking available"
+  ],
+  "concerns_zh": [
+   "Assembly Row 是購物餐飲區，晚上人多；名單上 Avalon at Assembly Row 的 400 公尺圈內一年 279 件財產犯罪",
+   "狗有品種限制（Husky、German Shepherd、Pit Bull 等不收）",
+   "官網的門牌在 OSM 沒有對應點，座標用的是 OSM 上同一位置的「Alta Revolution Apartments」建物；冷氣型式也未註明"
+  ],
+  "built": "2022（ApartmentList year_built）"
+ },
+ {
+  "slug": "modera-medford",
+  "name": "Modera Medford",
+  "address": "5 Cabot Rd, Medford, MA 02155",
+  "lat": 42.4052736,
+  "lng": -71.0733994,
+  "ai": true,
+  "why_zh": [
+   "安靜：BTS 門牌點約 52.0 dB、50 公尺內最高 52.2 dB，略低於名單中位數 52.9；道路噪音低於建模門檻，主要是飛機（50.2 dB）",
+   "安全：Medford 2025 年 FBI 統計 108 件暴力、558 件財產（人口 59,842），約為暴力 1.80／財產 9.32 每千人，比 Cambridge、Somerville 低",
+   "新／現代：2017 年建；ApartmentList 列室內洗烘、冷氣、花崗岩檯面、不鏽鋼家電、硬木地板，並標示 Recently Renovated；另有無鑰匙門禁和 USB 插座",
+   "交通：步行約 10 分鐘（764 公尺）到 Wellington 橘線；估算到 BOS17 大眾運輸約 38 分鐘、開車無塞車約 11 分鐘",
+   "2b2b／狗／車位：ApartmentList 有 42 種 2b2b 房型（目前開放 1 間 $3,550）；可養狗；車庫租約含 1 個車位，第 2 個 $150／月"
+  ],
+  "concerns_zh": [
+   "Medford 不在原本偏好的區域；到 Wellington 站剛好約 10 分鐘",
+   "Route 16 大約在 200 公尺外（用 ApartmentList 的座標量的，離門牌點約 70 公尺）；官網擋爬蟲沒能看，冷氣型式未確認",
+   "2017 年建，是 5 棟裡最舊的"
+  ],
+  "built": "2017（ApartmentList year_built）"
+ },
+ {
+  "slug": "211-green-street",
+  "name": "211 Green Street",
+  "address": "211 Green St, Jamaica Plain, MA 02130",
+  "lat": 42.3092773,
+  "lng": -71.1049759,
+  "ai": true,
+  "why_zh": [
+   "套內洗烘：官網 Apartment Features 寫「Laundry in Every Unit」；ApartmentList 房源描述也寫「in-unit laundry」",
+   "安靜：BTS 2020 交通噪音模型在門牌點約 52.9 dB，50 公尺內臨道路一側最高 60.5 dB；和名單現有 26 棟的中位數 52.4 dB 差不多，比 Walter Huntington（64.9）、Bell Olmsted Park（59.9）安靜；東北走廊鐵路／橘線約 230 公尺",
+   "交通：步行約 4 分鐘（353 公尺）到 Green Street 橘線站；估算到 BOS17 大眾運輸約 33 分鐘（橘線 14 站到 Downtown Crossing 再轉紅線），到 BOS21 約 39 分鐘；開車無塞車約 13 分鐘",
+   "2b2b：B1 房型 935 呎（官網 #202、#302 的房型圖都畫有兩間衛浴，#402 也是 935 呎），ApartmentHomeLiving 列 $3,600–$4,000；另有 D4 房型 1,077 呎 2 房 2 衛",
+   "狗／車位：ApartmentHomeLiving 寫可養狗、每戶最多 2 隻、65 磅以下、限制品種；ApartmentList 費用表 Dog Rent $75／月；官網 Building Luxuries 列「Garage Parking」，ApartmentList 寫車位 $250／月（可選）",
+   "現代內裝：官網列石英檯面、不鏽鋼家電、中央冷暖氣（Central Heating & Cooling）、落地窗、屋頂露台、健身房、電梯"
+  ],
+  "concerns_zh": [
+   "停車資訊不一致：官網寫 Garage Parking，ApartmentHomeLiving 卻寫 Surface Lot（Partially covered）、最多 24 個車位，要先問清楚是不是室內車庫、還有沒有位子",
+   "目前看不到 2b2b 空房：官網 #302 標 $3,800、Available 9/1（頁面沒寫更新日期），ApartmentHomeLiving（2026-09-09 更新）顯示 B1 Unavailable",
+   "官網寫 45 戶（ApartmentHomeLiving 寫 37 戶）的精品小樓，由仲介（Fenway Property Advisors）負責租賃，沒有大型物業的管理處和包裹室資訊"
+  ],
+  "built": "2023（ApartmentHomeLiving／Apartment Finder：Built in 2023，37 戶、5 層；官網稱 brand new construction）"
+ },
+ {
+  "slug": "50-stedman-street",
+  "name": "50 Stedman Street",
+  "address": "50 Stedman St, Jamaica Plain, MA 02130",
+  "lat": 42.3034562,
+  "lng": -71.1078952,
+  "ai": true,
+  "why_zh": [
+   "套內洗烘：ApartmentList 上的房源描述寫「In unit laundry, private balcony, large closets, central air」，2b2b 的 MLS 房源（#107）也寫「In unit laundry」；但 ApartmentList 的設施標籤寫 On-site laundry，兩邊不一致",
+   "安靜：BTS 門牌點約 51.4 dB，50 公尺內最高 52.1 dB，是這次看過的 JP 新樓裡最安靜的，比名單中位數 52.4 dB 還低一點；東北走廊鐵路／橘線約 290 公尺，道路噪音低於 45 dB 的建模門檻",
+   "車庫：房源描述寫「Underground garage parking available $200 per month」",
+   "2b2b：房源寫「2 bed and 2 ensuite bath」（兩間臥室各有衛浴）；ApartmentList 列 2 Bed 2 Bath 1,010 呎，#107 為 1,100 呎；2026-03 #107 以 $3,300 租出",
+   "交通：步行約 11 分鐘（843–885 公尺）到 Forest Hills 橘線，到 Green Street 也約 11 分鐘；估算到 BOS17 大眾運輸約 41 分鐘、BOS21 約 47 分鐘，開車無塞車約 15 分鐘",
+   "狗／現代內裝：Redfin 寫 Dogs allowed、Cats allowed，房源寫「Pets ok with restrictions」；工程木地板、石英檯面、不鏽鋼家電、中央空調、公共屋頂露台"
+  ],
+  "concerns_zh": [
+   "沒有官網，只有 21 戶，房源都是透過 JP Rentals 等仲介零星上架；2026-10-26 在 ApartmentList（9/24 更新）和 Redfin 都看不到 2b2b 空房",
+   "套內洗烘是房源描述寫的，ApartmentList 的設施標籤卻是 On-site laundry；沒找到房型圖，看房時要確認洗烘機在屋內",
+   "到 Forest Hills 走路約 11 分鐘、通勤 41–47 分鐘，是三棟中最遠的；狗的限制內容沒公開，水費按用量另計"
+  ],
+  "built": "2022（MLS 房源描述「Built in 2022」；BMN Boston 的 Year Built 2022；21 戶電梯大樓）"
+ },
+ {
+  "slug": "3200-washington",
+  "name": "3200 Washington",
+  "address": "3200 Washington St, Jamaica Plain, MA 02130",
+  "lat": 42.3126771,
+  "lng": -71.1009149,
+  "ai": true,
+  "why_zh": [
+   "套內洗烘：官網 Features 寫「in-apartment washer/dryers for private use」，Apartment Amenities 也列 Washer/Dryer；官網 2 房房型圖（Type A／F／I）都畫了 W/D",
+   "2b2b：官網 Two Bedrooms 房型是 2 房 2 衛、858–1,073 呎；ApartmentHomeLiving（2026-10-25 更新）列 #1202（897 呎，11/11 入住）、#2503（1,073 呎，11/25）、#2204（928 呎，12/11）",
+   "車庫／狗：官網 FAQ 說「We do have a garage」，但目前沒有空位；可養狗，每戶最多 2 隻、每隻 40 磅以下，狗每月 $75、貓 $40，有寵物清洗站",
+   "交通：步行約 8 分鐘（626 公尺）到 Stony Brook 橘線，到 Green Street 約 10 分鐘；估算到 BOS17 大眾運輸約 36 分鐘、BOS21 約 42 分鐘，開車無塞車約 13 分鐘",
+   "現代內裝：不鏽鋼家電、仿木地板（luxury laminate）、大窗，部分戶有陽台和壁爐；屋頂露台、健身房、圖書室／會議室、電動車充電、單車維修間；目前「Get 1 Month FREE」"
+  ],
+  "concerns_zh": [
+   "三棟中最吵：直接臨 Washington St，BTS 門牌點約 60.1 dB（主要是道路），50 公尺內最高 62.9 dB，比名單中位數 52.4 dB 高很多，最好挑不臨街的戶",
+   "車庫目前沒有空位（官網 FAQ），狗限 40 磅以下，大型犬不行",
+   "官網和 ApartmentHomeLiving 都沒公布租金（Call for Rates），ApartmentList 上也找不到這棟；水、瓦斯、電、下水道都要自己付"
+  ],
+  "built": "2018（ApartmentHomeLiving：Built in 2018，73 戶、6 層）"
+ }
+]

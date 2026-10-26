@@ -1,0 +1,144 @@
+{
+ "checked": "2026-10-26",
+ "section": {
+  "id": "tax",
+  "title_zh": "稅務",
+  "items": [
+   {
+    "h_zh": "稅務構成：薪水會被扣哪些",
+    "points_zh": [
+     "聯邦所得稅：公司依你的 W-4 預扣，2026 年稅率 10% 到 37%",
+     "社會安全稅（Social Security）6.2%，2026 年只算到年薪 $184,500；聯邦醫療保險稅（Medicare）1.45% 不設上限，當年工資超過 $200,000 的部分公司會再多扣 0.9%（不管你的報稅身分）",
+     "麻州所得稅 5%，以及麻州帶薪家庭與醫療假（PFML）保費：2026 年 25 人以上的公司最多從員工薪水扣 0.46%（家庭假 0.18% + 醫療假 0.28%），同樣只算到 Social Security 的上限 $184,500",
+     "所得稅只有聯邦和州兩層，波士頓、劍橋沒有市所得稅；城市可以另外加的是餐飲稅、旅館稅這類地方稅"
+    ],
+    "source": {
+     "name": "Mass.gov（DFML）– Paid Family and Medical Leave employer contribution rates and calculator",
+     "url": "https://www.mass.gov/info-details/paid-family-and-medical-leave-employer-contribution-rates-and-calculator"
+    }
+   },
+   {
+    "h_zh": "麻州所得稅",
+    "points_zh": [
+     "單一稅率 5%：薪資、利息、股利、長期資本利得都是 5%；短期資本利得 8.5%，收藏品的長期利得 12%（可扣 50%）",
+     "4% 附加稅（surtax）：2026 年度所得超過 $1,107,750 的部分再加 4%，門檻每年隨通膨調整（2025 年是 $1,083,150）",
+     "個人免稅額：單身 $4,400、夫妻合併申報 $8,800",
+     "RSU 歸屬（vest）時，股票當時的市值算是工作報酬，要課所得稅；麻州 Form 1 第 3 行申報 W-2 上的州工資，一般和聯邦 1040 第 1z 行相同"
+    ],
+    "source": {
+     "name": "Mass.gov（DOR）– Tax Rates",
+     "url": "https://www.mass.gov/info-details/massachusetts-tax-rates"
+    }
+   },
+   {
+    "h_zh": "租房族可以抵稅",
+    "points_zh": [
+     "在麻州的主要住所付給房東的房租，可以扣 50%，每份申報最多扣 $4,000（夫妻分開申報各 $2,000）；只能抵州稅，聯邦稅不適用",
+     "不是填 Schedule Y：全年居民在 Form 1 第 14a 行填全年房租、第 14 行填除以 2 的金額（最多 $4,000）；搬來那年改填 Form 1-NR/PY 第 18a、18 行",
+     "押金、預付的最後一個月房租（還沒真正抵房租前）不算；水電、家具、停車費如果另外分開收也不能算；父母代付的房租不能扣；「臨時派駐麻州」的住處不算主要住所",
+     "留好租約和付款紀錄；DOR 說如果之後申請更正（abatement）或修正申報，要提供房東姓名"
+    ],
+    "source": {
+     "name": "Mass.gov（DOR）– Deductions on Rent Paid in Massachusetts",
+     "url": "https://www.mass.gov/info-details/deductions-on-rent-paid-in-massachusetts"
+    }
+   },
+   {
+    "h_zh": "搬來麻州那一年",
+    "points_zh": [
+     "搬來當年你是「部分年度居民」（part-year resident），麻州總收入超過 $8,000 就要報稅，用 Form 1-NR/PY，不是 Form 1",
+     "收入按日期切開：成為麻州居民那天起，所有來源的收入都要報；之前的期間只報來自麻州的收入（例如在麻州工作的收入）",
+     "個人免稅額按天數打折：免稅額 ×（麻州居住天數 ÷ 365）",
+     "到新公司要同時填聯邦 W-4 和麻州 M-4；之後想讓公司多扣一點麻州稅，也是改 M-4"
+    ],
+    "source": {
+     "name": "Mass.gov（DOR）– Massachusetts Personal Income Tax Guide for Part-Year and Nonresidents",
+     "url": "https://www.mass.gov/info-details/massachusetts-personal-income-tax-guide-for-part-year-and-nonresidents"
+    }
+   },
+   {
+    "h_zh": "怎麼報稅與繳稅",
+    "points_zh": [
+     "聯邦報 Form 1040；麻州全年居民報 Form 1，搬來那年報 Form 1-NR/PY。麻州可以在 MassTaxConnect 線上申報、繳稅、查退稅",
+     "2026 年度依規定在 2027 年 4 月 15 日（週四）截止，但 IRS 和 DOR 還沒公布 2026 年度的申報日程，以屆時公告為準",
+     "RSU 屬於補充工資，公司可以按 22% 統一預扣聯邦稅（全年超過 $1M 的部分 37%），稅率級距比較高的人可能預扣不夠。聯邦：預估欠稅 ≥ $1,000 且預扣不足，就要按季繳預估稅（4/15、6/15、9/15、隔年 1/15）；麻州：沒預扣到的稅超過 $400 就要繳，全年至少要繳到 80%（2026 年第 4 期是 2027/1/15）。也可以在 M-4 請公司多扣，就不必另繳預估稅",
+     "免費報稅：IRS Free File 目前關閉、2027 年 1 月重開，上一季指引式軟體限 AGI $95,000 以下，Fillable Forms 不限收入但不能報州稅。MassTaxConnect 可以免費報州稅，但部分年度居民必須以前報過麻州稅才能用，所以搬來第一年不能用它免費報"
+    ],
+    "source": {
+     "name": "Mass.gov（DOR）– E-file and Pay Your MA Personal Income Taxes",
+     "url": "https://www.mass.gov/info-details/e-file-and-pay-your-ma-personal-income-taxes"
+    }
+   },
+   {
+    "h_zh": "消費稅與其他",
+    "points_zh": [
+     "麻州銷售稅 6.25%；一般食品雜貨免稅（餐廳賣的餐點除外），衣服每件 $175 以內免稅，超過的只就超過 $175 的部分課稅",
+     "餐飲稅：州 6.25% + 地方 0.75%，波士頓和劍橋都有加（2009/10/1 起），合計 7%",
+     "汽車消費稅（motor vehicle excise）：每 $1,000 估值 $25，估值是原廠建議售價的一定比例（出廠當年 90%、第 2 年 60%、第 3 年 40%、第 4 年 25%、之後 10%），不是你買車的價格；由車子平常停放的城鎮每年開單，年中才登記就從登記當月算到年底，最低 $5",
+     "住旅館：州 5.7% + 波士頓地方 6.5% + 會展中心 2.75%；在波士頓簽租車合約每份加收 $10（另有全州 $2）。房屋稅是向屋主課的（波士頓 FY2026 住宅稅率每 $1,000 估值 $12.40），租屋族不會直接繳"
+    ],
+    "source": {
+     "name": "Mass.gov（DOR）– Tax Rates",
+     "url": "https://www.mass.gov/info-details/massachusetts-tax-rates"
+    }
+   }
+  ]
+ },
+ "calc": {
+  "year": 2026,
+  "source_notes_zh": "所有數字都是官方已公布的 2026 年度數字，沒有用 2025 年代替。聯邦標準扣除額和稅率級距取自 IRS 2026 年通膨調整公告（含 One Big Beautiful Bill 修正）；Social Security 上限 $184,500 取自 SSA；Additional Medicare 門檻（$200,000 / $250,000）是法定數字、不隨通膨調整；麻州 surtax 門檻 $1,107,750 取自 DOR Tax Rates（2026 年度）；個人免稅額 $4,400 / $8,800 取自 DOR（2008 年起固定）；PFML 0.46% 是 2026 年 25 人以上雇主可從員工薪水扣的上限（0.18% 家庭假 + 0.28% 醫療假），小公司可能扣到 0.46% 但沒有雇主份額，2027 年起比例會調整；租房扣除上限 $4,000 取自 DOR。計算只算一般薪資，沒算短期資本利得 8.5% 等其他稅率。",
+  "federal": {
+   "standard_deduction": {"single": 16100, "married_joint": 32200},
+   "brackets": {
+    "single": [[12400, 0.10], [50400, 0.12], [105700, 0.22], [201775, 0.24], [256225, 0.32], [640600, 0.35], [null, 0.37]],
+    "married_joint": [[24800, 0.10], [100800, 0.12], [211400, 0.22], [403550, 0.24], [512450, 0.32], [768700, 0.35], [null, 0.37]]
+   }
+  },
+  "fica": {
+   "ss_rate": 0.062,
+   "ss_wage_base": 184500,
+   "medicare_rate": 0.0145,
+   "addl_medicare_rate": 0.009,
+   "addl_medicare_threshold": {"single": 200000, "married_joint": 250000}
+  },
+  "ma": {
+   "rate": 0.05,
+   "surtax_rate": 0.04,
+   "surtax_threshold": 1107750,
+   "personal_exemption": {"single": 4400, "married_joint": 8800}
+  },
+  "ma_pfml": {
+   "employee_rate": 0.0046,
+   "wage_cap": 184500,
+   "note_zh": "2026 年 25 人以上雇主總保費 0.88%，最多可從員工薪水扣 0.46%（家庭假 0.18% + 醫療假 0.28%），其餘 0.42% 由雇主負擔；有些公司會幫員工多付。個人保費以 Social Security 上限（2026 年 $184,500）為上限。2027 年起家庭假、醫療假的分攤比例會改（州法 Chapter 101 of the Acts of 2026）。"
+  },
+  "ma_renter_deduction": {"pct": 0.5, "max": 4000},
+  "sources": [
+   {"name": "IRS – IRS releases tax inflation adjustments for tax year 2026, including amendments from the One, Big, Beautiful Bill", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill"},
+   {"name": "SSA – Contribution and Benefit Base", "url": "https://www.ssa.gov/oact/cola/cbb.html"},
+   {"name": "IRS – Topic no. 560, Additional Medicare tax", "url": "https://www.irs.gov/taxtopics/tc560"},
+   {"name": "IRS – Publication 15 (2026), Employer's Tax Guide（補充工資預扣 22% / 37%）", "url": "https://www.irs.gov/publications/p15"},
+   {"name": "IRS – Publication 525, Taxable and Nontaxable Income（員工報酬、受限財產）", "url": "https://www.irs.gov/publications/p525"},
+   {"name": "IRS – Estimated tax FAQs", "url": "https://www.irs.gov/faqs/estimated-tax"},
+   {"name": "IRS – When to file", "url": "https://www.irs.gov/filing/individuals/when-to-file"},
+   {"name": "IRS – E-file: Do your taxes for free（Free File）", "url": "https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free"},
+   {"name": "Mass.gov（DOR）– Tax Rates", "url": "https://www.mass.gov/info-details/massachusetts-tax-rates"},
+   {"name": "Mass.gov（DOR）– Personal Income Tax Exemptions", "url": "https://www.mass.gov/info-details/massachusetts-personal-income-tax-exemptions"},
+   {"name": "Mass.gov（DOR）– Deductions on Rent Paid in Massachusetts", "url": "https://www.mass.gov/info-details/deductions-on-rent-paid-in-massachusetts"},
+   {"name": "Mass.gov（DOR）– 2025 Form 1 Instructions", "url": "https://www.mass.gov/doc/2025-form-1-instructions/download"},
+   {"name": "Mass.gov（DOR）– Massachusetts Personal Income Tax Guide for Part-Year and Nonresidents", "url": "https://www.mass.gov/info-details/massachusetts-personal-income-tax-guide-for-part-year-and-nonresidents"},
+   {"name": "Mass.gov（DOR）– Withholding Tax Guide（W-4 與 M-4）", "url": "https://www.mass.gov/info-details/withholding-tax-guide"},
+   {"name": "Mass.gov（DOR）– Tax Due Dates and Extensions", "url": "https://www.mass.gov/info-details/tax-due-dates-and-extensions"},
+   {"name": "Mass.gov（DOR）– Personal Income and Fiduciary Estimated Tax Payments", "url": "https://www.mass.gov/info-details/personal-income-and-fiduciary-estimated-tax-payments"},
+   {"name": "Mass.gov（DOR）– E-file and Pay Your MA Personal Income Taxes", "url": "https://www.mass.gov/info-details/e-file-and-pay-your-ma-personal-income-taxes"},
+   {"name": "Mass.gov（DFML）– Paid Family and Medical Leave employer contribution rates and calculator", "url": "https://www.mass.gov/info-details/paid-family-and-medical-leave-employer-contribution-rates-and-calculator"},
+   {"name": "Mass.gov（DOR）– Sales and Use Tax", "url": "https://www.mass.gov/guides/sales-and-use-tax"},
+   {"name": "Mass.gov（DOR）– Sales Tax on Meals", "url": "https://www.mass.gov/guides/sales-tax-on-meals"},
+   {"name": "MA DOR Division of Local Services – Local Tax Options: Meals and Recreational Marijuana Taxes", "url": "https://dls-gw.dor.state.ma.us/reports/rdpage.aspx?rdreport=localoptions.local_options_tax"},
+   {"name": "Mass.gov（DOR）– Room Occupancy Excise Tax", "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax"},
+   {"name": "Mass.gov（DOR）– Motor Vehicle Excise", "url": "https://www.mass.gov/guides/motor-vehicle-excise"},
+   {"name": "Boston.gov – Tax Collection", "url": "https://www.boston.gov/departments/tax-collection"},
+   {"name": "Boston.gov – How We Tax Your Property", "url": "https://content.boston.gov/departments/assessing/how-we-tax-your-property"}
+  ]
+ }
+}

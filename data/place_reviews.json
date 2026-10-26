@@ -1,0 +1,549 @@
+{
+ "Trader Joe's|42.3899,-71.1434": {
+  "rating": 4.6,
+  "count": 1182,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=13473746011668269569",
+  "other": [
+   {
+    "source": "Loc8NearMe",
+    "rating": 4.1,
+    "count": 223,
+    "url": "https://www.loc8nearme.com/massachusetts/cambridge/trader-joes/111174/"
+   }
+  ],
+  "summary_zh": "Google 4.6 分（1182 則），評價很高，價格實惠、特色零食多，但停車場擁擠、路口難走。",
+  "good_zh": [
+   "價格合理、自有品牌零食與冷凍食品選擇多",
+   "店員友善、補貨勤快",
+   "從 Alewife 站步行可達"
+  ],
+  "bad_zh": [
+   "停車場狹小、尖峰時段非常擠",
+   "周邊圓環路口車多難行",
+   "不賣酒；米和烘焙材料選擇少"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfFRfBE-VHqyAe_kscizvz9ZKbHYsAERDHKztyOBkcCmo5BvnRwVFFPZlC2Gpw_k-reS3O6RkBsbjlX1xVMLBCFPuCqWjyclyT0XWUMo257KQQjumsst4CpiWFx9B0IR2bslAnQKyYtlXo=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13473746011668269569",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcFZlXV-dWlM-2_hEV04DQcDv419HxNit5DdSEkFJS4NcU9PH41h9BrgI3jyaZY1f1AkH7YfJf3ap9ky-nuhafk3B0fXwoZwXTOrHq8fRl6Xm2EdJKbPjLsYPm28wcs4CtpFAWz=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13473746011668269569",
+    "credit": "César Rincón Mayorga"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfeDlUkLpWLNTD0UncHlJOi5HVD-g2xzbUK2nABP5xE-qn1w1n35qgo9AIcNd0nVlv2vrD0K3FOtnUp9IFD8oa6Yclou-QNiZJzVogOKov70V8AuccBTiLxFcgblGLCLfRqxp2b=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13473746011668269569",
+    "credit": "César Rincón Mayorga"
+   }
+  ]
+ },
+ "Whole Foods Market|42.3891,-71.1418": {
+  "rating": 4.3,
+  "count": 1120,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=14680634344575159120",
+  "other": [],
+  "summary_zh": "Google 4.3 分（1120 則），生鮮新鮮、停車方便，但價格偏高，近期有熟食與服務的負評。",
+  "good_zh": [
+   "蔬果海鮮新鮮，有 Amazon 取件/退貨點",
+   "停車容易、位置方便",
+   "披薩櫃台口碑好"
+  ],
+  "bad_zh": [
+   "價格偏高（有特價未正確結帳的抱怨）",
+   "近期熱食吧品項變少",
+   "有店員態度差、烤雞未熟的負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdF_2SYRVdQCLiy7fd6dGzeUXZ4gx6-nCM8mplCqOwPH0e8CZANNEo2CJ5gm0OkH_poN7cfrq3U_OaLRT3Y5xIKgpwFTfXjtpAzHYZ-ucMjKFLyCTYBIuyzRNWdC_UDv-3H03vb=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14680634344575159120",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe0-lZItiSABGgF0h8icvglUL2K7ng1WCYaJDD-3aBqb2EG8w8FrfMwkt8gG6fqiwM9rj4Kij-HnJQ-KfQyLpi9c1fObBPE2jOjUr-89PqkcFDusRhwTkCy11vdSK6F_M4FuScx=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14680634344575159120",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Food Land|42.3938,-71.1265": {
+  "rating": 4.1,
+  "count": 257,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9592590658746017137",
+  "other": [],
+  "summary_zh": "Google 4.1 分（257 則，店名 Foodland Cambridge），南亞/印巴雜貨與清真肉品齊全，但衛生與價格評價兩極。",
+  "good_zh": [
+   "印度、孟加拉、巴基斯坦雜貨與香料齊全",
+   "有清真肉舖與南亞魚類",
+   "樓上賣場乾淨、店員親切"
+  ],
+  "bad_zh": [
+   "樓下肉舖衛生與店員態度遭批評",
+   "有顧客認為價格比其他印度超市貴",
+   "退換不新鮮商品的經驗不佳"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdOcVSp7EkZPQSWw3rn7VnBS7mqFWx4W72MDnenbKVia9w547uksyynsXFY-bZr9GnhfEBZRYhypIEHc6vuUPunjgC2OZ34CNdU-Q-4Ne3xLFehCgCf0UevLhF3j8k-I5vlnzGF=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9592590658746017137",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdZP3SgSZYdqk-IVusqbrEex_gT1kjaf54ES9jHsyROQRRIQ92kFYQzVegKG7oq2LNkSWHBxgy1IFaaIRSStZYkNve05EDFCjEYlquHYGJ2AmLd-R5ZN0s-bqzFIEnLnpZBCHFa=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9592590658746017137",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcHZtl_ZE5y-ANNMLMfc09YgUKzga5jawIwgay1mcbQd1NA2r0sd7MVkHkAL0CIBDUtInLntrd0v5Aee2v1LDVXvBOhRQjQI1TSXwWyurOO5fI2o-9ri3r-fHBXKfZLL1UQyvcM=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9592590658746017137",
+    "credit": "arkissh barua"
+   }
+  ]
+ },
+ "Stop & Shop|42.4067,-71.1322": {
+  "rating": 3.7,
+  "count": 1183,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=14190792375776194037",
+  "other": [],
+  "summary_zh": "Google 3.7 分（1183 則），一般連鎖超市，評價普通，常見標價不符與清潔問題的抱怨。",
+  "good_zh": [
+   "一般超市品項齊全、有會員優惠",
+   "部分顧客稱店員親切、好找東西"
+  ],
+  "bad_zh": [
+   "標價與結帳價格不符",
+   "清潔不佳、肉品區有異味的負評",
+   "客服態度差的抱怨"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcx-gxqm-LARU_-9rL2aOAGRrVnPu6z7WPK_UldorXSSrc1nEpWLFHTRwm6WWbJXV1ruRzNjdRJJC5Uh-UcRlwr-jbDt7m2OWIvCdJv9sP0nWlZR_djXAD-FXPR2bXbKfPQu5zx=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14190792375776194037",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7xexqrun-A1-AkhYMzBX7JtWsZQ_vEBksiUyYgTAz7xkAlHqgf71Zsc5MMwtGPzLaQUqj30Jn9SvV4tbIp0SpAYXpTD5YXCACAy8LcisA3A-HonJyxt6QLxS6ASYSJcDwL01PeM9HfRY=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14190792375776194037",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Formaggio|42.3811,-71.1386": {
+  "rating": 4.7,
+  "count": 734,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=997664193860461635",
+  "other": [],
+  "summary_zh": "Google 4.7 分（734 則，店名 Formaggio Kitchen），高評價精品乳酪與食材店，品質好但價格高。",
+  "good_zh": [
+   "乳酪、肉品、奶油等精選進口食材",
+   "酒與啤酒選擇精緻；有乳酪品嚐與酒窖參觀",
+   "烘焙點心（如小荳蔻卷）口碑好"
+  ],
+  "bad_zh": [
+   "價格高，有人認為肉品貴但等級普通",
+   "店面小、熱門時段要排隊",
+   "只有路邊停車"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeKReHgUfXFRXUez_hTnijdpzPEdsjIFgJLP6QiqPbtf9eJ4bATQmypGJfBZoUMfvLbqqDhSmZJ8OHxuBP1XHlNs8mF8SS7y0VtVchJjUWvTDgTCYYljeP6j4mHbIwvldPeQOqW=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=997664193860461635",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPcQV1a8i7PnZxLhaCiVK4gX8uqzbsoIauWWLiR_AnOthQgOppIqsuhiLURPTQGQz_YnmOzVpETdlz3jMCniXBQOPO1QcX6-Vmv3cYop2PKxyejbfY1oh4Har3QkYO_Sa4yEbrQqY7aq7D=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=997664193860461635",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4CzBIF2QIMe73ojkH3ofe85pH2UdPgwnid-SmTVSO5ICa27QXVqc4kAxhpsb9xWfTs2o8lx5UnIYYyWEFcKT3c231fFPVPyueKk4r0iBQBYpo8X3z-y0g3AKo9sJtAQVN0oO6YsZqriV0=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=997664193860461635",
+    "credit": "Pranay Gandhi"
+   }
+  ]
+ },
+ "Pemberton Farms|42.3939,-71.1255": {
+  "rating": 4.7,
+  "count": 1373,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=128956729746186692",
+  "other": [],
+  "summary_zh": "Google 4.7 分（1373 則，Pemberton Farms Marketplace），特色食材與園藝植物兼具，店員親切度常被稱讚。",
+  "good_zh": [
+   "特色食品、乳酪、酒、純素品項多",
+   "附設園藝中心，植物照顧得好",
+   "店員非常友善熱心"
+  ],
+  "bad_zh": [
+   "偏精品取向，非日常平價超市",
+   "近期有一則顧客遭拒售、指控歧視的負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdxpTDzsPj5GfRHKdIh5Q7l-zzd7FDdlO9mlb6YlBNP-TTO7_Q-KNOLiYdg0GScp0QM9MnZRXyemSmh4TnSKNycf3LdE5C_4__7DYjlLiTGUcNEfylhX_yMBwnxSHHQLZcYs7-BAg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=128956729746186692",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLenAG35iHbLQHxYbwco4bengBS2JI4pH-uOJCq3sEoxSSd0tolTnp7t036r9qPOjX7_T_H2yvNb_5Js9XutcVk9rmmxfeNoa5TeJKlZCO8-V7yRZbuiEtTQSZULQSVVYfCgieZn=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=128956729746186692",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfhN4j3hqv-O7-zgKXcVP65hibnmbKS9iek6PwtLOdG5lHBxX0hZ9lL51I6bWiSyPjo0PbnR_ld7jNZYds8LJBW6WoIpWofU9l-q9WbKQNm73qx9M-EN5Udf1kMa8y6cJGRtH3LjI0UahdF=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=128956729746186692",
+    "credit": "Anna Grikit"
+   }
+  ]
+ },
+ "Mount Auburn Hospital|42.3741,-71.1342": {
+  "rating": 3.0,
+  "count": 468,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9690202803242197736",
+  "other": [
+   {
+    "source": "Leapfrog Hospital Safety Grade",
+    "rating": null,
+    "grade": "A",
+    "period": "Spring 2026",
+    "count": null,
+    "url": "https://www.hospitalsafetygrade.org/h/mount-auburn-hospital"
+   }
+  ],
+  "summary_zh": "Google 3.0 分（468 則），Leapfrog 2026 春季病安評等 A；醫護與產科受好評，但等候時間與帳單常被抱怨。",
+  "good_zh": [
+   "Leapfrog 病人安全評等 A（2026 春季）",
+   "產房體驗與住院餐點受稱讚",
+   "急診醫師專業親切的好評"
+  ],
+  "bad_zh": [
+   "急診/抽血等候久（有等一小時以上的評論）",
+   "帳單昂貴且不清楚",
+   "有住院照護態度冷漠的負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdGLWLN6C0oU9pFo86SK3TSNg1wFp6f-RcgKLRRIn5EDGSohQuS8JFdQtpOrJ8tG18vPbb0QzmQ8a_deoj8alRYim7pXZ_odvugypXE-HkXxAjBH8bq8sm2TMj2Yn4KKmBZDOcb=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9690202803242197736",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf0jjU4F3nf7kDLPxCbG24rEWnE9-M28BcJItTzsFzQTa9OaHvmU5UzrOrFNt59gieHBoTgT56pBmzhWHtnVib-yeeMGwBMCu1llEJyE0uKit9-L9WedMgKJDBqCVCURAGF_1pD0devCzc=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9690202803242197736",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "AFC Urgent Care|42.4245,-71.1850": {
+  "rating": 4.4,
+  "count": 1623,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=14944804580752779384",
+  "other": [],
+  "summary_zh": "Google 4.4 分（1623 則，AFC Urgent Care Arlington），櫃台與護理人員親切，但看診倉促與帳務問題有負評。",
+  "good_zh": [
+   "前台與護理人員親切耐心",
+   "免預約、可直接就診的緊急照護"
+  ],
+  "bad_zh": [
+   "有醫師看診倉促、沒看病歷的抱怨",
+   "保險/帳務與收據處理有問題",
+   "候診室小；有評論稱現場無 X 光"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd7vu4rKSQ5Oh8Vx7ydG_2xGRCYhEnb7Mb9k2QHUcQbLMt-70yJtYQe54DzQfZFjkURazVqflwvfbVRYT6_XEPWfuNF3VO2tapGgbWx4nSlbBqKnukJ3_0k4_Z27pGUnjC1Rbcy=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14944804580752779384",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Somerville Hospital|42.3900,-71.1095": {
+  "rating": 3.3,
+  "count": 4,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=16989111457993264575",
+  "other": [
+   {
+    "source": "Google (CHA Somerville Campus, 33 Tower St)",
+    "rating": 4.5,
+    "count": 718,
+    "url": "https://www.google.com/maps?cid=780564932168457302"
+   },
+   {
+    "source": "Cambridge Day (ER closure)",
+    "rating": null,
+    "count": null,
+    "url": "https://www.cambridgeday.com/2020/02/28/closing-of-er-also-ends-somerville-hospital-being-renamed-as-cha-somerville-campus/"
+   }
+  ],
+  "summary_zh": "230 Highland Ave 的 Google 條目僅 3.3 分（4 則）；主院區條目（33 Tower St）4.5 分（718 則）。注意：急診已改為急症照護（Urgent Care），重症請去其他醫院。",
+  "good_zh": [
+   "CHA 主院區條目評價 4.5 分（718 則）",
+   "院內有 CHA 急症照護中心，全年每天開放"
+  ],
+  "bad_zh": [
+   "已無急診室（2020 年左右急診轉為 Urgent Care）",
+   "230 Highland Ave 條目評論很少，參考性低"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc_jingFArAv_Bj0MwTfRPgidg_1COo5L7d2TdA19CvosJkBF7lXeAr0NFqKC9r4c7ctSjQtCFjn-1yzVcikGQQNrif45xucnE-93gGqI6ZLabC6qNC48ga929okcWskNIsLNKxtg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16989111457993264575",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "VEG|42.3863,-71.1408": {
+  "rating": 4.9,
+  "count": 1117,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=213962614617742436",
+  "other": [
+   {
+    "source": "Vet Receipt (Google count at time of snapshot)",
+    "rating": 4.9,
+    "count": 961,
+    "url": "https://vetreceipt.com/clinic/massachusetts/fresh-pond-parkway-cambridge/veterinary-emergency-group"
+   }
+  ],
+  "summary_zh": "Google 4.9 分（1117 則，VEG ER for Pets），24 小時寵物急診，醫護對寵物與飼主都很溫柔，但費用不便宜。",
+  "good_zh": [
+   "24 小時全年無休的寵物急診",
+   "醫護親切、溝通清楚，可陪同寵物過夜",
+   "收費說明誠實透明"
+  ],
+  "bad_zh": [
+   "費用偏高（評論直言不便宜）"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeESfLRroXoXwGRdy_514xOWvsd2LlSiiLWWBQXPvbB7lCRqAKnuFe6CPW-PESvrM7StJvtCvc31aSNzZXV9uEemzJB45UBR7dq7JXSRIE2XJb4rfw8ZIMV6-VmAlIm1aHAm_Gmyu9aB3mu=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=213962614617742436",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcGmmuG-bWJYRbUVzyZOT49fbFIzPTgeaCoRPnAtRdnNagQI5DrjBEYZthIAsphXn-o960hfnYjtkVOEy_irpZPT-jcZUIUx-orL62X0H0xa1w4GR3dxOBDNhyKWV--xRAopNE=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=213962614617742436",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Heal Veterinary Clinic|42.3755,-71.1569": {
+  "rating": 4.8,
+  "count": 250,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=1765869479372408231",
+  "other": [
+   {
+    "source": "BirdEye",
+    "rating": 4.7,
+    "count": 295,
+    "url": "https://reviews.birdeye.com/heal-veterinary-clinic-155741400232321"
+   }
+  ],
+  "summary_zh": "Google 4.8 分（250 則），低壓力看診（醫師坐地板與寵物平視），價格透明合理，可能需排候補名單。",
+  "good_zh": [
+   "低壓力看診方式，怕看醫生的貓狗較放鬆",
+   "費用說明透明、不強推檢查，價格合理",
+   "醫護親切，無障礙空間友善"
+  ],
+  "bad_zh": [
+   "可能有新客候補名單（評論者不確定）",
+   "一般診所，非 24 小時急診"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcWOWf950nav3JWBNgzUJ0euCi8r5F-d8Rims5gqvfX1lUX-ZSWwGhDLaSQgAvH9IVnNERz0eZREWkfjVPPPWV_IRV_kn5XfO6CIJKVt0DEoZfhzdGpvJMmXaanNc_VewDOwSdr7g=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1765869479372408231",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "VCA City Cats Hospital|42.4161,-71.1544": {
+  "rating": 4.7,
+  "count": 222,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17106653330971662752",
+  "other": [],
+  "summary_zh": "Google 4.7 分（222 則），專看貓的醫院，醫師細心照顧老貓與重症，但收費偏貴。",
+  "good_zh": [
+   "貓專科，醫師與技術員對貓很溫柔",
+   "擅長老貓與慢性病長期照護",
+   "提供寄宿；醫院願意協助控制費用"
+  ],
+  "bad_zh": [
+   "收費偏貴",
+   "個別醫師經驗不一，有人換醫師後才滿意",
+   "不看狗；非 24 小時急診"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfWkRZUXGlXEMlbsdyL8caExnl6EPS4ALHzrhBLWG9aUV9AlF1tEhpVkgR7xkonbMbrzn3he1AS4LWkiWxxHV_3OLZlqZ0wcB_5RbwChIsRBx8RlqXt1ji4pYvc9B0otHjX41fMUAj7y4=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17106653330971662752",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "William G. Maher Park|42.3893,-71.1491": {
+  "rating": 4.5,
+  "count": 13,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=406656291714621626",
+  "other": [],
+  "summary_zh": "Google 4.5 分（13 則），小型公園，有社區菜園與足球場、遮蔭步道；是否可帶狗未查到。",
+  "good_zh": [
+   "社區菜園維護良好",
+   "有足球場與遮蔭步道"
+  ],
+  "bad_zh": [
+   "停車位少（約 10 格），且部分是住戶專用會被開罰",
+   "雨後球場有積水泥濘",
+   "設施有限；評論建議附近較大的 Danehy Park"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfeMXxYbbTgqCX0h8J8Cc_8y0NA3LvhkiZnG2B9g1YFylluA0aO5X-vRCWFyObxJn1S64wD_4eO1RA0tBFdllklU1V6UVROc__Re9VcIOO9x4JMXilo-XSwbbpzDrzVzM_sN3ur=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=406656291714621626",
+    "credit": "Anthony Craig Evans"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfmFCwb6xVW7gGzrsSSIULt-Yrsa7LnBKN6F8LlOYa7T_O_bSmZwbVzgdyTN6ixchZfo4ScvROzVQN1k4MMF0fELsizPzN1FK-8bO6YYeJaDzttUSxVy_d1z8CHLKUIMDL1IOGl=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=406656291714621626",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPRA_DG9DYvmwAVG2hBR6SK88SSTOrOB2U_hzDDIDAIQkCaOSfQc4JdqVcPFhPIAcb4H1kz2o5VMz63WZHSR6BRqrSI6c-Tu7PdPJolz20I0p-FIyjMJ1mps5ZQq0uBv9eawnL=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=406656291714621626",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Clarendon Avenue Playground|42.3998,-71.1325": {
+  "rating": 4.3,
+  "count": 3,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17066271962849613992",
+  "other": [],
+  "summary_zh": "Google 4.3 分（僅 3 則，Clarendon Avenue Park），2021 年翻新的全封閉遊樂場，有沙坑與玩水設施；未查到是否可帶狗。",
+  "good_zh": [
+   "2021 年翻新，有大沙坑與玩水設施、特殊鞦韆",
+   "全封閉、遮蔭與座位充足，有飲水機",
+   "通常不擁擠"
+  ],
+  "bad_zh": [
+   "沒有廁所",
+   "停車位非常有限",
+   "評論數很少，參考性低"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcddgGU2_HP0qAs-ufUE16oB_10y6KK6lTAyl8cpBKxJkDvPzPnx6_9oS4xVwQa9W0g214rDt8mDpbbb44-oktd1VOFHTdvNVVUPoUXK-tceE27_INc7CLwukTkSWkyN7JM-MA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17066271962849613992",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPbIHjaAMEWX344bWVeTbivWwoJpXyjZtm7bUcJFZBH8LVHiafe2jA3uXsq8caPtij6dIkOze0TD4ByfRJDg-umY9qlmOL-HkVVFYSwzG5gRhT97SzsGtMtWmbXtO7iKyDrHA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17066271962849613992",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Reverend Thomas J. Williams Park|42.3956,-71.1304": {
+  "rating": 4.7,
+  "count": 6,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=16522030225097968013",
+  "other": [],
+  "summary_zh": "Google 4.7 分（僅 6 則），無文字評論可參考；是否可帶狗、設施細節未查到。",
+  "good_zh": [],
+  "bad_zh": [
+   "評論數很少，無文字評論"
+  ],
+  "checked": "2026-10-26"
+ },
+ "Costco|42.3968,-71.0714": {
+  "rating": 4.5,
+  "count": 4755,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=3327246101747808957",
+  "other": [],
+  "summary_zh": "Google 4.5 分（4755 則），價格與品質受好評，但人潮多、結帳排隊久、週末早關門。",
+  "good_zh": [
+   "價格划算、品質穩定",
+   "商品種類多",
+   "建議早上 9–10 點去可避開排隊"
+  ],
+  "bad_zh": [
+   "人非常多，結帳隊伍長",
+   "人手不足、營業時間較早結束",
+   "促銷服飾尺寸常只剩大號"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdBGuLxglI3BAtfddIr_6c3AsL2wnjqXhR1xddRhTyftvpy1Rs4Br8njjJHiYgwe-ojMKvjrH-QsZrATr0E7UzqQyqEGpza0zztv3c-iEInC5ynLl1oHtv00kzzKChhR3SfZLVCz8m1pbI=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3327246101747808957",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfr4SU1RfjkgeKPyadWsx5AI_bVIAZcNoNRrXaWqwIPnmIjgzRWbHfWEN0iFgVpklXW-Y5vaaC-J5a1uEjc-yGHsHKQ_gMUHvbl5RRW0KzB55IMoTcjZzoYDDpP1ZRlKokkH3cU8aaDRMEs=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3327246101747808957",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Costco|42.3944,-71.2655": {
+  "rating": 4.4,
+  "count": 4376,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=770370023577709488",
+  "other": [],
+  "summary_zh": "Google 4.4 分（4376 則），商品有特色（豆腐、印度起司等），但店小、停車場擁擠、結帳隊伍長。",
+  "good_zh": [
+   "商品選擇多，常有新品（豆腐、paneer、烤餅等）",
+   "可先點披薩、購物後取"
+  ],
+  "bad_zh": [
+   "附近最小的 Costco，雙層停車場擁擠",
+   "結帳排隊長、收銀台開得少",
+   "有店員態度差與美食區很慢的負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_gyDoewC6PrYpKhQHf303QM6Zotw4EVLUymZgo2nTZVpQIq8qxW3t5_n0GFtGA-KgoRVvOIMZQ06bUdtekTap5rNJeSCSWvilk77Qq2tkCVeRSOwYodojqS3AcqR_ao-TtKU=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=770370023577709488",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2oDJuOhbc7qbP8VKdwraAlMQrdFv0rEKoFDEVpmImsPPkHvh0_qDfaJaPavPSbxj6Yc8oFx8UIVXBxmNbdQnUgWsz2_uE_BkI3vd94D1bUkZMWMFFlMMhT-Nq0lKCgDNvTBEKRKCOQ9WP=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=770370023577709488",
+    "credit": "Bill K."
+   }
+  ]
+ }
+}

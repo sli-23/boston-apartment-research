@@ -1,0 +1,38 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {"value": null, "label": "沒找到任何網站的評分（ApartmentList 寫「還在收集住戶評價」）"},
+  "summary_zh": "2024 年左右完工的新樓，Bozzuto 管理，原本規劃 475 戶。最大賣點是交通：步行 1 分鐘到藍線 Beachmont 站，搭到市中心大約 15–20 分鐘，Target、Stop & Shop 也在附近。樓下有 Twisted Fate 啤酒廠。真正的住戶評價很少，網路上大多是轉租貼文和路人推薦。噪音：藍線在這段是地面軌道，車站就在旁邊；離 Logan 機場很近（轉租貼文說開車 10 分鐘），但沒找到住戶談火車聲或飛機聲；Suffolk Downs 這一大片還在開發，2026 年有網友說正要動工蓋 400 多戶住宅和一間 150 間房的旅館，未來幾年可能有工地聲。安全：本地網友普遍說 Beachmont 一帶安全、偏安靜，但沒有這棟樓自己的治安資料。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":3,
+   "points_zh":["緊鄰藍線 Beachmont 站，藍線在這裡是地面軌道（轉租貼文：步行 1 分鐘到站）","離 Logan 機場很近，但沒找到住戶提到飛機聲","Suffolk Downs 還在大規模開發：2026-05 有網友說附近正要動工蓋 400 多戶住宅和旅館，可能有工地聲","沒找到住戶談樓內隔音或鄰居噪音"]},
+  {"key":"safety","label_zh":"安全","score":4,
+   "points_zh":["本地網友（2026-04）：Revere 這二十年改善很多，「完全安全」；也有人說「安全，只是有點無聊」","有網友說附近 Belle Isle Marsh 濕地有郊狼和沒拴繩的狗（半開玩笑）","沒有這棟樓的報案資料，Revere 的開放資料這次沒查到"]},
+  {"key":"management","label_zh":"物業管理","score":3,
+   "points_zh":["由 Bozzuto 管理，官方費用表寫得很清楚（2026-10-26 產生）","沒找到住戶對物業、維修的具體評價","Reddit 上有住戶發文找人接租約，還提供轉介折扣，看不出對物業的好壞評價"]},
+  {"key":"amenities","label_zh":"設施","score":4,
+   "points_zh":["泳池、烤肉區、火爐露台、健身房（轉租住戶說「跟付費健身房差不多」）、居家辦公艙、遊戲交誼廳","套內有洗衣機烘乾機、洗碗機、步入式衣櫃","對狗很友善（2026-04 準住戶說）；樓下有 Twisted Fate 啤酒廠"]},
+  {"key":"value","label_zh":"性價比","score":4,
+   "points_zh":["2026-10-26 ApartmentList：兩房兩衛 $3,659–3,984（977–1,035 平方英尺），12 個月租約","現在的優惠：12/31 前入住送 3 個月免租（有附加條件）","預留車位 $175–200/月，比市區便宜；但要另外付水、下水道、電費"]}
+ ],
+ "pros_zh":["步行 1 分鐘到藍線 Beachmont 站","新樓，套內有洗衣機烘乾機","泳池、健身房、居家辦公艙","現在送 3 個月免租","費用表公開透明，停車比市區便宜","Target、Stop & Shop 在附近"],
+ "cons_zh":["真正的住戶評價很少","藍線地面軌道就在旁邊","靠近 Logan 機場","周邊還在大規模開發，可能有工地","附近餐廳商店還不多，網友說這區「還要再發展幾年」","水、下水道、電費另計"],
+ "quotes":[
+  {"text":"我要在五月搬進 Beachmont 藍線旁的 Amaya，他們對狗超級友善。","source":"Reddit r/bostonhousing · 2026-04","url":"https://www.reddit.com/r/bostonhousing/comments/1sz33ol/moving_to_boston_in_february/oj10b7e/"},
+  {"text":"Beachmont 往 Suffolk Downs 這一帶正在大規模重建……他們正要動工蓋 400 多戶住宅和一間 150 間房的旅館，所以規劃中的店面還沒填滿。","source":"Reddit r/mbta · 2026-05","url":"https://www.reddit.com/r/mbta/comments/1t8448m/where_one_can_live_car_free_in_the_boston_area/oktmfmx/"},
+  {"text":"這區還需要再發展幾年。","source":"Reddit r/boston · 2026-09","url":"https://www.reddit.com/r/boston/comments/1w8629a/chelsea_and_revere_beach/p80igef/"},
+  {"text":"那一帶是義大利裔老居民和拉丁美洲移民家庭，很安全，只是有點無聊。搭藍線到市中心大約 15 分鐘。","source":"Reddit r/boston · 2026-04（談 Beachmont 一帶）","url":"https://www.reddit.com/r/boston/comments/1sxyqq3/revere_beachmont_area/oiqtv1o/"},
+  {"text":"高級健身房（跟付費健身房差不多）、泳池、烤肉區、居家辦公艙。","source":"Reddit 轉租貼文 · 2025-08","url":"https://www.reddit.com/r/bostonhousing/comments/1mzet7w/lease_takeover_amaya_revere_beachmont/"}
+ ],
+ "sources":[
+  {"name":"ApartmentList","url":"https://www.apartmentlist.com/ma/revere/amaya"},
+  {"name":"Reddit 討論（r/bostonhousing、r/boston、r/mbta）","url":"https://www.reddit.com/r/bostonhousing/comments/1mzet7w/lease_takeover_amaya_revere_beachmont/"},
+  {"name":"官方網站","url":"https://www.liveamaya.com/"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/Amaya+50+Salt+St+Revere+MA"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=Amaya%20Revere"}
+ ],
+ "gaps_zh":"Google、Yelp、Apartments.com、RentCafe 都擋了自動抓取，Apartments.com 也沒有存檔，所以沒有星級評分。Reddit 上大多是轉租和推薦貼文，沒找到住戶談噪音、維修的具體經驗。Revere 的治安開放資料沒查到。"
+}

@@ -1,0 +1,657 @@
+{
+ "as_of": "2026-10-26",
+ "source_name": "US DOT BTS National Transportation Noise Map 2020 (modeled 24-h LAeq, dBA); float values via Esri Living Atlas 'USA Transportation Noise 2020'",
+ "source_url": "https://www.bts.gov/geospatial/national-transportation-noise-map",
+ "data_url": "https://www.arcgis.com/home/item.html?id=439250230a414e46aa2846c7e2ae2048",
+ "year": 2020,
+ "metric": "LAeq 24h, dBA, 30 m grid; value at the address point (pixel containing it)",
+ "threshold_note": "BTS models noise only above ~45 dBA. null = below threshold for that source (quieter), listed in below_threshold. Model ignores barriers, buildings, helicopters, industry and ports. BTS's combined and per-source rasters are offset by about one 30 m pixel from each other in places (also visible in BTS's own map tiles), so at a single point the combined value can be lower than one source; max_50m_db is the more robust indicator next to busy roads/tracks.",
+ "max_50m_note": "max_50m_db = highest combined value among 30 m pixels within 50 m of the point (noisiest nearby frontage); max_50m_source = source (road/aviation/rail) with the highest single-source value within the same 50 m.",
+ "logan_note": "logan_contour is null: Massport publishes Logan DNL contours only as report maps, no queryable GIS layer was found. Use aviation_db (BTS aviation LAeq) as the proxy.",
+ "distance_note": "highway/rail: straight-line metres to the nearest OpenStreetMap way (not in tunnel); highways = ways of the I-93, US 1, Route 2, I-90, Route 16, Route 1A route relations (ramps excluded); rail = railway=rail/light_rail/subway running tracks (sidings, yards, industrial/crane tracks excluded).",
+ "scale_zh": [
+  [
+   45,
+   "很安靜"
+  ],
+  [
+   55,
+   "一般住宅區"
+  ],
+  [
+   65,
+   "吵（相當於繁忙街道）"
+  ],
+  [
+   75,
+   "很吵"
+  ]
+ ],
+ "overlay": {
+  "type": "tile",
+  "url": "https://tiles.arcgis.com/tiles/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Noise_2020_CONUS_aviation_rail_road/MapServer/tile/{z}/{y}/{x}",
+  "attribution": "Noise: US DOT Bureau of Transportation Statistics (2020)",
+  "note": "BTS 2020 combined aviation+rail+road, Web Mercator PNG tiles with transparency; cached to z12 only, so use L.tileLayer(url, {maxNativeZoom: 12, maxZoom: 18, opacity: 0.6}). Classes: 45-50 amber #FFC107, 50-55 orange #FF8000, 55-60 red #FF0000, 60-70 pink #FF3399, 70-80 purple #A300CC, 80-90 violet #5200CC, >90 blue #0000FF."
+ },
+ "apartments": {
+  "the-pioneer": {
+   "combined_db": 54.3,
+   "road_db": null,
+   "aviation_db": 49.4,
+   "rail_db": 46.3,
+   "max_50m_db": 69.8,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "road"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 16（Revere Beach Parkway）",
+    "m": 50
+   },
+   "rail": {
+    "name": "Eastern Route (Newburyport/Rockport Line)",
+    "m": 400
+   },
+   "note_zh": "交通噪音約 54 dB，接近「一般住宅區」，50 公尺內臨道路一側可達 70 dB。"
+  },
+  "corey-10-luxury-apartments": {
+   "combined_db": 50.8,
+   "road_db": 48.7,
+   "aviation_db": null,
+   "rail_db": 50.2,
+   "max_50m_db": 54.0,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-93",
+    "m": 2860
+   },
+   "rail": {
+    "name": "Western Route (Haverhill Line)",
+    "m": 110
+   },
+   "note_zh": "交通噪音約 51 dB，接近「一般住宅區」，主要來自道路。"
+  },
+  "cambridge-park-apartments": {
+   "combined_db": 46.7,
+   "road_db": null,
+   "aviation_db": null,
+   "rail_db": null,
+   "max_50m_db": 49.5,
+   "max_50m_source": null,
+   "below_threshold": [
+    "road",
+    "aviation",
+    "rail"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Alewife Brook Parkway）",
+    "m": 190
+   },
+   "rail": {
+    "name": "Fitchburg Route (Fitchburg Line)",
+    "m": 210
+   },
+   "note_zh": "交通噪音約 47 dB，接近「很安靜」。"
+  },
+  "the-laurent": {
+   "combined_db": 46.8,
+   "road_db": null,
+   "aviation_db": null,
+   "rail_db": null,
+   "max_50m_db": 47.4,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "road",
+    "aviation",
+    "rail"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Alewife Brook Parkway）",
+    "m": 200
+   },
+   "rail": {
+    "name": "Fitchburg Route (Fitchburg Line)",
+    "m": 190
+   },
+   "note_zh": "交通噪音約 47 dB，接近「很安靜」，主要來自鐵路。"
+  },
+  "hanover-alewife": {
+   "combined_db": 49.2,
+   "road_db": null,
+   "aviation_db": null,
+   "rail_db": 47.8,
+   "max_50m_db": 51.1,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "road",
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Alewife Brook Parkway）",
+    "m": 370
+   },
+   "rail": {
+    "name": "Fitchburg Route (Fitchburg Line)",
+    "m": 80
+   },
+   "note_zh": "交通噪音約 49 dB，接近「很安靜」，主要來自鐵路。"
+  },
+  "walter-huntington-apartments": {
+   "combined_db": 64.9,
+   "road_db": 48.3,
+   "aviation_db": null,
+   "rail_db": 64.6,
+   "max_50m_db": 67.0,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Park Drive）",
+    "m": 1800
+   },
+   "rail": {
+    "name": "Green Line (E)",
+    "m": 10
+   },
+   "note_zh": "交通噪音約 65 dB，接近「吵（相當於繁忙街道）」，主要來自鐵路。"
+  },
+  "bell-olmsted-park-apartments": {
+   "combined_db": 59.9,
+   "road_db": 56.9,
+   "aviation_db": null,
+   "rail_db": 46.2,
+   "max_50m_db": 67.2,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Park Drive）",
+    "m": 2240
+   },
+   "rail": {
+    "name": "Heath St Loop",
+    "m": 180
+   },
+   "note_zh": "交通噪音約 60 dB，接近「一般住宅區」，50 公尺內臨道路一側可達 67 dB。"
+  },
+  "the-benjamin-seaport-residences-apartments": {
+   "combined_db": 54.9,
+   "road_db": 48.9,
+   "aviation_db": 51.9,
+   "rail_db": 47.6,
+   "max_50m_db": 60.1,
+   "max_50m_source": "road",
+   "below_threshold": [],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-90（Massachusetts Turnpike）",
+    "m": 900
+   },
+   "rail": {
+    "name": "Amtrak rail line",
+    "m": 800
+   },
+   "note_zh": "交通噪音約 55 dB，接近「一般住宅區」，50 公尺內臨道路一側可達 60 dB。"
+  },
+  "the-brynx": {
+   "combined_db": 52.7,
+   "road_db": 52.0,
+   "aviation_db": null,
+   "rail_db": null,
+   "max_50m_db": 67.2,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "aviation",
+    "rail"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Park Drive）",
+    "m": 2380
+   },
+   "rail": {
+    "name": "Heath St Loop",
+    "m": 310
+   },
+   "note_zh": "交通噪音約 53 dB，接近「一般住宅區」，50 公尺內臨道路一側可達 67 dB。"
+  },
+  "avalon-at-assembly-row": {
+   "combined_db": 50.9,
+   "road_db": null,
+   "aviation_db": 47.7,
+   "rail_db": 47.8,
+   "max_50m_db": 53.2,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "road"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-93",
+    "m": 460
+   },
+   "rail": {
+    "name": "Orange Line",
+    "m": 270
+   },
+   "note_zh": "交通噪音約 51 dB，接近「一般住宅區」，主要來自道路。"
+  },
+  "windsor-at-maxwell-s-green-apartments": {
+   "combined_db": 54.8,
+   "road_db": null,
+   "aviation_db": null,
+   "rail_db": 54.4,
+   "max_50m_db": 60.9,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "road",
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-93",
+    "m": 1300
+   },
+   "rail": {
+    "name": "Green Line (E)",
+    "m": 70
+   },
+   "note_zh": "交通噪音約 55 dB，接近「一般住宅區」，50 公尺內臨鐵路一側可達 61 dB。"
+  },
+  "j-malden-center": {
+   "combined_db": 54.7,
+   "road_db": 50.1,
+   "aviation_db": null,
+   "rail_db": 53.3,
+   "max_50m_db": 64.5,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-93",
+    "m": 2490
+   },
+   "rail": {
+    "name": "Western Route (Haverhill Line)",
+    "m": 100
+   },
+   "note_zh": "交通噪音約 55 dB，接近「一般住宅區」，50 公尺內臨道路一側可達 64 dB。"
+  },
+  "maxwell": {
+   "combined_db": 54.6,
+   "road_db": null,
+   "aviation_db": 50.6,
+   "rail_db": 49.2,
+   "max_50m_db": 56.2,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "road"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 16（Revere Beach Parkway）",
+    "m": 230
+   },
+   "rail": {
+    "name": "Eastern Route (Newburyport/Rockport Line)",
+    "m": 220
+   },
+   "note_zh": "交通噪音約 55 dB，接近「一般住宅區」，主要來自道路。"
+  },
+  "amaya": {
+   "combined_db": 57.0,
+   "road_db": null,
+   "aviation_db": 56.2,
+   "rail_db": 49.6,
+   "max_50m_db": 57.9,
+   "max_50m_source": "aviation",
+   "below_threshold": [
+    "road"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 1A（Lee Burbank Highway）",
+    "m": 1050
+   },
+   "rail": {
+    "name": "Blue Line",
+    "m": 100
+   },
+   "note_zh": "交通噪音約 57 dB，接近「一般住宅區」，主要來自飛機。"
+  },
+  "the-brookliner": {
+   "combined_db": 55.4,
+   "road_db": 58.8,
+   "aviation_db": null,
+   "rail_db": 47.3,
+   "max_50m_db": 63.4,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-90（Massachusetts Turnpike）",
+    "m": 1650
+   },
+   "rail": {
+    "name": "Green Line (B)",
+    "m": 270
+   },
+   "note_zh": "交通噪音約 55 dB，接近「一般住宅區」，50 公尺內臨道路一側可達 63 dB。"
+  },
+  "mason": {
+   "combined_db": 52.3,
+   "road_db": null,
+   "aviation_db": 50.0,
+   "rail_db": 48.1,
+   "max_50m_db": 52.9,
+   "max_50m_source": "aviation",
+   "below_threshold": [
+    "road"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 16（Revere Beach Parkway）",
+    "m": 190
+   },
+   "rail": {
+    "name": "Eastern Route (Newburyport/Rockport Line)",
+    "m": 270
+   },
+   "note_zh": "交通噪音約 52 dB，接近「一般住宅區」，主要來自飛機。"
+  },
+  "v2-apartments": {
+   "combined_db": 55.0,
+   "road_db": null,
+   "aviation_db": 50.9,
+   "rail_db": 52.9,
+   "max_50m_db": 56.0,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "road"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "US 1（Northeast Expressway）",
+    "m": 300
+   },
+   "rail": {
+    "name": "Eastern Route (Newburyport/Rockport Line)",
+    "m": 120
+   },
+   "note_zh": "交通噪音約 55 dB，接近「一般住宅區」，主要來自鐵路。"
+  },
+  "alder-at-allston-yards": {
+   "combined_db": 52.0,
+   "road_db": null,
+   "aviation_db": null,
+   "rail_db": 51.5,
+   "max_50m_db": 53.9,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "road",
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-90（Massachusetts Turnpike）",
+    "m": 180
+   },
+   "rail": {
+    "name": "Boston Subdivision (Framingham/Worcester Line)",
+    "m": 150
+   },
+   "note_zh": "交通噪音約 52 dB，接近「一般住宅區」，主要來自鐵路。"
+  },
+  "the-eddy": {
+   "combined_db": 49.6,
+   "road_db": null,
+   "aviation_db": 48.3,
+   "rail_db": null,
+   "max_50m_db": 49.7,
+   "max_50m_source": "aviation",
+   "below_threshold": [
+    "road",
+    "rail"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 1A（Callahan Tunnel）",
+    "m": 400
+   },
+   "rail": {
+    "name": "MBTA rail line",
+    "m": 1570
+   },
+   "note_zh": "交通噪音約 50 dB，接近「很安靜」，主要來自飛機。"
+  },
+  "zinc": {
+   "combined_db": 52.9,
+   "road_db": null,
+   "aviation_db": null,
+   "rail_db": 52.7,
+   "max_50m_db": 54.6,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "road",
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-93",
+    "m": 510
+   },
+   "rail": {
+    "name": "Green Line",
+    "m": 40
+   },
+   "note_zh": "交通噪音約 53 dB，接近「一般住宅區」，主要來自鐵路。"
+  },
+  "vero-apartments": {
+   "combined_db": 52.5,
+   "road_db": null,
+   "aviation_db": 49.9,
+   "rail_db": 48.9,
+   "max_50m_db": 53.4,
+   "max_50m_source": "aviation",
+   "below_threshold": [
+    "road"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 16（Revere Beach Parkway）",
+    "m": 230
+   },
+   "rail": {
+    "name": "Eastern Route (Newburyport/Rockport Line)",
+    "m": 260
+   },
+   "note_zh": "交通噪音約 52 dB，接近「一般住宅區」，主要來自飛機。"
+  },
+  "urbane-at-alewife": {
+   "combined_db": 47.3,
+   "road_db": null,
+   "aviation_db": null,
+   "rail_db": null,
+   "max_50m_db": 48.0,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "road",
+    "aviation",
+    "rail"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Alewife Brook Parkway）",
+    "m": 270
+   },
+   "rail": {
+    "name": "Fitchburg Route (Fitchburg Line)",
+    "m": 160
+   },
+   "note_zh": "交通噪音約 47 dB，接近「很安靜」，主要來自鐵路。"
+  },
+  "prism-apartments": {
+   "combined_db": 47.9,
+   "road_db": 56.1,
+   "aviation_db": null,
+   "rail_db": 46.3,
+   "max_50m_db": 56.6,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "US 1",
+    "m": 970
+   },
+   "rail": {
+    "name": "Red Line",
+    "m": 420
+   },
+   "note_zh": "交通噪音約 48 dB，接近「很安靜」，50 公尺內臨道路一側可達 57 dB。"
+  },
+  "clippership-apartments-on-the-wharf": {
+   "combined_db": 50.0,
+   "road_db": null,
+   "aviation_db": 48.9,
+   "rail_db": null,
+   "max_50m_db": 50.1,
+   "max_50m_source": "aviation",
+   "below_threshold": [
+    "road",
+    "rail"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 1A（Callahan Tunnel）",
+    "m": 590
+   },
+   "rail": {
+    "name": "MBTA rail line",
+    "m": 1710
+   },
+   "note_zh": "交通噪音約 50 dB，接近「很安靜」，主要來自飛機。"
+  },
+  "revolution-at-assembly-square": {
+   "combined_db": 51.7,
+   "road_db": 45.5,
+   "aviation_db": 45.9,
+   "rail_db": 49.3,
+   "max_50m_db": 52.2,
+   "max_50m_source": "rail",
+   "below_threshold": [],
+   "logan_contour": null,
+   "highway": {
+    "name": "I-93",
+    "m": 180
+   },
+   "rail": {
+    "name": "Orange Line",
+    "m": 290
+   },
+   "note_zh": "交通噪音約 52 dB，接近「一般住宅區」，主要來自鐵路。"
+  },
+  "modera-medford": {
+   "combined_db": 52.0,
+   "road_db": null,
+   "aviation_db": 50.2,
+   "rail_db": 47.1,
+   "max_50m_db": 52.2,
+   "max_50m_source": "aviation",
+   "below_threshold": [
+    "road"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 16（Revere Beach Parkway）",
+    "m": 120
+   },
+   "rail": {
+    "name": "Western Route (Haverhill Line)",
+    "m": 290
+   },
+   "note_zh": "交通噪音約 52 dB，接近「一般住宅區」，主要來自飛機。"
+  },
+  "211-green-street": {
+   "combined_db": 52.9,
+   "road_db": 51.6,
+   "aviation_db": null,
+   "rail_db": 50.6,
+   "max_50m_db": 60.5,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Park Drive）",
+    "m": 4120
+   },
+   "rail": {
+    "name": "Northeast Corridor",
+    "m": 230
+   },
+   "note_zh": "交通噪音約 53 dB，接近「一般住宅區」，50 公尺內臨道路一側可達 60 dB。"
+  },
+  "50-stedman-street": {
+   "combined_db": 51.4,
+   "road_db": null,
+   "aviation_db": null,
+   "rail_db": 50.5,
+   "max_50m_db": 52.1,
+   "max_50m_source": "rail",
+   "below_threshold": [
+    "road",
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "US 1（General Casimir Pulaski Skyway）",
+    "m": 4450
+   },
+   "rail": {
+    "name": "Northeast Corridor",
+    "m": 290
+   },
+   "note_zh": "交通噪音約 51 dB，接近「一般住宅區」，主要來自鐵路。"
+  },
+  "3200-washington": {
+   "combined_db": 60.1,
+   "road_db": 59.7,
+   "aviation_db": null,
+   "rail_db": 47.4,
+   "max_50m_db": 62.9,
+   "max_50m_source": "road",
+   "below_threshold": [
+    "aviation"
+   ],
+   "logan_contour": null,
+   "highway": {
+    "name": "Route 2（Park Drive）",
+    "m": 3760
+   },
+   "rail": {
+    "name": "Northeast Corridor",
+    "m": 400
+   },
+   "note_zh": "交通噪音約 60 dB，接近「吵（相當於繁忙街道）」，主要來自道路。"
+  }
+ }
+}

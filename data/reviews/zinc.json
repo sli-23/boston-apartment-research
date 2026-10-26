@@ -1,0 +1,132 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.1,
+   "label": "ApartmentRatings · 69 條評價（2021-03 存檔）"
+  },
+  "summary_zh": "在劍橋 North Point，走路到 CambridgeSide 商場不到 10 分鐘，綠線 Lechmere 站就在附近。住戶最常誇 24 小時禮賓、維修快、健身房好。最大的抱怨是噪音：住戶點名通勤鐵路的車庫和調度場、綠線、垃圾車和車流，還說窗戶隔音差。2020–2021 年綠線延伸工程天天施工，很吵，這個工程已在 2022 年完工。安全方面，住戶說室內上鎖的自行車房一個月被偷 3 台，禮賓離開時大門沒鎖。附近報案區過去一年 92 起，最多是自行車被偷。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "2021-02 住在 9 樓的住戶說：通勤鐵路車庫和調度場、綠線、垃圾車和車流都很吵；窗戶品質差，連工人喊話都聽得到",
+    "2020 年住戶說綠線工程一週 7 天施工；綠線延伸已在 2022 年完工，施工噪音應該已經沒了",
+    "ApartmentRatings 噪音平均 3.5/5；2018 年有住戶說聽不到鄰居"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "劍橋市警方開放資料，該樓所在報案區（101）2025-10-01 到 2026-09-28 共 92 起：最多是自行車被偷 13、住宅內財物被偷 9",
+    "同期有 1 起加重傷害、1 起街頭搶劫、4 起普通傷害",
+    "2020-12 住戶說室內上鎖的自行車房一個月內被偷了 3 台；另一位說禮賓走開時大門沒鎖"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 4,
+   "points_zh": [
+    "住戶普遍誇維修團隊（4.5/5）和 24 小時禮賓，會代收包裹並寄信通知",
+    "有住戶說員工流動率高，租賃辦公室服務參差",
+    "物業回覆了約 95% 的評價（2021 存檔）"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "健身房（住戶說比多數大樓好）、會所、影音室、瑜伽、烤肉區（ApartmentList）",
+    "2021 年住戶說有免費電動車充電和可借用的自行車",
+    "套內有洗衣機烘乾機，有陽台；高樓層能看到波士頓景觀"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 4,
+   "points_zh": [
+    "2026-10-26 ApartmentList：B4 1,144 呎，$5,039–5,148",
+    "水、瓦斯、下水道、垃圾都含在租金內，可以省一筆",
+    "48 小時內簽約送 $1,000"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "24 小時禮賓，會代收包裹",
+  "維修快，住戶評價高",
+  "水、瓦斯、下水道、垃圾都含在租金內",
+  "綠線 Lechmere 站和 CambridgeSide 商場都很近",
+  "健身房好，有陽台"
+ ],
+ "cons_zh": [
+  "靠近鐵路調度場、綠線和車流，有噪音",
+  "住戶說窗戶隔音差",
+  "自行車被偷是附近最常見的報案",
+  "評價大多是 2021 年以前的",
+  "租金偏高"
+ ],
+ "quotes": [
+  {
+   "text": "通勤鐵路的車庫和調度場、綠線、垃圾車，還有一般的車流和人聲。窗戶品質很差，我住 9 樓都聽得到施工工人喊話。",
+   "source": "ApartmentRatings · 2021-02",
+   "url": "https://web.archive.org/web/20210301172009/https://www.apartmentratings.com/ma/cambridge/zinc-apartments_9199332346275160759/"
+  },
+  {
+   "text": "安全我只給 2 分，因為鎖好的自行車在室內上鎖的自行車房被偷了，而且我們是一個月內第 3 台。大樓外一週 7 天施工，很吵。",
+   "source": "ApartmentRatings · 2020-12",
+   "url": "https://web.archive.org/web/20210301172009/https://www.apartmentratings.com/ma/cambridge/zinc-apartments_9199332346275160759/"
+  },
+  {
+   "text": "我唯一的問題是安全。大門從來不鎖，禮賓人員走開一下也不鎖，整棟樓等於對任何人開放。",
+   "source": "ApartmentRatings · 2020-12",
+   "url": "https://web.archive.org/web/20210301172009/https://www.apartmentratings.com/ma/cambridge/zinc-apartments_9199332346275160759/"
+  },
+  {
+   "text": "員工很好、很友善，讓這裡有家的感覺。健身房比大多數大樓都好、設備齊全。還有免費電動車充電和可以借的自行車。",
+   "source": "ApartmentRatings · 2021-01",
+   "url": "https://web.archive.org/web/20210301172009/https://www.apartmentratings.com/ma/cambridge/zinc-apartments_9199332346275160759/"
+  },
+  {
+   "text": "能聽到鄰居的聲音嗎？完全不會！非常安靜。",
+   "source": "ApartmentRatings 問答 · 2018-06",
+   "url": "https://web.archive.org/web/20210301172009/https://www.apartmentratings.com/ma/cambridge/zinc-apartments_9199332346275160759/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ApartmentRatings（2021 存檔）",
+   "url": "https://web.archive.org/web/20210301172009/https://www.apartmentratings.com/ma/cambridge/zinc-apartments_9199332346275160759/"
+  },
+  {
+   "name": "Cambridge 犯罪開放資料",
+   "url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  {
+   "name": "Niche · East Cambridge（2025 存檔）",
+   "url": "https://web.archive.org/web/20250326190347/https://www.niche.com/places-to-live/n/east-cambridge-cambridge-ma/"
+  },
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/cambridge/zinc--1"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Zinc+22+Water+St+Cambridge"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Zinc%22%20apartments%20Cambridge"
+  }
+ ],
+ "gaps_zh": "評價都是 2021 年 3 月以前的存檔，綠線完工後的新評價沒找到。Google、Reddit、Yelp、Apartments.com 都攔截了自動抓取，下面的連結可以自己點開看。"
+}

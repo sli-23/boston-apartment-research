@@ -1,0 +1,974 @@
+{
+ "Mansfield Dog Park|42.3569,-71.1306": {
+  "rating": 3.2,
+  "count": 21,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9988887037083997261",
+  "other": [],
+  "summary_zh": "Google 3.2 分（21 則），Allston 林肯街旁的小型社區狗公園，有圍欄、地面全是豆石（peastone），沒有水，緊鄰高壓電設施，評價偏低。",
+  "good_zh": [
+   "有圍欄，可讓狗放繩跑",
+   "有人用的座位區與少許遮蔭",
+   "社區自管，人不多不擁擠"
+  ],
+  "bad_zh": [
+   "地面全是碎石、沒有草，無飲水設施",
+   "旁邊是高壓變電設施，環境較荒涼",
+   "曾有垃圾、菸蒂、狗便袋用完的負評；附近路邊停車少"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeyrChTpVtQtGCCdJQZaXjqW8QoDfM42Z3llsMDu5HB10rVuQVwqLtaRlyZz1CCjUlqGujntiK01w1M_FdaF4AUSunPRchjZnkC5QQ2Rq3_f4yFdUwPyWFje1eufgqLIbsVAqc3ZyznfFjZ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9988887037083997261",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe08CW4VJfDpEC6vsQOqKQmzCVoELO5o9RkMvMD6dr-oZ1Y00p88GUx7DT79VVoEJtIfsRejbJijHs3dplVQj-Dc82pWK5_UULy1V_GPAcSD3AkHmYxuA4VXwu45IRZNXTwG84wnaQB_Av4=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9988887037083997261",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf-E9ufyqI17URZZQEh87t--Yg1Nq0zY3I_RIyTWO_V9R3OWTZfpIdk84Z8h_EEfO7Eu5GdAth7Q-bL-OsAUw7g7_TYo5GKuG6BfcwtrWwoDyqh5Xy4_pXo5To2wnZLwZovyJCZBwp4ihdT=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9988887037083997261",
+    "credit": "Kindred Wind"
+   }
+  ],
+  "matched_name": "Mansfield Street Dog Park",
+  "dog": {
+   "fenced": true,
+   "off_leash": "yes",
+   "license_required": true,
+   "water": false,
+   "small_dog_area": null
+  }
+ },
+ "Squibnocket Park|42.3604,-71.1652": {
+  "rating": 4.3,
+  "count": 28,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17296959093099350524",
+  "other": [],
+  "summary_zh": "Google 4.3 分（28 則），Brighton／Watertown 交界查爾斯河畔的小公園，有鋪面與泥土步道沿河，四季可走，適合短程遛狗散步。",
+  "good_zh": [
+   "沿查爾斯河有鋪面與未鋪面的步道",
+   "大草地可活動，路邊免費停車",
+   "環境安靜，秋天景色好"
+  ],
+  "bad_zh": [
+   "草地有很多鵝糞",
+   "常有人吸大麻，管轄警方互相推諉",
+   "旁邊樹林有毒藤，面積不大"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdGOe7oXa4JUGgsVJqf7gvrBI3vNT9G5e3zyn-HqVT1J5Vlq4Ib_6Ccdsdvs5fLhKSVx3wE4Sk0pzxP1Os9z6C0gy1v8rdbz-7Ujl_2i21fBVsekmsdw0ki68rj2eqU_SzekGE=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17296959093099350524",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcXJoJSO1YYwZDe0MuGBXiBsG2EBsRaNW6gkJXaTzh1KhQFhwtUNJ7SKKqTlosK50qOIygyYsKPsyMLP5KLBzwGBancktL4PxAD6WiUKLaQJ97AA0VZFMYB8KvvCMqjO4rzVNm0=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17296959093099350524",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLemiOfeblPGhJMWTZUuKD3XBt6E5-SbTleLnFBiHY1uSfqUqRmO_FPxne2cP3AMH1qApeHLMdOHthq0WeHU3nDR-O5nNqz-xwRKJEqwXVU9KwZ-wwTla7QhzoHQFNKp2CcXJgXZ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17296959093099350524",
+    "credit": "Jaya Wen"
+   }
+  ],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Dog Park @ The Yard|42.3981,-70.9938": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [],
+  "summary_zh": "Google 地圖上查不到這座狗公園的獨立頁面；地址 10 Suffolk Downs Blvd 在 Google 上是 The Yard @ Beachmont Square 住宅社區，應屬社區附設狗區，無公開評論。附近約 800 公尺另有 The Dog Park @The Track（3.7 分）。",
+  "good_zh": [],
+  "bad_zh": [
+   "無公開評論或官方資訊可查"
+  ],
+  "checked": "2026-10-26",
+  "photos": [],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Fitzhenry Square Dog Park|42.4061,-70.9953": {
+  "rating": 5,
+  "count": 7,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9931043777145883967",
+  "other": [],
+  "summary_zh": "Google 5.0 分（僅 7 則），Revere 海灘附近街角的小型狗公園，地面為草地與泥土，評論說適合小型犬，步行可到海灘。",
+  "good_zh": [
+   "離 Revere Beach 步行很近",
+   "小巧，適合小型犬",
+   "附近居民常帶狗來"
+  ],
+  "bad_zh": [
+   "評論僅 7 則，資訊有限",
+   "面積小、草皮磨損露出泥土"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLctvUGNZe0c7APJzjK8McAuJaYry7MbYVYSoiksK-zh0E2JSPjEdkBBAgZnygNYWlPm-iuYXsNQQn-WgUtk7HFOwkuQZ9WXbcvcoysW61-ZkPGDXKQj5LZ_-e9vA4fY7aN1NJw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9931043777145883967",
+    "credit": "Jan Dumas"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnl8GwPpue6mJ_U-yINLGoi1H_TAfultfyjR7hSI8w0YE9WHBEhPttLOX1-ClhXSIjH_rPF8pqukjvLkUqFt37AAoUdhtBG8g2ONn93rsM0GWxzMkzlZga1e4Y7_nvbqwA1Cnq=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9931043777145883967",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfqSwpdGwq8ARlcLd6RngUvZ2xQ7ZGC-VeYd2c3QvmCoJfZmzGAzdCoXoWDv_Ul_WThx9-BWGHNUyedQeAnW9C9ZGfWmI8A7DA0w3ePQmnvrroU3NILNs0Wur9Vv5rwfEHDVrW-A=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9931043777145883967",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "matched_name": "Fitzhenry Square",
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Zero New Washington St Dog Park|42.3801,-71.0824": {
+  "rating": 4.6,
+  "count": 180,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17678452665946232891",
+  "other": [],
+  "summary_zh": "Google 4.6 分（180 則），Somerville 很受歡迎的圍欄放繩區，面積中等，碎石地面、有障礙物和涼亭遮蔭，有飲水機和水龍頭，雙道門；開放時間 8:00–22:00。",
+  "good_zh": [
+   "雙道門圍欄，有飲水機與注水龍頭、便袋",
+   "有涼亭、長椅與敏捷訓練設施",
+   "位置方便，狗和飼主大多友善"
+  ],
+  "bad_zh": [
+   "緊鄰通勤鐵路，火車經過可能嚇到狗",
+   "遛狗師帶大群狗或聚會時很擠，有不守規矩的常客",
+   "地面碎石、設施有些老舊"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLev7ZVI603dXJqRKhV2bQ3U0D55GqbnZQtbo9AZBsrimiijFpXFgZmDAHFo4BVgDkIm3m5HUcvnG88C_s6UUqmVLH4-6I1O4Qwm-DSMECpd_VviL8RcMtUP-fbnGoicGE6zz-BsLg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17678452665946232891",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLenOiIm2jGNWJCkVkjJEFyux5xwvv39jiny38144gq1kGELOJ_gdthJPwhCRpYKM35Mnoiw6WB4Ntq1vvs5n_SVwSkK7gznEYeFKqLb4lqNgnLFRqadcI388HC099oRZLixZwAg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17678452665946232891",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe2ITNGjMAY4uMv5SFhRuXEKT2xGgq20ausxX2eRkyc8UvfUBMSZvHqecE-qol6D7rPb8OUr-izHgrkYh6BRancLMwRfm9WWQYKmfscaNdBZ-k9My8JVpWgoMKULpPx5Wydz9yOng=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17678452665946232891",
+    "credit": "Kindred Wind"
+   }
+  ],
+  "matched_name": "Zero New Washington Dog Park",
+  "dog": {
+   "fenced": true,
+   "off_leash": "hours",
+   "license_required": true,
+   "water": true,
+   "small_dog_area": null
+  }
+ },
+ "Amory Playground Green Dog Park|42.3462,-71.1130": {
+  "rating": 4.7,
+  "count": 273,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=5851789779709256291",
+  "other": [],
+  "summary_zh": "Google 4.7 分（273 則），Coolidge Corner 後方的大型草地公園（OSM 標為 Green Dog 狗區），評論稱早晨和下班後是狗的聚集地，常見放繩玩耍；旁邊有 Hall's Pond 木棧道。無圍欄。",
+  "good_zh": [
+   "大片草地，早晚很多狗一起玩，飼主友善",
+   "鄰近 Hall's Pond 自然保護區木棧道，可散步",
+   "有小停車場與分散的長椅"
+  ],
+  "bad_zh": [
+   "草地開放無圍欄，旁邊有球場與運動人群",
+   "有評論提到被管理人員要求拴繩，放繩規定需自行確認",
+   "週末運動、曬太陽的人多"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLckneUDNgVqBMGjMziwDS-R-9A1ExhS75Jk3HJhhgrjr-zINe1CUXcpBBXd5k5A4EAw360ho1j20Q_EA8-0RfEvu-MZa1SzKj0XMQZ_q64W5VRDcl8ukuK8thbaM_ZCtxXVLGvpmA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5851789779709256291",
+    "credit": "Alex Kim"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeLESdvCKB0HMzPd6jCKjSDfCeMNxBBIBWcy-WRiBNprmeO0FETpVl5smS6g42zU1SuYhcYUHcSkdq9byTtDGyM43U4MnEMIYf4UNdPuIOenahvkkk_v3wf2jixVRrovzjvXb8PrA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5851789779709256291",
+    "credit": "Alex Kim"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeMrZlwEo136RsOxuPRKscmWwKNjFrhtDCueS_NZQmYpslBTCFJe5MxJGgBrSLMvY_e2QdTaEqyZ9BuQ4IcPXtOsU_QtBIPO6CB7585J75ZMxvNaH9en6j0QBfXw8do7opYlgyg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5851789779709256291",
+    "credit": "Alex Kim"
+   }
+  ],
+  "matched_name": "Amory Playground",
+  "dog": {
+   "fenced": false,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Thorndike Dog Park|42.3990,-71.1446": {
+  "rating": 4.6,
+  "count": 180,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=11311108173281015602",
+  "other": [],
+  "summary_zh": "Google 4.6 分（180 則），Arlington Minuteman 自行車道旁的大型圍欄狗公園，豆石地面、有隧道等設施，另設 26 磅以下小型犬專區，夏季有水，有照明並按固定時段開放。",
+  "good_zh": [
+   "大小狗分區（小型犬區限 26 磅以下）",
+   "有水（夏季）、便袋與垃圾桶，有照明",
+   "緊鄰自行車道與步道，停車場步行即到"
+  ],
+  "bad_zh": [
+   "整個地面都是碎石豆石，有人希望改草皮",
+   "園內禁止帶玩具",
+   "人多時體驗看當天的狗群；停車位偏緊"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTIz3flTqgdqIOZPqbYCqPrJHiOyJdm_bcpZn-3iOb7Vks57DiEaadq6hYUusuL2KwJVguILFlPULVmxATbseo_ILdH2DNW15oe93v0J25F_zu3euaG1B_LSA5CuzI4gLRjQsT=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11311108173281015602",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeG2L3tfm-8FnRYWpUZX1WUMT_w8lG-d1teN1PUsWXseShG49SUDI_adtGEyB-nySqZmckxaUZPZiJ1ChImpBRU2I6iNgMIZptlG4wgzvwqYwolSb_3XalX6GiAN0FD05Wngim_=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11311108173281015602",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfKyp3libSdAw_Fll7jQKAPVRLxuoNKfgnUHABMFwsmOMwHG65nWiFM_FjWWwEbIC3Ah2Afj8wE-7X7UkR6tCSU6Jeo7j2QMVPpGRBqJ26EAT95dOaCReJpHCEEs1XSzmf9HBjw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11311108173281015602",
+    "credit": "Kindred Wind"
+   }
+  ],
+  "dog": {
+   "fenced": true,
+   "off_leash": "hours",
+   "license_required": null,
+   "water": true,
+   "small_dog_area": true
+  }
+ },
+ "Danehy Park|42.3889,-71.1363": {
+  "rating": 4.7,
+  "count": 1285,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=4421318752033664575",
+  "other": [],
+  "summary_zh": "Google 4.7 分（1285 則），Cambridge 約 50 英畝大公園，有步道、球場、遊樂場，內有兩個圍欄狗區（含小型犬區）可放繩；狗區維護良好、有便袋。",
+  "good_zh": [
+   "兩個圍欄狗區，另有小型犬空間，常備便袋",
+   "有慢跑步道與大片草地，適合拴繩散步",
+   "多個停車場，陽光與遮蔭兼具"
+  ],
+  "bad_zh": [
+   "Cambridge Jazz Festival 等活動時人潮多、停車滿",
+   "球場比賽時段人多",
+   "Cambridge 狗區需辦市府狗牌"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe9MkQd5EIviTAtbbOVICYGiXwsRjVHFbeCYMqCv6MVIxjagtPUxnLYS0pnvXUoKLgB_TKOBmxVeSlOGGZHTvEn5fcQFgR4vFVLGPd6cnGLasEXrV0aOSZN4SumEzf9q_phaiI=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4421318752033664575",
+    "credit": "Kristy Johnson"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTNB9d_V1E5MkP0-CAB_WmUauY5rBgBMcLutuLQwqqYD7LptP6yPhNGMVme3EX-wDMvuLs-TdTmKW2Eo8zxR0rIM-5ISSub5AKhPr0En0k3SMRgBZPs4fO8UwI76HLVQx8s9Y=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4421318752033664575",
+    "credit": "Kristy Johnson"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLet1I_3NHXpw8s9yMepyXBI4FQ43XZrikbfuk1fd0WKyXAY06DSzVg0B1IC-glhzjO3R7yNm-78wuWe8koMZrNY0Lt9xzqBBBAYz1ovTbtBi4gsK1MhwWIqUvRwYilOJ9lbI0dW=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4421318752033664575",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "dog": {
+   "fenced": true,
+   "off_leash": "yes",
+   "license_required": true,
+   "water": null,
+   "small_dog_area": true
+  }
+ },
+ "Melrose Dog Park|42.4623,-71.0650": {
+  "rating": 4.4,
+  "count": 146,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=14489103031394607905",
+  "other": [],
+  "summary_zh": "Google 4.4 分（146 則），Melrose Ell Pond 旁的中型圍欄狗公園，木屑／覆蓋物地面，有坡道、輪胎等障礙設施，有照明按固定時段開放；飲水機常故障，建議自備水。",
+  "good_zh": [
+   "有圍欄，設有坡道、輪胎等障礙物",
+   "樹蔭多、停車方便，通常備有便袋",
+   "狗和飼主友善"
+  ],
+  "bad_zh": [
+   "飲水機常故障或關閉，需自備水",
+   "木屑地面露土，下雨後狗容易滿身泥",
+   "面積不大"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdqvWbrghQf77qA3MwDYZaVJ8lER8HsxZwvaIaM6dut1fEmtKJd_4XabnzC2oYkIZMyvqx9uTTGzfeCrL4BsDmY-oYJehi7U8r5Gy7wBvbPOrzrnFaXlRSvD1Y06bRhRpYHhcS9HA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14489103031394607905",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfFASuUqbHfQD4_S9rDboGIfHYFtozhOibieJwhPq9RM1xokdz7PRFfsX4lAxC_aoQWQ5urss-P7gO4gc7cZ72fiBHbGm3cTynIcJrCw9ro_UJvs4aEHHrJpZ4-T7aoAzYpM1AQ3g=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14489103031394607905",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdARPliu3sVLUGWQcJQYhaJenQZ2zeSfMNtt1VP1Lgon9mxUCDRfF_Bgl0PE2esVHhq4HWZldhShVBmqpytUM9Pgk_fBUvXIYyfiRKeBd_TEr2Lh4QSc2vk0QlfnhlrD2bAJUw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14489103031394607905",
+    "credit": "Kindred Wind"
+   }
+  ],
+  "dog": {
+   "fenced": true,
+   "off_leash": "hours",
+   "license_required": null,
+   "water": true,
+   "small_dog_area": null
+  }
+ },
+ "Trafton Dog Park|42.4373,-71.0432": {
+  "rating": 4.2,
+  "count": 23,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=10616380103774443364",
+  "other": [],
+  "summary_zh": "Google 4.2 分（23 則），Malden 唯一的狗公園，有圍欄、豆石地面，後方有大石堆可讓狗攀爬，有水泵、便袋；告示寫開放 7AM–9PM、可放繩、每人最多 2 隻狗。",
+  "good_zh": [
+   "有圍欄，可放繩，後方石堆可攀爬",
+   "有新水泵、長椅、便袋和垃圾桶，遮蔭多",
+   "有照明，全年開放到晚上 9 點"
+  ],
+  "bad_zh": [
+   "新鋪的小碎石容易卡在狗腳掌",
+   "Trafton 公園整修中，開車難進出、正門街上不能停車",
+   "有評論抱怨不懂狗語的飼主"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc8pSVIn2WU5Ae1-sl5fgobQ4a6y7Ztnzqvqpmtvlzxdi9mihX7psFVawPiOrVlFUzWAl4-mMx8cTr_SLpL6u6UEnVEZXrlJaWir9Ivox9e2bmYDya5sJpQGEFdv7vrlRc6PGH6=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10616380103774443364",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfFxcwrrjZpYKuhiEt3aBceqSDv1nR1qlR21g_oXNbMqE8-ByJSLk720MClqvJELhwS-iPCh65BGLMRRw2V_CJfYZC2c8encn8WZ_E9jngrhfOB-b5CW0NL75ci9hbEEER1Rq7G=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10616380103774443364",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcjMiLUgKsykZlj2J8oJCzINzrvhPlnIDd7F_R_N3VeRhIo9XtFcADnVioseGiD9GgEMfKCoFLt6j__n9B8I30aS8qkqhYCeEygJMCVc1TRBvFjR0qv_gPTWKD1w82wpK-HdlcI=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10616380103774443364",
+    "credit": "Kindred Wind"
+   }
+  ],
+  "dog": {
+   "fenced": true,
+   "off_leash": "hours",
+   "license_required": null,
+   "water": true,
+   "small_dog_area": null
+  }
+ },
+ "Bell Rock Memorial Park|42.4205,-71.0672": {
+  "rating": 4.5,
+  "count": 289,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=18191607926780227868",
+  "other": [],
+  "summary_zh": "Google 4.5 分（289 則），Malden 市中心旁的小山丘紀念公園，草地修剪整齊、老樹遮蔭、長椅多，適合短程散步；評論沒有提到遛狗規定。",
+  "good_zh": [
+   "乾淨、維護良好，草地與大樹遮蔭",
+   "長椅多，適合短程散步或野餐",
+   "有韓戰紀念碑等石造紀念建築，景觀好"
+  ],
+  "bad_zh": [
+   "面積小（約 1.2 公頃），只適合短程散步",
+   "停車位少，只能停住宅區路邊",
+   "評論未說明狗是否可進入或需拴繩"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeRGUhCAf7acC-Yw5_C0nPg9mXtYmBCfz_ocPd0UNOSDXLl_IxWCLYlXlIVRUrGcsYD3oASCFrbwwYW6P1Uxc1lpfH7z22uIWnOUaEds1m9syiH4a2gr_DGypjA4yERj3cevwUEkg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=18191607926780227868",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcXnUoPYoVoAdj3_F-GEQr1SU2DgF4HGKafHA6b7GOJVJ1aTlW8rh_7bpkEPwJdYSDgVu10T6IWVA2mamq6CQN-rFnnXEHCnv87J1yBF0BrMmbCgADnIxjVwbN7QJTp3zP2FN6iFUy2oS8=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=18191607926780227868",
+    "credit": "Duda"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7huBojVonUkchC4Fm6NRtCrVlpCrAhyU8Y4xv5deobng_q8hl3k9JQ85bYqqpzc8sT-F0ZghjPiuWAn84iG51F8SXIrvHa3XgfH2gOKyZj-mWVInbxyBAm2N_3NNbtbtwTBwUOA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=18191607926780227868",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Park-9 Dog Bar|42.4077,-71.0647": {
+  "rating": 4.7,
+  "count": 478,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=10215691720662472320",
+  "other": [],
+  "summary_zh": "Google 4.7 分（478 則），Everett 的室內狗公園＋酒吧（商業場所，需付費入場／會員），空間大、乾淨，有「園區管理員」監看狗群互動，另有訓練課程，下雨天也能玩。",
+  "good_zh": [
+   "室內場地，天候不影響，空間大且乾淨",
+   "有專人看管狗群互動，適合新手飼主與幼犬社交",
+   "可邊喝飲料邊看狗玩，也有訓練課程"
+  ],
+  "bad_zh": [
+   "屬付費商業場所，非免費公園",
+   "活動或生日派對時人和狗多",
+   "需遵守店家入場規定（評論未列細節）"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfaS-7jobFzoWVFKrr_XHOTSJF6PJSostR519zIIoxI70SizWQq2WfrrwMocqubRmsHgFwaYupSXNUOahm3SYAfCjqgFyasgrPTke8tZdDjmvJwM3PFWTySHRijbKBJA26Ve0e_hz2I-w4=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10215691720662472320",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcZR9JEIHXsC3_R70xqZzGdCXnw06CW3MPjeqNa6SG9QqdAV8vcQ2XtkEuIDrcPvZhreFWlYD33TYtn9V-nqlCu2mC1AAkDFRieBVWMTNW2j1kjtZNK6QG2b2F__GpolFMG-maSyNnGFTU=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10215691720662472320",
+    "credit": "Kate Elwell"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc_lJ_j8OX75tz4D71VZQI66Lsc33hJ9fvzT74bgqK6BhckGnp8xYA6txina5gO8-T2kPn92EyXl9Foieam3fWu_Wr3S_rQHIUz35lsynSc9glnwhri7Din_Li1sEZzD0lFdEor4cqt1hIQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10215691720662472320",
+    "credit": "Francisco Mercedes (x_franco5)"
+   }
+  ],
+  "dog": {
+   "fenced": true,
+   "off_leash": "yes",
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Paws N Play Dog Park|42.4214,-71.0268": {
+  "rating": 4.1,
+  "count": 175,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=1458761436128010066",
+  "other": [],
+  "summary_zh": "Google 4.1 分（175 則），Revere Webner Park 內的狗公園，大小狗分區圍欄、碎石地面（防泥），有水泵、垃圾桶和水泥長椅，後方另有未圍欄的草地；遮蔭少。",
+  "good_zh": [
+   "大小狗分區，都有圍欄",
+   "有水泵、垃圾桶和長椅",
+   "碎石地面下雨不易泥濘"
+  ],
+  "bad_zh": [
+   "遮蔭與遮雨處不足、沒有專用停車場",
+   "有評論說空間對大型犬太小",
+   "曾有攻擊性狗進入大狗區咬傷他犬的負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdPU24wUxiZC6jyxRmtRUR_n-oqay0WUpW6GL6H8aOHJuW1zTn03tSY3iRNQzh2AJFZ03aM-zMPJuPv7igf7k6mSFIkMH7s2RlJJ7mE0p13rJEg5mxxFfnrOd7xszvQlNsldXXNfg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1458761436128010066",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeukwKle27fwl4s7WpaJYmgCagAnB4buJ_K8ptaYg3e5gekVwjjtdyvNELMyBYRQDh8WyFl8Y61xuBOTzch8eWhAQ1LICsbtBkEuNwVi-eLhgybfICJwOcXOQ4Ztvk-FnD0xUx9=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1458761436128010066",
+    "credit": "Ann E."
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfMgChxc-nF_r91t4ZriPqwPx3AWNr64371IIMC7snLeypwKeKv0Ml-5QTvoqoYEJoF9EdTJlXW7vW_uWk7MwZfMSwEaf2rVe1Qas71HHojVFbavcJgcNYLytEesQ2i91f9mJykxQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1458761436128010066",
+    "credit": "George DiCrescenzo"
+   }
+  ],
+  "matched_name": "Paws & Play Dog Park",
+  "dog": {
+   "fenced": true,
+   "off_leash": "yes",
+   "license_required": null,
+   "water": true,
+   "small_dog_area": true
+  }
+ },
+ "Swan Street Park|42.4128,-71.0584": {
+  "rating": 4.7,
+  "count": 118,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=12684895240431617605",
+  "other": [],
+  "summary_zh": "Google 4.7 分（118 則），Everett 的社區公園，以遊樂場、戲水池和棒球場為主，有草地與步道；有評論帶狗來散步或在草地跑，但未見官方遛狗規定。",
+  "good_zh": [
+   "有草地和樹，可帶狗散步",
+   "有共享單車站、流動廁所與桌椅",
+   "新整修，環境明亮"
+  ],
+  "bad_zh": [
+   "以兒童遊樂場與戲水池為主，人多時不適合遛狗",
+   "戲水池周邊曾有垃圾的負評",
+   "沒有飲水處，需自備水"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfCEtMOAyK7TVHLXAVT2pIOJx6INbW_-IrdhzA_iajRCu7pMth-nuPXmgjuozQRrMR9og13bKnlLZIofNVH_aOuwtxQqo3NcOVr4KJLucJkQJ9EYIm1lshaaYexWT_JiZ0K17CX=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12684895240431617605",
+    "credit": "Rose Davis"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeUYqdiyd3ioDONFLqlrYTkMpUbOGI0Q3w0AsVFwH1c6NbiR_4U4_3Y4haRPTFngqK3rlvqB8WUKlZT1ybYB0yq7JlCzUqb4isUCa_7MczF_O-MhoaSDpspppagIF81PwAyyjIR=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12684895240431617605",
+    "credit": "Rose Davis"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcj2y5wivGre3mZuJSBwvWHqip8l8l6tbVYMhQpm8glBIbyQ1zdFKw6jZ_xj_fhHLtbhi7vjiFs9q9oY6Jk5VvkZ0SRXl9NH_ucoq8TYuyGT2ibBkFaLRh6T53OOyET9Xl5VhDl=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12684895240431617605",
+    "credit": "Rose Davis"
+   }
+  ],
+  "matched_name": "Swan St Playground",
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "East First Street Dog Park|42.3384,-71.0317": {
+  "rating": 4.7,
+  "count": 50,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=11687180525921393085",
+  "other": [],
+  "summary_zh": "Google 4.7 分（50 則），South Boston 長條形圍欄狗公園，空間大、豆石加水泥地面，有飲水機、便袋與垃圾桶；告示開放時間為日出到日落，幾乎沒照明。",
+  "good_zh": [
+   "面積長而大，狗可以盡情跑",
+   "有飲水機、便袋、垃圾桶和長椅",
+   "飼主普遍負責，路邊好停車"
+  ],
+  "bad_zh": [
+   "幾乎沒有遮蔭，久未下雨時塵土大",
+   "只開放到日落，幾乎沒有照明",
+   "大雪後曾無預警上鎖；平日也常很熱鬧"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdn9YrWKmd2GCxtB2zv5a4ItRpLZX40tQ0WfCbrv5hjycVBMh3ROLeFJSmm_1kBsTyVoDNoChPSSWvfownupTVvadVeeUMX2evI95x7_pUGdeDSEw3Hc7v0GTO50nE721C2xbw6ig=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11687180525921393085",
+    "credit": "Kindred Wind"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7oQxtnXYrXbYRIziec7iS6Xe-DpvwBhvYCrTfWvTRUUqHrbS1Mihd_vAcocHKAvGmau3phcpLQ46mJs4fDLQ8eMu_m2sGZZLPQ5QqNlxtnWeEPMs2dL93zOkNGezwaf7lZj0m=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11687180525921393085",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfo8rO9LDIlQKJXHB9lLWtkC8kIF00mwE_nNJlmPLeAlvd43lh2ELOBiUMOaEBSmqIKdx3ji1A4MgegX_LKY8UB9-8feSYh4zp7jezvE21nVc7YxJukN8tIe7O16wOaKwj5fAFMsg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11687180525921393085",
+    "credit": "Kindred Wind"
+   }
+  ],
+  "matched_name": "East 1st Dog Park",
+  "dog": {
+   "fenced": true,
+   "off_leash": "hours",
+   "license_required": true,
+   "water": true,
+   "small_dog_area": null
+  }
+ },
+ "Bay Village Dog Park|42.3498,-71.0663": {
+  "rating": 4,
+  "count": 12,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=1232606477690728729",
+  "other": [],
+  "summary_zh": "Google 4.0 分（12 則），Bay Village 街角的小型圍欄狗公園，木屑地面，樹下有幾張椅子和便袋；融雪時會積深水坑，有時會擁擠。",
+  "good_zh": [
+   "有圍欄，木屑地面",
+   "樹下有座椅，提供便袋",
+   "位於市中心，方便附近居民"
+  ],
+  "bad_zh": [
+   "面積很小，有時擁擠",
+   "融雪或下雨後積水很深",
+   "有人反映被告知只限社區居民使用"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLenBPJshNpWCYZSSMl2ME9j4OJwdwD_P9jLjj-FDdpVaCO1If_wGxpqIWzpLgoa1HytVRx7v2GsIJiV07ghPI6N7Rb4VaPvQ4uHdwW_gBY3opj2iBQHMc3Yrc7Y71XN3XrfH1ss=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1232606477690728729",
+    "credit": "Colin Valentini"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfRVtIgDB9fr98m8NJRvdPbF6vooE8mDasieurNqyvO2TqLwRBD4Lk9kB3F8JTcgA3H0Mth4bhH0Hd1ifjpSzRhie-DhoQH1c82SlJ4NjLtnc_dU0JsAQ4A4iKl1CMhOpD1uaYTVw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1232606477690728729",
+    "credit": "Colin Valentini"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdcuVxBt3Rv2UEooKuLWynllVPbb6CJHjX18x38pIHwbCwQtDzkOk_suWAeQ61DCRgyKx8yfdyYaGOFyxxIMRhfOzgkE7h-jnkyvXBrklu3LpWXEwlnW3jEq-kv6Ny3F96Z2h2xTQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1232606477690728729",
+    "credit": "Colin Valentini"
+   }
+  ],
+  "dog": {
+   "fenced": true,
+   "off_leash": "yes",
+   "license_required": true,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Chestnut Hill Reservation|42.3351,-71.1582": {
+  "rating": 4.8,
+  "count": 363,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=4381028798497965793",
+  "other": [],
+  "summary_zh": "Google 4.8 分（363 則），Brighton／Newton 交界的州立水庫保留區，環繞水庫一圈約 2.5 公里（評論說法），碎石步道、景色好、有樹蔭和長椅，評論稱寵物友善。",
+  "good_zh": [
+   "環水庫步道一圈約 2.5 公里，景色好",
+   "步道有樹蔭與長椅，適合拴繩遛狗",
+   "附近有水廠博物館可順遊"
+  ],
+  "bad_zh": [
+   "碎石路乾燥時塵土大，雨後有些泥濘",
+   "附近找不到公共廁所",
+   "評論說一圈不算長，想走久要繞兩圈"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf8wxhyl2tOs7ETncfxKePvguWVWq7wfp_vzUj1oHMwSAxkBmlGsXjQuA_cqRSMEOWFKFhn9O5RPWqQIL0uk27v6GZ368e8N0I8XteI3DiUDA9MKMPJPmW_sVbilMpFNRqSyYfS=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4381028798497965793",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLevgUOj1FMou1W_Y77-InWm0e89M8eCPdtqEA1_E2oJgZ8wMtlp1YYG-DONU4fPzpeFp3csz7u2HSSFwwbgU5UryzeW35vJ62retGV6hXPTZqYrN-rHSAFdlAh4J66o9w1hpfQgbA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4381028798497965793",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcXm5zGEZxUF_WbMqfwgpgd-iF6sHB1TwucJlPSveV7tJLFUUmmLF5UurfC5kxK4cu4-y26_S59l45e0BCaWfKZQreiUGH0S6rZQYl0mUL59F1rul_iDqvJgCJjDJYMxG40FbHka9c-DxSg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4381028798497965793",
+    "credit": "Tess Diaco"
+   }
+  ],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Malden River Greenway|42.4075,-71.0732": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [],
+  "summary_zh": "Google 地圖 150 公尺內查不到 Malden River Greenway 的地點頁（最近的是河流本身「Malden River」與約 300 公尺外的 The Park at River's Edge），無可用評分；狗規定與步道長度不明。",
+  "good_zh": [],
+  "bad_zh": [
+   "無 Google 評論或官方資訊可查"
+  ],
+  "checked": "2026-10-26",
+  "photos": [],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Bremen Street Dog Park|42.3725,-71.0341": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=10625763377778129745",
+  "other": [],
+  "summary_zh": "Google 地圖有 Bremen Street Dog Park（145 Bremen St, East Boston）地點頁，但沒有評分、評論和照片；圍欄、地面、飲水等資訊無法確認。",
+  "good_zh": [],
+  "bad_zh": [
+   "Google 上無評分、評論或照片"
+  ],
+  "checked": "2026-10-26",
+  "photos": [],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": true,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Child Street Dog Park|42.3717,-71.0723": {
+  "rating": 4,
+  "count": 8,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=368338328830551791",
+  "other": [],
+  "summary_zh": "Google 4.0 分（8 則），East Cambridge Child Street Plaza 的小型雙門圍欄狗區，碎石地面；告示規定每天 6AM–10PM 開放、只能在圍欄內放繩、須有 Cambridge 狗牌。有便袋但飲水器不能用，遮蔭少。",
+  "good_zh": [
+   "雙道門圍欄，有便袋和垃圾桶",
+   "旁邊有兒童遊樂區，乾淨",
+   "位置在住宅區中，附近居民方便"
+  ],
+  "bad_zh": [
+   "面積很小、形狀怪，大狗跑不開",
+   "飲水器壞了或沒有水，需自備",
+   "樹還小，幾乎沒有遮蔭"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf_O3SDmPxaEdUGIZPeaUhv5F2tu2DNamzvtvKiPBQCEnauQpseK_TmLnC6BN6fdTbDb1WWeB8-vsRDaC3faoMaQsC8lxWqFUKtf41jbom-o0sJF50VbLr6PC9z4M5bztJcEGm77w=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=368338328830551791",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd6JoN82w-imLok4Indphkw46r81LczvwEN_2D7lx-5Wf_DiuADvQUDLb5N3SQEGq9HQ8TUQEAlYuOHeVBL8Gky1GLatGrTP3vPFKHYOyJy_nhhgiZR1fY0yjAIVRs3DyqUq4c=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=368338328830551791",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfzhWLE1H3NLHniK83bWW5BIkBCQk0rH3TPc-QkzbH0BC5G0Z2fHe9HXGpPL6Gm06BwSsoxaGI3E14wfjxiH9gSEc4-bMn4NnNvChgfUeCzeF83DEdtiPflVkpeDVcntIFXIr-j=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=368338328830551791",
+    "credit": "Junji Morokuma"
+   }
+  ],
+  "matched_name": "The Dog Run @ Child Street Plaza",
+  "dog": {
+   "fenced": true,
+   "off_leash": "hours",
+   "license_required": true,
+   "water": false,
+   "small_dog_area": null
+  }
+ },
+ "PORT Park|42.3864,-71.0344": {
+  "rating": 4.5,
+  "count": 102,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17068644310085279311",
+  "other": [],
+  "summary_zh": "Google 4.5 分（102 則），Chelsea 河岸的小型海濱公園，可看 Tobin Bridge 和船隻，碎石步道、長椅多，安靜人少；評論未提到遛狗規定或步道長度。",
+  "good_zh": [
+   "河景與 Tobin Bridge 景觀好，適合日落散步",
+   "安靜、人不多",
+   "維護良好，有工業海港風格的設計"
+  ],
+  "bad_zh": [
+   "面積小（約 2.7 公頃），步道短",
+   "評論未說明狗的規定",
+   "周邊為工業區"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcUsXVFm-lQ2pwJr_hMTGihiTOsjQSVEJfG3D5BCdfa3dD8uTb1gGYz6bd8r4aqwq_gfOerDtZTrzdYYeszltzJYZViCuA46ngLwvquUihAzArQx-JWsror5hIF3XnzlZItuB_h=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17068644310085279311",
+    "credit": "Ahmed Darweesh"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfkxmqSb-Zem9ROfBVnv9Rm-wg4C5DZrnf7-DXjdfrMHset21AyIHLeSJwZDD8PBTDc85evcuHWGGhy6d6Ag0za-C7zglvcc69j_0x5bq9xvs91gl7FUUvbW2tvD8i22lgVlBmr=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17068644310085279311",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdDAsSf13L1PujwfSUMeASxAlixRiuRcztxODTjGTc4LyIwuPPtHc_wmLXXFd5G2tgCqDkWNICsLVHzTdh3PRoQFWHLYfM_pt3qNt4UJEe-2caaux-fsg4fBa6zwnLbpnp1tnJ-Sw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17068644310085279311",
+    "credit": "Ahmed Darweesh"
+   }
+  ],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Powder House Park|42.4004,-71.1164": {
+  "rating": 4.8,
+  "count": 206,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=8901347692418902342",
+  "other": [],
+  "summary_zh": "Google 4.8 分（206 則），Somerville 的歷史小山丘公園，有 1700 年代火藥塔、老樹、蜿蜒步道和石牆，樹蔭與草地多，適合短程散步；評論未提到遛狗規定。",
+  "good_zh": [
+   "老樹遮蔭多，草地與蜿蜒步道",
+   "有歷史火藥塔與石造景觀",
+   "安靜，適合散步或休息"
+  ],
+  "bad_zh": [
+   "面積小（約 1.6 公頃），只能短程散步",
+   "有起伏坡地與石階",
+   "評論未說明狗的規定"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdEKDcleZsnwNY7toFXPF9WD9VteduYjm7VaozPabGFykLcljbcnIJhLFL1-YXLu-rrFbQVBcMU7FgvBuH4wTwXdMLtbTwKMzrZGVhMe478p51CfSSASpqNM-wwoSIbuGc8UPMZ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8901347692418902342",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHKZwYmN5c2WkWqvOScGzaqHC_MK40hQb-FH1TOnZZRxxNMJKEgtF1ew_c8DSyqhBxf3zbIWl85TJ6e49wn5zRuHGDCRwjM-F7FOWUNZtJct8ZwZk7Rp0WOxPgVmI-UvlwoakKNQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8901347692418902342",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcyt90M2rWn0f19mS_3N1pKJsfha69JcJpLVgPkkQDkFQC_XuVg32-V3U1LNc24EvoFLzMXc-K6PvQPAyPQXsvLrHGkHYJZSqYYRMTY_kXqlCsut4z9uV9L1dWRyvJWWQhUvws=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8901347692418902342",
+    "credit": "Stephen Harte"
+   }
+  ],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Nunziato Field Dog Park|42.3829,-71.0988": {
+  "rating": 4.3,
+  "count": 185,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=4174366573750264290",
+  "other": [],
+  "summary_zh": "Google 4.3 分（185 則），Somerville Nunziato Field 旁的圍欄放繩區，長條形碎石／泥土地面、有水泥管隧道和野餐桌，兩側雙道門；Somerville 放繩區告示開放 8:00–22:00。",
+  "good_zh": [
+   "兩側都有雙道門，安全",
+   "有水泥管隧道等設施，維護乾淨",
+   "長條形空間，狗可以跑"
+  ],
+  "bad_zh": [
+   "面積小、沒有草，全是碎石泥土",
+   "人多時擁擠；有評論說水容易被污染",
+   "有常客不友善、幼犬被咬的負評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLci-VQTAYGPQmlpXlOK4Tv9d3z6cvi6cQ40RQ90ANNOT4oVEPvJrWJC2bV8tFbR2MexpX4_3U5L_M6imcn_L2yk3kVvJvWgHXk7KBqai8rreNozmGi5fnOPJQ7Q2YXoY-Ixvs50LQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4174366573750264290",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdARAdBnZO0y2BxYat8Xp_Xtd7dsTFRNvh4Z-9KZxobTp-1G-asRr_YaZBKWXAQwlAWgN32TCHxQaqfTpwuyMQV0ujzu28KzQxamL39hUuq73hfQiwN466EbjVvG3G6EEjz9-G8strg6CU=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4174366573750264290",
+    "credit": "Jewels Vermont"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeUaTKKQXxR4vwdsKZoZiPWKjK7c9kskynAsmAy3DxsPi72VXRXoRCuH36nWURMUpJshuP8wy1BsaD2i4s8GBs6KfTy7hdOPUOCkrdKGgljNhDckyYMxv1Cqo_GTlJpdoZ5Uu0QV_zNJax4=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4174366573750264290",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "matched_name": "Nunziato Dog Park",
+  "dog": {
+   "fenced": true,
+   "off_leash": "hours",
+   "license_required": true,
+   "water": true,
+   "small_dog_area": null
+  }
+ },
+ "Glen Park|42.3830,-71.0862": {
+  "rating": 4.6,
+  "count": 50,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=11143923073562489196",
+  "other": [
+   {
+    "source": "Google",
+    "name": "Capuano Field at Glen Park",
+    "rating": 4.7,
+    "count": 31,
+    "url": "https://www.google.com/maps?cid=8760615463699749983"
+   }
+  ],
+  "summary_zh": "Google 4.6 分（50 則），Somerville 的社區公園，以球場、遊樂場和運動場為主，適合兒童；評論沒有提到遛狗規定，不太適合長距離散步。",
+  "good_zh": [
+   "有球場、運動場和遊樂場",
+   "適合兒童與運動",
+   "社區型公園，附近居民方便"
+  ],
+  "bad_zh": [
+   "流動廁所很髒（舊評論）",
+   "以運動設施為主，散步空間有限",
+   "評論未說明狗的規定"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdZQXBDMPksVvops7iSWP9n2nf9UTTkI2SeKKQoCoyPkiKvg_6bxzxyfncY6TwPFh2JRPna7Im583h1a-EsrkbGpgLrRUZDdmzFe41i_jbC_Yte5VzofNJdNiHXoI8auG9AuBWq9Q=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11143923073562489196",
+    "credit": "juzar kachwala"
+   }
+  ],
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ }
+}

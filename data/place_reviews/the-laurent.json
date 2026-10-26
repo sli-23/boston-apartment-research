@@ -1,0 +1,66 @@
+{
+ "Cambridge Veterinary Care|42.3840,-71.1197": {
+  "rating": 3.9,
+  "count": 121,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=18213333252912671915",
+  "other": [],
+  "summary_zh": "Google 3.9 分（121 則），本次未取得文字評論，優缺點不明。",
+  "good_zh": [],
+  "bad_zh": [
+   "本次查無文字評論可參考"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Buckingham, Brown And Nichols School Athletic Field|42.3818,-71.1431": {
+  "rating": 3.3,
+  "count": 3,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=15493071403998413972",
+  "other": [],
+  "summary_zh": "Google 3.3 分（僅 3 則，Buckingham Field），屬於 BB&N 學校的運動場，無文字評論；是否開放大眾與是否可帶狗未查到。",
+  "good_zh": [],
+  "bad_zh": [
+   "評論數極少、無文字評論",
+   "屬私立學校場地，開放情況不明"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Kingsley Park|42.3815,-71.1455": {
+  "rating": 4,
+  "count": 7,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=2413368937008650876",
+  "other": [],
+  "summary_zh": "Google 4.0 分（7 則），Fresh Pond 保護區內的公園，四季景色美；持 Cambridge 狗證者可在指定區域放繩遛狗。",
+  "good_zh": [
+   "景色優美，有長椅與步道",
+   "持 Cambridge 有效狗證可在指定區域放繩（依市府地圖）"
+  ],
+  "bad_zh": [
+   "附近停車多為住戶專用，外地人不便",
+   "要注意放繩的狗",
+   "評論數少"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeneTzH6qxoMZQrrZXWZEdRNiNbgD8asKCkdvQanHN1wJ8PrOMwckTg-Sv19c_M1EcbUNntg3o1a0uzDzu4MdVHx-dsOJB9cbV_68Y7ieGASvGUPa4Rco-TjZLWu3yciBnnK-rBW3lr9CtN=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2413368937008650876",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfzI4V8fBMenzISg-_WVXoiiP_hdDqywNVwoY-UftuyArlVLOFUSCm7ol-20V1_U7Alz1HFHChvm7zlBwTE4wY6eNXZuGh-xkTb1Tz7HSdKib-QIbYaY6E-8UW8rLwrsIicbfstidpCfQ8=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2413368937008650876",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPAgCKM-QKQRJggND-VrW3TeQmKCHtnurmB4aYEg_uW6R5HmvYv2KbSmgkaLArZy-976kV0cNqdfu-lqrP_GQB0QJ8QNNvmrwysIX6A75mCdiV_6RCpb_6sM0fQo0RrpBUj1NXm0H3qPEy=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2413368937008650876",
+    "credit": "User 02"
+   }
+  ]
+ }
+}

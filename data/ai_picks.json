@@ -1,0 +1,185 @@
+{
+ "checked": "2026-10-26",
+ "criteria_zh": [
+  "安靜",
+  "安全",
+  "新／現代化內裝",
+  "交通方便",
+  "2b2b、可養狗、有車位"
+ ],
+ "picks": [
+  {
+   "slug": "urbane-at-alewife",
+   "name": "Urbane at Alewife",
+   "address": "50 Cambridgepark Dr, Cambridge, MA 02140",
+   "lat": 42.3940903,
+   "lng": -71.143837,
+   "built": "2022（ApartmentList year_built；官網稱 brand-new / newly-built）",
+   "why_zh": [
+    "安靜：BTS 2020 交通噪音模型在門牌點約 47.3 dB，50 公尺內最高 48.0 dB（現有 21 棟中位數 52.9 dB）；Route 2 約 270 公尺、Fitchburg 通勤鐵路約 160 公尺",
+    "安全：Cambridge 全市 2025 年暴力 4.36／財產 26.0 每千人（FBI），高於全美；但同街的 Cambridge Park Apartments 所在報案區 1110 一年僅 1 件暴力、77 件財產",
+    "新／現代：2022 年完工；官網列中央空調（Central AC & heat）、石英／花崗岩檯面、不鏽鋼家電、寬版木紋地板、四種裝潢方案；ApartmentList 列室內洗烘",
+    "交通：步行約 6 分鐘（519 公尺）到 Alewife 紅線；估算到 BOS17 大眾運輸約 36 分鐘（紅線 20 分）、開車無塞車約 17 分鐘",
+    "2b2b／狗／車位：ApartmentList 有 14 種 2b2b 房型，目前 4 間開放 $4,019–$4,615；官網有 dog run、寵物清洗站，並列 Garage Parking Available"
+   ],
+   "concerns_zh": [
+    "Cambridge 全市犯罪率是名單各區中最高的（財產 26.0／千人）",
+    "與名單上 Cambridge Park、The Laurent、Hanover Alewife 同在 Alewife 一帶，區位重複；離 Seaport 較遠，Alewife 一帶開車上班常塞車",
+    "官網的 Garage Parking 標註「*Only Available in Select Units」，車位需先確認"
+   ],
+   "official_url": "https://www.urbaneatalewife.com/",
+   "apartmentlist_url": "https://www.apartmentlist.com/ma/cambridge/urbane-at-alewife"
+  },
+  {
+   "slug": "prism-apartments",
+   "name": "Prism Apartments",
+   "address": "50 Rogers St, Cambridge, MA 02142",
+   "lat": 42.3656129,
+   "lng": -71.0789763,
+   "built": "2021（ApartmentList year_built，標示 New Construction）",
+   "why_zh": [
+    "安靜：BTS 門牌點約 47.9 dB（名單上只有兩棟比它更安靜），50 公尺內臨路一側最高 56.6 dB；離 US 1 約 970 公尺",
+    "安全：Cambridge 全市 2025 年暴力 4.36／財產 26.0 每千人（FBI），各區中最高，屬普通水準",
+    "新／現代：2021 年新建；官網列室內洗烘、石英檯面、全新不鏽鋼家電、智慧家居",
+    "交通：步行約 10 分鐘（約 800 公尺）到 Kendall/MIT 紅線或 Lechmere 綠線；估算到 BOS17 大眾運輸約 27 分鐘、開車無塞車約 7 分鐘",
+    "2b2b／狗／車位：5 種 Spectrum 2b2b 房型（2A $4,923、2D $4,699）；官網 FAQ 說狗沒有體重限制（有品種限制，每隻寵物 $65／月）；有門禁地下車庫，Garage 每月 $380 起"
+   ],
+   "concerns_zh": [
+    "Cambridge 全市財產犯罪率偏高（26.0／千人）",
+    "到捷運站剛好約 10 分鐘，是 5 棟中最遠的",
+    "官網與 ApartmentList 都只寫「Air Conditioning」，沒說是不是中央空調"
+   ],
+   "official_url": "https://www.prismapartmenthomes.com/",
+   "apartmentlist_url": "https://www.apartmentlist.com/ma/cambridge/prism-apartments"
+  },
+  {
+   "slug": "clippership-apartments-on-the-wharf",
+   "name": "Clippership Apartments on the Wharf",
+   "address": "63 Lewis St, Boston, MA 02128",
+   "lat": 42.3671664,
+   "lng": -71.0412266,
+   "built": "2021（Lendlease Clippership Wharf 專案頁 completion 2021）",
+   "why_zh": [
+    "安靜：BTS 門牌點約 50.0 dB、50 公尺內最高 50.1 dB；道路與鐵路噪音都低於 45 dB 的建模門檻，主要是飛機（48.9 dB）",
+    "安全：East Boston 2025 年暴力 1.68／財產 8.66 每千人（Analyze Boston）；附近 The Eddy（約 500 公尺）的 400 公尺圈內一年 12 件暴力、26 件財產",
+    "新／現代：2021 年完工；官網寫 modern finishes and fixtures、in-home laundry；ApartmentList 列冷氣、硬木地板、陽台／露台",
+    "交通：步行約 4 分鐘（327 公尺）到 Maverick 藍線；估算到 BOS17 大眾運輸約 28 分鐘、開車無塞車約 9 分鐘（BOS21 也約 9 分鐘），官網也列有水上計程車",
+    "2b2b／狗／車位：5 種 2b2b 房型（2.2B $4,540、2.2C $4,981、2.2E $4,013）；可養狗（2 隻上限），有狗公園和洗狗區；官網列地下車庫（Underground garage）"
+   ],
+   "concerns_zh": [
+    "附近 400 公尺內近 12 個月有 41 起暴力案件（Boston 警方開放資料），比清單上大部分公寓多，晚上出入要注意",
+    "緊鄰 Logan 機場，BTS 模型沒算直升機和地面作業的噪音，實際聽到的飛機聲可能比數字更明顯，看房時最好挑起降時段去",
+    "冷氣型式未註明是不是中央空調；ApartmentList 沒有建成年份",
+    "Seaport 辦公室離藍線站還要步行約 17 分鐘，開車需經過收費隧道"
+   ],
+   "official_url": "https://www.liveclippership.com/",
+   "apartmentlist_url": "https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf"
+  },
+  {
+   "slug": "revolution-at-assembly-square",
+   "name": "Revolution at Assembly Square",
+   "address": "290 Revolution Dr, Somerville, MA 02145",
+   "lat": 42.3913085,
+   "lng": -71.0806255,
+   "built": "2022（ApartmentList year_built）",
+   "why_zh": [
+    "安靜：BTS 門牌點約 51.7 dB、50 公尺內最高 52.2 dB，和名單上的 Avalon at Assembly Row（50.9）差不多；I-93 約 180 公尺、橘線約 290 公尺",
+    "安全：Somerville 全市 2025 年暴力 1.95／財產 15.8 每千人（FBI），暴力犯罪約為全美的 0.6 倍",
+    "新／現代：2022 年新建；官網列石英檯面、Samsung 不鏽鋼家電、寬版地板、全尺寸 Samsung 洗烘、LED 背光鏡",
+    "交通：步行約 4 分鐘（301 公尺）到 Assembly 橘線；估算到 BOS17 大眾運輸約 30 分鐘、開車無塞車約 8 分鐘",
+    "2b2b／狗／車位：官網有 2 Bedrooms/2 Bath 房型，$4,586 起（ApartmentList 共 9 種，$4,586–$4,972）；可養狗，有寵物公園和寵物 spa；官網列 garage parking available"
+   ],
+   "concerns_zh": [
+    "Assembly Row 是購物餐飲區，晚上人多；名單上 Avalon at Assembly Row 的 400 公尺圈內一年 279 件財產犯罪",
+    "狗有品種限制（Husky、German Shepherd、Pit Bull 等不收）",
+    "官網的門牌在 OSM 沒有對應點，座標用的是 OSM 上同一位置的「Alta Revolution Apartments」建物；冷氣型式也未註明"
+   ],
+   "official_url": "https://www.revolutionatassemblysquare.com/",
+   "apartmentlist_url": "https://www.apartmentlist.com/ma/somerville/revolution-at-assembly-square"
+  },
+  {
+   "slug": "modera-medford",
+   "name": "Modera Medford",
+   "address": "5 Cabot Rd, Medford, MA 02155",
+   "lat": 42.4052736,
+   "lng": -71.0733994,
+   "built": "2017（ApartmentList year_built）",
+   "why_zh": [
+    "安靜：BTS 門牌點約 52.0 dB、50 公尺內最高 52.2 dB，略低於名單中位數 52.9；道路噪音低於建模門檻，主要是飛機（50.2 dB）",
+    "安全：Medford 2025 年 FBI 統計 108 件暴力、558 件財產（人口 59,842），約為暴力 1.80／財產 9.32 每千人，比 Cambridge、Somerville 低",
+    "新／現代：2017 年建；ApartmentList 列室內洗烘、冷氣、花崗岩檯面、不鏽鋼家電、硬木地板，並標示 Recently Renovated；另有無鑰匙門禁和 USB 插座",
+    "交通：步行約 10 分鐘（764 公尺）到 Wellington 橘線；估算到 BOS17 大眾運輸約 38 分鐘、開車無塞車約 11 分鐘",
+    "2b2b／狗／車位：ApartmentList 有 42 種 2b2b 房型（目前開放 1 間 $3,550）；可養狗；車庫租約含 1 個車位，第 2 個 $150／月"
+   ],
+   "concerns_zh": [
+    "Medford 不在原本偏好的區域；到 Wellington 站剛好約 10 分鐘",
+    "Route 16 大約在 200 公尺外（用 ApartmentList 的座標量的，離門牌點約 70 公尺）；官網擋爬蟲沒能看，冷氣型式未確認",
+    "2017 年建，是 5 棟裡最舊的"
+   ],
+   "official_url": "https://www.moderamedford.com/",
+   "apartmentlist_url": "https://www.apartmentlist.com/ma/medford/modera-medford"
+  }
+ ],
+ "candidates_considered": [
+  {
+   "name": "Avalon Brighton（139 Washington St, Brighton）",
+   "reason_rejected_zh": "2024 年新建，Brighton 治安最好（暴力 0.81／千人），但門牌點 BTS 58.6 dB、50 公尺內 61.7 dB，綠線 B 到 Seaport 估算要 57 分鐘"
+  },
+  {
+   "name": "The Washingtons（2 Washington St, Melrose）",
+   "reason_rejected_zh": "Melrose 治安最好、2016 年建、Oak Grove 步行 6 分鐘；但 ApartmentList 寫的車位是 Surface Lot／Covered Lot，看不出有車庫，Haverhill 線約 120 公尺，50 公尺內 60.2 dB，官網也打不開，沒辦法確認"
+  },
+  {
+   "name": "Flats on First（21 Charles St, Cambridge）",
+   "reason_rejected_zh": "2022 年建、50.0 dB、Lechmere 步行 7 分鐘，條件不錯；但已經選了兩棟 Cambridge，為了分散區域而割捨"
+  },
+  {
+   "name": "Fuse Cambridge（165 Cambridgepark Dr, Cambridge）",
+   "reason_rejected_zh": "47.0 dB，很安靜，但 2015 年建，Alewife 步行 9 分鐘，跟 Urbane 同區但比較舊"
+  },
+  {
+   "name": "Luxe at Alewife（80 Cambridgepark Dr, Cambridge）",
+   "reason_rejected_zh": "2018 年建，但離 Route 2（Alewife Brook Pkwy）和 Fitchburg 線都只有約 80 公尺"
+  },
+  {
+   "name": "Velo Forest Hills（3686 Washington St, Jamaica Plain）",
+   "reason_rejected_zh": "2021 年建、Forest Hills 步行 3 分鐘；但東北走廊鐵路約 150 公尺，50 公尺內 60.8 dB"
+  },
+  {
+   "name": "MetroMark（3611 Washington St, Jamaica Plain）",
+   "reason_rejected_zh": "離鐵路約 30 公尺，門牌點 62.3 dB、50 公尺內 79.8 dB，太吵"
+  },
+  {
+   "name": "Serenity（101 S Huntington Ave, Jamaica Plain）",
+   "reason_rejected_zh": "2017 年建，但綠線 E 地面段約 40 公尺，59.5 dB"
+  },
+  {
+   "name": "The Alyx / Watermark Seaport / The Metlo / Park Lane Seaport / Ora（Seaport）",
+   "reason_rejected_zh": "離辦公室最近，但 BTS 55–63 dB、飛機噪音 54–56 dB，到 South Station 紅線要步行 12–22 分鐘，又是夜生活區"
+  },
+  {
+   "name": "Prospect Union Square（50 Prospect St, Somerville）",
+   "reason_rejected_zh": "在 Union Square 綠線站旁邊，61.7 dB，ApartmentList 也沒列室內洗烘"
+  },
+  {
+   "name": "Montaje（449 Canal St, Somerville）",
+   "reason_rejected_zh": "2017 年建、Assembly 步行 5 分鐘；但橘線約 80 公尺、53.9 dB，比 Revolution 吵"
+  },
+  {
+   "name": "The Abby（255 Hancock St, Quincy）",
+   "reason_rejected_zh": "2021 年建、North Quincy 步行 2 分鐘；但紅線地面段約 50 公尺，54.8 dB"
+  },
+  {
+   "name": "Ocean 650 / 500 Ocean Ave（Revere）",
+   "reason_rejected_zh": "Wonderland 藍線很近；但 Route 1A 約 140–170 公尺，50 公尺內 61–63 dB"
+  },
+  {
+   "name": "One Beachmont（205 Revere Beach Pkwy, Revere）",
+   "reason_rejected_zh": "2019 年建、Beachmont 步行 6 分鐘；但 55.4 dB，飛機噪音 53.6 dB"
+  },
+  {
+   "name": "Boston East（126 Border St, East Boston）",
+   "reason_rejected_zh": "2018 年建，但 Sumner Tunnel 引道約 180 公尺，道路噪音 55.7 dB，比 Clippership 吵"
+  }
+ ]
+}

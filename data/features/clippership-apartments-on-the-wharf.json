@@ -1,0 +1,47 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": true,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [
+  "2 Bed/2 Bath-2.2C"
+ ],
+ "building": {
+  "gym": true,
+  "pool": null,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": true,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official: 'private patios or balconies in select apartments'. ApartmentList plan images: 2.2C labeled 'BALCONY / PATIO 10'-0\" x 5'-0\"'; 2.2A, 2.2B, 2.2D, 2.2E show none. https://www.liveclippership.com/floor-plans ; https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf",
+  "in_unit_wd": "Official: 'in home laundry'; W/D drawn on all five 2b2b plans. https://www.liveclippership.com/floor-plans",
+  "central_ac": "Not stated; ApartmentList only 'Air conditioning'. https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf",
+  "dishwasher": "DW drawn on all five 2b2b plans; ApartmentList 'Dishwasher'. https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf",
+  "hardwood": "ApartmentList 'Hardwood floors' (also lists 'Carpet'); not confirmed on official site. https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf",
+  "walk_in_closet": "'WALK-IN CLOSET' labeled on all five 2b2b plans; official 'walk-in closets'. https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf",
+  "gym": "Official: 'Fitness center', 'Fitness lounge'. https://www.liveclippership.com/",
+  "garage_parking": "Official: 'Underground garage'; fee sheet: reserved $375/mo, valet $265/mo. https://communityfees.bozzuto.com/property/B96805/export",
+  "ev_charging": "Fee sheet: 'Parking - EV Station (Third Party), usage based'; ApartmentList 'Car charging'. https://communityfees.bozzuto.com/property/B96805/export",
+  "dogs": "Official: 'Dog park', 'Dog wash'; ApartmentList: dogs and cats allowed, limit 2. https://www.liveclippership.com/",
+  "concierge": "Official: 'Concierge services'; ApartmentList '24hr concierge'. https://www.liveclippership.com/",
+  "package_room": "Official: '24/7 package locker system'. https://www.liveclippership.com/floor-plans",
+  "elevator": "ApartmentList 'Elevator'. https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf",
+  "bike_storage": "ApartmentList 'Bike storage'. https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf",
+  "coworking": "Official: 'Find a quiet workstation for those days you need to work from home'; ApartmentList 'Business center', 'Conference room'. https://www.liveclippership.com/floor-plans",
+  "pool": "No pool mentioned on official site or ApartmentList. https://www.liveclippership.com/",
+  "roof_deck": "Not mentioned; official lists waterfront patios with grills and fire pits and an amphitheater. https://www.liveclippership.com/"
+ }
+}

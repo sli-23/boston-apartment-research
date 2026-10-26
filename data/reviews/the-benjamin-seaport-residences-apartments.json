@@ -1,0 +1,38 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": 4.8,
+  "google_count": 132,
+  "alt": null,
+  "summary_zh": "2017 年建成的 Seaport 高樓，Berkshire Residential 管理，有 24 小時禮賓櫃台、室外泳池、24 小時健身房，每戶都有洗衣機烘乾機和中央空調。Google 4.8 分（132 條），2018–2025 年的評價都誇位置、景觀、前台和維修團隊，有住了快 5 年的住戶。周圍是 Seaport 餐廳酒吧區，晚上會熱鬧；官方 FAQ 說禮賓櫃台會處理深夜噪音投訴。離 Logan 機場直線約 3.5 公里，沒有找到住戶提到飛機聲或施工噪音。有住戶說 Seaport 是半夜走回家最安全的地方，但警方資料顯示附近一年有 8 起加重傷害、17 起普通傷害，還有 1 起槍擊（2026-07，Seaport Blvd），多半跟夜生活有關。租金是四棟裡最貴的。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":3,
+   "points_zh":["周圍是 Seaport 餐廳、酒吧區，附近一年有 8 筆酒類執照場所違規報案，晚上會熱鬧","官方 FAQ：24 小時禮賓櫃台會處理下班後的噪音問題","離 Logan 機場直線約 3.5 公里；沒有找到住戶提到飛機聲、車流或施工噪音的評價"]},
+  {"key":"safety","label_zh":"安全","score":3,
+   "points_zh":["Google 評價摘要：「Seaport 是半夜走回家最安全的街區」","波士頓警方開放資料（2025-10 至 2026-09），大樓 250 公尺內共 192 筆報案：普通傷害 17、加重傷害 8、搶劫 1、商店偷竊 11、樓內竊盜 9","2026-07-31 凌晨 Seaport Blvd 有 1 起槍擊（加重傷害）；大樓有 24 小時禮賓"]},
+  {"key":"management","label_zh":"物業管理","score":5,
+   "points_zh":["2018–2025 年評價一致誇前台、禮賓、租賃和維修團隊","有住戶住了快 5 年，有住戶住一年就續約","常辦住戶小活動；Google 4.8 分、132 條，長期都很高"]},
+  {"key":"amenities","label_zh":"設施","score":5,
+   "points_zh":["室外泳池、24 小時健身房、24 小時禮賓","每戶有洗衣機烘乾機和中央空調；多數戶型看得到城市景或泳池","2B 戶型圖註明 8–22 樓有陽台"]},
+  {"key":"value","label_zh":"性價比","score":2,
+   "points_zh":["2026-10-26 ApartmentList：2 房 2 衛 $8,420–8,565（13–15 個月租約）","停車 $575/月，電動車位 $625/月；水、下水道、垃圾、電都要另外付","現在沒有租金優惠；住戶說面積、景觀、設施在這區數一數二"]}
+ ],
+ "pros_zh":["Seaport 核心位置，走路到市中心","24 小時禮賓、泳池、24 小時健身房","每戶有洗衣機烘乾機、中央空調","評價長期很高（Google 4.8）","高樓層有景觀，部分有陽台"],
+ "cons_zh":["租金很貴，2 房 2 衛 $8,400 以上","停車 $575/月","周圍夜生活熱鬧，附近傷害案較多","水、電、垃圾、除蟲都另外付","沒有線上 2 房實景"],
+ "quotes":[
+  {"text":"我在 The Benjamin 住了快 5 年，很喜歡！在 Seaport 的完美位置……設施一流，尤其是 24 小時健身房。","source":"Google · 約 2025-09（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/the-benjamin-seaport-residences-apartments"},
+  {"text":"我們住了一年多，剛續約。大多數房間看得到漂亮的城市景或泳池，前台和管理團隊都很好。","source":"Google · 約 2025（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/the-benjamin-seaport-residences-apartments"},
+  {"text":"Seaport 是半夜走回家最安全的街區。","source":"Google 評價摘要 · 2026-10 讀取","url":"https://www.google.com/maps/search/The+Benjamin+Seaport+Residences+25+Northern+Ave"},
+  {"text":"維修團隊很幫忙，位置當然也很棒。","source":"Google 評價摘要 · 2026-10 讀取","url":"https://www.google.com/maps/search/The+Benjamin+Seaport+Residences+25+Northern+Ave"},
+  {"text":"服務水準和員工跟高級公寓大樓一樣。","source":"Google 評價摘要 · 2026-10 讀取","url":"https://www.google.com/maps/search/The+Benjamin+Seaport+Residences+25+Northern+Ave"}
+ ],
+ "sources":[
+  {"name":"SafeButler（Google 評價摘錄，2026-06 更新）","url":"https://www.safebutler.com/apartments/boston-ma/the-benjamin-seaport-residences-apartments"},
+  {"name":"官網 FAQ","url":"https://www.thebenjaminseaport.com/faqs/"},
+  {"name":"波士頓犯罪開放資料","url":"https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/The+Benjamin+Seaport+Residences+25+Northern+Ave"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=%22The%20Benjamin%22%20Seaport"}
+ ],
+ "gaps_zh":"看得到的評價全是好評（SafeButler 只摘了 5 條好評，Google 只抓到幾句摘要），沒看到差評內容，所以噪音和隔音的實際情況不清楚。Reddit、Yelp、ApartmentRatings、Apartments.com、Niche 都攔截了自動抓取，Apartments.com 存檔只有 2017 年剛開幕時的版本。"
+}

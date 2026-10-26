@@ -1,0 +1,69 @@
+{
+ "official_url": "https://www.eddyliving.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/boston/the-eddy#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "Google 360 實景（ApartmentList 標為 2 房）",
+   "url": "https://www.google.com/maps/embed?pb=!4v1613545267321!6m8!1m7!1sCAoSLEFGMVFpcFBPQW15TE1LT1duaTlwZXc2TGgzQi1jMjlZbE1RdUpzV0IxdElR!2m2!1d42.37133859489911!2d-71.04399221118334!3f165.52!4f-12.019999999999996!5f0.5970117501821992"
+  },
+  {
+   "label": "公共設施 360 導覽（Panoskin）",
+   "url": "https://v1.panoskin.com/?tour=61a50b9584559d5d1133b89a"
+  },
+  {
+   "label": "Matterport 3D（studio 戶型，不是兩房）",
+   "url": "https://my.matterport.com/show/?m=sa8EyZ7bGHa"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "D",
+   "sqft": "911–933",
+   "price": "$4,008–4,595",
+   "price_min": 4008,
+   "as_of": "2026-10-26",
+   "available": "4 間：#409 $4,008（現在入住）、#1209 $4,549（10/27 入住）、#709 $4,595（11/7 入住）都是 12 個月約；#1509 $4,549（現在入住）是 8 個月約",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/7fa525ff18723c6b6dabbd218de1be02.jpg"
+  },
+  {
+   "name": "DD",
+   "sqft": "911–931",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/51a9a9127b54bdc805e9f5adb39cf27f.jpg"
+  },
+  {
+   "name": "SE",
+   "sqft": "854–865",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/c29d40ad0ceb49e709390181e1b0ac9c.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "車庫車位 $225/月（官方費用表；ApartmentList 寫是有頂停車場、不固定車位）",
+  "parking_surface": "沒找到露天車位資訊",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付（費用表沒列垃圾費）",
+  "electric_heat": "電費付給第三方，住戶自付（沒找到月平均金額）",
+  "internet": "費用表沒列，應是自己申請（未確認）",
+  "pet_rent": "狗 $75/月、貓 $35/月，按每隻計算（官方費用表）；ApartmentList 寫狗依體型 $75–100/月",
+  "pet_deposit_or_fee": "費用表沒列寵物押金",
+  "other": "押金 $500–1,000（可退）；必須有租客責任險（自選保險公司）；儲藏室 $50–100/月；正面信用回報服務 $6.95/月（自選）；另有遲交費、提前解約等情況費用。現在 11/15/2026 前看房、簽約、入住，指定戶型最多送 1 個月基本租金（ApartmentList，2026-10-14 登出）",
+  "source": "https://www.canva.com/design/DAGNdKkvpFE/V-RWAkrxdsJQYr8Ir6FHRQ/view",
+  "as_of": "官方費用表（Canva），2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻，每隻不超過 80 磅，部分品種不能養（ApartmentList 上物業提供的說明）。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（物業 2026-10-25 更新）。ApartmentList 上兩房只有 D、DD、SE 三個戶型，都是 2 房 2 衛，面積偏小（854–933 呎）。只有 D 現在有房。#1509 是 8 個月短約，價格不能直接跟 12 個月比。部分戶型有「最多送 1 個月」優惠，簽約前要問清楚掛牌價是不是已經攤了優惠。官網擋了自動抓取。沒找到兩房的 Matterport，只有 studio 的。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/boston/the-eddy"
+  },
+  {
+   "name": "官方費用表",
+   "url": "https://www.canva.com/design/DAGNdKkvpFE/V-RWAkrxdsJQYr8Ir6FHRQ/view"
+  }
+ ]
+}

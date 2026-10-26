@@ -1,0 +1,37 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "unknown",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": null,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Sources disagree: ApartmentList unit amenity 'Patio / Balcony' https://www.apartmentlist.com/ma/revere/amaya ; official amenities ('The digs') and floor-plans page make no mention of balcony/patio/terrace in units. https://www.liveamaya.com/amenities/",
+  "in_unit_wd": "Official: 'Ventless stacked washer/dryers'",
+  "hardwood": "Official: 'Luxury vinyl tile flooring throughout living spaces and bedroom' - not hardwood",
+  "dishwasher": "ApartmentList 'Dishwasher' (category unclear); reviews research says in-unit dishwasher",
+  "walk_in_closet": "Reviews research (sublet posts) says walk-in closets; official silent",
+  "garage_parking": "Official: 'In-building parking garage with EV charging and bike racks with fix-it stations'",
+  "package_room": "Official: 'Secure package room with refrigerator storage, 24/7 resident access'",
+  "coworking": "Official: 'Lounge space for communal working ... individual and small group work pods'",
+  "roof_deck": "Official lists 'Lounge area with a chef's kitchen and outdoor terrace' - not stated to be rooftop"
+ }
+}

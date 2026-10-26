@@ -1,0 +1,35 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "unknown",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": true,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": null
+ },
+ "evidence": {
+  "balcony": "ApartmentList unit amenities list 'Patio / balcony', but the 2b2b floor plans O, Q, T drawn on ApartmentList show no balcony/patio; N/P/R/S have no plan image; official site (hanoveralewife.com) returns 403 so not confirmed. https://www.apartmentlist.com/ma/cambridge/hanover-alewife",
+  "in_unit_wd": "ApartmentList FAQ: 'Yes, Hanover Alewife offers units with in unit laundry'; W/D closet drawn on plans O/Q. https://www.apartmentlist.com/ma/cambridge/hanover-alewife",
+  "central_ac": "ApartmentList only says 'Air conditioning' (type not stated). https://www.apartmentlist.com/ma/cambridge/hanover-alewife",
+  "hardwood": "ApartmentList unit amenities: 'Hardwood floors' (plan T render shows wood-look floors; could be vinyl plank). https://www.apartmentlist.com/ma/cambridge/hanover-alewife",
+  "ev_charging": "Not on ApartmentList; existing review notes (data/reviews/hanover-alewife.json, Apartments.com archive) list EV charging.",
+  "package_room": "Not on ApartmentList; 2018 Apartments.com review mentions package lockers being always full (data/reviews/hanover-alewife.json).",
+  "coworking": "ApartmentList lists 'Business center' and 'Conference room' only. https://www.apartmentlist.com/ma/cambridge/hanover-alewife"
+ }
+}

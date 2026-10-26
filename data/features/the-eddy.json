@@ -1,0 +1,36 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "unknown",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": null,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": true,
+  "package_room": null,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": null
+ },
+ "evidence": {
+  "balcony": "No source states balconies. ApartmentList has no 'Patio / Balcony' tag, and the 3 2b2b plan images (D, DD, SE) show none https://www.apartmentlist.com/ma/boston/the-eddy ; official site eddyliving.com blocked automated access (403)",
+  "in_unit_wd": "ApartmentList: 'In Unit Laundry' (also lists 'W/D Hookup'); FAQ 'offers units with in unit laundry'",
+  "central_ac": "Not listed on ApartmentList; official site was unreachable",
+  "dishwasher": "ApartmentList: 'Dishwasher'",
+  "hardwood": "ApartmentList tags 'Hardwood Floors' and 'Carpet'; material not confirmed by the property (official site blocked)",
+  "walk_in_closet": "ApartmentList: 'Walk In Closets'",
+  "concierge": "ApartmentList 'Concierge'; a resident review also mentions reporting to the concierge",
+  "garage_parking": "ApartmentList 'Garage'; official fee sheet: garage spot $225/mo"
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "South Boston Animal Hospital|42.3425,-71.0574": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17531508057132464147",
+  "other": [],
+  "summary_zh": "Google Maps 上有此地點但沒有評分與評論，無法判斷。",
+  "good_zh": [],
+  "bad_zh": [
+   "查無評分與評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Boston Veterinary Clinic|42.3483,-71.0678": {
+  "rating": 4.6,
+  "count": 493,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=6343918747733420461",
+  "other": [],
+  "summary_zh": "Google 4.6 分（493 則），South End 的動物醫院，醫師溫柔、會配合老年寵物訂照護計畫，準時、環境乾淨。",
+  "good_zh": [
+   "醫師與技術員對緊張的寵物很有耐心",
+   "老年寵物照護與臨終陪伴受好評",
+   "看診準時，診所乾淨"
+  ],
+  "bad_zh": [
+   "有評論暗示其他地方價格更便宜（收費可能偏高）",
+   "本次讀到的完整評論都是好評"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcacMwHR6Y6yaCBKAN8HJDbyPZM7blQLv3DJd03Lw_TOqU-WHIxC8VceerJNQUcpkEMp8Y9bJ1zOJJiNH--Vrj1l-zQ_Iw3LLIB4e2f05NDD4WDLH0XGdZhdw9TJ1e1BrxQ0I4=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6343918747733420461",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfsmERB2zgcfu_Owt6Rdc1e3_5vWxYqZd31EEIzFUYwl8hxFIrWLgk2h2rwqvivNgrUFDMf_Y9cWa0NPAaXtQg-Mt3UykP6XNxJsuxnixGnYpxX6Apk6JhkisGXJ9XAD_cjLJo=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6343918747733420461",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTgYmcROK-VZSYIs1N23To6tRw_5vKYV1Y3jGPF30KVgkYbVsakjQNK36BV-wc5s7W4b7zhGZlYndZRZ24nH4S1VpLPelHH-uxHaDUX7RrJongszusS5pK6zBDC3_QNRUjaMny=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6343918747733420461",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Boston Veterinary Care|42.3470,-71.0700": {
+  "rating": 4.5,
+  "count": 196,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=4506305291552501344",
+  "other": [],
+  "summary_zh": "Google 4.5 分（196 則），隸屬波士頓動物救援聯盟（Animal Rescue League）的診所，醫護溫柔，有一則牙科處置疏失的負評。",
+  "good_zh": [
+   "醫護溫柔、有耐心",
+   "評論稱較重視寵物健康而非賺錢",
+   "與動物救援聯盟相連，可調閱領養動物病歷"
+  ],
+  "bad_zh": [
+   "有一則拔牙未照 X 光、遺留碎片的負評",
+   "同一地點評論混有收容所/領養的內容"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Smith Family Waterfront|42.3519,-71.0499": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [
+   {
+    "source": "Google (nearby, different place: Martin's Park, ~110 m)",
+    "rating": 4.8,
+    "count": 241,
+    "url": "https://www.google.com/maps?cid=3796514717108858590"
+   }
+  ],
+  "summary_zh": "Google Maps 上找不到這個地點的獨立評分；約 110 公尺外的 Martin's Park 是另一個地點，評分不代表這裡。",
+  "good_zh": [],
+  "bad_zh": [
+   "查無此地點評分與評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Sea Green|42.3509,-71.0467": {
+  "rating": 4,
+  "count": 8,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=8403804493319283195",
+  "other": [],
+  "summary_zh": "Google 4.0 分（僅 8 則），Seaport 的小型綠地，評論多為多年前；有人抱怨草地常被當狗廁所。",
+  "good_zh": [
+   "Seaport 區小巧的綠地"
+  ],
+  "bad_zh": [
+   "有評論稱常被當成狗廁所",
+   "評論少且多為多年前"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcbgtj__LvwXJifJMxj8eJm-1sinQeuUq-OnksuOjBaxrIySn0lqKQSEPFTdBImCaPQ66EjzouTzHE8cF4lf29SN0_v4LLEIjOKPEBdMhKDCay1b3p2i8p3pT52oZB2wd5gNoNO=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8403804493319283195",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEd5qpY7_gHkVxwic-oCDmL61p-A5G1ZeSxrCNhcg91jhmKIIPVDZdQiQYmgxNIgDjE7pFByZhDw5xk-rkVq9p3SIJcF5u2eFfeD-OD3iy2rfg7YT8Ug_oqe1cqKrY9IFrAF7ohw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8403804493319283195",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLemdJ5ScxnaP9UTZ3IAj2gCv1IUnTirLeEQbF0M75mMkTH8HjrR2FXfNAJGBcMsgmt8Tf4U5f-7HMF4ZcfrhqSLlkgAONfXm2iMohdSTNvN6xmymp6d2_UxPIB4wnf-qewMPuLBzg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8403804493319283195",
+    "credit": "Miguel Bennasar"
+   }
+  ]
+ },
+ "Norman B. Leventhal Park|42.3563,-71.0556": {
+  "rating": 4.7,
+  "count": 1861,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=13610482455026229589",
+  "other": [],
+  "summary_zh": "Google 4.7 分（1861 則），金融區中心維護良好的小公園，有花架、可穿越的噴泉、咖啡亭，地下有乾淨廁所。",
+  "good_zh": [
+   "維護良好、乾淨，有花架與噴泉",
+   "有咖啡亭，長椅下有充電插座",
+   "地下停車場有乾淨廁所"
+  ],
+  "bad_zh": [
+   "面積小",
+   "位在市中心，周邊人潮多"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfQPcie-yvE3Zrrr6bdDE8dzqvYFynpeQFKao3qtyn7JhjYai4iOYo2Jk6I4t4g0KF6vo3bFzAyxH8GvkJJ7JXc0y18cmkwH3raR1TixaIgeTZaiq5CerDtb6gxT9lkwdqRvE2p7w=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13610482455026229589",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdPAnoUIy2sbAfkFUIJABMOo5jcj1AbgpB_diz7Tq4c_X3tTJRfJcYtOH7yrsGuumodefECO3RZspxiVNMGEt4QEM6SyFc9zbrw_jogcFa2tPUAnAgMTT8tzdVi9oJxVVV1k8zN=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13610482455026229589",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe_TL9jnsy4KZXFZH6LZ-BMJ439eSkk3zcqYdXiHTAAKqwG-UIMevyuz-KnwjJAxKH0qpJElj3-2g5Mzyvp9aEq69_IlCELZW0UIQJr52zXpDVHm5Dn97gK7LGSu1LSs0lhnTxh=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13610482455026229589",
+    "credit": "Theresa St. John"
+   }
+  ]
+ }
+}

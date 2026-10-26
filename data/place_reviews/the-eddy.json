@@ -1,0 +1,48 @@
+{
+ "Albert \"Junior\" Lombardi Memorial Park|42.3707,-71.0408": {
+  "rating": 5.0,
+  "count": 1,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9268720276679962872",
+  "other": [],
+  "summary_zh": "Google 5.0 分（僅 1 則，無文字評論，條目名 Lombardi Memorial Park），小型紀念公園；是否可帶狗、設施細節未查到。",
+  "good_zh": [],
+  "bad_zh": [
+   "評論數極少、無文字評論",
+   "Google 上沒有照片",
+   "是否可帶狗、有無遊樂場未查到"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Detective Walter E. Malone Square|42.3709,-71.0391": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [],
+  "summary_zh": "Google 地圖上查無此紀念廣場（Square）的條目，評分未找到。",
+  "good_zh": [],
+  "bad_zh": [
+   "查無評分與評論",
+   "是否可帶狗、設施未查到"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Mary Ellen Welch Greenway|42.3708,-71.0361": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=15412173011891421317",
+  "other": [],
+  "summary_zh": "Google 上對應條目為「E Boston Greenway」（東波士頓綠道），沒有評分與評論，評分未找到。",
+  "good_zh": [],
+  "bad_zh": [
+   "Google 條目無評分、無評論",
+   "是否可帶狗、清潔狀況未查到"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ }
+}

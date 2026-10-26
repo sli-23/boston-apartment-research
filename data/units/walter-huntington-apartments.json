@@ -1,0 +1,38 @@
+{
+ "official_url": "https://www.walterhuntington.com",
+ "floorplans_url": "https://www.walterhuntington.com/pricing-%26-floor-plans",
+ "virtual_tours": [
+  {"label": "YouTube 實景：2 房 2 衛 915 呎（306/406/505/605）", "url": "https://www.youtube.com/watch?v=mVuoMY_YNcg"},
+  {"label": "YouTube 實景：2 房 2 衛 930 呎（203/303/403/502/602）", "url": "https://www.youtube.com/watch?v=QSflMW8Dg_A"},
+  {"label": "YouTube 實景：2 房 2 衛 1,030 呎（207/307/407）", "url": "https://www.youtube.com/watch?v=Yj62NxKCoYY"},
+  {"label": "YouTube 實景：2 房 2 衛 1,055 呎（606）", "url": "https://www.youtube.com/watch?v=t4oOCHPsXQM"},
+  {"label": "YouTube 實景：公共設施", "url": "https://www.youtube.com/watch?v=VCSXzidupIo"}
+ ],
+ "plans_2b2b": [
+  {"name": "Two Bed/Two Bath - 1（306/406/505/605）", "sqft": "915", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://img1.wsimg.com/isteam/ip/18184905-4f70-4f78-a97e-97dc60645d7f/Screenshot%202023-02-07%20at%2012.05.12.png/:/rs=w:1200"},
+  {"name": "Two Bed/Two Bath - 2（203/303/403/502/602）", "sqft": "930", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://img1.wsimg.com/isteam/ip/18184905-4f70-4f78-a97e-97dc60645d7f/Screenshot%202023-02-07%20at%2011.12.36.png/:/rs=w:1200"},
+  {"name": "Two Bed/Two Bath - 3（207/307/407）", "sqft": "1,030", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://img1.wsimg.com/isteam/ip/18184905-4f70-4f78-a97e-97dc60645d7f/Screenshot%202023-02-21%20at%2008.39.58.png/:/rs=w:1200"},
+  {"name": "Two Bed/Two Bath - 4（606）", "sqft": "1,055", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://img1.wsimg.com/isteam/ip/18184905-4f70-4f78-a97e-97dc60645d7f/Screenshot%202023-12-29%20at%204.03.54%20PM.png/:/rs=w:1200"}
+ ],
+ "fees": {
+  "parking_garage": "地下室車庫 $250/月，要看有沒有空位",
+  "parking_surface": "沒找到",
+  "water_sewer_trash": "官網 FAQ 只說住戶要付電費和網路，沒提到水費和垃圾費，可能包含在租金內，要再確認",
+  "electric_heat": "電費住戶自付（沒寫暖氣是不是用電，也沒找到月平均金額）",
+  "internet": "自己申請，自己付",
+  "pet_rent": "每隻 $50/月",
+  "pet_deposit_or_fee": "官網沒寫；SafeButler 寫一次性寵物費 $0",
+  "other": "申請費 $35（透過 MyRental）；入住要付首月、末月租金加 $500 押金；公共洗衣房投卡，洗、烘各 $2；信用分數要 690 以上，不能有犯罪或驅逐紀錄",
+  "source": "https://www.walterhuntington.com/deposits%2C-costs%2C-and-fees",
+  "as_of": "官網費用頁和 FAQ，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養寵物，每隻每月 $50。官網沒寫數量、體重或品種限制。",
+ "notes_zh": "2026-10-26 看官網，15 個戶型全部顯示「Unavailable」，沒有公布租金；ApartmentList、Zumper 都找不到這棟樓，Apartments.com 擋了抓取。唯一的價格是 SafeButler 2026-06 引用 Apartment Finder 的全樓範圍 $2,900–5,100，沒有分戶型，所以沒放進表裡。另有 4 個 2 房 1 衛戶型（768–1,045 呎）沒列。沒有套內洗衣機。戶型圖來自官網，圖上有標戶號。要問現價和空房請直接聯絡物業（Polish Triangle Property Management）。",
+ "sources": [
+  {"name": "官網（戶型）", "url": "https://www.walterhuntington.com/pricing-%26-floor-plans"},
+  {"name": "官網費用頁", "url": "https://www.walterhuntington.com/deposits%2C-costs%2C-and-fees"},
+  {"name": "官網 FAQ", "url": "https://www.walterhuntington.com/faqs"},
+  {"name": "官方 YouTube", "url": "https://www.youtube.com/@WalterHuntingtonApartments/videos"},
+  {"name": "SafeButler（價格範圍）", "url": "https://www.safebutler.com/apartments/boston-ma/walter-huntington-apartments"}
+ ]
+}

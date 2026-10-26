@@ -1,0 +1,217 @@
+{
+ "official_url": "https://www.moderamedford.com/",
+ "floorplans_url": "https://www.apartmentlist.com/ma/medford/modera-medford#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "Matterport 3D 看房 1",
+   "url": "https://my.matterport.com/show/?m=hbpBQyoVHrd"
+  },
+  {
+   "label": "Matterport 3D 看房 2",
+   "url": "https://my.matterport.com/show/?m=1s4HNiiACh1"
+  },
+  {
+   "label": "Matterport 3D 看房 3",
+   "url": "https://my.matterport.com/show/?m=aA2gtBKmh7e"
+  },
+  {
+   "label": "Matterport 3D 看房 4",
+   "url": "https://my.matterport.com/show/?m=GDBZmny6RX1"
+  },
+  {
+   "label": "Matterport 3D 看房 5",
+   "url": "https://my.matterport.com/show/?m=gdRuYvg7H74"
+  },
+  {
+   "label": "Matterport 3D 看房 6",
+   "url": "https://my.matterport.com/show/?m=ZCpeGftCFWC"
+  },
+  {
+   "label": "Matterport 3D 看房 7",
+   "url": "https://my.matterport.com/show/?m=1YLgNnhD9rM"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "B7",
+   "sqft": "1,009",
+   "price": "$3,550",
+   "price_min": 3550,
+   "as_of": "2026-10-26",
+   "available": "1 間（#161），2027-01-08 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e6aceb37907bbe9fb7260afca38da7ee.jpg"
+  },
+  {
+   "name": "B8A",
+   "sqft": "970",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B1",
+   "sqft": "1,071",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B10",
+   "sqft": "1,117",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B8",
+   "sqft": "1,109",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B2",
+   "sqft": "1,125",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B3B",
+   "sqft": "1,145",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B7L",
+   "sqft": "1,143",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B3",
+   "sqft": "1,165",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B9",
+   "sqft": "1,178",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B4",
+   "sqft": "1,200",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B5",
+   "sqft": "1,200",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B1L",
+   "sqft": "1,207",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B10L",
+   "sqft": "1,252",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B2L",
+   "sqft": "1,288",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B3L",
+   "sqft": "1,321",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B3AL",
+   "sqft": "1,347",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B4L",
+   "sqft": "1,368",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "B5L",
+   "sqft": "1,376",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  }
+ ],
+ "fees": {
+  "parking_garage": "車庫：租約含 1 個車位，第 2 個 $150/月（ApartmentList）",
+  "parking_surface": "沒找到露天車位資訊",
+  "water_sewer_trash": "沒找到（官網擋了自動抓取，ApartmentList 沒有費用表）",
+  "electric_heat": "沒找到",
+  "internet": "沒找到；Mill Creek 頁面只寫公共區域有免費 WiFi",
+  "pet_rent": "貓 $35/月（每隻）；狗 50 磅以下 $50/月、50 磅以上 $100/月（ApartmentList）",
+  "pet_deposit_or_fee": "ApartmentList 沒列寵物押金或一次性費用",
+  "other": "租期 3–18 個月；收入需達租金 3 倍（ApartmentList）。ApartmentList 目前沒有列優惠（2025-11 官網存檔曾寫「最多送 1 個月」，現在是否還有不確定）",
+  "source": "https://www.apartmentlist.com/ma/medford/modera-medford",
+  "as_of": "ApartmentList，2026-10-26 讀取（頁面當天由公寓更新）"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻（ApartmentList）。官網寫保留拒絕特定攻擊性犬種和水族箱的權利，詳見寵物附約，沒有列出具體品種；不收臭鼬、雪貂等特殊寵物（官網 2025-11 存檔）。全社區禁菸。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的 12 個月租約價格，目前兩房兩衛只開放 1 間（B7，#161），而且要到 2027-01-08 才能入住。ApartmentList 列了 42 個兩房兩衛房型，但很多重複，去重後約 25 種；上表只列有坪數的 19 種，另有 B3A、B4A、B2-G2、B6、B6L、B3LG2 沒寫坪數。名稱帶 L 的是有閣樓（loft）的戶型。官網（moderamedford.com）擋了自動抓取（403），沒辦法核對官網價格和費用表；水電費用也沒找到。Matterport 3D 看房有 7 個連結，ApartmentList 沒標是哪個房型。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格、寵物、車位）",
+   "url": "https://www.apartmentlist.com/ma/medford/modera-medford"
+  },
+  {
+   "name": "Mill Creek 社區介紹",
+   "url": "https://millcreekplaces.com/community/modera-medford/"
+  },
+  {
+   "name": "官網（2025-11 存檔）",
+   "url": "http://web.archive.org/web/20251128101306/https://www.moderamedford.com/"
+  }
+ ]
+}

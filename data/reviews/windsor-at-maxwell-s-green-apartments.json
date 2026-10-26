@@ -1,0 +1,113 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.8,
+   "label": "官網顯示 · 86 條評價（評價連結指向 Google）"
+  },
+  "summary_zh": "在 Somerville 北邊，緊鄰 Somerville Community Path 自行車道，官網說是少數全樓禁菸的出租社區。噪音來源主要是旁邊的 Lowell 通勤鐵路和綠線延伸線（Medford 支線）的電車；附近沒有高速公路，也不是夜生活區。能找到的住戶評價很少：官網顯示 4.8 分（86 條，連到 Google），但沒抓到原文；唯一一則能讀到的是約 2015 年的 Apartments.com 評價，說維修快、保養好，但牆很薄、聽得到鄰居，訪客車位常被住戶佔用。沒找到住戶提到的安全問題，也沒找到犯罪統計。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "OpenStreetMap：大樓旁就是 Lowell 通勤鐵路和綠線延伸線，靠鐵軌的戶型可能會聽到火車和電車",
+    "約 2015 年的評價：「聽鄰居的聲音就像在同一個房間」，遇到安靜的鄰居要算運氣好",
+    "附近沒有高速公路，不是夜生活區；最近幾年的噪音評價沒找到"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "大門有門禁（官網）",
+    "沒找到住戶談安全的評價，也沒找到這附近的犯罪統計，分數只是中間值"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 4,
+   "points_zh": [
+    "約 2015 年：維修反應很快、很專業，冬天鏟雪保養做得好；管理團隊不算熱情，但專業",
+    "官網顯示 4.8 分（86 條），但沒抓到原文，可能多是新租客的評價，要打折看",
+    "最近幾年的具體評價沒找到"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "健身房、瑜伽室、狗公園、自行車房、電動車充電、共享辦公空間、會所、烤肉區、車庫，套內有洗衣機烘乾機（2012 年建成，184 戶）",
+    "直接連到 Somerville Community Path 自行車道",
+    "約 2015 年：臥室和衣櫃不大，套內沒有儲物空間；訪客車位不夠"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 兩房兩衛 $4,341–4,679/月（15 個月租約），車位另付 $175–215/月",
+    "約 2015 年住戶就覺得「價格偏高」",
+    "交通：2016 年資料說走到紅線 Davis 站約 19 分鐘；現在旁邊多了綠線延伸線"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "緊鄰 Community Path 自行車道",
+  "附近有綠線延伸線",
+  "全樓禁菸",
+  "設施齊全，有狗公園",
+  "官網評分高（4.8）"
+ ],
+ "cons_zh": [
+  "旁邊有通勤鐵路和綠線電車",
+  "舊評價說牆薄、聽得到鄰居",
+  "訪客車位不夠",
+  "租金偏高，車位另付",
+  "最近幾年的住戶原話評價沒找到"
+ ],
+ "quotes": [
+  {
+   "text": "維修對報修的反應很快、很專業。",
+   "source": "Apartments.com · 約 2015 年",
+   "url": "http://web.archive.org/web/20160426184642/http://www.apartments.com:80/windsor-at-maxwells-green-somerville-ma/0swn2g3/"
+  },
+  {
+   "text": "鄰居的聲音在家裡聽得到，就像他們跟你在同一個房間。如果你的鄰居很安靜，算你運氣好。",
+   "source": "Apartments.com · 約 2015 年",
+   "url": "http://web.archive.org/web/20160426184642/http://www.apartments.com:80/windsor-at-maxwells-green-somerville-ma/0swn2g3/"
+  },
+  {
+   "text": "停車位有限，尤其是訪客車位，常被不想付費停車的住戶佔用。",
+   "source": "Apartments.com · 約 2015 年",
+   "url": "http://web.archive.org/web/20160426184642/http://www.apartments.com:80/windsor-at-maxwells-green-somerville-ma/0swn2g3/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "官網",
+   "url": "https://www.windsorcommunities.com/properties/windsor-at-maxwells-green/"
+  },
+  {
+   "name": "Apartments.com（2016 存檔）",
+   "url": "http://web.archive.org/web/20160426184642/http://www.apartments.com:80/windsor-at-maxwells-green-somerville-ma/0swn2g3/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://search.google.com/local/reviews?placeid=ChIJAwERLi9344kRoUNXQGjth30"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Maxwell%27s%20Green%22"
+  }
+ ],
+ "gaps_zh": "Google、Yelp、ApartmentRatings、RentCafe、Reddit 都攔截了自動抓取；Apartments.com 的存檔只到 2016 年，只有一則評價。官網 4.8 分沒寫來源，評價連結指向 Google，所以沒有直接填成 Google 分數。沒找到犯罪統計。下面的鏈接可以自己點開看。"
+}

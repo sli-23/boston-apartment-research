@@ -1,0 +1,113 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 5.0,
+   "label": "ApartmentList · 1 條評價（2025-04）"
+  },
+  "summary_zh": "在劍橋 Cambridge Highlands，靠近 Alewife 站和 Fresh Pond，是比較新的大型社區。能找到的評價只有兩條：ApartmentList 2025-04 一條全部 5 分（含噪音 5 分），說乾淨、設施和位置都很好、員工反應快；Apartments.com 2024-05 存檔一條差評，說申請了快一個月一直拿不到租約，最後放棄。評價太少，參考價值有限。沒有住戶提到噪音問題；地理上附近有 Concord Ave 和 Alewife 一帶的車流（推測）。劍橋市警方資料（2025-10 至 2026-09）顯示，所在報案區 1201 共 129 起，最多的是入室盜竊 24、肇事逃逸 15，另外有 2 起街頭搶劫、2 起加重傷害；Wheeler St 這條路上 31 起，以入室盜竊為主。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 4,
+   "points_zh": [
+    "2025-04 ApartmentList 住戶噪音分項給 5/5",
+    "沒有其他住戶談噪音",
+    "附近有 Concord Ave 車流（地點推測，沒有住戶提到）"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "劍橋市警方開放資料（2025-10 至 2026-09），報案區 1201 共 129 起：入室盜竊 24、肇事逃逸 15、自行車被盜 9、店內偷竊 9",
+    "同期有 2 起街頭搶劫、2 起加重傷害、7 起普通傷害",
+    "Wheeler St 上 31 起，入室盜竊 9 起最多"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "2025-04 住戶：員工友善、反應快，管理和維修都給 5 分",
+    "2024-05 差評：申請快一個月都沒拿到租約，打很多電話寄很多信，最後放棄，還說押金拿不回來",
+    "由 Bozzuto 管理，費用表公開"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 5,
+   "points_zh": [
+    "鹽水泳池（有涼亭）、頂樓露台可看波士頓",
+    "健身房、共享辦公空間、創作者工作室、多個交誼廳",
+    "寵物美容室、垃圾代收服務、禮賓服務；石英石檯面、智慧家居"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 ApartmentList 兩房兩衛 $3,920–4,325",
+    "現在看房簽約最多減半個月租金",
+    "收入要達租金 3 倍，比另外幾棟（2.5 倍）嚴；停車 $250/月"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "社區新，設施很完整：鹽水泳池、頂樓露台、共享辦公",
+  "兩房兩衛空房多（9 種格局有空房）",
+  "靠近 Alewife 站和 Fresh Pond",
+  "現在有減半個月租金的優惠",
+  "押金 $500"
+ ],
+ "cons_zh": [
+  "2024 年有人抱怨申請拖了快一個月",
+  "入室盜竊是附近最常見的報案，過去一年有 2 起街頭搶劫",
+  "兩房 $3,920 起，偏貴",
+  "收入要求 3 倍租金",
+  "住戶評價很少，沒有 3D 看房"
+ ],
+ "quotes": [
+  {
+   "text": "公寓在各方面都超出我的預期。乾淨程度、設施和位置都是一流的，員工友善、反應快。",
+   "source": "ApartmentList · 2025-04",
+   "url": "https://www.apartmentlist.com/ma/cambridge/the-laurent"
+  },
+  {
+   "text": "我們想在這裡租房，花了快一個月，最後放棄去別處租了。寄了很多信、打了很多電話，一直沒拿到租約。",
+   "source": "Apartments.com · 2024-05",
+   "url": "http://web.archive.org/web/20240708165134/https://www.apartments.com/the-laurent-cambridge-ma/z8mh6pz/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/cambridge/the-laurent"
+  },
+  {
+   "name": "Apartments.com（2024 存檔）",
+   "url": "http://web.archive.org/web/20240708165134/https://www.apartments.com/the-laurent-cambridge-ma/z8mh6pz/"
+  },
+  {
+   "name": "Cambridge 犯罪開放資料",
+   "url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/The+Laurent+55+Wheeler+St+Cambridge+MA"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22The%20Laurent%22%20Cambridge"
+  }
+ ],
+ "gaps_zh": "Google、Reddit、Yelp、ApartmentRatings 都攔截了自動抓取，上面的鏈接可以自己點開看。Apartments.com 存檔裡那條差評沒顯示星數。"
+}

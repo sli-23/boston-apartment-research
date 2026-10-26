@@ -1,0 +1,130 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.6,
+   "label": "Apartments.com · 30 條評價（2023-03 存檔）"
+  },
+  "summary_zh": "評價很分歧。好的一面：設施（泳池、健身房、寵物 spa、河邊步道、獨木舟）和公寓本身大家都喜歡，維修團隊回應快，離 Wellington 站和超市近。壞的一面：多條評價說租賃／管理辦公室溝通差、不回電話，有人說晚上很吵、像學生宿舍，也有人掉過包裹、覺得不安全。能找到的評價集中在 2020–2022 年（疫情期間），之後沒有找到新的。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "2020-09 住戶說晚上很吵，很多大學生把這裡當宿舍，安靜時段沒人管",
+    "2020-10 另一位住戶說「大樓很安靜」，河邊步道很適合遛狗",
+    "2020-11 有人直接寫「噪音是個問題」；Mill Creek 介紹寫社區緊鄰 Revere Beach Parkway 和 Route 28"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "2022-02 一位住戶說在電梯裡被攻擊，管理人員沒有處理",
+    "2021-04 有人說最近住進來的人讓他覺得不太安全",
+    "也有住戶說很乾淨、常看到清潔人員，覺得很安全（2021-03）；這次沒有重新查 Medford 警方資料"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 2,
+   "points_zh": [
+    "多條評價說租賃／管理辦公室態度差、溝通差、不回電話（2020–2022）",
+    "維修團隊評價很好：回應快，通常一次修好",
+    "有住戶掉過包裹，抱怨收發室管理；經理通常會回覆評價，但多半是制式回覆"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "屋頂平台、泳池、24 小時健身房和瑜伽室、遊戲室、影音室、寵物 spa、包裹櫃、自行車房（Mill Creek）",
+    "河邊步道、獨木舟下水點、野生動物觀察平台",
+    "有住戶說社區分好幾棟，走去主樓要走很久；疫情期間設施常關閉（2020–2021）"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 4,
+   "points_zh": [
+    "2026-10-26 兩房兩衛 B7 $3,550，是這次名單裡最便宜的之一，但要到 2027-01 才能入住",
+    "租約含 1 個車庫車位，第 2 個 $150/月",
+    "2020-11 有住戶說「稱不上豪華，租金對得到的東西來說偏高」"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "兩房兩衛租金在名單裡偏低",
+  "租約含 1 個車庫車位",
+  "維修團隊回應快",
+  "河邊步道、獨木舟、泳池等設施",
+  "可以養貓狗，沒有列具體禁養品種",
+  "有 7 個 Matterport 3D 看房"
+ ],
+ "cons_zh": [
+  "多條評價說管理辦公室溝通差",
+  "有人說晚上吵、像學生宿舍",
+  "有安全疑慮的評價（電梯被攻擊、陌生人）",
+  "掉包裹",
+  "社區很大，有的戶型離主樓遠",
+  "評價集中在 2020–2022 年，之後沒找到"
+ ],
+ "quotes": [
+  {
+   "text": "晚上很吵，很多大學生把這裡當宿舍，社區規定沒人執行，安靜時段常常沒人遵守。",
+   "source": "ApartmentRatings · 2020-09",
+   "url": "http://web.archive.org/web/20240524142421/https://www.apartmentratings.com/ma/medford/modera-medford_9199332346275171505/"
+  },
+  {
+   "text": "維修團隊很棒，回應很快，每次都一次修好。租賃／管理團隊就很難溝通。",
+   "source": "ApartmentRatings · 2021-04",
+   "url": "http://web.archive.org/web/20240524142421/https://www.apartmentratings.com/ma/medford/modera-medford_9199332346275171505/"
+  },
+  {
+   "text": "設施很棒，管理團隊的回應和溝通需要改善。噪音是個問題。……租金對得到的東西來說偏高。",
+   "source": "ApartmentRatings · 2020-11",
+   "url": "http://web.archive.org/web/20240524142421/https://www.apartmentratings.com/ma/medford/modera-medford_9199332346275171505/"
+  },
+  {
+   "text": "大樓很安靜，河邊步道很適合養狗的人。",
+   "source": "ApartmentRatings · 2020-10",
+   "url": "http://web.archive.org/web/20240524142421/https://www.apartmentratings.com/ma/medford/modera-medford_9199332346275171505/"
+  },
+  {
+   "text": "位置好，離 T 站和超市近……唯一不開心的是在這裡掉過包裹。",
+   "source": "ApartmentRatings · 2021-03",
+   "url": "http://web.archive.org/web/20240524142421/https://www.apartmentratings.com/ma/medford/modera-medford_9199332346275171505/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ApartmentRatings（2024 存檔）",
+   "url": "http://web.archive.org/web/20240524142421/https://www.apartmentratings.com/ma/medford/modera-medford_9199332346275171505/"
+  },
+  {
+   "name": "Apartments.com（2023 存檔）",
+   "url": "http://web.archive.org/web/20230327020337/https://www.apartments.com/modera-medford-medford-ma/fljnhmr/"
+  },
+  {
+   "name": "Mill Creek 社區介紹",
+   "url": "https://millcreekplaces.com/community/modera-medford/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Modera+Medford+5+Cabot+Rd+Medford"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Modera%20Medford%22"
+  }
+ ],
+ "gaps_zh": "Google、Reddit、Yelp、Apartments.com 和 ApartmentRatings（即時頁）都攔截了自動抓取，官網也是 403。只找到存檔裡 2020–2022 年的評價，2023 年以後的沒找到；現在的管理團隊表現不知道。ApartmentRatings 存檔的總分沒有顯示。治安這次沒查 Medford 警方資料，只能看評價。上面的鏈接可以自己點開看。"
+}

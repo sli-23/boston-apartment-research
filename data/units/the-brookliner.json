@@ -1,0 +1,44 @@
+{
+ "official_url": "https://thebrookliner.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/boston/the-brookliner#bedrooms-2",
+ "virtual_tours": [
+  {"label": "360 度虛擬導覽（屋頂、健身房、寵物公園、樣品屋 210）", "url": "https://viewer.tourbuilder.com?tour=64356c75728a384c4efc182e"},
+  {"label": "360 度虛擬導覽（Panoskin）", "url": "https://v1.panoskin.com/?tour=66591f9054c1675c3d85c706"},
+  {"label": "Instagram 實景", "url": "https://www.instagram.com/thebrookliner/"}
+ ],
+ "plans_2b2b": [
+  {"name": "B7", "sqft": "1,045", "price": "$4,894", "price_min": 4894, "as_of": "2026-10-26", "available": "1 間（#517），11/23 入住，17 個月租約", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/874c98bcb71c3e5f6669df66ff4d860c.jpg"},
+  {"name": "B1", "sqft": "884", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/2a94c5e215bb07347754844fcd4d9ab6.jpg"},
+  {"name": "B2", "sqft": "916", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ab8123aed74ad24771055f352e6195e6.jpg"},
+  {"name": "B3", "sqft": "934", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/9da58ae9ba3d019a063a6ef7cb4a6fd5.jpg"},
+  {"name": "B4", "sqft": "938", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ba89488fe248f8beba22f0bc5eee6c5a.jpg"},
+  {"name": "B5", "sqft": "989", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/289957d03a3da3bfb43ff532650684c1.jpg"},
+  {"name": "B6", "sqft": "1,027", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/72d20939a9d9449d50de205e3ec44ea9.jpg"},
+  {"name": "C1（與 B1 同面積）", "sqft": "884", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ff4e2d551dbfabd46bfe89927b7d923c.jpg"},
+  {"name": "C2（與 B2 同面積）", "sqft": "916", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/aaae26787267951f2ba09b879f71e4fd.jpg"},
+  {"name": "C4（與 B3 同面積）", "sqft": "934", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/7932c1b9708ffa9af0c120124e857d21.jpg"},
+  {"name": "C3（與 B4 同面積）", "sqft": "938", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/54703685c19aa5a78a794dedfa0b1e0d.jpg"},
+  {"name": "C40（與 B5 同面積）", "sqft": "989", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/4feefae35aa5f3f368184445b591425c.jpg"},
+  {"name": "C6（與 B6 同面積）", "sqft": "1,027", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/bef6ee4b5d140f8c276b6806847b6b81.jpg"},
+  {"name": "C10（與 B7 同面積）", "sqft": "1,045", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/6464f2e2c651cda6c4e542ec3161b48d.jpg"}
+ ],
+ "fees": {
+  "parking_garage": "地下車庫，有電動車充電。2024-05 住戶轉租貼文說車位 $350/月；2026 年的價格沒找到",
+  "parking_surface": "沒找到",
+  "water_sewer_trash": "沒找到",
+  "electric_heat": "沒找到（住戶轉租貼文說是中央空調暖氣）",
+  "internet": "沒找到",
+  "pet_rent": "沒找到（ApartmentList 只寫可以養寵物；住戶說部分寵物要加錢）",
+  "pet_deposit_or_fee": "沒找到",
+  "other": "ApartmentList 優惠欄寫「最多送 2 個月免租」，但那是 2026-07 的夏季優惠，現在還有沒有要問。申請條件：家庭稅前總收入要有房租的 3 倍",
+  "source": "https://www.apartmentlist.com/ma/boston/the-brookliner",
+  "as_of": "ApartmentList 2026-10-26 讀取；車位價格來自 2024-05 Reddit 住戶貼文"
+ },
+ "pet_policy_zh": "可以養寵物（ApartmentList），樓內有寵物美容室和寵物公園。沒找到品種、數量限制和費用。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（頁面資料 2026-10-26 更新），這間是 17 個月租約，不是 12 個月。ApartmentList 把兩房兩衛分成 B 和 C 兩組，C 組每個戶型都跟某個 B 戶型面積一樣，看圖 C1 跟 B1 格局相同、只是沒有露台；另有一個 C6A 沒寫面積，圖跟 B6 一樣，所以沒列。官網沒有公開費用表，水電、網路、寵物費都要問辦公室。",
+ "sources": [
+  {"name": "ApartmentList（房型、價格）", "url": "https://www.apartmentlist.com/ma/boston/the-brookliner"},
+  {"name": "官方網站", "url": "https://thebrookliner.com/floorplans/"},
+  {"name": "Reddit 住戶轉租貼文（2024-05，車位價格）", "url": "https://www.reddit.com/r/bostonhousing/comments/1cn4443/2_bed_2_bath_lease_takeover_61915_washington_sq/l34ioa4/"}
+ ]
+}

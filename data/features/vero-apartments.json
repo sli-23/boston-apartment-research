@@ -1,0 +1,40 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": null,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [
+  "B7"
+ ],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": null,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "RentCafe: 'Balcony*' (* select homes) https://www.rentcafe.com/apartments/ma/chelsea/vero-apartments/default.aspx ; ApartmentList 2b2b plan images show a balcony ('relax') only on B7 https://www.apartmentlist.com/ma/chelsea/vero-apartments--1",
+  "in_unit_wd": "RentCafe: in-home washer and dryer; ApartmentList 'In Unit Laundry'; plans show W/D",
+  "central_ac": "Plans show an HVAC closet, but no source says air conditioning; ApartmentList FAQ says no AC (missing tag)",
+  "dishwasher": "Not in the visible RentCafe list; ApartmentList FAQ says none (missing tag); unverified",
+  "hardwood": "RentCafe: wood-style plank flooring (not real hardwood)",
+  "walk_in_closet": "ApartmentList 'Walk In Closets'; RentCafe 'Oversized closet'",
+  "garage_parking": "RentCafe: 'Parking garage with direct-access elevators'",
+  "elevator": "RentCafe: garage with direct-access elevators; ApartmentList 'Elevator'",
+  "package_room": "RentCafe: '24-hour package lockers' (lockers, not a room)",
+  "coworking": "RentCafe: 'Coworking lounge'"
+ }
+}

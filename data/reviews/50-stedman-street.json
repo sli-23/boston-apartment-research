@@ -1,0 +1,127 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": null,
+  "summary_zh": "2022 年完工、21 戶的三層小樓（原本是 Wentworth Service Station 修車廠），位在 Stonybrook 住宅區，走約 11 分鐘到 Forest Hills 橘線站。完全找不到住戶評價，只有 Jamaica Plain Gazette 2018–2019 年對開發案審議的報導。BTS 模型是三棟中最安靜的（約 51 dB，道路噪音低於門檻），噪音主要來自約 290 公尺外的西南走廊鐵路。400 公尺內一年只有 8 件暴力類報案，三棟中最少。物業、設施沒有住戶意見，分數保持中間值。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 4,
+   "points_zh": [
+    "BTS 2020 交通噪音模型：門牌點約 51.4 dB，道路噪音低於 45 dB 的建模門檻，50 公尺內最高 52.1 dB（來自鐵路），是這次 JP 三棟中最低",
+    "西南走廊（橘線＋Amtrak 東北走廊）約 290 公尺；2026-06 r/JamaicaPlain 有住戶反映夜間鐵路施工時火車頻繁鳴笛，但說不是常態",
+    "沒有住戶評價談到這棟的室內隔音或鄰居噪音；分數主要依噪音模型，不是住戶意見"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 4,
+   "points_zh": [
+    "Boston 警方開放資料（2025-10 至 2026-09，400 公尺內）：暴力類 8 件（一般傷害 6、加重傷害 2）、沒有搶劫；財產類 38 件，最多是破壞財物 10、車內物品被偷 9",
+    "三棟中暴力和財產類報案都最少",
+    "r/JamaicaPlain 有人說 Forest Hills 站附近「有一些不太正派的人逗留，但整體還好」；沒有針對這棟或 Stedman St 的評價"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "沒有官網、沒有管理公司資訊，也找不到任何住戶評價，分數先給中間值",
+    "開發商是 Helms Investments LLC（Bryan Austin、Sean Morrissey）；目前房源由屋主透過 JP Rentals & Sales 等仲介零星出租，每戶房東可能不同",
+    "2018-10 的社區會議很激烈（鄰地屋主說沒收到通知、修車廠要搬走），2019-04 ZBA 通過，當時沒人公開反對"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 3,
+   "points_zh": [
+    "地下車庫 21 個車位（Gazette 報導），房源寫 $200／月",
+    "房源描述：套內洗烘、私人陽台、中央空調、公共屋頂露台、電梯；但 ApartmentList 設施標籤寫 On-site laundry，兩邊不一致",
+    "沒看到健身房、包裹室等大樓設施；沒有住戶評價設施"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 4,
+   "points_zh": [
+    "2026-03 #107（1,100 呎、2 房 2 套衛）以 $3,300 上架、29 天租出；Zillow 另有 #304（1,010 呎）$3,300 的紀錄",
+    "同樣 2 房 2 衛，比 211 Green（935 呎、$3,600–$3,825）大、租金低",
+    "代價是離橘線較遠（約 11 分鐘）；水費另計；這項依租金紀錄判斷，不是住戶意見"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "BTS 模型三棟中最安靜，道路噪音低於門檻",
+  "400 公尺內一年只有 8 件暴力類報案、沒有搶劫",
+  "2 房 2 衛約 1,010–1,100 呎，兩間臥室各有衛浴",
+  "租金紀錄約 $3,300，三棟中最低",
+  "有地下車庫（$200／月）"
+ ],
+ "cons_zh": [
+  "完全沒有住戶評價",
+  "沒有官網和固定管理公司，由仲介零星出租",
+  "走約 11 分鐘到 Forest Hills 橘線站",
+  "約 290 公尺外的西南走廊夜間施工時有火車鳴笛",
+  "套內洗烘在不同來源說法不一，看房要確認"
+ ],
+ "quotes": [
+  {
+   "text": "這個案子有地下停車，能減輕大家對街邊停車的擔心，還把「一片工業荒地」換成住宅。（鄰里協會共同主席在 2018 年審議會上的說法，重述）",
+   "source": "Jamaica Plain Gazette · 2018-11",
+   "url": "https://jamaicaplaingazette.com/2018/11/09/50-stedman-st-meeting-proves-contentious/"
+  },
+  {
+   "text": "Forest Hills 附近確實有一些不太正派的人逗留，但整體還好。住在那裡的時候很喜歡。",
+   "source": "Reddit r/JamaicaPlain · 2026-08",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1vcw91p/how_is_south_jamaica_plain/p14mr6m/"
+  },
+  {
+   "text": "可能是有夜間施工，火車會鳴笛提醒施工人員。",
+   "source": "Reddit r/JamaicaPlain · 2026-06",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1ttmoqm/amtrak_honking/op3hyth/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Jamaica Plain Gazette · 2018-11 社區會議",
+   "url": "https://jamaicaplaingazette.com/2018/11/09/50-stedman-st-meeting-proves-contentious/"
+  },
+  {
+   "name": "Jamaica Plain Gazette · 2019-04 ZBA 通過",
+   "url": "https://jamaicaplaingazette.com/2019/04/13/zoning-relief-granted-for-50-stedman-street-project/"
+  },
+  {
+   "name": "BMN Boston · #107 MLS 房源",
+   "url": "https://bmnboston.com/property/50-stedman-street-boston-ma-02130-2-bed-for-rent-73481618/"
+  },
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/boston/50-stedman-street"
+  },
+  {
+   "name": "Reddit · 西南走廊火車鳴笛（2026-06）",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1ttmoqm/amtrak_honking/"
+  },
+  {
+   "name": "Boston 警方事件資料",
+   "url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  {
+   "name": "BTS 交通噪音地圖",
+   "url": "https://www.bts.gov/geospatial/national-transportation-noise-map"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/50+Stedman+St+Jamaica+Plain+MA"
+  }
+ ],
+ "gaps_zh": "21 戶的小樓、沒有官網，完全找不到住戶評價：ApartmentList 頁面沒有評價，Apartments.com 在 Wayback 沒有存檔，Google 地圖抓取被擋，Reddit（PullPush 存檔）搜「50 Stedman」「Stedman St」只找到其他城市的同名街道，Boston Globe 沒查到。只有 Jamaica Plain Gazette 2018–2019 年開發審議的報導。安靜和安全兩項是依 BTS 噪音模型和警方資料判斷；物業和設施沒有住戶意見，給中間值 3；性價比依租金紀錄。"
+}

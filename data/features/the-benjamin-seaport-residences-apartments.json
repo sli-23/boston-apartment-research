@@ -1,0 +1,39 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": null,
+  "hardwood": true,
+  "walk_in_closet": null
+ },
+ "balcony_2b2b_plans": [
+  "2 B - 1 (balcony on floors 8-22 per floor-plan note, from reviews research)"
+ ],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": true,
+  "package_room": null,
+  "roof_deck": true,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": null
+ },
+ "evidence": {
+  "balcony": "Official amenities: 'Private Oversized Balconies with Boston Harbor Views' (not marked select-only), but 2B floor plan notes balcony only on floors 8-22, so not every unit; ApartmentList unit amenity 'Patio / Balcony'. Which other 2b2b plans (2A/2C/2D/2K) have balconies is not stated. https://www.thebenjaminseaport.com/amenities/",
+  "in_unit_wd": "'Bosch High-Capacity Washer & Dryer' https://www.thebenjaminseaport.com/amenities/",
+  "hardwood": "'Wide Plank Hardwood Flooring' https://www.thebenjaminseaport.com/amenities/",
+  "central_ac": "Official lists Nest thermostats only; AC type not stated. Reviews research says central AC but no primary source found.",
+  "walk_in_closet": "Official: 'Oversized Spa Baths & Closets' (walk-in not stated); ApartmentList tag 'Walk In Closets' https://www.apartmentlist.com/ma/boston/the-benjamin",
+  "roof_deck": "'12,000 SF Vista Sundeck & Pool', 'HoriZen Terrace', photo captions 'Rooftop Lounge' https://www.thebenjaminseaport.com/amenities/",
+  "elevator": "High-rise (units up to 17th+ floor, 'Penthouse Residences with Private Access to PH Floors')",
+  "concierge": "'Professional Door Attendant & Concierge'",
+  "garage_parking": "'Garage Parking & Zipcar'; 'Electric Vehicle Charging'; assigned spot $575/mo (units file)"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {"value": null, "label": "沒找到任何網站的評分（ApartmentList 沒有評價）"},
+  "summary_zh": "2023 年完工的精品小樓，5 層、108 戶，在 Washington St 和 Corey Rd 路口，地址屬於 Boston 的 Brighton，不屬於 Brookline 鎮（所以不能上 Brookline 學區）。Whole Foods 就在對面，樓下是 CVS，步行約 5 分鐘到綠線 B 線和 C 線。網路上找到的住戶意見很少，一位住戶說「位置很好，但房子不值這個價」。噪音：在大馬路路口，旁邊有綠線電車和樓下商店，但沒找到住戶抱怨噪音；有網友覺得這裡位置安靜。安全：Boston 警方開放資料（2025-10 至 2026-09），樓周圍約 250 公尺內沒有搶劫，主要是普通傷害、建築內竊盜這類案件。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":3,
+   "points_zh":["在 Washington St / Corey Rd 路口，附近有綠線地面電車","2025-06 有網友形容這裡「位置安靜」，但那是看房者，不是住戶","沒找到住戶談隔音、鄰居或交通噪音"]},
+  {"key":"safety","label_zh":"安全","score":4,
+   "points_zh":["Boston 警方開放資料（2025-10 至 2026-09），樓周圍約 250 公尺內共 190 筆紀錄，很多是非犯罪（查看人員 37、協助病患 29）","犯罪類：普通傷害 11、建築內竊盜 9、威脅傷害 8、商店偷竊 4、住宅入室盜竊 3、加重傷害 2","同期沒有搶劫，也沒有自行車被盜紀錄"]},
+  {"key":"management","label_zh":"物業管理","score":3,
+   "points_zh":["沒找到住戶對物業、維修的評價","2024-01 有網友聽說樓剛開時空房多、送好幾個月免租","2023 年有 18 戶限收入戶型透過 BPDA 抽籤出租"]},
+  {"key":"amenities","label_zh":"設施","score":4,
+   "points_zh":["屋頂露台有小屋、火爐、烤肉台，看得到 Boston 天際線；健身房有 Peloton 單車；共享辦公區","室內車庫有電動車充電、自行車房、寵物美容室、可租儲藏室","套內有洗衣機烘乾機，部分戶型有陽台或大露台；有接駁車到 Boston Landing"]},
+  {"key":"value","label_zh":"性價比","score":2,
+   "points_zh":["2026-10-26 ApartmentList：唯一空出的兩房兩衛（1,045 平方英尺）$4,894，17 個月租約","2024-05 住戶轉租貼文：兩房兩衛原價 $4,600，地下車位另加 $350/月","住戶（2025-06）：「位置很好，但我覺得這些房子不值這個價」，同條 Corey Rd 的舊公寓便宜很多"]}
+ ],
+ "pros_zh":["Whole Foods 在對面，CVS 在樓下","步行約 5 分鐘到綠線 B 線、C 線","2023 年新樓，套內有洗衣機烘乾機","屋頂露台看得到天際線","有接駁車到 Boston Landing","周圍一年內沒有搶劫紀錄"],
+ "cons_zh":["租金偏高，車位也貴","不在 Brookline 學區","真正的住戶評價很少","在大馬路路口，旁邊有電車","現在只有 1 間兩房可租"],
+ "quotes":[
+  {"text":"我住在那裡，位置很好，但我覺得這些房子不值這個價。Corey Rd 上其他公寓也不錯，可以省很多錢。","source":"Reddit r/Brookline · 2025-06","url":"https://www.reddit.com/r/Brookline/comments/1l0qhf6/brookliner_apts/mvf7dj9/"},
+  {"text":"如果不在乎是不是真的住在 Brookline，看起來還不錯。Whole Foods 在對街，樓下還有一間口碑不錯的 CVS。","source":"Reddit r/Brookline · 2025-06","url":"https://www.reddit.com/r/Brookline/comments/1l0qhf6/brookliner_apts/mvgbo8x/"},
+  {"text":"兩房兩衛（2023 年新樓），步行 5 分鐘到綠線 B 線和 C 線，Whole Foods 在對街，樓下有 CVS。原價 $4,600（車位另加 $350）。","source":"Reddit 轉租貼文 · 2024-05","url":"https://www.reddit.com/r/bostonhousing/comments/1cn4443/2_bed_2_bath_lease_takeover_61915_washington_sq/l34ioa4/"},
+  {"text":"看起來很貴，但設施不錯，位置也安靜。","source":"Reddit r/Brookline 看房者 · 2025-06","url":"https://www.reddit.com/r/Brookline/comments/1l0qhf6/brookliner_apts/"}
+ ],
+ "sources":[
+  {"name":"ApartmentList","url":"https://www.apartmentlist.com/ma/boston/the-brookliner"},
+  {"name":"Boston 犯罪開放資料","url":"https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"},
+  {"name":"Reddit r/Brookline 討論","url":"https://www.reddit.com/r/Brookline/comments/1l0qhf6/brookliner_apts/"},
+  {"name":"Apartments.com（2022 存檔，只有基本資料）","url":"https://web.archive.org/web/20221114155614/https://www.apartments.com/the-brookliner-brighton-ma/pd0yw5v/"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/The+Brookliner+5+Washington+St+Brighton+MA"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=Brookliner%20apartments"}
+ ],
+ "gaps_zh":"Google、Yelp、Apartments.com、RentCafe 都擋了自動抓取；Apartments.com 只有 2022 年開幕前的存檔，沒有評價。Reddit 上住戶的親身評價只有一兩則。"
+}

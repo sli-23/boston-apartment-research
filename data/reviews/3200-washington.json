@@ -1,0 +1,143 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": null,
+   "label": "Apartments.com · 0 條住戶評價（2025-11 存檔）"
+  },
+  "summary_zh": "2019 年開始出租、73 戶的六層樓（ApartmentHomeLiving 寫 2018 年建成），在 Egleston Square 南側、直接臨 Washington St，走約 8 分鐘到 Stony Brook 橘線站。設施是三棟中最多的，但住戶評價很少：Apartments.com 2025-11 存檔顯示 0 條評價，Reddit 只有一則 2020 年問這棟的貼文和鄰居對治安的看法。臨街一側噪音是三棟中最高（約 60 dB）。當地人普遍說 Egleston 整體安全，但 Washington St 介於 Columbus Ave 和 School St 的那一段比較雜。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 2,
+   "points_zh": [
+    "BTS 2020 交通噪音模型：門牌點約 60.1 dB（主要是 Washington St 道路噪音 59.7），50 公尺內最高 62.9 dB，相當於繁忙街道，三棟中最吵",
+    "北邊約 300 公尺是 Egleston Square（Washington St／Columbus Ave 路口）；西南走廊鐵路約 400 公尺，影響較小",
+    "開發商 2019 年說面對中庭的戶能享受「安靜、自然的環境」（行銷說法）；沒找到住戶談隔音的評價，建議挑面對中庭、不臨街的戶"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "Boston 警方開放資料（2025-10 至 2026-09，400 公尺內）：暴力類 23 件（加重傷害 10、一般傷害 10、搶劫 3），財產類 54 件；最多的報案點集中在北邊的 Egleston Square 一帶",
+    "2026-06 r/JamaicaPlain：有人說「大概有兩個街區有點雜」，特別是 Washington St 介於 Columbus Ave 和 School St 之間，這棟就在這段南端附近；也有人說小孩每天走路、騎車經過 Egleston，很安全",
+    "2020-06 住附近 5 年的人說「大致上很安全，從沒人找過我麻煩」"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "找不到住戶對物業的評價（Apartments.com 0 條），分數先給中間值",
+    "開發商是 Berkeley Investments（2019 年開幕），目前物業管理公司沒查到",
+    "開發過程爭議大：2015 年 JP 鄰里委員會投票反對、居民抗議 Egleston 仕紳化，BRA 董事會 3:2 通過；73 戶中 9 戶是平價出租單位"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "Gazette 2019 報導：Peloton 健身房、車庫（有 Zipcar）、多個電動車充電樁、屋頂露台和瓦斯烤架、8,800 平方呎中庭和火爐、每戶有安全單車位、單車維修和寵物／單車清洗間、會所（廚房、圖書室、壁爐）、會議室",
+    "套內洗衣機烘乾機，另有給大件衣物用的公共洗衣間；部分戶有私人陽台或露台",
+    "車庫目前沒有空位（官網 FAQ）；2025-06 住戶轉租文寫車位 $200／月；沒有住戶評價設施好壞"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "Apartments.com 2025-11 存檔：2 房 2 衛 905 呎 $3,850，studio $2,295，同時有「最多 1.5 個月免租」優惠；2026-10 官網寫「Get 1 Month FREE」",
+    "2019 年開幕時起價 $2,405（Gazette）",
+    "2025-06 住戶轉租文：3 房分租一間 $1,300，水電瓦斯網路約 $120／月（整戶分攤）；水、電、瓦斯都要自付"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "設施齊全：健身房、屋頂露台、大中庭、會所、電動車充電",
+  "套內洗烘，部分戶有陽台",
+  "走約 8 分鐘到 Stony Brook 橘線站",
+  "常有入住優惠（1–1.5 個月免租）",
+  "當地居民多說 Egleston 整體安全"
+ ],
+ "cons_zh": [
+  "直接臨 Washington St，臨街戶噪音約 60 dB",
+  "Washington St 在 Columbus Ave 到 School St 一段被當地人說比較雜，暴力類報案比另外兩棟附近多",
+  "車庫目前沒有空位",
+  "住戶評價很少，物業好壞不明",
+  "2 房 2 衛約 905 呎、$3,850，不算便宜"
+ ],
+ "quotes": [
+  {
+   "text": "大概有兩個街區有點雜，不是會被搶的那種，比較是有人互相大吼、遊民之類。槍擊非常非常少，但過去 5 年這裡發生過。只要你不用穿過 Egleston，特別是 Columbus 到 School 之間的 Washington St，就完全不用擔心。",
+   "source": "Reddit r/JamaicaPlain · 2026-06",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1uekoyr/housing_near_egleston_square/otletfq/"
+  },
+  {
+   "text": "非常安全。我家讀小學的孩子每天走路、騎車經過 Egleston。我們在 JP 這一側住了 10 年，是很棒的社區。",
+   "source": "Reddit r/JamaicaPlain · 2026-06",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1uekoyr/housing_near_egleston_square/otmsw5v/"
+  },
+  {
+   "text": "Egleston 的犯罪率大概比 Boston 平均高一點，但 Boston 的平均本來就非常低。",
+   "source": "Reddit r/JamaicaPlain · 2026-06",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1uekoyr/housing_near_egleston_square/otsq5wm/"
+  },
+  {
+   "text": "我在這一帶住了大約 5 年，大致上很安全，從沒人找過我麻煩。附近還是會有事情發生，但你不去找麻煩，麻煩就不會找上你。",
+   "source": "Reddit r/bostonhousing · 2020-06",
+   "url": "https://www.reddit.com/r/bostonhousing/comments/hgjl3r/3200_washington_jamaica_plain/fw9m7dq/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Apartments.com（2025-11 存檔）",
+   "url": "http://web.archive.org/web/20251121010929/https://www.apartments.com/3200-washington-boston-ma/byd2s59/"
+  },
+  {
+   "name": "Jamaica Plain Gazette · 2019-07 開始出租",
+   "url": "https://jamaicaplaingazette.com/2019/07/12/new-egleston-square-apartment-begins-leasing-highlights-amenities/"
+  },
+  {
+   "name": "Jamaica Plain Gazette · 2015-08 BRA 通過爭議案",
+   "url": "https://jamaicaplaingazette.com/2015/08/28/split-bra-board-approves-controversial-3200-washington-st-project/"
+  },
+  {
+   "name": "Reddit · 有人住過 3200 Washington 嗎（2020-06）",
+   "url": "https://www.reddit.com/r/bostonhousing/comments/hgjl3r/3200_washington_jamaica_plain/"
+  },
+  {
+   "name": "Reddit · Egleston Square 附近安全嗎（2026-06）",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1uekoyr/housing_near_egleston_square/"
+  },
+  {
+   "name": "Reddit · 3200 Washington 分租（2025-06）",
+   "url": "https://www.reddit.com/r/bostonhousing/comments/1lhbj31/1_room_in_a_3bedroom_apartment_in_jp_available/"
+  },
+  {
+   "name": "Boston 警方事件資料",
+   "url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  {
+   "name": "BTS 交通噪音地圖",
+   "url": "https://www.bts.gov/geospatial/national-transportation-noise-map"
+  },
+  {
+   "name": "官網",
+   "url": "https://www.3200washingtonjp.com/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/3200+Washington+St+Jamaica+Plain+MA"
+  }
+ ],
+ "gaps_zh": "住戶評價很少：Apartments.com 2025-11 存檔顯示 0 條住戶評價（頁面上的 5.0 是 CoStar 依建築本身打的分，不是住戶評分，所以沒採用），ApartmentList 找不到這棟，Google 地圖抓取被擋，Zumper、Yelp、ApartmentRatings 在 Wayback 沒有存檔。Reddit（PullPush 存檔）只有 2020 年一則詢問貼文（1 條實質回覆）和 2026 年鄰居談 Egleston 治安的討論，都不是這棟住戶的親身評價。Boston Globe 沒查到。物業管理和性價比沒有住戶意見，給中間值 3；設施分數依新聞和官網列出的設施，不是住戶滿意度。"
+}

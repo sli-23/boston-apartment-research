@@ -1,0 +1,38 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {"value": 4.9, "label": "Apartments.com · 36 條評價（2024-04 存檔）"},
+  "summary_zh": "位置好：步行 8 分鐘到紅線 Alewife 站，Whole Foods 和 Trader Joe's 都在附近。2021–2024 年的評價普遍誇物業，但很多是帶看體驗，而且住戶發評可能拿積分，參考價值打折扣。緊挨通勤鐵路，有火車聲，住戶說幾周就習慣了。附近報案以自行車被盜、入室盜竊這類財產案為主，過去一年沒有搶劫。2024 年以後的評價暫時沒有找到。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":3,
+   "points_zh":["緊挨 Fitchburg 通勤鐵路：一位住了約 3 年、窗戶對著鐵軌的住戶說，幾周後就基本注意不到（2023-02）","以前旁邊工地很吵，2023-01 有住戶說工程結束後“現在非常安靜”","2019 年差評：鄰居可能很吵，物業不管噪音；沒有評價提到 Route 2 / Alewife Brook Pkwy 的車流噪音"]},
+  {"key":"safety","label_zh":"安全","score":4,
+   "points_zh":["劍橋市警方開放資料（2025-10 至 2026-09），該樓所在報案區共 142 起：最多的是自行車被盜 17、入室盜竊 15、車內物品被盜 10","同期只有 1 起普通傷害，沒有搶劫或加重傷害","2018 年評價說自行車房被偷，而且沒有攝像頭；Niche 給劍橋整體安全評 C+"]},
+  {"key":"management","label_zh":"物業管理","score":4,
+   "points_zh":["2021–2024 年評價幾乎都誇租賃團隊專業熱心、搬入順利","要打折看：很多是帶看體驗；住戶發評可能拿積分；2023-03 幾天內集中出現 6 條五星","2018 年差評：物業不處理小偷小摸，不讓搬家集裝箱（PODS）進場"]},
+  {"key":"amenities","label_zh":"設施","score":4,
+   "points_zh":["泳池、健身房、會所、帶壁爐的庭院、影音室、寵物洗澡站、電動車充電、套內洗衣機烘乾機（2017 年建成，213 戶）","戶型寬敞，能放 king size 床，層高高","車庫大多是小車位，太窄；以前快遞櫃總是滿"]},
+  {"key":"value","label_zh":"性價比","score":3,
+   "points_zh":["2024-04 掛牌價：studio $2,624–3,604，一室 $2,818–4,150，兩室兩衛 $3,690–5,953","位置是最大賣點：Walk Score 頁面公交 59 分，騎行 90 分","評價不一：有人說物有所值，也有人說“同價位能找到更好的”"]}
+ ],
+ "pros_zh":["步行 8 分鐘到紅線 Alewife 站","Whole Foods、Trader Joe's 步行 15 分鐘內","戶型新、寬敞，套內有洗衣機烘乾機","設施齊全：泳池、健身房、會所","過去一年報案區內沒有搶劫"],
+ "cons_zh":["對著鐵軌的戶型會聽到火車聲","早年評價說鄰居吵、物業不管","租金偏高","自行車被盜是附近最常見的報案","車庫車位窄","2024 年以後的評價暫時沒找到"],
+ "quotes":[
+  {"text":"雖然緊挨通勤鐵路、我的窗戶正對鐵軌，但幾周後就基本注意不到了。","source":"Apartments.com · 2023-02","url":"http://web.archive.org/web/20240413160111/https://www.apartments.com/hanover-alewife-cambridge-ma/qsm8k3z/"},
+  {"text":"這是我住過最安靜、最平和的地方。","source":"Apartments.com · 2022-11","url":"http://web.archive.org/web/20240413160111/https://www.apartments.com/hanover-alewife-cambridge-ma/qsm8k3z/"},
+  {"text":"車庫車位太窄。鄰居可能非常吵，也沒人管噪音。","source":"Apartments.com · 2019-02","url":"http://web.archive.org/web/20240413160111/https://www.apartments.com/hanover-alewife-cambridge-ma/qsm8k3z/"},
+  {"text":"快遞櫃總是滿的，快遞員直接把包裹放地上……自行車房沒有攝像頭，要小心。","source":"Apartments.com · 2018-11","url":"http://web.archive.org/web/20240413160111/https://www.apartments.com/hanover-alewife-cambridge-ma/qsm8k3z/"},
+  {"text":"我住的這一片很安靜，犯罪率低，很乾淨。","source":"Niche · North Cambridge 居民","url":"http://web.archive.org/web/20250326190505/https://www.niche.com/places-to-live/n/north-cambridge-cambridge-ma/"}
+ ],
+ "sources":[
+  {"name":"Apartments.com（2024 存檔）","url":"http://web.archive.org/web/20240413160111/https://www.apartments.com/hanover-alewife-cambridge-ma/qsm8k3z/"},
+  {"name":"Cambridge 犯罪開放資料","url":"https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"},
+  {"name":"Niche · North Cambridge","url":"http://web.archive.org/web/20250326190505/https://www.niche.com/places-to-live/n/north-cambridge-cambridge-ma/"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/Hanover+Alewife+130+Cambridgepark+Dr"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=%22Hanover%20Alewife%22"}
+ ],
+ "gaps_zh":"Google、Reddit、Yelp、ApartmentRatings、Zillow 都攔截了自動抓取，下面的鏈接可以自己點開看。"
+}

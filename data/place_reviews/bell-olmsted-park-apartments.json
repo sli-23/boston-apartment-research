@@ -1,0 +1,87 @@
+{
+ "Harry Downes Field|42.3246,-71.1181": {
+  "rating": 4.5,
+  "count": 199,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=2879303209065696813",
+  "other": [],
+  "summary_zh": "Google 4.5 分（199 則），Brookline 的運動場與跑道，旁邊有狗公園與小遊樂場。",
+  "good_zh": [
+   "高品質跑道與足球場",
+   "附近有狗公園與小型遊樂場",
+   "評論稱停車容易"
+  ],
+  "bad_zh": [
+   "週末很擁擠",
+   "跑道上有人騎車或走錯道"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeVthK1tu5rBvcfn_9LeJ9PSv7Yzy_SVfZQhcC4eIUOwOiNVybenr8MdWFRFQA0Fg9fL1eBbA2I8EzAT13AX4tPzm5d0Iv1TDgUS10kx-uX_1VNln2McgnzxKNn6Lh0N0xbLtNv=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2879303209065696813",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLduBP9X_7FGPLSy1lJ5z_mziHLamU9l_Wu8sdgT5eESwzjiL075NTvPiyWrOk94dtSYqIB_cfdcCGMGwDTK77Tqpgmp_btSCy92K0vjb-P7GC4FLhGhtjm_aBlmSy7ngNhPbEQA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2879303209065696813",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLflTNI2zkmjgq8EfJTyU5R6CjM2FSl1mrJ7XpQqgrYmdHiYtrDmOE7scUcZA-AlfLauvJvowVozMuZpHQ2KLBlA2FNl813dlEKtTaz6KK7ZoIzCUA2IEe0fKm6e6mypsvovYWj16w=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2879303209065696813",
+    "credit": "Drew Edwards"
+   }
+  ]
+ },
+ "Arcola Green|42.3245,-71.1086": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=10684588014968860224",
+  "matched_name": "Arcola Street Community Park",
+  "other": [],
+  "summary_zh": "同位置的 Google 地點（Arcola Street Community Park）沒有評分與評論，無法判斷。",
+  "good_zh": [],
+  "bad_zh": [
+   "查無評分與評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Margaret E. Robinson Playground|42.3258,-71.1216": {
+  "rating": 4.7,
+  "count": 20,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=366126001367594032",
+  "other": [],
+  "summary_zh": "Google 4.7 分（20 則，Margaret Robinson Playground），翻新後的遊樂場，有噴水區、鞦韆與草地；是否可帶狗未查到。",
+  "good_zh": [
+   "翻新後設施新，有噴水區與鞦韆",
+   "有草地可玩",
+   "安靜"
+  ],
+  "bad_zh": [
+   "夏天下午幾乎沒有遮蔭",
+   "評論數少"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdx1wibNmFtOFcojtUNN8SH8XOgfjYPYXzJbk1fQiUtQFtO4WDC6UvHemgy5D7NKOdMF2M1Gma1vaaHdKI7INx89jYFtkkUtb7KH7ELqBxWP7iiOg3C7tTDuEs8UTN1B_L1Ade5hCTeLmrs=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=366126001367594032",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeXAzmM4EKbKT7gPqxYRaCfx-eQp8dkfdWqYKKK_e3qMtUL_zEGpq0KF0LZ98w21rR0RM-fACzz_DJNVUWmASeUVZnG5Dfcc9rL8UETusbaDEzZOqbUocAcoKpyDRk7MyXG3QIj=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=366126001367594032",
+    "credit": "Liliia Liberatska"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfh-HDx4LtSfhx3SudsCku5XPjFhAjHvQ-sMbLeweBH1VzRrqQlwbFCvUhRBg30GBAL11xXwGZPVwTgN-WNj9qaEe9qHTx0wriHr3VuX_a0KHy4rNPfShpFrfP0FmT25hYe5CgA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=366126001367594032",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ }
+}

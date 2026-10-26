@@ -1,0 +1,37 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": 4.3,
+  "google_count": 192,
+  "alt": {"value": 5.0, "label": "Apartment Finder · 71 條評價（SafeButler 2026-06 轉引）"},
+  "summary_zh": "2015 年建成，198 戶、5 層，Bell Partners 管理，樓後就是 Olmsted Park，走路可到 Jamaica Pond 和綠線 E 支線 Heath Street 站。Google 4.3 分（192 條），2025–2026 年的評價多數點名誇物業經理和助理經理，有一家帶幼兒的住戶說住得很安心。差評是租賃諮詢：只有 AI 機器人回覆，沒有真人跟進。沒有找到住戶談噪音的評價；樓在 S Huntington Ave 上，附近有 Jamaicaway 車流。附近一年報案很少（37 筆），沒有搶劫、傷害或槍擊。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":3,
+   "points_zh":["沒有找到住戶提到噪音的評價（好評也沒說安靜）","樓在 S Huntington Ave 上，附近有 Jamaicaway 這條車流大的公園道路，綠線 E 支線終點 Heath Street 站也在附近","部分戶型朝泳池和中庭，可能比臨街的安靜（推測，沒有住戶證實）"]},
+  {"key":"safety","label_zh":"安全","score":4,
+   "points_zh":["波士頓警方開放資料（2025-10 至 2026-09），大樓 250 公尺內只有 37 筆報案，最多是「救護協助」10 筆、車禍 5 筆","同期沒有搶劫、沒有傷害案、沒有槍擊；有 2 起樓內竊盜、1 起偷車、1 起車內物品被偷","帶幼兒住了兩年的住戶說覺得「安全」；有門禁、快遞櫃、物業駐場"]},
+  {"key":"management","label_zh":"物業管理","score":4,
+   "points_zh":["2025–2026 年多條好評點名誇物業經理 Desirae 和助理經理 Alexandria，說回覆快、肯幫忙","約 2026-06 差評：還沒入住，想聯絡租賃專員，只有 AI 機器人回覆，沒有真人跟進","點名員工的好評可能是物業邀請的，要打折看"]},
+  {"key":"amenities","label_zh":"設施","score":4,
+   "points_zh":["泳池、中庭、健身房、住戶休息室、狗公園、寵物美容區，官方有 Matterport 3D 實景","地下車庫要另外付費（$300/月），儲藏室也要另外付費","評價說「設施遠超過我原本想的」"]},
+  {"key":"value","label_zh":"性價比","score":3,
+   "points_zh":["2026-10-26 ApartmentList：2 房 2 衛 $4,020–4,195（16 個月租約的價格）","部分戶型有「首月免基本租金」優惠（12 個月以上租約）","Google 評價摘要提到租賃人員保證「這個價格能拿到好品質」；短租約會貴很多（官方資料最高到 $6,524）"]}
+ ],
+ "pros_zh":["緊鄰 Olmsted Park，走路到 Jamaica Pond","附近一年內沒有搶劫或傷害案","有泳池、健身房、狗公園","近期評價多誇物業回覆快","部分戶型首月免租","有 2 房 2 衛的 Matterport 3D 實景"],
+ "cons_zh":["租賃諮詢可能只有 AI 機器人回覆","停車 $300/月","沒有找到住戶談噪音或隔音的評價","樓在 S Huntington Ave 上，附近有 Jamaicaway 車流","寵物有體重和品種限制"],
+ "quotes":[
+  {"text":"我們一家帶著幼兒在 Bell Olmsted Park 住了兩年，覺得很受歡迎、很舒服，也很安全。","source":"Google · 約 2025-10（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/bell-olmsted-park-apartments"},
+  {"text":"我在這裡住了快 4 年，Desirae 是我遇過最好的物業經理，專業、回覆快，真的關心住戶。","source":"Google · 約 2026-04（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/bell-olmsted-park-apartments"},
+  {"text":"我還沒住過，但聯絡真人租賃專員的過程很糟。你只會收到 AI 機器人的回覆，不會有真人跟進，問題別指望有人回答。","source":"Google · 約 2026-02（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/bell-olmsted-park-apartments"},
+  {"text":"BOP 位置很棒，設施遠遠超過我原本想的。","source":"Google 評價摘要 · 2026-10 讀取","url":"https://www.google.com/maps/search/Bell+Olmsted+Park+161+S+Huntington+Ave"}
+ ],
+ "sources":[
+  {"name":"SafeButler（Google 評價摘錄，2026-06 更新）","url":"https://www.safebutler.com/apartments/boston-ma/bell-olmsted-park-apartments"},
+  {"name":"波士頓犯罪開放資料","url":"https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"},
+  {"name":"官網","url":"https://www.bellolmstedpark.com/"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/Bell+Olmsted+Park+161+S+Huntington+Ave"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=%22Bell%20Olmsted%20Park%22"}
+ ],
+ "gaps_zh":"Google 只抓到評分和幾句摘要，完整評價是從 SafeButler 轉引的 5 條，日期只有「幾個月前」，所以寫「約」。Reddit、Yelp、ApartmentRatings、Apartments.com、Niche 都攔截了自動抓取，Apartments.com 的存檔也拿不到，所以沒有找到談噪音、隔音或停車的住戶評價。"
+}

@@ -1,0 +1,42 @@
+{
+ "official_url": "https://www.v2apts.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/chelsea/v2#bedrooms-2",
+ "virtual_tours": [
+  {"label": "Instagram 實景", "url": "https://www.instagram.com/v2apts/"}
+ ],
+ "plans_2b2b": [
+  {"name": "B04V", "sqft": "1,105–1,205", "price": "$3,211–3,261", "price_min": 3211, "as_of": "2026-10-26", "available": "2 間：#313（1,105 平方英尺）$3,211、#371（1,205 平方英尺）$3,261，都現在入住，16 個月租約", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/5b6d8c8078b629d2b29bf1bb01f2b464.jpg"},
+  {"name": "B01", "sqft": "1,008", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/87dc00f811795268c60b73519213ec67.jpg"},
+  {"name": "B02", "sqft": "1,015", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/78464577b7a32e05b8375a281de8cc15.jpg"},
+  {"name": "B05", "sqft": "1,015", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/36916aef6cc9f8d234bcf370719eb275.jpg"},
+  {"name": "B07", "sqft": "1,084", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/58d9a92ace9ad05f2819f4435a3fd159.jpg"},
+  {"name": "B03V", "sqft": "1,101", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/81aed2576160a5811d8bf22f693da9ae.jpg"},
+  {"name": "B08", "sqft": "1,110", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/bfb00f0483b174d13c3f96ff62033e6c.jpg"},
+  {"name": "B09", "sqft": "1,123", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/02c9db9ba25b2bbfafacceb166f4c0e2.jpg"},
+  {"name": "B06", "sqft": "1,140", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/84d6a4cc4e75a0806f5d824ca33b9ae3.jpg"},
+  {"name": "B10", "sqft": "1,155", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/06c779643593733b211095d4198c0364.jpg"},
+  {"name": "B06V", "sqft": "1,184", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/d816328fb9a38c6f8fd77d4b8d777f46.jpg"},
+  {"name": "B11", "sqft": "1,188", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/508ddbbbb6f6909d220a9845bc2e0559.jpg"},
+  {"name": "B12", "sqft": "1,210", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/af1e7dcfe60f23bdb1d9fa70de8094bb.jpg"},
+  {"name": "B13D", "sqft": "1,360–1,383", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/059a77269c44deea404c35a196e2c334.jpg"}
+ ],
+ "fees": {
+  "parking_garage": "官方說停車位充足，價格沒找到。2024-12 RentCafe 存檔時的優惠是送 3 個月免費停車",
+  "parking_surface": "沒找到",
+  "water_sewer_trash": "沒找到",
+  "electric_heat": "沒找到",
+  "internet": "沒找到",
+  "pet_rent": "貓 $50/月、狗 $75/月（ApartmentList；2024-12 RentCafe 存檔也一樣）",
+  "pet_deposit_or_fee": "沒找到",
+  "other": "押金 $500（2024-12 RentCafe 存檔，現在可能不同）。ApartmentList 優惠欄：「今天簽約送 1 個月免租」（有附加條件，2026-05 更新）。申請條件：家庭稅前總收入要有房租的 3 倍",
+  "source": "https://www.apartmentlist.com/ma/chelsea/v2",
+  "as_of": "ApartmentList 2026-10-26 讀取；押金來自 2024-12 RentCafe 存檔"
+ },
+ "pet_policy_zh": "可以養貓和狗，包括未滿 1 歲的幼犬幼貓；6 個月大前要做完健康檢查和疫苗；要在辦公室簽寵物附約；每戶最多 2 隻。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（頁面資料 2026-10-25 更新），是 16 個月租約的價格，不是 12 個月。官網擋了自動抓取，沒拿到官方費用表，水電、網路、車位價格都要問辦公室。沒找到 Matterport、YouTube 或 SightMap 之類的線上看房，只有 Instagram。",
+ "sources": [
+  {"name": "ApartmentList（房型、價格、寵物政策）", "url": "https://www.apartmentlist.com/ma/chelsea/v2"},
+  {"name": "RentCafe（2024-12 存檔，押金、舊價格）", "url": "https://web.archive.org/web/20241208041222/https://www.rentcafe.com/apartments/ma/chelsea/v2/default.aspx"},
+  {"name": "官方網站", "url": "https://www.v2apts.com/"}
+ ]
+}

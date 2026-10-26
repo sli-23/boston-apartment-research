@@ -1,0 +1,123 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.8,
+   "label": "官網 Certified Resident 評價 · 23 條（20 條 5 星、2 條 4 星、1 條 3 星，自行計算平均）"
+  },
+  "summary_zh": "2021 年新建，走路約 10 分鐘到 Kendall/MIT。官網 23 條「認證住戶」評價幾乎都是 5 星，有文字的多半是誇維修人員快又專業，看起來像報修後的滿意度回饋，不代表整體居住體驗。唯一提到缺點的是 2026-01 的 3 星評價：Binney St 的卡車噪音「沒完沒了」。其他第三方評價網站都抓不到。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 2,
+   "points_zh": [
+    "2026-01 住戶（3 星）：要有心理準備，Binney St 卡車噪音沒完沒了，朋友說曼哈頓中城都比這裡安靜",
+    "BTS 2020 模型：門牌點約 47.9 dB，但 50 公尺內臨路一側可達 56.6 dB",
+    "建議看房時選不臨 Binney St 的戶，並在白天車多時去聽"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 4,
+   "points_zh": [
+    "劍橋市警方開放資料（2025-10 至 2026-09），大樓所在報案區 108 共 90 起：暴力 3 起、財產 14 起",
+    "最多的是毀損財物 7、偽造 5、恐嚇 5；連同周邊報案區 102、103 合計暴力 20、財產 106",
+    "大樓門禁、地下車庫也有門禁"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 4,
+   "points_zh": [
+    "官網評價多誇維修：反應快、第一次就修好、態度好（2025–2026）",
+    "2026-02 住戶：沒暖氣／沒熱水的問題很快修好",
+    "要打折看：評價在物業自己的官網，看起來是報修後的回饋，多數沒有文字"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "24 小時健身房（Technogym、Echelon）、電動車充電、門禁地下車庫",
+    "共享辦公室、會議室、住戶交誼廳、中庭烤肉區和火爐區",
+    "包裹櫃（含冷藏）、洗寵物站、安全自行車房；沒看到泳池"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 2,
+   "points_zh": [
+    "2026-10-26 2b2b 只開放 2 間：$4,706（1,064 sq ft，有陽台）和 $4,930（1,047 sq ft），約每呎 $4.4–4.7",
+    "車庫 $380/月起、寵物 $65/月／隻另計",
+    "位置在 Kendall Square，是三棟中每呎最貴的"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "Kendall Square 位置，走路到紅線、綠線",
+  "2021 年新建，室內洗烘、石英檯面",
+  "維修評價很好",
+  "大狗也可以養（無體重限制）",
+  "報案區過去一年暴力案件少"
+ ],
+ "cons_zh": [
+  "住戶抱怨 Binney St 卡車噪音",
+  "每呎租金高",
+  "車庫 $380/月起",
+  "禁養品種清單較長（含 German Shepherd、Husky）",
+  "評價都來自物業官網，缺少第三方評價"
+ ],
+ "quotes": [
+  {
+   "text": "位置方便、公寓新又維護得好，但要有心理準備：Binney St 的卡車噪音沒完沒了。我住曼哈頓中城的朋友說那邊都比這裡安靜。",
+   "source": "官網 Certified Resident · 2026-01 · 3 星",
+   "url": "https://www.prismapartmenthomes.com/reviews.html"
+  },
+  {
+   "text": "維修技師反應很快、很懂、人很好，修好了沒暖氣／沒熱水的問題，還順便處理了一個非緊急的問題。",
+   "source": "官網 Certified Resident · 2026-02",
+   "url": "https://www.prismapartmenthomes.com/reviews.html"
+  },
+  {
+   "text": "報修馬上有回應，第一次來就修好。",
+   "source": "官網 Certified Resident · 2025-03",
+   "url": "https://www.prismapartmenthomes.com/reviews.html"
+  },
+  {
+   "text": "住在這裡很開心！波士頓的一切都很方便。",
+   "source": "官網 Certified Resident · 2023-11",
+   "url": "https://www.prismapartmenthomes.com/reviews.html"
+  }
+ ],
+ "sources": [
+  {
+   "name": "官網住戶評價",
+   "url": "https://www.prismapartmenthomes.com/reviews.html"
+  },
+  {
+   "name": "Cambridge 犯罪開放資料",
+   "url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  {
+   "name": "BTS 交通噪音地圖",
+   "url": "https://www.bts.gov/geospatial/national-transportation-noise-map"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Prism+Apartments+50+Rogers+St+Cambridge"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Prism%20Apartments%22%20Cambridge"
+  }
+ ],
+ "gaps_zh": "Google、Reddit、Yelp、ApartmentRatings 都攔截了自動抓取；Apartments.com 只有 2021 年（開幕前）的存檔、沒有評價；ApartmentList 上沒有住戶評價。官網評價是物業自己放的，可能經過挑選。下面的鏈接可以自己點開看。"
+}

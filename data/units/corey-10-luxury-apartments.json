@@ -1,0 +1,92 @@
+{
+ "official_url": "https://www.corey10.com",
+ "floorplans_url": "https://www.corey10.com/#floorplans",
+ "virtual_tours": [
+  {
+   "label": "Matterport 3D · Layout 02 兩房兩衛（954 呎²）",
+   "url": "https://my.matterport.com/show/?m=fv3UZ1QNuw2"
+  },
+  {
+   "label": "Matterport 3D · Layout 08 兩房兩衛（1,091 呎²）",
+   "url": "https://my.matterport.com/show/?m=7kPKJHr97Pq"
+  },
+  {
+   "label": "Matterport 3D · Layout 10 一房",
+   "url": "https://my.matterport.com/show/?m=ZqpMhYoUVvB"
+  },
+  {
+   "label": "Matterport 3D · Layout 01 一房",
+   "url": "https://my.matterport.com/show/?m=3MP91VoNz6J"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "Layout 02（主臥衛浴、步入式衣櫃、早餐角）",
+   "sqft": "954",
+   "price": "目前沒空房（RentCafe 標價 $3,000）",
+   "as_of": "2026-10-26",
+   "available": "",
+   "image": "https://www.corey10.com/images/floorplans/02-labeled.jpg"
+  },
+  {
+   "name": "Layout 04（主臥衛浴、步入式衣櫃、早餐角、法式小陽台）",
+   "sqft": "951",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://www.corey10.com/images/floorplans/04-labeled.jpg"
+  },
+  {
+   "name": "Layout 07（主臥衛浴、步入式衣櫃、加大洗手台、早餐角、法式小陽台）",
+   "sqft": "991",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://www.corey10.com/images/floorplans/07-labeled.jpg"
+  },
+  {
+   "name": "Layout 09（主臥衛浴、步入式衣櫃、加大洗手台、廚房中島、特殊格局）",
+   "sqft": "1,077",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://www.corey10.com/images/floorplans/09-labeled.jpg"
+  },
+  {
+   "name": "Layout 08（主臥衛浴、早餐角、書房區）",
+   "sqft": "1,091",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://www.corey10.com/images/floorplans/08-labeled.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "沒找到價格（官網只說有私人的路外停車位）",
+  "parking_surface": "沒找到價格",
+  "water_sewer_trash": "沒找到",
+  "electric_heat": "每戶獨立控制的冷暖氣（官網），費用誰付沒找到",
+  "internet": "自己選網路和有線電視公司（官網）",
+  "pet_rent": "沒找到",
+  "pet_deposit_or_fee": "沒找到",
+  "other": "押金 $1,000；申請費 $20（RentCafe，2026-10-26）",
+  "source": "https://www.rentcafe.com/apartments/ma/melrose/corey10/default.aspx",
+  "as_of": "RentCafe，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，狗要 50 磅以下（RentCafe）。寵物月租和押金沒寫。",
+ "notes_zh": "這棟不在 ApartmentList 上。2026-10-26 查 RentCafe（官網的線上申請系統）：兩房兩衛只列一個 954 呎² 的房型，標價 $3,000，沒有可租的單位（顯示 Contact Us）；當天只有兩間一房可租。官網首頁寫兩房 $2,600–3,200，但沒寫日期，不能當現價。官網一共有 5 種兩房格局（02、04、07、08、09），面積來自官網 2019 年的租屋說明單。這是小型公寓，週一到週五 9–5 上班，看房要預約。",
+ "sources": [
+  {
+   "name": "官網（格局圖、說明單）",
+   "url": "https://www.corey10.com"
+  },
+  {
+   "name": "RentCafe（價格、押金、評價）",
+   "url": "https://www.rentcafe.com/apartments/ma/melrose/corey10/default.aspx"
+  },
+  {
+   "name": "官網租屋說明單（2019）",
+   "url": "https://www.corey10.com/images/Sales-Handout-12-09-19.pdf"
+  }
+ ]
+}

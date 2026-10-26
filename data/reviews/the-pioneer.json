@@ -1,0 +1,102 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 5.0,
+   "label": "ApartmentList · 1 條評價（只有分數，沒有文字）"
+  },
+  "summary_zh": "能找到的住戶評價非常少：ApartmentList 只有 1 條 5 分評價、沒有文字內容；Google、Yelp、Reddit、Apartments.com 都抓不到，所以噪音和安全方面沒有住戶的說法。地理上看，大樓就在 Revere Beach Parkway（16 號公路）旁邊，這條路車流量大，臨街的戶型可能會聽到車聲；離 Logan 機場約 3.2 英里，有沒有在飛機航線下面沒查到。治安方面沒找到 Everett 的公開報案資料，也沒有住戶提到。設施很多：溫水泳池、高爾夫模擬器、24 小時健身房、狗狗跑道。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "沒有找到住戶談噪音的評價",
+    "大樓緊鄰 Revere Beach Parkway（16 號公路），是車多的主幹道，臨街戶型要注意",
+    "離 Logan 機場約 3.2 英里（ApartmentList），是否在航線下沒查到；分數是依地點推測，不是住戶說的"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "沒找到住戶談安全的評價",
+    "沒找到 Everett 這一帶的公開報案統計",
+    "官網說停車場有頂、有門禁，大樓用門禁卡進出"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "由 Bozzuto 管理，費用表公開、寫得清楚",
+    "ApartmentList 的 AI 摘要說住戶反映管理反應快，但這是網站自動生成的，看不到原始評價，參考價值低",
+    "沒有可查證的住戶評價"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 5,
+   "points_zh": [
+    "露天大庭院：溫水泳池、火坑、戶外電影螢幕",
+    "虛擬高爾夫室、24 小時健身房（含瑜伽和 Peloton 教室）、頂樓露台",
+    "250 呎狗狗跑道、寵物美容室；套內洗衣機烘乾機、陽台"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 4,
+   "points_zh": [
+    "2026-10-26 ApartmentList 兩房兩衛 $3,130–3,424，比 Everett 兩房平均 $3,617（ApartmentList 統計）低",
+    "10/31 前入住現房送 1 個月免租",
+    "押金只要 $750，停車 $100/月，比劍橋便宜很多"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "兩房兩衛 $3,130 起，比附近平均便宜",
+  "設施很多：溫水泳池、高爾夫模擬器、大健身房",
+  "現在送 1 個月免租",
+  "Walk Score 83，Market Basket 超市 0.4 英里",
+  "停車 $100/月，押金 $750"
+ ],
+ "cons_zh": [
+  "緊鄰 16 號公路，臨街可能吵",
+  "離 Logan 機場約 3.2 英里，航線噪音沒查到",
+  "Transit Score 61，附近主要是公車，沒有地鐵站",
+  "幾乎沒有可查證的住戶評價",
+  "沒找到 Everett 的治安資料"
+ ],
+ "quotes": [],
+ "sources": [
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/everett/the-pioneer"
+  },
+  {
+   "name": "官網",
+   "url": "https://www.thepioneereverett.com"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/The+Pioneer+1760+Revere+Beach+Pkwy+Everett+MA"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22The%20Pioneer%22%20Everett"
+  },
+  {
+   "name": "Yelp 搜索",
+   "url": "https://www.yelp.com/search?find_desc=The+Pioneer+apartments&find_loc=Everett%2C+MA"
+  }
+ ],
+ "gaps_zh": "Google、Reddit、Yelp、ApartmentRatings、Apartments.com 都攔截了自動抓取，Wayback 也沒有這棟的 Apartments.com 存檔；ApartmentList 唯一一條評價沒有文字，所以沒有可引用的住戶原話。上面的鏈接可以自己點開看。噪音和安全分數是依地點推測的，不是住戶評價。"
+}

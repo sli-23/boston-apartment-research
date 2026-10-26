@@ -1,0 +1,91 @@
+{
+ "official_url": "https://www.3200washingtonjp.com/",
+ "floorplans_url": "https://www.3200washingtonjp.com/floorplans",
+ "virtual_tours": [],
+ "plans_2b2b": [
+  {
+   "name": "Two Bedrooms #1202",
+   "sqft": "897",
+   "price": "未公開（Call for Rates）",
+   "as_of": "2026-10-25",
+   "available": "11/11 入住",
+   "image": ""
+  },
+  {
+   "name": "Two Bedrooms #2503",
+   "sqft": "1,073",
+   "price": "未公開（Call for Rates）",
+   "as_of": "2026-10-25",
+   "available": "11/25 入住",
+   "image": ""
+  },
+  {
+   "name": "Two Bedrooms #2204",
+   "sqft": "928",
+   "price": "未公開（Call for Rates）",
+   "as_of": "2026-10-25",
+   "available": "12/11 入住",
+   "image": ""
+  },
+  {
+   "name": "2 Bed Type A（官網房型圖）",
+   "sqft": "",
+   "price": "官網未列",
+   "as_of": "",
+   "available": "",
+   "image": "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1140/s3/2/5963/2_bed_type_a.jpg"
+  },
+  {
+   "name": "2 Bed Type F（官網房型圖）",
+   "sqft": "",
+   "price": "官網未列",
+   "as_of": "",
+   "available": "",
+   "image": "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1140/s3/2/5963/2_bed_type_f.jpg"
+  },
+  {
+   "name": "2 Bed Type I（官網房型圖）",
+   "sqft": "",
+   "price": "官網未列",
+   "as_of": "",
+   "available": "",
+   "image": "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1140/s3/2/5963/2_bed_type_i.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "有車庫，但官網 FAQ 說目前沒有空位；按車計費，每戶最多 2 輛（ApartmentHomeLiving），沒寫金額",
+  "parking_surface": "只有路邊停車（官網 FAQ）",
+  "water_sewer_trash": "水和下水道住戶自付（官網 FAQ）",
+  "electric_heat": "電和瓦斯住戶自付（官網 FAQ）；沒找到月平均金額",
+  "internet": "沒寫",
+  "pet_rent": "狗 $75/月、貓 $40/月，按每隻計算（官網）",
+  "pet_deposit_or_fee": "沒寫",
+  "other": "必須買租客保險；儲藏室另外收費；核准後收第一個月租金作為押金，入住時付按日計的首月租金和鑰匙／門鎖費；禁止轉租。現在有「Get 1 Month FREE」優惠（官網）",
+  "source": "https://www.3200washingtonjp.com/faq",
+  "as_of": "官網 FAQ 與 Amenities 頁，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻；狗每隻 40 磅以下、每月 $75，貓每月 $40；限制品種，要問管理處（官網）。有寵物清洗站，管理處說最近的狗公園是 Flaherty Playground，約 1 分鐘。",
+ "notes_zh": "官網和 ApartmentHomeLiving（2026-10-25 更新）都沒有公布 2 房租金，只寫 Call for Rates／Call for Details。Rentable（頁面寫 updated over 1 month ago，管理公司還寫成前任的 Princeton Properties）列 2 房 2 衛 $3,750–$4,484，資料可能已過期，所以沒放進 price_min。官網房型圖有 Type A–I 和數種 Penthouse；看過 Type A、F、I，都是 2 房 2 衛，衣櫃內畫有 W/D；ApartmentHomeLiving 沒對應到戶號，所以戶號那幾列沒放圖。ApartmentList 上找不到這棟。官網有 Affordable Housing 頁，部分戶是限收入的。",
+ "sources": [
+  {
+   "name": "官網 Features（套內洗烘）",
+   "url": "https://www.3200washingtonjp.com/features/"
+  },
+  {
+   "name": "官網房型",
+   "url": "https://www.3200washingtonjp.com/floorplans"
+  },
+  {
+   "name": "官網 Amenities（寵物）",
+   "url": "https://www.3200washingtonjp.com/amenities"
+  },
+  {
+   "name": "官網 FAQ（車庫、水電）",
+   "url": "https://www.3200washingtonjp.com/faq"
+  },
+  {
+   "name": "ApartmentHomeLiving（年份、空房）",
+   "url": "https://www.apartmenthomeliving.com/apartment-finder/3200-Washington-Boston-MA-02130-7055986"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": true,
+  "dishwasher": true,
+  "hardwood": false,
+  "walk_in_closet": null
+ },
+ "balcony_2b2b_plans": [
+  "B01",
+  "B05",
+  "B06V",
+  "B08",
+  "B09",
+  "B11"
+ ],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": null,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "RentCafe: 'Patio or Balcony with French Doors' (not marked select-homes) https://www.rentcafe.com/apartments/ma/chelsea/v2/default.aspx ; but ApartmentList 2b2b plan images show a balcony only on B01, B05, B06V, B08, B09, B11; others appear to have only a Juliet rail at the window https://www.apartmentlist.com/ma/chelsea/v2",
+  "in_unit_wd": "RentCafe: 'In-Home Washer and Dryer'; ApartmentList 'In Unit Laundry'; plans show W/D",
+  "central_ac": "RentCafe 'Air Conditioner'; ApartmentList 'Air Conditioning' (type not stated)",
+  "dishwasher": "ApartmentList unit amenity 'Dishwasher'",
+  "hardwood": "RentCafe: 'Wood-Style Plank Flooring' (not real hardwood)",
+  "walk_in_closet": "RentCafe says only 'Large Closets'",
+  "garage_parking": "RentCafe: 'Direct-Access Garage with Ample Resident Parking'",
+  "package_room": "RentCafe: '24-Hour Package Lockers' (lockers, not a room)",
+  "roof_deck": "RentCafe: 'Third-Floor Terrace Featuring City Views' (not a rooftop)",
+  "bike_storage": "RentCafe: 'Controlled-Access Bike Storage and Bike Repair Room'",
+  "coworking": "RentCafe: 'Co-Working Lounge'"
+ }
+}

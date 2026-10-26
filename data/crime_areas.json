@@ -1,0 +1,257 @@
+{
+ "as_of": "2026-10-26",
+ "national": {
+  "violent_per_1k": 3.3,
+  "property_per_1k": 15.52,
+  "year": 2025,
+  "source": "FBI Crime Data Explorer API, summarized NIBRS rates (sum of monthly 'United States Offenses' rates; based on reporting agencies, ~96% population coverage — not the FBI's official national estimate)",
+  "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+ },
+ "massachusetts": {
+  "violent_per_1k": 3.01,
+  "property_per_1k": 10.37,
+  "year": 2025,
+  "source": "FBI Crime Data Explorer API, summarized NIBRS rates (sum of monthly 'Massachusetts Offenses' rates; ~99.8% population coverage)",
+  "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend"
+ },
+ "definitions": {
+  "violent": "FBI violent crime: murder/non-negligent manslaughter, rape, robbery, aggravated assault (simple assault NOT included)",
+  "property": "FBI property crime: burglary, larceny-theft, motor vehicle theft",
+  "boston_neighborhoods": "Computed from Analyze Boston incident reports: offense codes 111/301/423 (violent) and 520/530/531/540, 6xx larceny, 706/724/727 (property), deduplicated by incident+offense, geolocated incidents assigned to BPDA neighborhood polygons. Boston's public data omits sexual assaults, so Boston neighborhood violent rates exclude rape (undercount vs FBI)."
+ },
+ "areas": {
+  "Cambridge": {
+   "violent_per_1k": 4.36,
+   "property_per_1k": 26.0,
+   "year": 2025,
+   "population": 121634,
+   "violent_count": 530,
+   "property_count": 3163,
+   "months_reported": 12,
+   "source_name": "FBI Crime Data Explorer (NIBRS), Cambridge Police Department; population = FBI/CDE agency population",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+   "note_zh": "Cambridge 全市（含 East Cambridge、Alewife）；2025 年 FBI NIBRS。暴力犯罪約為全美平均的 1.3 倍、財產犯罪約 1.7 倍。"
+  },
+  "Somerville": {
+   "violent_per_1k": 1.95,
+   "property_per_1k": 15.8,
+   "year": 2025,
+   "population": 82255,
+   "violent_count": 160,
+   "property_count": 1300,
+   "months_reported": 12,
+   "source_name": "FBI Crime Data Explorer (NIBRS), Somerville Police Department; population = FBI/CDE agency population",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+   "note_zh": "Somerville 全市；2025 年 FBI NIBRS。暴力犯罪約為全美平均的 0.6 倍、財產犯罪約 1.0 倍。"
+  },
+  "Everett": {
+   "violent_per_1k": 3.18,
+   "property_per_1k": 12.76,
+   "year": 2025,
+   "population": 52437,
+   "violent_count": 167,
+   "property_count": 669,
+   "months_reported": 12,
+   "source_name": "FBI Crime Data Explorer (NIBRS), Everett Police Department; population = FBI/CDE agency population",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+   "note_zh": "Everett 全市；2025 年 FBI NIBRS。暴力犯罪約為全美平均的 1.0 倍、財產犯罪約 0.8 倍。"
+  },
+  "Chelsea": {
+   "violent_per_1k": 7.91,
+   "property_per_1k": 14.15,
+   "year": 2025,
+   "population": 40069,
+   "violent_count": 317,
+   "property_count": 567,
+   "months_reported": 12,
+   "source_name": "FBI Crime Data Explorer (NIBRS), Chelsea Police Department; population = FBI/CDE agency population",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+   "note_zh": "Chelsea 全市；2025 年 FBI NIBRS。暴力犯罪約為全美平均的 2.4 倍、財產犯罪約 0.9 倍。"
+  },
+  "Malden": {
+   "violent_per_1k": 2.02,
+   "property_per_1k": 12.03,
+   "year": 2025,
+   "population": 66677,
+   "violent_count": 135,
+   "property_count": 802,
+   "months_reported": 12,
+   "source_name": "FBI Crime Data Explorer (NIBRS), Malden Police Department; population = FBI/CDE agency population",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+   "note_zh": "Malden 全市；2025 年 FBI NIBRS。暴力犯罪約為全美平均的 0.6 倍、財產犯罪約 0.8 倍。"
+  },
+  "Melrose": {
+   "violent_per_1k": 1.54,
+   "property_per_1k": 5.55,
+   "year": 2025,
+   "population": 29912,
+   "violent_count": 46,
+   "property_count": 166,
+   "months_reported": 12,
+   "source_name": "FBI Crime Data Explorer (NIBRS), Melrose Police Department; population = FBI/CDE agency population",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+   "note_zh": "Melrose 全市；2025 年 FBI NIBRS。暴力犯罪約為全美平均的 0.5 倍、財產犯罪約 0.4 倍。"
+  },
+  "Revere": {
+   "violent_per_1k": 3.14,
+   "property_per_1k": 11.08,
+   "year": 2025,
+   "population": 60265,
+   "violent_count": 189,
+   "property_count": 668,
+   "months_reported": 12,
+   "source_name": "FBI Crime Data Explorer (NIBRS), Revere Police Department; population = FBI/CDE agency population",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+   "note_zh": "Revere 全市；2025 年 FBI NIBRS。暴力犯罪約為全美平均的 1.0 倍、財產犯罪約 0.7 倍。"
+  },
+  "Medford": {
+   "violent_per_1k": 1.8,
+   "property_per_1k": 9.32,
+   "year": 2025,
+   "population": 59842,
+   "violent_count": 108,
+   "property_count": 558,
+   "months_reported": 12,
+   "source_name": "FBI Crime Data Explorer (NIBRS), Medford Police Department; population = FBI/CDE agency population",
+   "source_url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend",
+   "note_zh": "Medford 全市；2025 年 FBI NIBRS。暴力犯罪約為全美平均的 0.5 倍、財產犯罪約 0.6 倍。"
+  },
+  "Jamaica Plain": {
+   "violent_per_1k": 1.86,
+   "property_per_1k": 13.85,
+   "year": 2025,
+   "population": 42949,
+   "violent_count": 80,
+   "property_count": 595,
+   "bpd_district": "E13",
+   "district_counts_incl_ungeocoded": {
+    "violent": 103,
+    "property": 689,
+    "geocoded_share": 0.98
+   },
+   "source_name": "Analyze Boston – Crime Incident Reports (BPD), 2025; population = City of Boston Planning Dept. Research Division neighborhood estimate for 2025-01-01",
+   "violent_per_1k_scaled_to_fbi": 3.31,
+   "property_per_1k_scaled_to_fbi": 14.17,
+   "scaled_note": "ESTIMATE: open-data rate x (FBI Boston citywide 2025 count / open-data citywide count); violent factor 1.78, property factor 1.02. Use only for rough comparison with FBI-based city rates.",
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system",
+   "population_source_url": "https://data.boston.gov/dataset/2025-boston-population-estimates-neighborhood-level",
+   "note_zh": "按 BPDA 社區邊界統計（主要屬 BPD E-13 區）。Boston 公開資料的暴力犯罪數只有 FBI 全市統計的約 56%（不含性侵等），按比例估算約 3.3／千人（全美 3.3）。"
+  },
+  "South Boston Waterfront": {
+   "violent_per_1k": 1.57,
+   "property_per_1k": 6.88,
+   "year": 2025,
+   "population": 8289,
+   "violent_count": 13,
+   "property_count": 57,
+   "bpd_district": "C6",
+   "district_counts_incl_ungeocoded": {
+    "violent": 174,
+    "property": 1173,
+    "geocoded_share": 0.925
+   },
+   "source_name": "Analyze Boston – Crime Incident Reports (BPD), 2025; population = City of Boston Planning Dept. Research Division neighborhood estimate for 2025-01-01",
+   "violent_per_1k_scaled_to_fbi": 2.79,
+   "property_per_1k_scaled_to_fbi": 7.03,
+   "scaled_note": "ESTIMATE: open-data rate x (FBI Boston citywide 2025 count / open-data citywide count); violent factor 1.78, property factor 1.02. Use only for rough comparison with FBI-based city rates.",
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system",
+   "population_source_url": "https://data.boston.gov/dataset/2025-boston-population-estimates-neighborhood-level",
+   "note_zh": "Seaport；按 BPDA 社區邊界統計（屬 BPD C-6 區）；居民少、上班與遊客人口多，比率需謹慎解讀。Boston 公開資料的暴力犯罪數只有 FBI 全市統計的約 56%（不含性侵等），按比例估算約 2.8／千人（全美 3.3）。"
+  },
+  "Allston": {
+   "violent_per_1k": 1.32,
+   "property_per_1k": 7.61,
+   "year": 2025,
+   "population": 31810,
+   "violent_count": 42,
+   "property_count": 242,
+   "bpd_district": "D14",
+   "district_counts_incl_ungeocoded": {
+    "violent": 92,
+    "property": 809,
+    "geocoded_share": 0.978
+   },
+   "source_name": "Analyze Boston – Crime Incident Reports (BPD), 2025; population = City of Boston Planning Dept. Research Division neighborhood estimate for 2025-01-01",
+   "violent_per_1k_scaled_to_fbi": 2.35,
+   "property_per_1k_scaled_to_fbi": 7.78,
+   "scaled_note": "ESTIMATE: open-data rate x (FBI Boston citywide 2025 count / open-data citywide count); violent factor 1.78, property factor 1.02. Use only for rough comparison with FBI-based city rates.",
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system",
+   "population_source_url": "https://data.boston.gov/dataset/2025-boston-population-estimates-neighborhood-level",
+   "note_zh": "按 BPDA 社區邊界統計（BPD D-14 區與 Brighton 合用）。Boston 公開資料的暴力犯罪數只有 FBI 全市統計的約 56%（不含性侵等），按比例估算約 2.3／千人（全美 3.3）。"
+  },
+  "Brighton": {
+   "violent_per_1k": 0.81,
+   "property_per_1k": 9.86,
+   "year": 2025,
+   "population": 55869,
+   "violent_count": 45,
+   "property_count": 551,
+   "bpd_district": "D14",
+   "district_counts_incl_ungeocoded": {
+    "violent": 92,
+    "property": 809,
+    "geocoded_share": 0.978
+   },
+   "source_name": "Analyze Boston – Crime Incident Reports (BPD), 2025; population = City of Boston Planning Dept. Research Division neighborhood estimate for 2025-01-01",
+   "violent_per_1k_scaled_to_fbi": 1.43,
+   "property_per_1k_scaled_to_fbi": 10.09,
+   "scaled_note": "ESTIMATE: open-data rate x (FBI Boston citywide 2025 count / open-data citywide count); violent factor 1.78, property factor 1.02. Use only for rough comparison with FBI-based city rates.",
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system",
+   "population_source_url": "https://data.boston.gov/dataset/2025-boston-population-estimates-neighborhood-level",
+   "note_zh": "按 BPDA 社區邊界統計（BPD D-14 區與 Allston 合用）。Boston 公開資料的暴力犯罪數只有 FBI 全市統計的約 56%（不含性侵等），按比例估算約 1.4／千人（全美 3.3）。"
+  },
+  "East Boston": {
+   "violent_per_1k": 1.68,
+   "property_per_1k": 8.66,
+   "year": 2025,
+   "population": 46892,
+   "violent_count": 79,
+   "property_count": 406,
+   "bpd_district": "A7",
+   "district_counts_incl_ungeocoded": {
+    "violent": 82,
+    "property": 415,
+    "geocoded_share": 0.978
+   },
+   "source_name": "Analyze Boston – Crime Incident Reports (BPD), 2025; population = City of Boston Planning Dept. Research Division neighborhood estimate for 2025-01-01",
+   "violent_per_1k_scaled_to_fbi": 2.99,
+   "property_per_1k_scaled_to_fbi": 8.86,
+   "scaled_note": "ESTIMATE: open-data rate x (FBI Boston citywide 2025 count / open-data citywide count); violent factor 1.78, property factor 1.02. Use only for rough comparison with FBI-based city rates.",
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system",
+   "population_source_url": "https://data.boston.gov/dataset/2025-boston-population-estimates-neighborhood-level",
+   "note_zh": "按 BPDA 社區邊界統計（BPD A-7 區，含機場範圍）。Boston 公開資料的暴力犯罪數只有 FBI 全市統計的約 56%（不含性侵等），按比例估算約 3.0／千人（全美 3.3）。"
+  },
+  "Charlestown": {
+   "violent_per_1k": 1.56,
+   "property_per_1k": 8.37,
+   "year": 2025,
+   "population": 19232,
+   "violent_count": 30,
+   "property_count": 161,
+   "bpd_district": "A15",
+   "district_counts_incl_ungeocoded": {
+    "violent": 30,
+    "property": 171,
+    "geocoded_share": 0.95
+   },
+   "source_name": "Analyze Boston – Crime Incident Reports (BPD), 2025; population = City of Boston Planning Dept. Research Division neighborhood estimate for 2025-01-01",
+   "violent_per_1k_scaled_to_fbi": 2.77,
+   "property_per_1k_scaled_to_fbi": 8.56,
+   "scaled_note": "ESTIMATE: open-data rate x (FBI Boston citywide 2025 count / open-data citywide count); violent factor 1.78, property factor 1.02. Use only for rough comparison with FBI-based city rates.",
+   "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system",
+   "population_source_url": "https://data.boston.gov/dataset/2025-boston-population-estimates-neighborhood-level",
+   "note_zh": "按 BPDA 社區邊界統計（BPD A-15 區，含 Navy Yard）。Boston 公開資料的暴力犯罪數只有 FBI 全市統計的約 56%（不含性侵等），按比例估算約 2.8／千人（全美 3.3）。"
+  }
+ },
+ "boston_city_reference": {
+  "fbi_violent_per_1k": 5.83,
+  "fbi_property_per_1k": 19.31,
+  "fbi_population": 671262,
+  "fbi_violent_count": 3915,
+  "fbi_property_count": 12961,
+  "open_data_violent_count": 2203,
+  "open_data_property_count": 12671,
+  "year": 2025,
+  "note": "Sanity check of the open-data offense-code mapping used for Boston neighborhoods (open-data counts include ungeocoded rows; exclude rape)."
+ }
+}

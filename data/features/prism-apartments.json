@@ -1,0 +1,47 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": true,
+  "walk_in_closet": null
+ },
+ "balcony_2b2b_plans": [
+  "Spectrum 2D",
+  "Spectrum 2F"
+ ],
+ "building": {
+  "gym": true,
+  "pool": null,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official plan sketches: Spectrum 2D labeled 'BALCONY', Spectrum 2F labeled 'TERRACE 23x8'; 2A, 2B, 2C show none. ApartmentList lists 'Patio / balcony'. https://www.prismapartmenthomes.com/floor-plan/2-bedroom/spectrum-2d.html ; https://www.prismapartmenthomes.com/floor-plan/2-bedroom/spectrum-2f.html",
+  "in_unit_wd": "Official: 'in-home washer and dryer'; W/D drawn on 2A, 2B, 2C, 2D plan sketches. https://www.prismapartmenthomes.com/",
+  "central_ac": "Not stated; official and ApartmentList only say 'Air conditioning'. https://www.apartmentlist.com/ma/cambridge/prism-apartments",
+  "dishwasher": "DW drawn on all five 2b2b plan sketches; ApartmentList 'Dishwasher'. https://www.prismapartmenthomes.com/residences.html",
+  "hardwood": "ApartmentList 'Hardwood floors' only (type not confirmed on official site). https://www.apartmentlist.com/ma/cambridge/prism-apartments",
+  "walk_in_closet": "ApartmentList 'Walk in closets', but official 2b2b sketches only show regular closets (CL). https://www.apartmentlist.com/ma/cambridge/prism-apartments",
+  "gym": "Official: '24-hour Fitness Center', Technogym equipment, Echelon Mirror/bikes. https://www.prismapartmenthomes.com/community.html",
+  "garage_parking": "Official: 'Controlled Access Underground Parking'; FAQ garage from $380/mo. https://www.prismapartmenthomes.com/faq.html",
+  "ev_charging": "Official: 'EV Charging Stations'. https://www.prismapartmenthomes.com/community.html",
+  "dogs": "Official: 'Cat Friendly', 'Dog Friendly', 'Pet Wash Station'; FAQ: 2 pets, no weight limit, breed restrictions. https://www.prismapartmenthomes.com/faq.html",
+  "package_room": "Official: 'Package Lockers', 'Refrigerated Package Acceptance'. https://www.prismapartmenthomes.com/community.html",
+  "elevator": "Official: 'Elevator'. https://www.prismapartmenthomes.com/community.html",
+  "bike_storage": "Official: 'Secured Bike Storage', 'Bike Maintenance Station'. https://www.prismapartmenthomes.com/community.html",
+  "coworking": "Official: 'indoor-outdoor coworking spaces', 'Meeting Rooms'. https://www.prismapartmenthomes.com/community.html",
+  "pool": "No pool mentioned on official site or ApartmentList. https://www.prismapartmenthomes.com/community.html",
+  "roof_deck": "Not mentioned; official lists a central courtyard with BBQ and firepit lounge. https://www.prismapartmenthomes.com/community.html"
+ }
+}

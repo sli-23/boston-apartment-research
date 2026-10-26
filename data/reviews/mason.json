@@ -1,0 +1,40 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {"value": null, "label": "沒找到任何網站的評分（ApartmentList 寫「還在收集住戶評價」）"},
+  "summary_zh": "2023 年完工的大型社區，6 層、714 戶，由 Greystar 管理。走路不到 5 分鐘到 Silver Line 和 Chelsea 通勤火車站，開車上 Route 1、I-93 也方便。住戶評價兩極：一對住兩房兩衛的住戶給「80 分」，說還算安全、通勤方便，但維修人手不足、垃圾間常滿；另一位住戶 2025 年底發長文抱怨鄰居吵到半夜 2–3 點、火警警報兩週響 3 次、公共區不清潔、物業回信要兩週，還取消了禮賓服務。噪音：鄰居噪音、通勤火車和外面車流，週末比較吵。安全：住戶說樓內沒聽過出事，但有看房者提到 Google 評價說有偷竊。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":2,
+   "points_zh":["2025-12 住戶：鄰居噪音不斷，常常到半夜 2–3 點；火警警報很頻繁，兩週響了 3 次，有一次在凌晨 3:30","另一位住戶（2025-12）：週末有時會吵；通勤火車和外面車流可能讓人不舒服，但他們不在意","離 Chelsea 通勤火車站、Silver Line 和 Route 1 都很近"]},
+  {"key":"safety","label_zh":"安全","score":3,
+   "points_zh":["住戶（2025-12）：樓內還算安全，沒遇過也沒聽過出事","2025-01 看房者說看到 Google 評價提到偷竊和狗尿問題","沒查到 Everett 的治安開放資料"]},
+  {"key":"management","label_zh":"物業管理","score":2,
+   "points_zh":["住戶（2025-12）：維修人手不足，通常幾天才回應，常要來好幾次才修好","另一位住戶（2025-12）：物業回信要兩週；臨時才通知辦公室休息；2025 年底取消禮賓服務，包裹沒人整理、訪客停車證週日拿不到","想提前解約被要求付約 $10,000"]},
+  {"key":"amenities","label_zh":"設施","score":3,
+   "points_zh":["健身房有瑜伽室，每週兩次免費瑜伽課（2026-08 轉租貼文）","寵物美容室、可租儲藏室、包裹室有冰箱、門禁鑰匙","禮賓服務在 2025 年底被取消（住戶說）；垃圾間和公共區清潔被抱怨"]},
+  {"key":"value","label_zh":"性價比","score":3,
+   "points_zh":["2026-10-26 官網：兩房兩衛 $3,410–3,900（914–1,165 平方英尺），現在送 6 週免租","住戶（2025-12，約 1,100 平方英尺兩房）：電約 $200、水 $70、瓦斯 $40 一個月，偏高","網路 $60/月必須付（White Sky），車庫車位 $125/月"]}
+ ],
+ "pros_zh":["走路不到 5 分鐘到 Silver Line 和通勤火車","兩房租金比 Boston 市區便宜，還送 6 週免租","車位便宜（$125/月）","戶型選擇多","寵物友善"],
+ "cons_zh":["鄰居噪音、火警警報頻繁","維修人手不足，物業回信慢","垃圾間常滿、公共區不夠乾淨","禮賓服務被取消","水電費偏高，網路必須付","附近沒有地鐵（只有 Silver Line 公車和通勤火車）"],
+ "quotes":[
+  {"text":"鄰居的噪音不斷，常常到凌晨 2、3 點。火警警報很頻繁，過去兩週響了 3 次，有一次在感恩節凌晨 3:30。","source":"Reddit r/bostonhousing · 2025-12","url":"https://www.reddit.com/r/bostonhousing/comments/1pib4o4/can_i_request_a_lease_break_because_of_amenities/"},
+  {"text":"週末有時會有點吵，這很正常。火車和外面的車流可能會讓有些人不舒服，但我們不在意。","source":"Reddit r/ChelseaMA · 2025-12","url":"https://www.reddit.com/r/ChelseaMA/comments/1pe8vpr/vero_or_v2_or_the_pioneer/nuq3wsu/"},
+  {"text":"維修團隊人手不足，通常幾天內回應，但可能要來好幾次才真的修好。","source":"Reddit r/ChelseaMA · 2025-12","url":"https://www.reddit.com/r/ChelseaMA/comments/1pe8vpr/vero_or_v2_or_the_pioneer/nuq3wsu/"},
+  {"text":"樓裡還算安全，沒遇過也沒聽過出事。整體我給這棟樓 80 分，還可以，但還有很多進步空間。","source":"Reddit r/ChelseaMA · 2025-12","url":"https://www.reddit.com/r/ChelseaMA/comments/1pe8vpr/vero_or_v2_or_the_pioneer/nuq3wsu/"},
+  {"text":"物業什麼事都不通知住戶……回住戶的郵件可能要兩週。","source":"Reddit r/bostonhousing · 2025-12","url":"https://www.reddit.com/r/bostonhousing/comments/1pib4o4/can_i_request_a_lease_break_because_of_amenities/"}
+ ],
+ "sources":[
+  {"name":"ApartmentList","url":"https://www.apartmentlist.com/ma/everett/mason"},
+  {"name":"Reddit：住戶 80 分評價","url":"https://www.reddit.com/r/ChelseaMA/comments/1pe8vpr/vero_or_v2_or_the_pioneer/nuq3wsu/"},
+  {"name":"Reddit：住戶抱怨文","url":"https://www.reddit.com/r/bostonhousing/comments/1pib4o4/can_i_request_a_lease_break_because_of_amenities/"},
+  {"name":"Reddit：安全問題討論","url":"https://www.reddit.com/r/bostonhousing/comments/1i3sjrs/is_mason_apartments_at_everett_safe_to_live_in/"},
+  {"name":"Apartments.com（2023 存檔，只有基本資料）","url":"https://web.archive.org/web/20230327022040/https://www.apartments.com/mason-everett-ma/6le64er/"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/Mason+Apartments+101+Mill+Rd+Everett+MA"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=Mason%20Everett%20apartments"}
+ ],
+ "gaps_zh":"Google、Yelp、Apartments.com、RentCafe 都擋了自動抓取；Apartments.com 只有 2023 年的存檔，沒有評價。看房者提到的 Google 評價（偷竊、狗尿、火警）沒辦法直接看到。Everett 的治安開放資料沒查到。"
+}

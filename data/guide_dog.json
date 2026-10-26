@@ -1,0 +1,228 @@
+{
+ "checked": "2026-10-26",
+ "section": {
+  "id": "maltese",
+  "title_zh": "馬爾濟斯在波士頓",
+  "items": [
+   {
+    "h_zh": "冬天：寒冷",
+    "points_zh": [
+     "小型犬比大型犬冷得快；約 7°C（45°F）以下多數狗開始會冷，0°C（32°F）以下小型犬、薄毛犬就可能有危險，-7°C（20°F）以下所有狗都要注意",
+     "風會吹透毛，毛被雪或雨弄濕時，就算氣溫不算低也會很快失溫；馬爾濟斯沒有底毛，冷天穿保暖、防風、防水的外套，毛衣在很冷時不夠",
+     "狗開始發抖、哀叫、放慢、找溫暖的地方或一直抬腳，就該回家",
+     "失溫：無精打采、意識混亂、劇烈發抖（嚴重時反而不抖）要找獸醫；凍傷：耳朵、腳掌、尾巴等部位蒼白又冰冷"
+    ],
+    "source": {
+     "name": "PetMD – How Cold Is Too Cold for Your Dog?（Jennifer Coates, DVM）",
+     "url": "https://www.petmd.com/dog/care/how-cold-too-cold-dog"
+    }
+   },
+   {
+    "h_zh": "冬天：融雪鹽和冰",
+    "points_zh": [
+     "散步時肉墊沾到的融雪劑，狗回家一舔就會吃下去；冬天化學品誤食有害，自家門口盡量用寵物友善的融雪劑",
+     "出門前在肉墊抹獸醫認可的護掌膏，或穿狗鞋，避免鹽和沙卡在腳趾間",
+     "一進門就把腳掌和肚子洗乾淨、擦乾，去掉冰、鹽和化學品",
+     "長毛狗可修短毛（尤其腳趾間的毛）減少結冰球和沾鹽，但冬天不要剃到見皮"
+    ],
+    "source": {
+     "name": "ASPCA – Cold Weather Safety Tips",
+     "url": "https://www.aspca.org/pet-care/general-pet-care/cold-weather-safety-tips"
+    }
+   },
+   {
+    "h_zh": "夏天：熱和濕",
+    "points_zh": [
+     "中暑徵兆：喘得很厲害、呼吸困難、心跳很快、眼神呆滯、大量流口水、嘔吐、舌頭深紅或發紫、站不穩、抽搐或昏迷；狗體溫不應超過 40°C（104°F）",
+     "急救：移到陰涼或冷氣房，用冰袋或冷毛巾敷頭、頸、胸，或用涼水（不要冰水）沖，給少量涼水，然後直接送獸醫",
+     "很熱的日子只在清晨或傍晚運動；柏油路很燙會燙傷腳掌，盡量走草地",
+     "29°C（85°F）的天氣，車窗開小縫，車內 10 分鐘可達 39°C（102°F），30 分鐘達 49°C（120°F）——絕對不要把狗留在車上"
+    ],
+    "source": {
+     "name": "Humane World for Animals – Keep pets safe in the heat",
+     "url": "https://www.humaneworld.org/resources/keep-pets-safe-heat"
+    }
+   },
+   {
+    "h_zh": "夏天：麻州禁止把動物關在熱（或冷）車裡",
+    "points_zh": [
+     "麻州法律禁止在極熱或極冷、可能危害健康的情況下把動物關在車內",
+     "罰款：初犯最高 $150、第二次 $300、第三次以上 $500；也可能另依虐待動物罪起訴",
+     "警察、消防員、動物管制員可破窗救狗；一般民眾要先設法找車主並報警或打 911、確認動物有立即危險，才可用必要的力量進車，並留在現場等警方到"
+    ],
+    "source": {
+     "name": "Massachusetts General Laws Ch. 140 §174F",
+     "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXX/Chapter140/Section174F"
+    }
+   },
+   {
+    "h_zh": "蜱蟲和萊姆病",
+    "points_zh": [
+     "MSPCA-Angell 獸醫說新英格蘭的蜱蟲季沒有真正的開始或結束：連續幾天 7°C（45°F）以上蜱蟲就會活動，鹿蜱在冬天只要高於冰點也會找宿主，所以建議全年預防",
+     "鹿蜱（黑腳蜱）會傳萊姆病，體型很小容易漏看，是最大的威脅；預防藥請跟獸醫討論",
+     "長毛狗要撥開毛摸到皮膚檢查：項圈下（常拿下來看）、耳朵裡、眼皮周圍、腳趾間和肉墊、生殖器和肛門周圍、嘴唇牙齦",
+     "發現蜱蟲：戴手套用尖頭鑷子貼近皮膚慢慢拔，不要擠爆；傷口用肥皂水或酒精清潔，蜱蟲泡酒精封存幾週，狗若生病可帶給獸醫看"
+    ],
+    "source": {
+     "name": "MSPCA-Angell – Keeping Your Dog Safe from Ticks",
+     "url": "https://www.mspca.org/pet-resources/keeping-your-dog-safe-from-ticks/"
+    }
+   },
+   {
+    "h_zh": "蚊子和心絲蟲",
+    "points_zh": [
+     "心絲蟲靠蚊子傳染，美國 50 州都有病例；蚊子會飛進室內，所以室內狗也有風險",
+     "美國心絲蟲協會建議「想 12」：每 12 個月驗一次心絲蟲，一年 12 個月都吃預防藥"
+    ],
+    "source": {
+     "name": "American Heartworm Society – Heartworm Basics",
+     "url": "https://www.heartwormsociety.org/pet-owner-resources/heartworm-basics"
+    }
+   },
+   {
+    "h_zh": "鉤端螺旋體（城市裡的老鼠和水窪）",
+    "points_zh": [
+     "狗的口、鼻、眼碰到被尿液污染的積水、土壤或草就可能感染；老鼠、浣熊、臭鼬、郊狼等都市野生動物會帶菌，不常去郊外的狗也算有風險",
+     "MSPCA-Angell 的獸醫強烈建議所有狗每年打鉤端螺旋體疫苗，不論生活方式",
+     "全年都有病例，夏末秋初較多；症狀：發燒、肌肉痛、嘔吐、沒精神、很渴、尿多或尿少、皮膚或眼白變黃",
+     "散步避開積水和沼澤地"
+    ],
+    "source": {
+     "name": "MSPCA-Angell – Leptospirosis in Dogs",
+     "url": "https://www.mspca.org/pet-resources/leptospirosis-in-dogs/"
+    }
+   },
+   {
+    "h_zh": "小型犬安全：郊狼",
+    "points_zh": [
+     "郊狼在都市和郊區都能生存，可能把貓和小型狗當成食物",
+     "防止被攻擊靠的是你就在狗旁邊：出門一定繫牽繩、近距離看著，不要遠遠看",
+     "寵物在室內餵食，避免吸引野生動物",
+     "遇到郊狼：朝牠走去、揮手拍手、大聲喊或吹哨子把牠趕走"
+    ],
+    "source": {
+     "name": "MassWildlife (mass.gov) – Prevent conflicts with coyotes",
+     "url": "https://www.mass.gov/info-details/prevent-conflicts-with-coyotes"
+    }
+   },
+   {
+    "h_zh": "公寓生活：分離焦慮和吠叫",
+    "points_zh": [
+     "分離焦慮常在獨處 30 分鐘內出現：長時間吠叫哀嚎、在家大小便、想逃、亂咬；先錄影看看狗是否 15 分鐘內就平靜下來",
+     "每天固定給一個有獎勵的玩具（例如塞食物的 Kong），在家藏零食，練習「等」並慢慢拉長你離開的距離和時間",
+     "拿鑰匙後再坐回沙發，讓狗不把這些動作和出門連在一起；不要處罰，也不要用電擊或震動項圈",
+     "先找獸醫排除身體問題；嚴重時可找行為專家，必要時用藥"
+    ],
+    "source": {
+     "name": "MSPCA-Angell – Separation Anxiety and Your Dog",
+     "url": "https://www.mspca.org/pet-resources/separation-anxiety-and-your-dog/"
+    }
+   },
+   {
+    "h_zh": "公寓生活：美容和牙齒",
+    "points_zh": [
+     "馬爾濟斯的長毛每天要輕輕梳到皮膚，避免打結；要定期洗澡、護毛，指甲長得快要常剪",
+     "每週檢查耳朵，清掉多餘的毛、耳垢和髒東西",
+     "年紀大容易有牙病：最好每次梳毛時也刷牙（用狗專用牙膏），並定期讓獸醫洗牙",
+     "淚痕很嚴重時，先給獸醫看找原因"
+    ],
+    "source": {
+     "name": "AKC – Maltese breed page",
+     "url": "https://www.akc.org/dog-breeds/maltese/"
+    }
+   },
+   {
+    "h_zh": "狗牌登記：波士頓",
+    "points_zh": [
+     "住波士頓、狗超過 6 個月就要辦狗牌，每年 4 月 1 日前辦好；沒辦罰 $50",
+     "費用：已結紮 $15、未結紮 $30（線上付款另收 2.7% 手續費，最低 $1）；70 歲以上免費但要郵寄或親自辦",
+     "要附目前有效的狂犬病疫苗證明和結紮證明；問題可打 Animal Care and Control 617-635-5348"
+    ],
+    "source": {
+     "name": "City of Boston – How to license your dog",
+     "url": "https://www.boston.gov/departments/animal-care-and-control/how-license-your-dog"
+    }
+   },
+   {
+    "h_zh": "狗牌登記：劍橋",
+    "points_zh": [
+     "州法規定超過 6 個月的狗都要有有效狗牌；劍橋狗牌期間是 4/1 到隔年 3/31，不論何時辦都在 3/31 到期",
+     "費用：已結紮 $20、未結紮 $30；要狂犬病疫苗證明、30 天內的劍橋居住證明（如水電帳單）和結紮證明",
+     "沒有狗牌罰 $50；要用劍橋公園的放繩區，狗必須有有效的劍橋狗牌"
+    ],
+    "source": {
+     "name": "City of Cambridge – Annual Dog License",
+     "url": "https://www.cambridgema.gov/Services/annualdoglicense"
+    }
+   },
+   {
+    "h_zh": "狗牌登記：薩默維爾",
+    "points_zh": [
+     "6 個月以上的狗每年都要登記，所有狗都要打狂犬病疫苗；沒登記每次罰 $50",
+     "網頁上寫狗牌有效到 12 月 31 日，另一處又寫每年 1 月要更新，費用也沒寫——請向 City Clerk 確認",
+     "全市都要繫牽繩，只有標示的放繩區例外；放繩區進出也要繫繩，每人最多帶 3 隻狗"
+    ],
+    "source": {
+     "name": "City of Somerville – Dog Licensing, Vaccination and Ownership",
+     "url": "https://www.somervillema.gov/departments/programs/dog-licensing-vaccination-and-ownership"
+    }
+   },
+   {
+    "h_zh": "急診：MSPCA-Angell 和毒物專線",
+    "points_zh": [
+     "Angell Animal Medical Center（牙買加平原）：350 South Huntington Ave, Boston, MA 02130，24 小時急診與重症，電話 (617) 522-7282",
+     "MSPCA-Angell West（Waltham）：293 Second Avenue, Waltham, MA 02451，電話同為 (617) 522-7282",
+     "ASPCA 動物毒物控制中心：(888) 426-4435，全年 24 小時，可能要收諮詢費"
+    ],
+    "source": {
+     "name": "MSPCA-Angell – Angell Animal Medical Center (Boston)",
+     "url": "https://www.mspca.org/veterinarycare/hospital-locations/boston/angell-animal-medical-center/"
+    }
+   },
+   {
+    "h_zh": "急診：VEG 劍橋（24 小時）",
+    "points_zh": [
+     "VEG Cambridge：357-359 Fresh Pond Pkwy, Cambridge, MA 02138，24 小時開，電話 (617) 804-0103，可直接上門",
+     "到了先打電話，工作人員會到門口接狗",
+     "附近另有 VEG Boston（312 Stuart Street, Boston 02116）和 VEG Newton（165 Needham Street, Newton Highlands 02464，(617) 729-4446），都是 24 小時"
+    ],
+    "source": {
+     "name": "VEG – Cambridge, MA",
+     "url": "https://www.veg.com/locations/massachusetts/cambridge"
+    }
+   }
+  ]
+ },
+ "walk_temps": {
+  "source": {
+   "name": "MSPCA-Angell – Cold Weather Safety and Fun for Your Dog（Dr. Jake Stokes）",
+   "url": "https://www.mspca.org/pet-resources/cold-weather-safety-and-fun-for-your-dog/"
+  },
+  "bands": [
+   {
+    "min_c": 0,
+    "max_c": null,
+    "label_zh": "可以散步（穿衣服）",
+    "advice_zh": "冰點（0°C／32°F）以上散步約 30 分鐘沒問題；馬爾濟斯這類小又瘦的狗，冷天就穿外套或毛衣"
+   },
+   {
+    "min_c": -7,
+    "max_c": 0,
+    "label_zh": "要穿衣服、縮短散步",
+    "advice_zh": "0°C 以下要小心：冰點以下只要 25–30 分鐘，薄毛小型犬的四肢和尾巴就可能受影響；穿外套，能接受的話穿鞋，避開撒很多鹽的路"
+   },
+   {
+    "min_c": -18,
+    "max_c": -7,
+    "label_zh": "縮短散步",
+    "advice_zh": "-7°C（20°F）以下凍傷和失溫風險明顯上升，只走很短的路，回家擦乾腳掌，注意發抖、縮成一團、哀叫等失溫徵兆"
+   },
+   {
+    "min_c": null,
+    "max_c": -18,
+    "label_zh": "只上廁所",
+    "advice_zh": "-18°C（0°F）以下只讓狗出去上廁所，馬上帶回室內"
+   }
+  ]
+ }
+}

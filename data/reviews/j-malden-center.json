@@ -1,0 +1,126 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.6,
+   "label": "Apartments.com · 125 條評價（2025-11 存檔）"
+  },
+  "summary_zh": "最大賣點是位置：過馬路就是橘線 Malden Center 站，Stop & Shop、CVS、餐廳都走得到。2024–2025 年評價大多誇物業和維修反應快、設施乾淨。噪音主要來自樓裡：牆薄、聽得到樓上，每天早上垃圾車很吵，還有過多次誤報火警；有住戶說樓外的聲音不大。樓旁邊就是橘線和通勤鐵路，還有 Route 60（Pleasant St），但沒有評價抱怨火車聲。住戶多說覺得安全；有一則評價說被誤指偷包裹。常見抱怨是水費貴、頂樓露台施工拖很久。2025-11 以後的評價暫時沒找到。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "牆薄、聽得到樓上：2025-01「隔音不夠，總能聽到樓上的聲音」，2025-08「牆很薄」",
+    "每天早上垃圾車很吵，會被吵醒；一段時間常常誤報火警（2025-01）",
+    "也有人說安靜：2025-08「樓外噪音很少」，北棟住戶說「很安靜」",
+    "樓旁邊就是橘線和 Haverhill 通勤鐵路，加上 Route 60 主幹道，但評價裡沒有人抱怨火車或車流聲"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 4,
+   "points_zh": [
+    "多則 2025 年評價說樓裡「安全、乾淨」「整棟樓感覺安全、有秩序」",
+    "2025-02 有住戶說被其他住戶懷疑偷包裹，物業沒先跟他溝通",
+    "沒有找到這棟樓附近的犯罪統計"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 4,
+   "points_zh": [
+    "大多數評價誇租賃和維修團隊反應快，常點名 Audrey、Michael、Samir",
+    "負評：2024-09 說物業「很兇」、冷氣壞了好幾個月沒修好還被收高額電費；2025-07 說報修常沒人回",
+    "物業會回覆每一則評價；住戶發評可能拿獎勵，五星評價要打折看"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "鹽水泳池、健身房、屋頂露台、會所、自習室、桌球、寵物美容間，套內有洗衣機烘乾機",
+    "頂樓露台（Skydeck）施工拖了很久（2025-07），有人說屋頂從來沒開放",
+    "健身房、自習室限時開門，有人覺得像宿舍；室內通風差，做飯味道散不掉（2024-09）"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 ApartmentList：兩房兩衛 $3,551–3,915/月",
+    "水費和下水道費另付，住戶說幾乎是市價的兩倍；停車另加 $150/月",
+    "有人說「以波士頓的價格來說還算合理」，也有人說租金偏高"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "過馬路就是橘線 Malden Center 站",
+  "超市、藥局、餐廳都走得到",
+  "維修反應快（多數評價）",
+  "泳池、健身房、會所設施多",
+  "住戶多說樓裡安全乾淨"
+ ],
+ "cons_zh": [
+  "牆薄，聽得到樓上鄰居",
+  "早上垃圾車吵，曾經常誤報火警",
+  "水費貴",
+  "頂樓露台施工拖很久",
+  "停車要另付 $150/月",
+  "2025-11 以後的評價暫時沒找到"
+ ],
+ "quotes": [
+  {
+   "text": "隔音不夠，總能聽到樓上的聲音。",
+   "source": "Apartments.com · 2025-01",
+   "url": "http://web.archive.org/web/20251120020042/https://www.apartments.com/j-malden-center-malden-ma/j356v66/"
+  },
+  {
+   "text": "唯一的缺點是垃圾車每天早上都來，很吵，每次都把我吵醒。最近還常常誤報火警。",
+   "source": "Apartments.com · 2025-01",
+   "url": "http://web.archive.org/web/20251120020042/https://www.apartments.com/j-malden-center-malden-ma/j356v66/"
+  },
+  {
+   "text": "樓外的噪音很少，不過牆很薄。",
+   "source": "Apartments.com · 2025-08",
+   "url": "http://web.archive.org/web/20251120020042/https://www.apartments.com/j-malden-center-malden-ma/j356v66/"
+  },
+  {
+   "text": "缺點是水費很貴，幾乎是市政府平常收費的兩倍。",
+   "source": "Apartments.com · 2025-03",
+   "url": "http://web.archive.org/web/20251120020042/https://www.apartments.com/j-malden-center-malden-ma/j356v66/"
+  },
+  {
+   "text": "水費的問題是市政府把這棟樓按商業費率、不是住宅費率收費。J Malden 的物業有些問題，但這件事是市政府造成的。",
+   "source": "Reddit r/malden · 2026-07",
+   "url": "https://www.reddit.com/r/malden/comments/1uut637/question_for_j_malden_residents/oxjqq63/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Apartments.com（2025-11 存檔）",
+   "url": "http://web.archive.org/web/20251120020042/https://www.apartments.com/j-malden-center-malden-ma/j356v66/"
+  },
+  {
+   "name": "Reddit r/malden · 水費討論",
+   "url": "https://www.reddit.com/r/malden/comments/1uut637/question_for_j_malden_residents/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/J+Malden+Center+190+Pleasant+St+Malden+MA"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22J%20Malden%22"
+  }
+ ],
+ "gaps_zh": "Google、Yelp、ApartmentRatings、Reddit 都攔截了自動抓取，Google 星等沒拿到。沒找到 Malden 這一區的犯罪統計。下面的鏈接可以自己點開看。"
+}

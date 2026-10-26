@@ -1,0 +1,108 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 5.0,
+   "label": "ApartmentList · 1 條評價（2025-04）"
+  },
+  "summary_zh": "位置是最大賣點：就在紅線 Alewife 站對面。能找到的住戶評價只有 ApartmentList 一條（2025-04）：總分 5 分，但噪音只給 2 分，說樓上鄰居走路聲太大，所以隔音可能是弱點。地理上看，大樓在 Alewife Brook Parkway 和 Route 2 交匯處附近，後面是 Fitchburg 通勤鐵路，車流和火車聲都要注意（這部分沒有住戶說法）。劍橋市警方資料（2025-10 至 2026-09）顯示，所在報案區 1110 共 142 起，最多的是自行車被盜、入室盜竊、車內物品被盜，只有 1 起普通傷害、沒有搶劫；大樓所在那段路（0 號段）17 起，以拘票逮捕和糾紛為主。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 2,
+   "points_zh": [
+    "2025-04 住戶噪音只給 2/5：樓上鄰居走路聲太大",
+    "附近有 Alewife Brook Parkway、Route 2 和 Fitchburg 通勤鐵路（地點推測，沒有住戶提到）",
+    "沒有找到其他談噪音的評價"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 4,
+   "points_zh": [
+    "劍橋市警方開放資料（2025-10 至 2026-09），報案區 1110 共 142 起：自行車被盜 17、入室盜竊 15、車內物品被盜 10",
+    "同期只有 1 起普通傷害，沒有搶劫或加重傷害",
+    "大樓所在的 Cambridgepark Dr 0 號段 17 起：拘票逮捕 4、民事糾紛 2、扒竊 2"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "由 Bozzuto 管理，費用表公開",
+    "有禮賓服務（concierge）",
+    "沒有可查證的住戶談管理的評價"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "溫水室外泳池、健身房、桑拿、瑜伽",
+    "大型狗公園、社區菜園、會所、商務中心、訪客套房",
+    "有車庫和自行車房"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 ApartmentList 兩房兩衛 $3,759–4,201",
+    "押金只要 $250，瓦斯包含在租金裡",
+    "預留車位 $200–250/月偏貴；目前沒看到優惠"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "就在紅線 Alewife 站對面",
+  "兩房兩衛 $3,759 起，在劍橋算中等",
+  "瓦斯包含在租金內，押金只要 $250",
+  "泳池、桑拿、狗公園",
+  "報案區過去一年沒有搶劫"
+ ],
+ "cons_zh": [
+  "住戶反映樓上走路聲很大",
+  "靠近大馬路和通勤鐵路",
+  "自行車被盜是附近最常見的報案",
+  "停車 $200–250/月",
+  "可查證的住戶評價很少"
+ ],
+ "quotes": [
+  {
+   "text": "我樓上的鄰居走路聲太大了。",
+   "source": "ApartmentList · 2025-04",
+   "url": "https://www.apartmentlist.com/ma/cambridge/cambridge-park-apartments"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/cambridge/cambridge-park-apartments"
+  },
+  {
+   "name": "Cambridge 犯罪開放資料",
+   "url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Cambridge+Park+Apartments+30+Cambridgepark+Dr+Cambridge+MA"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Cambridge%20Park%22%20Alewife%20apartments"
+  },
+  {
+   "name": "Yelp 搜索",
+   "url": "https://www.yelp.com/search?find_desc=Cambridge+Park+Apartments&find_loc=Cambridge%2C+MA"
+  }
+ ],
+ "gaps_zh": "Google、Reddit、Yelp、ApartmentRatings 都攔截了自動抓取；Apartments.com 只有 2016 年存檔，而且當時沒有評價。上面的鏈接可以自己點開看。"
+}

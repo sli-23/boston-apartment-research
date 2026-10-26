@@ -1,0 +1,69 @@
+{
+ "official_url": "https://www.211greenst.com/",
+ "floorplans_url": "https://www.211greenst.com/2-bedroom-layouts",
+ "virtual_tours": [
+  {
+   "label": "Matterport 3D：2 房 2 衛（#202／#302 線）",
+   "url": "https://my.matterport.com/show/?m=wouQ4UHVjSs&mls=1"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "B1（#302）",
+   "sqft": "935",
+   "price": "$3,800（官網 #302）；ApartmentHomeLiving 列 B1 $3,600–$4,000",
+   "price_min": 3600,
+   "as_of": "2026-09-09",
+   "available": "官網 #302 標 Available 9/1（頁面沒寫更新日期）；ApartmentHomeLiving 2026-09-09 更新時顯示 Unavailable；#202、#402 已租出",
+   "image": "https://images.squarespace-cdn.com/content/v1/66eb18a395d5ad57a0ad2ce5/b8d6fc6b-0aba-45fe-b5b6-cccf316e6467/211%2BGreen%2BSt_Plans_Page_302.jpg"
+  },
+  {
+   "name": "B1（#202）",
+   "sqft": "935",
+   "price": "已租出（Leased）",
+   "as_of": "2026-10-26",
+   "available": "",
+   "image": "https://images.squarespace-cdn.com/content/v1/66eb18a395d5ad57a0ad2ce5/62b5938b-fb99-475b-b228-05340410aa96/211%2BGreen%2BSt_Plans_Page_202.jpg"
+  },
+  {
+   "name": "D4",
+   "sqft": "1,077",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  }
+ ],
+ "fees": {
+  "parking_garage": "車位 $250/月，可選（ApartmentList 費用表）；官網列 Garage Parking",
+  "parking_surface": "ApartmentHomeLiving 寫 Surface Lot（Partially covered parking）、最多 24 個車位，和官網的 Garage Parking 不一致",
+  "water_sewer_trash": "水費住戶自付（ApartmentList）",
+  "electric_heat": "電費住戶自付（ApartmentList）；沒找到月平均金額",
+  "internet": "沒寫",
+  "pet_rent": "狗 $75/月、貓 $75/月（ApartmentList 費用表）",
+  "pet_deposit_or_fee": "沒寫",
+  "other": "簽約時付第一個月和最後一個月租金，鑰匙押金 $150；申請費每人 $25（ApartmentHomeLiving）；官網寫 no broker fee",
+  "source": "https://www.apartmentlist.com/ma/boston/211-green-st",
+  "as_of": "ApartmentList 房源（2026-07-12 更新）與 ApartmentHomeLiving（2026-09-09 更新），2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養狗和貓，每戶最多 2 隻，65 磅以下，限制品種（ApartmentHomeLiving）；狗和貓每月各 $75（ApartmentList）。官網沒寫寵物政策。",
+ "notes_zh": "官網 2 房頁面（2026-10-26 讀取）列出：#202、#402（935 呎）、#206／#306／#406（860 呎）、#307／#407（913 呎）已租出；#302（935 呎）$3,800、#207（913 呎）$3,600 都標 Available 9/1，但頁面沒寫更新日期，可能已過期。看過房型圖：#202／#302 是 2 房 2 衛，#207 只有 1 衛（沒列進來）。房型圖沒標出洗烘機位置，套內洗烘是看官網「Laundry in Every Unit」。",
+ "sources": [
+  {
+   "name": "官網 2 房房型與空房",
+   "url": "https://www.211greenst.com/2-bedroom-layouts"
+  },
+  {
+   "name": "官網首頁（設施）",
+   "url": "https://www.211greenst.com/"
+  },
+  {
+   "name": "ApartmentHomeLiving（年份、寵物、停車、價格）",
+   "url": "https://www.apartmenthomeliving.com/apartment-finder/211-Green-St-Jamaica-Plain-MA-02130-20067118"
+  },
+  {
+   "name": "ApartmentList（費用）",
+   "url": "https://www.apartmentlist.com/ma/boston/211-green-st"
+  }
+ ]
+}

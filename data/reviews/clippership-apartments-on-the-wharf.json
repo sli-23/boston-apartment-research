@@ -1,0 +1,102 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 5,
+   "label": "ApartmentList · 只有 1 條評價"
+  },
+  "summary_zh": "2021 年完工的 East Boston 水岸大樓，走路 4 分鐘到 Maverick 藍線，有水上計程車。這次幾乎找不到住戶評價：ApartmentList 只有 1 條（總分 5、設施 5、性價比 4，沒有文字）。噪音和安全只能看公開資料：飛機是主要噪音來源；400 公尺內一年 41 起暴力案件，比另外兩棟多很多（不過統計方法不同，不能直接比較）。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "BTS 2020 模型：門牌點約 50.0 dB，主要來自飛機（48.9 dB）；道路和鐵路都低於建模門檻",
+    "緊鄰 Logan 機場，模型沒算直升機和機場地面作業，看房最好挑起降頻繁的時段",
+    "沒有找到住戶談噪音的評價"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "Boston 警方事件資料（2025-10 至 2026-09），大樓 400 公尺內：暴力 41 起、財產 46 起",
+    "最多的是毒品 37、普通傷害 20、加重傷害 16、建築內偷竊 11",
+    "這是半徑統計，Cambridge 兩棟是用報案區統計，數字不能直接比較"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "沒找到能判斷管理品質的住戶評價，暫給中間分",
+    "管理公司是 Bozzuto；有門房服務、24/7 包裹櫃",
+    "ApartmentList 唯一 1 條評價給 5 分，沒有文字"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "健身房、交誼廳、遊戲間、會議室、門房服務",
+    "狗公園、洗狗區、水岸露台烤肉和火爐、露天劇場",
+    "地下車庫（有代客停車）；沒看到泳池"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 2b2b 開放 8 間：$4,013–5,450（1,064–1,134 sq ft）；最便宜的 2.2E $4,013 要 12/7 才能入住",
+    "瓦斯和垃圾含在租金內；車位 $375/月（代客 $265）",
+    "ApartmentList 唯一評價的性價比給 4 分"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "走路 4 分鐘到 Maverick 藍線，有水上計程車",
+  "水岸、看得到波士頓天際線",
+  "每個 2b2b 都有室內洗烘和 walk-in closet",
+  "瓦斯含在租金內",
+  "有狗公園和洗狗區"
+ ],
+ "cons_zh": [
+  "緊鄰 Logan 機場，有飛機噪音",
+  "400 公尺內暴力案件比另外兩棟多",
+  "2b2b 只有 2.2C 有陽台",
+  "幾乎沒有住戶評價可參考",
+  "冷氣沒寫是不是中央空調"
+ ],
+ "quotes": [],
+ "sources": [
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf"
+  },
+  {
+   "name": "Boston 犯罪開放資料",
+   "url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  {
+   "name": "BTS 交通噪音地圖",
+   "url": "https://www.bts.gov/geospatial/national-transportation-noise-map"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Clippership+Apartments+63+Lewis+St+Boston"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Clippership%22"
+  }
+ ],
+ "gaps_zh": "Google、Reddit、Yelp、ApartmentRatings、Bing、DuckDuckGo 都攔截了自動抓取；Wayback Machine 找不到 Apartments.com 的存檔；ApartmentList 只有 1 條沒有文字的評價，所以沒有住戶引文。下面的鏈接可以自己點開看。"
+}

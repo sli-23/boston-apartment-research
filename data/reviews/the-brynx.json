@@ -1,0 +1,38 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": 4.8,
+  "google_count": 82,
+  "alt": null,
+  "summary_zh": "2019 年建成，149 戶、4 層，分 201 和 221 兩棟，LEED 金級認證，官網列出的業者是 Eden Properties 和 Samuels & Associates，走路幾步到 Jamaica Pond，綠線 E 支線 Heath Street 站也在附近。Google 4.8 分（82 條），2025–2026 年評價都誇維修快、環境乾淨、員工好、每月有住戶活動。住了 4 年的住戶說「附近交通很擠，但樓裡很安靜」。附近一年報案 50 筆，沒有搶劫、傷害或槍擊，主要是車內物品被偷和車禍。缺點：停車是住戶唯一的顧慮；約 2022 年有評價說戶型奇怪（書房中間有柱子）、沒有禮賓，一半住戶要走到室外才能去健身房。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":4,
+   "points_zh":["住了 4 年的住戶（約 2026-01）：「附近交通很擠，但樓裡非常安靜」","約 2025 年：「樓裡很安靜，維護得很好」","樓在 S Huntington Ave 上，靠近 Jamaicaway 和 Heath Street 電車站；沒有找到抱怨車流、電車或施工噪音的評價"]},
+  {"key":"safety","label_zh":"安全","score":4,
+   "points_zh":["波士頓警方開放資料（2025-10 至 2026-09），大樓 250 公尺內共 50 筆報案，最多的是「救護協助」10 筆、拖車 7 筆","同期沒有搶劫、沒有傷害案、沒有槍擊；車內物品被偷 3 起、入室盜竊 1 起、偷車 1 起","住戶（約 2026-01）說兩棟樓「隨時都很安全、有門禁」"]},
+  {"key":"management","label_zh":"物業管理","score":5,
+   "points_zh":["2025–2026 年評價點名誇租賃專員 Jessica，從國外搬來也能遠端辦好","維修請求處理很快，有住戶住了 14 個月說每次都很快解決","每月辦住戶活動，例如抽紅襪隊門票"]},
+  {"key":"amenities","label_zh":"設施","score":4,
+   "points_zh":["健身房器材多，還有攀岩牆；住戶休息室、遊戲室、屋頂露台、訪客套房（$250/晚）","約 2022 年評價：沒有禮賓，一半的住戶要走到室外才能去健身房；戶型奇怪，書房中間有柱子","住戶說停車是唯一的顧慮（評價被截斷，沒看到細節）"]},
+  {"key":"value","label_zh":"性價比","score":3,
+   "points_zh":["2026-10-26 ApartmentList：2 房 2 衛 $4,539–4,600（6–8 個月租約）","停車 $300/月；狗 $100/月、貓 $50/月","現在沒有租金優惠；電、水、下水道都按用量自付"]}
+ ],
+ "pros_zh":["走路幾步到 Jamaica Pond","住戶說樓裡很安靜","附近一年內沒有搶劫或傷害案","維修快、員工好，評分 4.8","健身房有攀岩牆，有屋頂露台","2019 年新樓，LEED 金級"],
+ "cons_zh":["停車是住戶的顧慮，車位 $300/月","沒有禮賓","兩棟樓分開，部分住戶要走到室外去健身房","有評價說戶型不好用（書房有柱子）","附近有車內物品被偷","沒有找到 2 房的線上實景"],
+ "quotes":[
+  {"text":"附近交通很擠，但樓裡非常安靜。我住了 4 年，每天回家都很開心。停車是唯一的顧慮……","source":"Google · 約 2026-01（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/the-brynx-apartments"},
+  {"text":"樓裡很安靜，維護得很好，設施很棒，走幾步就到 Jamaica Pond。","source":"Google · 約 2025（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/the-brynx-apartments"},
+  {"text":"我們在 Brynx 住了 14 個月，每次需要維修，團隊都回得很快，處理得很有效率。","source":"Google（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/the-brynx-apartments"},
+  {"text":"戶型很奇怪（書房中間有柱子，浪費面積）。設施還不錯（攀岩牆很特別），但沒有禮賓很奇怪。另外一半的住戶要走到外面才能去健身房。","source":"Google · 約 2022（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/the-brynx-apartments"},
+  {"text":"健身房器材很多，還有好玩的攀岩牆！","source":"Google 評價摘要 · 2026-10 讀取","url":"https://www.google.com/maps/search/The+Brynx+201+S+Huntington+Ave"}
+ ],
+ "sources":[
+  {"name":"SafeButler（Google 評價摘錄，2026-06 更新）","url":"https://www.safebutler.com/apartments/boston-ma/the-brynx-apartments"},
+  {"name":"Apartments.com（2023 存檔）","url":"http://web.archive.org/web/20231006153256/https://www.apartments.com/the-brynx-boston-ma/xyjltwm/"},
+  {"name":"波士頓犯罪開放資料","url":"https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/The+Brynx+201+S+Huntington+Ave"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=Brynx"}
+ ],
+ "gaps_zh":"Google 只抓到評分和幾句摘要，完整評價是從 SafeButler 轉引的，日期只有「幾個月前」，所以寫「約」。Apartments.com 2023 存檔裡還沒有住戶評價。Reddit、Yelp、ApartmentRatings、Niche 都攔截了自動抓取。"
+}

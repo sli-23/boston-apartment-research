@@ -1,0 +1,105 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": null,
+  "summary_zh": "完全沒找到住戶評價：ApartmentList 上沒有，Apartments.com、Google、Reddit、Yelp 都擋了抓取，存檔裡也沒有。目前只能看客觀資料：樓下就有 Stop & Shop 超市，旁邊是 Boston Landing 通勤鐵路站。依地圖位置，南邊緊鄰 Mass Pike（I-90）高速公路和通勤鐵路，可能有車聲和火車聲，但沒有住戶說法可以確認。Allston 是學生區，夜生活多。附近約 250 公尺內過去一年報案 71 起，有 4 起加重傷害、1 起搶劫，沒有槍擊。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "沒找到住戶談噪音的評價",
+    "依地圖位置，大樓南邊就是 Mass Pike（I-90）和 Worcester 通勤鐵路（Boston Landing 站），面向南邊的房間可能聽到車聲、火車聲（未經住戶證實）",
+    "Allston 是學生區，Niche 給夜生活 A+，週末附近可能比較熱鬧"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "波士頓警方開放資料：大樓約 250 公尺內，2025-10-01 到 2026-10-23 共 71 起報案",
+    "其中加重傷害 4 起、搶劫 1 起、毒品 4 起、汽車被偷 1 起，沒有槍擊",
+    "Niche 上一位 Allston 居民說這區「有點髒亂，但整體安全」；Niche 沒給 Allston 安全評級"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "沒找到住戶評價，無法判斷",
+    "物業是 Bozzuto，費用表公開透明，列得很細",
+    "有住戶禮賓服務（concierge）和包裹室（官網）"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "健身房、瑜伽教室、撞球室、寵物美容區、圖書室和共享辦公空間、帶烤肉架和火坑的庭院（官網）",
+    "車庫、電動車充電、自行車房、儲藏室；套內有洗衣機烘乾機",
+    "樓下有 Stop & Shop 超市、Needham Bank、Honeygrow、Court 16"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 ApartmentList：兩房兩衛 1,037–1,062 呎，$5,200–5,300",
+    "水和下水道另外按用量收費，車位 $350–375/月，偏貴",
+    "目前最多送 1 個月基本租金，可以談"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "樓下就有 Stop & Shop 超市",
+  "走路就到 Boston Landing 通勤鐵路站",
+  "設施新又多：健身房、瑜伽、撞球室、共享辦公",
+  "套內有洗衣機烘乾機",
+  "附近一年內沒有槍擊報案"
+ ],
+ "cons_zh": [
+  "完全沒找到住戶評價",
+  "緊鄰 Mass Pike 和鐵路，可能有噪音（未證實）",
+  "租金偏高，兩房兩衛要 $5,200 以上",
+  "車位 $350 起，很貴",
+  "學生區，夜生活多"
+ ],
+ "quotes": [
+  {
+   "text": "我住在這一區的經驗還不錯。這裡有點髒亂，但總的來說是安全的社區，住滿了大學生，還有很多開到很晚的餐廳。",
+   "source": "Niche · Allston 居民（2024-05 存檔）",
+   "url": "https://web.archive.org/web/20240506151735/https://www.niche.com/places-to-live/n/allston-boston-ma/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/boston/alder-at-allston-yards"
+  },
+  {
+   "name": "波士頓犯罪開放資料",
+   "url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  {
+   "name": "Niche · Allston（2024 存檔）",
+   "url": "https://web.archive.org/web/20240506151735/https://www.niche.com/places-to-live/n/allston-boston-ma/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Alder+at+Allston+Yards+301+Guest+St+Boston"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Alder%22%20%22Allston%20Yards%22"
+  }
+ ],
+ "gaps_zh": "沒找到任何住戶評價。Google、Reddit、Yelp、Apartments.com、ApartmentRatings 都攔截了自動抓取，網頁存檔也沒有這棟的評價頁，下面的連結可以自己點開看。噪音部分只是依地圖位置推測。"
+}

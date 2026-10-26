@@ -1,0 +1,51 @@
+{
+ "The Yard @ Beachmont Square|42.3981,-70.9938": {
+  "rating": 4,
+  "count": 3,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9768003014554079193",
+  "other": [],
+  "summary_zh": "Google 4.0 分（僅 3 則），Google 上分類為活動場地，唯一的文字評論抱怨聚會吵鬧；是否可帶狗、有無遊樂場未查到。",
+  "good_zh": [],
+  "bad_zh": [
+   "唯一文字評論（2 星，3 週前）稱有吵鬧的聚會",
+   "評論數很少，參考性低；Google 上無照片"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Pearl Avenue Park|42.3944,-70.9886": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [],
+  "summary_zh": "在 Google 地圖上找不到這個公園的條目（只找到 Pearl Ave 街道），因此沒有評分與評論；設施與是否可帶狗未查到。",
+  "good_zh": [],
+  "bad_zh": [
+   "Google 地圖查無此公園條目，無評分與評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "Frederick Park|42.3942,-70.9916": {
+  "rating": 4.4,
+  "count": 40,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17530206881666990279",
+  "other": [],
+  "summary_zh": "Google 4.4 分（40 則，Fredericks Park），有棒球場、遊樂場與大草地，常辦 Big Bounce 等活動，但有排水差、維護不佳的評論；未查到是否可帶狗。",
+  "good_zh": [
+   "大片空地，有棒球場與兒童遊樂場",
+   "安靜、適合夏天野餐",
+   "曾舉辦 Big Bounce 充氣遊樂活動，小孩玩得很開心"
+  ],
+  "bad_zh": [
+   "雨後大片積水，長椅和溜滑梯無法使用（5 年前評論）",
+   "遊樂場木屑多年未更換",
+   "有評論稱 Google 照片上的滑水道實際不存在"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ }
+}

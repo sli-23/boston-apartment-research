@@ -1,0 +1,38 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": 4.5,
+  "google_count": 54,
+  "alt": {"value": 4.1, "label": "Google · 29 條評價（SafeButler 2026-06 轉引）"},
+  "summary_zh": "2018 年建成的小樓（38 戶、6 層），由 Polish Triangle Property Management 管理，靠近 Longwood 醫學區，也靠近綠線 E 支線。Google 4.5 分（54 條）；2026-06 時還是 4.1 分（29 條），4 個月多了 25 條，評分也往上升，可能有物業邀請住戶發評，要打折扣看。看得到的差評集中在維修和管理：暖氣壞了 1 個半月、冰箱兩年都不正常、下雨門會漏水、物業態度差。噪音主要是鄰居：早年有人把房子當短租辦派對、半夜有人按火警警報。綠線 E 支線在 S Huntington Ave 上跑路面電車，但沒找到住戶抱怨電車聲。附近一年內沒有搶劫或槍擊，有 2 起加重傷害、2 起入室盜竊。沒有套內洗衣機，要用一樓投卡洗衣房。"
+ },
+ "dimensions": [
+  {"key":"noise","label_zh":"安靜程度","score":3,
+   "points_zh":["約 2020 年，一位陪孩子就醫、短住一個半月的人說：四樓有派對吵到凌晨 2 點，還有一次火警誤報","約 2020 年差評：有人把好幾間房當 Airbnb 短租辦派對，整晚吵鬧，凌晨 3:30 有人按火警警報，打給物業也沒人管","綠線 E 支線在 S Huntington Ave 上跑路面電車（官網說靠近 Heath Street 站），沒有找到住戶提到電車或車流噪音"]},
+  {"key":"safety","label_zh":"安全","score":4,
+   "points_zh":["波士頓警方開放資料（2025-10 至 2026-09），大樓 250 公尺內共 164 筆報案，最多的是「救護協助」46 筆、「調查可疑人員」21 筆、拖車 11 筆","同期加重傷害 2 起、普通傷害 3 起、入室盜竊 2 起、竊盜類 7 起，沒有搶劫，沒有槍擊","一位短住的人說大樓「乾淨、安全」；有門禁"]},
+  {"key":"management","label_zh":"物業管理","score":2,
+   "points_zh":["約 2025 年差評：暖氣問題拖了 1 個半月，最後只能找市政府，物業只給電暖器","約 2024 年差評：維修很差，冰箱冷凍庫兩年都不正常，下雨門會漏水，物業態度差、不公平","約 2025 年：門口人行道髒、有垃圾，沒看過清洗","Google 簡短好評：「租了很久，人很好相處」；2026 年評分明顯上升，可能有邀請發評"]},
+  {"key":"amenities","label_zh":"設施","score":3,
+   "points_zh":["兩個住戶休息室、室內健身房、商務中心、屋頂露台和烤肉區","沒有套內洗衣機，一樓洗衣房投卡，洗、烘各 $2","地下室車庫 $250/月，要看有沒有空位；可以養寵物"]},
+  {"key":"value","label_zh":"性價比","score":3,
+   "points_zh":["官網所有戶型都顯示「Unavailable」，沒有公布租金","SafeButler 2026-06 引用 Apartment Finder 的掛牌價：全樓 $2,900–5,100，沒有分戶型","入住要付首月、末月加 $500 押金；申請費 $35；信用分數要 690 以上"]}
+ ],
+ "pros_zh":["靠近 Longwood 醫學區和綠線 E 支線","樓不大，只有 38 戶，2018 年建成","有屋頂露台、健身房和休息室","附近一年內沒有搶劫或槍擊","每個 2 房 2 衛戶型都有官方 YouTube 實景影片"],
+ "cons_zh":["沒有套內洗衣機，要用公共投卡洗衣房","差評集中在維修拖延和物業態度","早年有短租派對、半夜火警警報","官網沒有公布任何租金，也沒有空房","停車 $250/月，要看有沒有空位","Google 評分最近升得快，可信度打折"],
+ "quotes":[
+  {"text":"我們的暖氣問題拖了一個半月以上，最後只好去找市政府，因為物業一直拖，沒有真正解決（只叫我們 24 小時開電暖器）。","source":"Google · 約 2025（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/walter-huntington-apartments"},
+  {"text":"維修很糟。冰箱冷凍庫整整兩年都不正常，下雨時門還會漏水。","source":"Google · 約 2024（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/walter-huntington-apartments"},
+  {"text":"（陪兒子做腎臟移植，住了一個半月）乾淨、安全，有洗衣房，員工很好……除了四樓一次吵到凌晨 2 點的派對和一次火警誤報，沒有什麼大問題。","source":"Google · 約 2020（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/walter-huntington-apartments"},
+  {"text":"這裡被當成 Airbnb/VRBO 經營。附近的年輕人租了好幾間辦派對，整晚吵鬧，凌晨 3:30 還按了火警警報。我打給物業，他們什麼都沒做。","source":"Google · 約 2020（SafeButler 轉引）","url":"https://www.safebutler.com/apartments/boston-ma/walter-huntington-apartments"},
+  {"text":"租了很久，這裡的人很好相處！","source":"Google 評價摘要 · 2026-10 讀取","url":"https://www.google.com/maps/search/Walter+Huntington+Apartments+33-37+S+Huntington+Ave"}
+ ],
+ "sources":[
+  {"name":"SafeButler（Google 評價摘錄，2026-06 更新）","url":"https://www.safebutler.com/apartments/boston-ma/walter-huntington-apartments"},
+  {"name":"官網 FAQ","url":"https://www.walterhuntington.com/faqs"},
+  {"name":"波士頓犯罪開放資料","url":"https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"},
+  {"name":"Google 評價（自己看）","url":"https://www.google.com/maps/search/Walter+Huntington+Apartments+33-37+S+Huntington+Ave"},
+  {"name":"Reddit 搜索","url":"https://www.reddit.com/search/?q=%22Walter%20Huntington%22"}
+ ],
+ "gaps_zh":"Google 只抓到評分和幾句摘要，完整評價是從 SafeButler 轉引的，日期只有「幾年前」，所以寫「約」。Reddit、Yelp、ApartmentRatings、Apartments.com、Zillow 都攔截了自動抓取，Apartments.com 也沒有存檔。這棟樓在 Housing Navigator 上有登記，可能有收入限制戶，但頁面沒載入，沒能確認。"
+}

@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F4F1EA">
+<title>波士頓生活科普 · Boston 找房</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{
+  --paper:#F4F1EA; --card:#FBFAF6; --ink:#1B1A17; --ink-2:#55524A; --ink-3:#8E897D;
+  --rule:#E2DDD1; --rule-2:#CFC8B8; --accent:#B4532A;
+  --font:"Schibsted Grotesk","Noto Sans TC","PingFang TC",system-ui,sans-serif;
+  --w:1080px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--paper);color:var(--ink);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;font-feature-settings:"tnum" 1}
+a{color:inherit}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 28px}
+header.top{border-bottom:1px solid var(--ink);padding:26px 0 22px}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);display:flex;justify-content:space-between;gap:12px}
+.eyebrow a{text-decoration:none;border-bottom:1px solid var(--rule-2);letter-spacing:.04em;text-transform:none;font-size:12px;color:var(--ink-2)}
+h1{font-size:34px;font-weight:600;letter-spacing:-.02em;margin-top:10px;line-height:1.1}
+.lede{color:var(--ink-2);margin-top:10px;max-width:640px}
+nav.toc{display:flex;gap:22px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--rule);position:sticky;top:0;background:var(--paper);z-index:1000}
+nav.toc::-webkit-scrollbar{display:none}
+nav.toc a{padding:13px 0 11px;font-size:13px;color:var(--ink-3);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent}
+nav.toc a.on{color:var(--ink);border-color:var(--ink);font-weight:500}
+section{padding:40px 0 10px;scroll-margin-top:48px}
+h2{font-size:22px;font-weight:600;letter-spacing:-.01em}
+h2 small{font-size:12px;font-weight:400;color:var(--ink-3);margin-left:8px;letter-spacing:.06em}
+.intro{color:var(--ink-2);margin:8px 0 18px;max-width:720px}
+#tmap{height:560px;border:1px solid var(--rule);background:#EEECE6}
+.base-tiles{filter:grayscale(1) sepia(.12) brightness(1.07) contrast(.88)}
+.leaflet-container{font-family:var(--font)}
+.leaflet-control-attribution{font-size:9px;background:rgba(244,241,234,.8)!important;max-width:70%}
+.leaflet-tooltip.tip{background:var(--ink);color:var(--paper);border:0;border-radius:0;box-shadow:none;font-size:12px;padding:4px 8px}
+.leaflet-tooltip.tip::before{display:none}
+.pin-apt{width:13px;height:13px;background:var(--ac);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.pin-off{background:var(--ink);color:var(--paper);font-size:10px;font-weight:600;padding:2px 5px;white-space:nowrap;border:1.5px solid #fff}
+.mapwrap{position:relative}
+.linechips{position:absolute;top:10px;left:10px;right:10px;z-index:500;display:flex;gap:6px;flex-wrap:wrap;pointer-events:none}
+.linechips button{pointer-events:auto;font:inherit;font-size:12.5px;border:1px solid var(--rule-2);background:rgba(251,250,246,.95);padding:5px 11px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--ink-2)}
+.linechips button i{width:10px;height:10px;display:inline-block}
+.linechips button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.leaflet-popup-content-wrapper{border-radius:0;box-shadow:0 2px 10px rgba(0,0,0,.18);font-family:var(--font)}
+.leaflet-popup-content{margin:12px 14px;font-size:13px;line-height:1.5}
+.pop b{font-size:14px;display:block}
+.pop small{color:var(--ink-3);display:block}
+.pop a{display:inline-block;margin-top:8px;background:var(--ink);color:var(--paper)!important;text-decoration:none;padding:5px 10px;font-size:12px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:12px;color:var(--ink-2);margin:12px 0 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:18px;height:4px;display:inline-block}
+.legend i.sq{width:10px;height:10px;border:2px solid #fff;box-shadow:0 0 0 1px var(--rule-2)}
+
+.lines{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--rule);margin-top:24px}
+.line{padding:18px 20px 18px 0;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:6px 1fr;gap:14px;cursor:pointer}
+.line:nth-child(odd){border-right:1px solid var(--rule)}
+.line:nth-child(even){padding-left:20px}
+.line .bar{border-radius:0}
+.line h3{font-size:16px;font-weight:600;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.line h3 span{font-size:12px;font-weight:400;color:var(--ink-3)}
+.line p{font-size:13.5px;color:var(--ink-2);margin-top:4px}
+.line ul{list-style:none;margin-top:6px;font-size:13px;color:var(--ink-2)}
+.line li{padding-left:12px;position:relative;margin:2px 0}
+.line li::before{content:"";position:absolute;left:1px;top:.65em;width:4px;height:4px;border-radius:50%;background:var(--ink-3)}
+.line .near{font-size:12px;color:var(--ink);margin-top:8px}
+.line:hover{background:var(--card)}
+.line.on{background:var(--card)}
+
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--rule)}
+.card{padding:18px 20px 18px 0;border-bottom:1px solid var(--rule)}
+.card:nth-child(odd){border-right:1px solid var(--rule)}
+.card:nth-child(even){padding-left:20px}
+.card h3{font-size:15px;font-weight:600}
+.card ul{list-style:none;margin-top:6px;font-size:13.5px;color:var(--ink-2)}
+.card li{padding-left:12px;position:relative;margin:3px 0}
+.card li::before{content:"";position:absolute;left:1px;top:.65em;width:4px;height:4px;border-radius:50%;background:var(--ink-3)}
+.card .src{font-size:11px;color:var(--ink-3);margin-top:8px}
+.card .src a{color:var(--ink-3)}
+.pending{color:var(--ink-3);padding:20px 0}
+
+/* weather */
+.wx{display:grid;grid-template-columns:260px 1fr;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.now{padding:20px 20px 20px 0;border-right:1px solid var(--rule)}
+.now .t{font-size:56px;font-weight:600;letter-spacing:-.04em;line-height:1}
+.now .t small{font-size:16px;color:var(--ink-3);font-weight:400;margin-left:4px}
+.now .d{color:var(--ink-2);margin-top:6px}
+.now .m{font-size:12px;color:var(--ink-3);margin-top:10px}
+.days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.day{padding:16px 10px;border-right:1px solid var(--rule);font-size:12px;text-align:center}
+.day:last-child{border-right:0}
+.day b{display:block;font-size:12px;color:var(--ink-2);font-weight:500}
+.day .hi{font-size:20px;font-weight:600;margin-top:6px}
+.day .lo{color:var(--ink-3)}
+.day .s{color:var(--ink-3);margin-top:6px;font-size:11px;line-height:1.35;min-height:30px}
+.charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:26px}
+.chart h3{font-size:14px;font-weight:600}
+.chart .sub{font-size:12px;color:var(--ink-3)}
+.chart svg{width:100%;height:auto;display:block;margin-top:10px;overflow:visible}
+.chart .axis text{font-size:10px;fill:var(--ink-3)}
+.chart .grid line{stroke:var(--rule);stroke-width:1}
+.chart .hit{fill:transparent;cursor:crosshair}
+.ctip{position:fixed;pointer-events:none;background:var(--ink);color:var(--paper);font-size:12px;padding:6px 9px;line-height:1.45;opacity:0;transition:opacity .1s;z-index:2000}
+details.table{margin-top:10px;font-size:12px;color:var(--ink-2)}
+details.table table{border-collapse:collapse;margin-top:6px}
+details.table td,details.table th{padding:3px 10px 3px 0;text-align:right;border-bottom:1px solid var(--rule)}
+details.table th{color:var(--ink-3);font-weight:500}
+/* safety table */
+.safety-tbl{margin:16px 0 8px}
+.safety-tbl h3{font-size:15px;font-weight:600}
+.safety-tbl table{border-collapse:collapse;width:100%;min-width:520px;font-size:13px}
+.safety-tbl th{font-size:11px;color:var(--ink-3);font-weight:500;text-align:right;padding:6px 8px;border-bottom:1px solid var(--rule-2)}
+.safety-tbl td{padding:8px;border-bottom:1px solid var(--rule);text-align:right;white-space:nowrap}
+.safety-tbl .l{text-align:left}
+.safety-tbl td small{display:block;color:var(--ink-3);font-size:11px}
+.safety-tbl td.b{width:22%}
+.safety-tbl tr.ref td{color:var(--ink-3)}
+.sbar{display:block;height:7px;background:var(--rule);position:relative}
+.sbar i{position:absolute;left:0;top:0;bottom:0}
+.chip{display:inline-flex;align-items:center;gap:6px}
+.chip i{width:9px;height:9px;display:inline-block}
+.safety-tbl .src{font-size:11px;color:var(--ink-3);margin-top:8px}
+/* tech */
+.hub{margin-top:22px}
+.hub h3{font-size:15px;font-weight:600}
+.hub .hn{font-size:12.5px;color:var(--ink-3);margin:2px 0 8px}
+.co{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--rule)}
+.co>div{padding:12px 14px 12px 0;border-bottom:1px solid var(--rule);cursor:pointer}
+.co>div:hover b{text-decoration:underline;text-underline-offset:3px}
+.co b{font-weight:600;font-size:14px}
+.co small{display:block;color:var(--ink-3);font-size:11.5px}
+.co p{font-size:12.5px;color:var(--ink-2);margin-top:2px}
+.pin-co{width:10px;height:10px;background:#1B1A17;transform:rotate(45deg);border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
+/* tax calculator */
+.calc{border:1px solid var(--rule-2);background:var(--card);padding:18px 20px;margin-top:18px}
+.calc h3{font-size:15px;font-weight:600}
+.calc .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:12px}
+.calc label{font-size:12px;color:var(--ink-3);display:flex;flex-direction:column;gap:4px}
+.calc input,.calc select{font:inherit;font-size:14px;padding:7px 9px;border:1px solid var(--rule-2);background:#fff;color:var(--ink);width:100%}
+.calc table{width:100%;border-collapse:collapse;margin-top:14px;font-size:13.5px}
+.calc td{padding:7px 0;border-bottom:1px solid var(--rule)}
+.calc td.n{text-align:right;font-weight:600;white-space:nowrap}
+.calc td.p{text-align:right;color:var(--ink-3);width:70px}
+.calc tr.tot td{font-size:16px;border-bottom:0;padding-top:12px}
+.calc .take{height:10px;background:var(--rule);margin-top:6px;position:relative}
+.calc .take i{position:absolute;left:0;top:0;bottom:0;background:#4E7A4B}
+.calc .fine{font-size:11.5px;color:var(--ink-3);margin-top:10px}
+.dogwalk{margin-top:12px;padding:10px 12px;border-left:3px solid #6E8F3A;background:rgba(110,143,58,.07);font-size:13px;color:var(--ink-2)}
+.dogwalk b{color:var(--ink)}
+footer{padding:40px 0 60px;font-size:11px;color:var(--ink-3)}
+
+@media (max-width:820px){
+  .wrap{padding:0 20px}
+  h1{font-size:27px}
+  #tmap{height:62vh}
+  .linechips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;left:8px;right:8px;top:8px;pointer-events:auto}
+  .linechips::-webkit-scrollbar{display:none}
+  .linechips button{font-size:12px;padding:4px 9px;flex:none}
+  .intro{font-size:14px}
+  .lines,.cards,.charts{grid-template-columns:1fr}
+  .line,.card{padding:16px 0!important;border-right:0!important}
+  .wx{grid-template-columns:1fr}
+  .co{grid-template-columns:1fr}
+  .calc .grid{grid-template-columns:1fr 1fr}
+  .now{border-right:0;border-bottom:1px solid var(--rule);padding:18px 0}
+  .days{grid-template-columns:repeat(7,minmax(64px,1fr));overflow-x:auto}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="eyebrow"><span>Boston 找房 · Guide · 最後更新 __UPDATED__</span><span><a href="index.html">← 回公寓列表</a>　<a href="compare.html">排行榜</a></span></div>
+  <h1>波士頓生活科普</h1>
+  <p class="lede">搬來大波士頓前要知道的事：地鐵怎麼搭、天氣怎樣、停車、租房規則、水電網路和寵物。</p>
+</div></header>
+<nav class="toc"><div class="wrap" style="display:flex;gap:22px" id="toc"></div></nav>
+
+<main class="wrap">
+  <section id="transit-map">
+    <h2>地鐵路線<small>MBTA · THE T</small></h2>
+    <p class="intro">波士頓的地鐵叫「T」，由 MBTA 經營。有紅、橙、藍、綠四條主線，加上銀線（Silver Line，巴士快線）和通勤火車。地圖上的小方塊是你清單上的 21 間公寓（點一下看詳情），黑色標籤是兩個辦公室。用地圖上方的按鈕只看某一條線；點地圖之後可以用滾輪縮放。</p>
+    <div class="mapwrap"><div id="tmap"></div><div class="linechips" id="linechips"></div></div>
+    <div class="legend" id="legend"></div>
+    <div class="lines" id="lines"></div>
+  </section>
+  <section id="weather">
+    <h2>天氣<small>BOSTON · LOGAN</small></h2>
+    <p class="intro">即時天氣和 7 天預報來自美國國家氣象局（NWS），每次打開頁面都會更新。下面是各月份的氣候平均值。</p>
+    <div class="wx"><div class="now" id="now"><div class="pending">載入即時天氣中…</div></div><div class="days" id="days"></div></div>
+    <div class="charts" id="charts"></div>
+  </section>
+  <div id="sections"></div>
+</main>
+<footer class="wrap" id="foot">地圖 © Esri · OpenStreetMap　路線 MBTA v3 API　即時天氣 api.weather.gov</footer>
+<div class="ctip" id="ctip"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const G = /*__GUIDE__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* ---------- line descriptions (static) ---------- */
+const LINE_ZH = {
+  "Red": ["紅線", "從 Alewife（劍橋北邊）經過 Harvard、Kendall/MIT 進市中心，到 South Station 後分成兩支：Ashmont 和 Braintree。", ["去 Seaport 上班：坐到 South Station 下車，走路或轉銀線", "最繁忙的一條線，班次密"]],
+  "Orange": ["橙線", "南北向：Oak Grove（Malden）→ Malden Center → Assembly → 市中心 → Back Bay → Jamaica Plain → Forest Hills。", ["Downtown Crossing 可轉紅線", "車廂比較新"]],
+  "Blue": ["藍線", "從 Wonderland（Revere）經 East Boston、Airport 站（轉免費接駁車去機場）到 Bowdoin。", ["State 站轉橙線，Government Center 轉綠線", "Airport 站可轉 SL3 銀線"]],
+  "Green-B": ["綠線 B", "綠線是路面輕軌，分 B、C、D、E 四支，地面路段會等紅綠燈，比較慢。B 支線沿 Commonwealth Ave 經過 BU，到 Boston College。", []],
+  "Green-C": ["綠線 C", "沿 Beacon St 經 Brookline 到 Cleveland Circle。", []],
+  "Green-D": ["綠線 D", "從 Union Square（Somerville）經市中心，Fenway 之後走專用路軌到 Riverside（Newton），是綠線裡最快的一支。", []],
+  "Green-E": ["綠線 E", "從 Medford/Tufts 經市中心、Huntington Ave（MFA、醫學區）到 Heath Street。South Huntington Ave 一帶的公寓就在 E 線旁邊。", ["Back of the Hill 到 Heath St 這段跟汽車共用路面"]],
+  "Mattapan": ["Mattapan 線", "從 Ashmont（紅線終點）接駁到 Mattapan 的老式電車。", []],
+  "741": ["銀線 SL1", "銀線是巴士快線（BRT），在 Seaport 走專用隧道。SL1：South Station → Seaport → 機場各航廈，從機場上車免費。", ["BOS21 附近的 Courthouse、World Trade Center 站都有銀線"]],
+  "742": ["銀線 SL2", "South Station → Seaport → Design Center（Drydock Ave），Seaport 上班常用。", []],
+  "743": ["銀線 SL3", "South Station → Seaport → 機場 → East Boston → Chelsea，Chelsea 的公寓可坐這條進城。", []],
+  "751": ["銀線 SL4", "沿 Washington St 從市中心到 Nubian（Roxbury），是一般道路上的巴士專用道。", []],
+  "749": ["銀線 SL5", "跟 SL4 類似，從市中心沿 Washington St 到 Nubian。", []],
+};
+
+/* ---------- map ---------- */
+const map = L.map("tmap", {zoomControl:false, scrollWheelZoom:false}).setView([42.36, -71.07], 12);
+// wheel-zoom only after the user clicks into the map, so page scrolling isn't hijacked
+map.on("click focus", () => map.scrollWheelZoom.enable());
+map.on("mouseout blur", () => map.scrollWheelZoom.disable());
+L.control.zoom({position:"bottomright"}).addTo(map);
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+  {maxZoom:19, className:"base-tiles", attribution:"Tiles © Esri — Esri, HERE, Garmin, © OpenStreetMap"}).addTo(map);
+if (window.ResizeObserver) new ResizeObserver(() => map.invalidateSize()).observe($("#tmap"));
+
+const lineLayers = {};
+G.lines.forEach(l => {
+  const group = L.featureGroup().addTo(map);
+  l.shapes.forEach(pts => {
+    L.polyline(pts, {color:"#fff", weight:l.kind === "silver" ? 6 : 8, opacity:.9}).addTo(group);
+    L.polyline(pts, {color:l.color, weight:l.kind === "silver" ? 3 : 5, opacity:.95, dashArray:l.kind === "silver" ? "6 6" : null})
+      .bindTooltip(LINE_ZH[l.id]?.[0] || l.name, {className:"tip", sticky:true}).addTo(group);
+  });
+  lineLayers[l.id] = group;
+});
+const stationLayer = L.layerGroup();
+Object.values(G.stations).forEach(s => {
+  const c = G.lines.find(l => l.id === s.lines[0])?.color || "#555";
+  L.circleMarker([s.lat, s.lng], {radius:3.5, color:c, weight:2, fillColor:"#fff", fillOpacity:1})
+    .bindTooltip(`${s.name}`, {className:"tip", direction:"top"}).addTo(stationLayer);
+});
+// station dots only once zoomed in, so the overview stays readable
+const syncStations = () => map.getZoom() >= 13 ? stationLayer.addTo(map) : stationLayer.remove();
+map.on("zoomend", syncStations);
+const areaOf = slug => G.areas?.areas?.[G.areas.apartments[slug]] || {color:"#1B1A17", zh:""};
+G.apartments.forEach((a, i) => {
+  L.marker([a.lat, a.lng], {icon:L.divIcon({className:"", html:`<div class="pin-apt" style="--ac:${areaOf(a.slug).color}"></div>`, iconSize:[13,13], iconAnchor:[6.5,6.5]}), zIndexOffset:500})
+    .bindTooltip(`${i + 1}. ${a.name}`, {className:"tip", direction:"top", offset:[0,-8]})
+    .bindPopup(() => {
+      const ln = G.lines.filter(l => l.apartments.includes(a.name)).map(l => LINE_ZH[l.id]?.[0] || l.name);
+      return `<div class="pop"><b>${i + 1}. ${esc(a.name)}</b><small>${esc(areaOf(a.slug).zh)} · ${esc(a.address.split(",")[0])}</small>
+        ${ln.length ? `<small>附近：${ln.map(esc).join("、")}</small>` : ""}<a href="index.html#${a.slug}">打開公寓 →</a></div>`;
+    }, {closeButton:false, offset:[0,-4]}).addTo(map);
+});
+// BOS17 and BOS21 are ~500 m apart: put one label left of its point and one right so they never overlap
+Object.entries(G.offices).forEach(([code, o], k) => L.marker([o.lat, o.lng], {icon:L.divIcon({className:"", html:`<div class="pin-off">${code}</div>`, iconSize:[46,18], iconAnchor:k === 0 ? [50, 9] : [-4, 9]}), zIndexOffset:600})
+  .bindTooltip(`${o.name} · ${o.address}`, {className:"tip", direction:"top"}).addTo(map));
+map.fitBounds(L.latLngBounds(G.apartments.map(a => [a.lat, a.lng]).concat(Object.values(G.offices).map(o => [o.lat, o.lng]))), {padding:[24,24]});
+syncStations();
+
+$("#legend").innerHTML = [["紅線","#DA291C"],["橙線","#ED8B00"],["藍線","#003DA5"],["綠線","#00843D"],["銀線（虛線）","#7C878E"]].map(([n, c]) => `<span><i style="background:${c}"></i>${n}</span>`).join("")
+  + `<span><i class="sq" style="background:#C0583C"></i>公寓（顏色 = 區域）</span><span><i class="sq" style="background:#1B1A17"></i>辦公室</span>`;
+
+/* ---------- line cards ---------- */
+$("#lines").innerHTML = G.lines.map(l => {
+  const [zh, desc, tips] = LINE_ZH[l.id] || [l.name, "", []];
+  const t = l.trips[0];
+  return `<div class="line" data-id="${l.id}"><div class="bar" style="background:${l.color}"></div><div>
+    <h3>${esc(zh)}<span>${esc(l.name)} · ${esc(l.ends.join(" ↔ "))}</span></h3>
+    <p>${esc(desc)}</p>
+    <ul>${t ? `<li>早上班次：${esc(t.from)} → ${esc(t.to)}，${t.stops} 站約 ${t.minutes} 分鐘</li>` : ""}${tips.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+    ${l.apartments.length ? `<div class="near">你清單上靠近這條線的：${l.apartments.map(esc).join("、")}</div>` : ""}
+  </div></div>`;
+}).join("");
+// tech company offices (toggle via the 科技公司 chip)
+const techLayer = L.layerGroup();
+const techMarkers = {};
+(G.tech?.companies || []).forEach((c, i) => {
+  techMarkers[i] = L.marker([c.lat, c.lng], {icon:L.divIcon({className:"", html:`<div class="pin-co"></div>`, iconSize:[12,12], iconAnchor:[6,6]}), zIndexOffset:300})
+    .bindTooltip(c.name, {className:"tip", direction:"top", offset:[0,-6]})
+    .bindPopup(`<div class="pop"><b>${esc(c.name)}</b><small>${esc(c.category_zh || "")}</small><small>${esc(c.address)}</small>
+      ${c.station ? `<small>最近地鐵：${esc(c.station)}${c.walk_min ? ` · 步行約 ${c.walk_min} 分` : ""}</small>` : ""}</div>`, {closeButton:false})
+    .addTo(techLayer);
+});
+// line families for the chip bar (Green = B/C/D/E, Silver = SL1–SL5)
+const FAM = [["all", "全部", "#1B1A17", null], ["red", "紅線", "#DA291C", ["Red", "Mattapan"]], ["orange", "橙線", "#ED8B00", ["Orange"]],
+  ["blue", "藍線", "#003DA5", ["Blue"]], ["green", "綠線", "#00843D", ["Green-B", "Green-C", "Green-D", "Green-E"]], ["silver", "銀線", "#7C878E", ["741", "742", "743", "751", "749"]]];
+let focused = "all";
+function focusLines(ids, fit){
+  Object.entries(lineLayers).forEach(([k, g]) => { const on = !ids || ids.includes(k);
+    g.eachLayer(p => p.setStyle({opacity: on ? (p.options.color === "#fff" ? .9 : .95) : .1})); if (on) g.bringToFront(); });
+  document.querySelectorAll(".line").forEach(x => x.classList.toggle("on", !!ids && ids.includes(x.dataset.id)));
+  if (fit){
+    const b = ids ? ids.map(k => lineLayers[k].getBounds()).reduce((a, c) => a.extend(c)) : L.latLngBounds(G.apartments.map(a => [a.lat, a.lng]));
+    map.fitBounds(b, {padding:[50, 30]});
+  }
+}
+$("#linechips").innerHTML = FAM.map(([k, n, c]) => `<button type="button" data-f="${k}" class="${k === "all" ? "on" : ""}"><i style="background:${c}"></i>${n}</button>`).join("")
+  + (G.tech?.companies?.length ? `<button type="button" id="techchip"><i style="background:#1B1A17;transform:rotate(45deg);width:8px;height:8px"></i>科技公司</button>` : "");
+const techChip = $("#techchip");
+function showTech(on){
+  if (on) techLayer.addTo(map); else techLayer.remove();
+  techChip?.classList.toggle("on", on);
+}
+if (techChip) techChip.onclick = () => showTech(!map.hasLayer(techLayer));
+document.querySelectorAll("#linechips button[data-f]").forEach(b => b.onclick = () => {
+  focused = b.dataset.f;
+  document.querySelectorAll("#linechips button[data-f]").forEach(x => x.classList.toggle("on", x === b));
+  focusLines(FAM.find(f => f[0] === focused)[3], true);
+});
+document.querySelectorAll(".line").forEach(el => el.onclick = () => {
+  const id = el.dataset.id, fam = FAM.find(f => f[3]?.includes(id));
+  document.querySelectorAll("#linechips button[data-f]").forEach(x => x.classList.toggle("on", x.dataset.f === fam?.[0]));
+  focusLines([id], true);
+  $("#tmap").scrollIntoView({behavior:"smooth", block:"center"});
+});
+
+/* ---------- weather: live NWS ---------- */
+const WX_ZH = [[/thunder/i,"雷雨"],[/snow/i,"下雪"],[/sleet|ice|freezing/i,"凍雨"],[/rain|shower/i,"下雨"],[/drizzle/i,"毛毛雨"],[/fog/i,"霧"],
+  [/mostly sunny|mostly clear/i,"大致晴朗"],[/partly/i,"晴時多雲"],[/sunny|clear/i,"晴"],[/mostly cloudy/i,"多雲"],[/cloudy|overcast/i,"陰"],[/wind|breezy/i,"有風"]];
+const zhWx = s => (WX_ZH.find(([r]) => r.test(s || "")) || [null, s || ""])[1];
+const cOf = f => Math.round((f - 32) * 5 / 9);
+function dogWalk(c){
+  const b = (G.dog?.walk_temps?.bands || []).find(x => (x.min_c == null || c >= x.min_c) && (x.max_c == null || c < x.max_c));
+  return b ? `<div class="dogwalk">🐾 馬爾濟斯散步：<b>${esc(b.label_zh)}</b>${b.advice_zh ? `　${esc(b.advice_zh)}` : ""}</div>` : "";
+}
+(async function weather(){
+  try {
+    const pt = await (await fetch("https://api.weather.gov/points/42.3601,-71.0589")).json();
+    const fc = await (await fetch(pt.properties.forecast)).json();
+    const periods = fc.properties.periods;
+    const days = [];
+    for (const p of periods){
+      const key = p.startTime.slice(0, 10);
+      let d = days.find(x => x.key === key);
+      if (!d){ d = {key, name: new Date(p.startTime).toLocaleDateString("zh-TW", {weekday:"short", month:"numeric", day:"numeric"})}; days.push(d); }
+      if (p.isDaytime){ d.hi = p.temperature; d.s = zhWx(p.shortForecast); d.pop = p.probabilityOfPrecipitation?.value; } else { d.lo = p.temperature; d.s ||= zhWx(p.shortForecast); }
+    }
+    $("#days").innerHTML = days.slice(0, 7).map(d => `<div class="day"><b>${esc(d.name)}</b><div class="hi">${d.hi ?? "—"}°</div><div class="lo">${d.lo ?? "—"}°F</div><div class="s">${esc(d.s)}${d.pop ? `<br>降雨 ${d.pop}%` : ""}</div></div>`).join("");
+    let obs = null;
+    try { obs = (await (await fetch("https://api.weather.gov/stations/KBOS/observations/latest")).json()).properties; } catch (e) {}
+    const tC = obs?.temperature?.value, first = periods[0];
+    const tF = tC != null ? Math.round(tC * 9 / 5 + 32) : first.temperature;
+    $("#now").innerHTML = `<div class="eyebrow"><span>現在 · Logan 機場</span></div>
+      <div class="t" style="margin-top:8px">${tF}°<small>F · ${tC != null ? Math.round(tC) : cOf(tF)}°C</small></div>
+      <div class="d">${esc(zhWx(obs?.textDescription || first.shortForecast))}</div>
+      ${dogWalk(tC != null ? tC : (tF - 32) * 5 / 9)}
+      <div class="m">${obs?.windSpeed?.value != null ? `風速 ${Math.round(obs.windSpeed.value)} km/h · ` : ""}${obs?.relativeHumidity?.value != null ? `濕度 ${Math.round(obs.relativeHumidity.value)}%` : ""}</div>`;
+  } catch (e) {
+    $("#now").innerHTML = `<div class="pending">即時天氣暫時載入不了（${esc(e.message)}）。<a href="https://forecast.weather.gov/MapClick.php?lat=42.3601&lon=-71.0589" target="_blank" rel="noopener">看 NWS 預報 ↗</a></div>`;
+  }
+})();
+
+/* ---------- climate charts (single series each; one axis per chart) ---------- */
+const tip = $("#ctip");
+function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1; tip.style.left = Math.min(e.clientX + 12, innerWidth - 180) + "px"; tip.style.top = (e.clientY - 10) + "px"; }
+function hideTip(){ tip.style.opacity = 0; }
+const MONTHS = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
+function rangeChart(months){  // °C
+  const W = 480, H = 220, l = 30, r = 6, t = 10, b = 22, iw = W - l - r, ih = H - t - b;
+  const C = f => (f - 32) * 5 / 9;
+  const lo = Math.floor(Math.min(...months.map(m => C(m.low_f))) / 5) * 5, hi = Math.ceil(Math.max(...months.map(m => C(m.high_f))) / 5) * 5;
+  const y = v => t + ih - (v - lo) / (hi - lo) * ih, bw = iw / 12;
+  const ticks = Array.from({length:(hi - lo) / 5 + 1}, (_, k) => lo + k * 5);
+  let g = `<g class="grid">${ticks.map(v => `<line x1="${l}" x2="${W - r}" y1="${y(v)}" y2="${y(v)}"/>`).join("")}</g>`;
+  g += `<g class="axis">${ticks.map(v => `<text x="${l - 6}" y="${y(v) + 3}" text-anchor="end">${v}°</text>`).join("")}
+    ${months.map((m, i) => `<text x="${l + bw * i + bw / 2}" y="${H - 6}" text-anchor="middle">${i + 1}</text>`).join("")}</g>`;
+  g += months.map((m, i) => { const x = l + bw * i + bw / 2 - 5;
+    return `<rect x="${x}" y="${y(C(m.high_f))}" width="10" height="${Math.max(2, y(C(m.low_f)) - y(C(m.high_f)))}" rx="4" fill="#B4532A"/>`; }).join("");
+  g += months.map((m, i) => `<rect class="hit" data-i="${i}" x="${l + bw * i}" y="${t}" width="${bw}" height="${ih}"/>`).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="波士頓每月平均最高和最低氣溫">${g}</svg>`;
+}
+function barChart(months){
+  const W = 480, H = 220, l = 30, r = 6, t = 10, b = 22, iw = W - l - r, ih = H - t - b;
+  const mx = Math.ceil(Math.max(...months.map(m => m.snow_in || 0)) / 5) * 5 || 5;
+  const y = v => t + ih - v / mx * ih, bw = iw / 12;
+  const ticks = Array.from({length: mx / 5 + 1}, (_, k) => k * 5);
+  let g = `<g class="grid">${ticks.map(v => `<line x1="${l}" x2="${W - r}" y1="${y(v)}" y2="${y(v)}"/>`).join("")}</g>
+    <g class="axis">${ticks.map(v => `<text x="${l - 6}" y="${y(v) + 3}" text-anchor="end">${v}"</text>`).join("")}
+    ${months.map((m, i) => `<text x="${l + bw * i + bw / 2}" y="${H - 6}" text-anchor="middle">${i + 1}</text>`).join("")}</g>`;
+  g += months.map((m, i) => (m.snow_in || 0) > 0 ? `<rect x="${l + bw * i + bw / 2 - 8}" y="${y(m.snow_in)}" width="16" height="${y(0) - y(m.snow_in)}" rx="4" fill="#3D5A99"/>` : "").join("");
+  g += months.map((m, i) => `<rect class="hit" data-i="${i}" x="${l + bw * i}" y="${t}" width="${bw}" height="${ih}"/>`).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="波士頓每月平均降雪量">${g}</svg>`;
+}
+if (G.guide?.climate?.months?.length === 12){
+  const c = G.guide.climate, ms = c.months;
+  $("#charts").innerHTML = `<div class="chart" id="c-temp"><h3>每月平均氣溫（°C）</h3><div class="sub">柱子下端 = 平均最低，上端 = 平均最高</div>${rangeChart(ms)}</div>
+    <div class="chart" id="c-snow"><h3>每月平均降雪（英寸）</h3><div class="sub">一年約 ${c.annual_snow_in ?? "—"} 英寸</div>${barChart(ms)}</div>
+    <div style="grid-column:1/-1;font-size:12px;color:var(--ink-3)">${esc(c.note_zh || "")} 來源：<a href="${esc(c.source.url)}" target="_blank" rel="noopener">${esc(c.source.name)} ↗</a>
+    <details class="table"><summary>看數據表</summary><table><tr><th>月</th><th>高 °C</th><th>低 °C</th><th>降水 in</th><th>降雪 in</th></tr>
+    ${ms.map(m => `<tr><td>${m.m}</td><td>${cOf(m.high_f)}</td><td>${cOf(m.low_f)}</td><td>${m.precip_in ?? "—"}</td><td>${m.snow_in ?? "—"}</td></tr>`).join("")}</table></details></div>`;
+  const bind = (id, fmt) => document.querySelectorAll(`#${id} .hit`).forEach(h => {
+    h.onmousemove = e => showTip(e, fmt(ms[+h.dataset.i]));
+    h.onmouseleave = hideTip;
+    h.ontouchstart = e => showTip(e.touches[0], fmt(ms[+h.dataset.i]));
+  });
+  bind("c-temp", m => `<b>${MONTHS[m.m - 1]}</b><br>最高 ${cOf(m.high_f)}°C（${m.high_f}°F）<br>最低 ${cOf(m.low_f)}°C（${m.low_f}°F）`);
+  bind("c-snow", m => `<b>${MONTHS[m.m - 1]}</b><br>降雪 ${m.snow_in ?? 0} 英寸（${Math.round((m.snow_in || 0) * 2.54)} cm）<br>降水 ${m.precip_in ?? "—"} 英寸`);
+} else $("#charts").innerHTML = `<div class="pending">氣候平均資料整理中。</div>`;
+
+/* ---------- text sections from guide.json ---------- */
+const secs = (G.guide?.sections || []).filter(s => s.id !== "weather" || s.items?.length);
+// (Maltese section removed at the owner's request; walk_temps still powers the weather-box walk tip)
+if (G.tax?.section) secs.push(G.tax.section);
+$("#sections").innerHTML = secs.map(s => `<section id="${esc(s.id)}"><h2>${esc(s.title_zh)}</h2><div class="cards" style="margin-top:16px">
+  ${s.items.map(it => `<div class="card"><h3>${esc(it.h_zh)}</h3><ul>${it.points_zh.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
+    ${it.source?.url ? `<div class="src">來源：<a href="${esc(it.source.url)}" target="_blank" rel="noopener">${esc(it.source.name)} ↗</a></div>` : ""}</div>`).join("")}
+  </div></section>`).join("") || `<section><div class="pending">交通、停車、租房、水電、寵物的整理還在進行中。</div></section>`;
+if (G.guide?.checked) $("#foot").insertAdjacentHTML("beforeend", `　內容整理於 ${esc(G.guide.checked)}`);
+
+/* ---------- area safety comparison (FBI 2025 per 1,000 residents) ---------- */
+if (G.crime?.areas && document.getElementById("safety")){
+  const counts = {};
+  Object.values(G.crime_apts || {}).forEach(a => a && (counts[a] = (counts[a] || 0) + 1));
+  const V = x => x.violent_per_1k_scaled_to_fbi ?? x.violent_per_1k, P = x => x.property_per_1k;
+  const rows = Object.entries(G.crime.areas).filter(([n]) => counts[n]).map(([n, x]) => ({n, zh:G.areas?.areas?.[n]?.zh || n, c:G.areas?.areas?.[n]?.color || "#8E897D", v:V(x), p:P(x), k:counts[n], scaled:x.violent_per_1k_scaled_to_fbi != null}))
+    .sort((a, b) => a.v - b.v);
+  const ma = G.crime.massachusetts, us = G.crime.national, maxV = Math.max(...rows.map(r => r.v), V(us)), maxP = Math.max(...rows.map(r => r.p), P(us));
+  const bar = (v, max, col) => `<span class="sbar"><i style="width:${v / max * 100}%;background:${col}"></i></span>`;
+  const tr = r => `<tr><td class="l"><span class="chip"><i style="background:${r.c}"></i>${esc(r.zh)}</span>${r.k ? `<small>${r.k} 間公寓</small>` : ""}</td>
+    <td>${r.v.toFixed(1)}${r.scaled ? "*" : ""}</td><td class="b">${bar(r.v, maxV, r.v > V(ma) ? "#B4532A" : "#4E7A4B")}</td>
+    <td>${r.p.toFixed(1)}</td><td class="b">${bar(r.p, maxP, r.p > P(ma) ? "#B4532A" : "#4E7A4B")}</td></tr>`;
+  document.querySelector("#safety h2").insertAdjacentHTML("afterend", `<div class="safety-tbl"><h3>各區安全度對比</h3>
+    <p class="intro" style="margin:4px 0 10px">FBI 2025 年每千人犯罪數，越低越安全。綠色 = 低於麻州平均，紅色 = 高於麻州平均。按暴力犯罪排序。</p>
+    <div style="overflow-x:auto"><table><thead><tr><th class="l">地區</th><th>暴力</th><th></th><th>財產</th><th></th></tr></thead><tbody>
+    ${rows.map(tr).join("")}
+    ${[["麻州平均", ma], ["全美平均", us]].map(([n, x]) => `<tr class="ref"><td class="l">${n}</td><td>${V(x).toFixed(1)}</td><td class="b">${bar(V(x), maxV, "#8E897D")}</td><td>${P(x).toFixed(1)}</td><td class="b">${bar(P(x), maxP, "#8E897D")}</td></tr>`).join("")}
+    </tbody></table></div>
+    <div class="src">* 波士頓各社區（牙買加平原、海港區、東波士頓、奧爾斯頓、布萊頓等）的暴力犯罪按 FBI 口徑估算：波士頓公開資料少算了一部分暴力案件，已等比例調整。城市數字是 FBI Crime Data Explorer 的警局全年統計。</div></div>`);
+}
+
+/* ---------- take-home pay calculator (simplified; parameters from guide_tax.json) ---------- */
+function bracketTax(income, brackets){
+  let tax = 0, lo = 0;
+  for (const [hi, rate] of brackets){ const top = hi == null ? income : Math.min(income, hi); if (top > lo) tax += (top - lo) * rate; if (hi == null || income <= hi) break; lo = hi; }
+  return tax;
+}
+if (G.tax?.calc){
+  const K = G.tax.calc, $$ = id => document.getElementById(id);
+  document.getElementById("tax").insertAdjacentHTML("beforeend", `<div class="calc"><h3>到手薪水估算（${K.year}）</h3>
+    <div class="grid">
+      <label>年薪（含獎金）<input id="tx-sal" type="number" inputmode="numeric" value="180000" step="1000"></label>
+      <label>RSU 一年歸屬市值<input id="tx-rsu" type="number" inputmode="numeric" value="0" step="1000"></label>
+      <label>報稅身分<select id="tx-st"><option value="single">單身</option><option value="married_joint">夫妻合併</option></select></label>
+      <label>一年房租（算租房抵稅）<input id="tx-rent" type="number" inputmode="numeric" value="54000" step="1000"></label>
+      <label>401(k) 稅前提撥<input id="tx-401" type="number" inputmode="numeric" value="0" step="500"></label>
+    </div><table id="tx-out"></table><div class="take"><i id="tx-bar"></i></div>
+    <div class="fine">簡化估算：只用標準扣除額，沒算其他抵稅、州外收入、HSA/FSA 等；401(k) 只減聯邦所得稅（麻州不允許扣 401(k)）。實際以 W-2 與報稅軟體為準。${esc(K.source_notes_zh || "")}</div></div>`);
+  const run = () => {
+    const sal = +$$("tx-sal").value || 0, rsu = +$$("tx-rsu").value || 0, st = $$("tx-st").value, rent = +$$("tx-rent").value || 0, k401 = +$$("tx-401").value || 0;
+    const gross = sal + rsu;
+    const fedTaxable = Math.max(0, gross - k401 - K.federal.standard_deduction[st]);
+    const fed = bracketTax(fedTaxable, K.federal.brackets[st]);
+    const ss = Math.min(gross, K.fica.ss_wage_base) * K.fica.ss_rate;
+    const med = gross * K.fica.medicare_rate + Math.max(0, gross - K.fica.addl_medicare_threshold[st]) * K.fica.addl_medicare_rate;
+    const renter = Math.min(rent * (K.ma_renter_deduction?.pct ?? .5), K.ma_renter_deduction?.max ?? 0);
+    const maTaxable = Math.max(0, gross - (K.ma.personal_exemption?.[st] || 0) - renter);
+    const ma = maTaxable * K.ma.rate + Math.max(0, maTaxable - K.ma.surtax_threshold) * K.ma.surtax_rate;
+    const pfml = K.ma_pfml ? Math.min(gross, K.ma_pfml.wage_cap ?? gross) * K.ma_pfml.employee_rate : 0;
+    const take = gross - k401 - fed - ss - med - ma - pfml;
+    const fmt = v => "$" + Math.round(v).toLocaleString(), pct = v => gross ? (v / gross * 100).toFixed(1) + "%" : "—";
+    const rows = [["聯邦所得稅", fed], ["Social Security", ss], ["Medicare", med], ["麻州所得稅" + (renter ? `（已扣租房 ${fmt(renter)}）` : ""), ma], ["麻州 PFML", pfml], ["401(k) 提撥", k401]].filter(([, v]) => v > 0);
+    $$("tx-out").innerHTML = rows.map(([n, v]) => `<tr><td>${n}</td><td class="n">${fmt(v)}</td><td class="p">${pct(v)}</td></tr>`).join("")
+      + `<tr class="tot"><td>一年到手（約）</td><td class="n">${fmt(take)}</td><td class="p">${pct(take)}</td></tr>
+         <tr><td style="color:var(--ink-3)">每月到手（約）</td><td class="n">${fmt(take / 12)}</td><td class="p"></td></tr>`;
+    $$("tx-bar").style.width = (gross ? Math.max(0, take / gross * 100) : 0) + "%";
+  };
+  ["tx-sal", "tx-rsu", "tx-st", "tx-rent", "tx-401"].forEach(id => $$(id).addEventListener("input", run));
+  run();
+}
+
+/* ---------- tech companies ---------- */
+if (G.tech?.companies?.length){
+  const byHub = {};
+  G.tech.companies.forEach((c, i) => (byHub[c.hub] ||= []).push([c, i]));
+  const hubs = (G.tech.hubs || []).filter(h => byHub[h.id]);
+  $("#sections").insertAdjacentHTML("beforeend", `<section id="tech"><h2>科技公司<small>WHO'S HERE</small></h2>
+    <p class="intro">大波士頓主要的科技公司辦公室。點公司名稱會在上面的地圖標出位置（地圖上的「科技公司」按鈕可以全部顯示）。</p>
+    ${hubs.map(h => `<div class="hub"><h3>${esc(h.name_zh)}</h3><div class="hn">${esc(h.note_zh || "")}</div><div class="co">
+      ${byHub[h.id].map(([c, i]) => `<div data-i="${i}"><b>${esc(c.name)}</b><small>${esc(c.category_zh || "")}${c.station ? ` · ${esc(c.station)}${c.walk_min ? ` ${c.walk_min} 分` : ""}` : ""}</small><p>${esc(c.note_zh || "")}</p></div>`).join("")}
+    </div></div>`).join("")}
+    <div class="card"><div class="src">整理於 ${esc(G.tech.checked)}，各公司辦公室資訊來源見公司官網／新聞。</div></div></section>`);
+  document.querySelectorAll(".co>div").forEach(el => el.onclick = () => {
+    const m = techMarkers[+el.dataset.i]; showTech(true);
+    $("#tmap").scrollIntoView({behavior:"smooth", block:"center"});
+    setTimeout(() => { map.setView(m.getLatLng(), 15); m.openPopup(); }, 350);
+  });
+  secs.push({id:"tech", title_zh:"科技公司"});
+}
+
+/* ---------- toc ---------- */
+const tocItems = [["transit-map","地鐵路線"],["weather","天氣"], ...secs.map(s => [s.id, s.title_zh])];
+$("#toc").innerHTML = tocItems.map(([id, t]) => `<a href="#${id}" data-id="${id}">${esc(t)}</a>`).join("");
+const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) document.querySelectorAll("#toc a").forEach(a => a.classList.toggle("on", a.dataset.id === e.target.id)); }), {rootMargin:"-40% 0px -55% 0px"});
+document.querySelectorAll("main section[id]").forEach(s => obs.observe(s));
+</script>
+</body>
+</html>

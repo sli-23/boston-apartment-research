@@ -1,0 +1,51 @@
+{
+ "official_url": null,
+ "floorplans_url": "https://www.apartmentlist.com/ma/boston/50-stedman-street#bedrooms-2",
+ "virtual_tours": [],
+ "plans_2b2b": [
+  {
+   "name": "2 Bed, 2.0 Bath",
+   "sqft": "1,010",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "ApartmentList（2026-09-24 更新）沒有空房",
+   "image": ""
+  },
+  {
+   "name": "#107",
+   "sqft": "1,100",
+   "price": "已租出（2026-03-02 以 $3,300 上架，2026-04-01 Lease Pending）",
+   "as_of": "2026-04-16",
+   "available": "",
+   "image": ""
+  }
+ ],
+ "fees": {
+  "parking_garage": "地下車庫 $200/月（房源描述）",
+  "parking_surface": "Redfin 另列 Outdoor Parking，沒寫價格",
+  "water_sewer_trash": "水費按用量計（#107 房源）；另一則 1 房房源寫水費 $50/月，不含在租金內",
+  "electric_heat": "沒寫；房源寫有 on demand hot water、瓦斯爐",
+  "internet": "沒寫",
+  "pet_rent": "沒寫",
+  "pet_deposit_or_fee": "沒寫",
+  "other": "簽 12 個月租約時要付押金（FIRST SECURITY DUE W/12 MONTH LEASE）",
+  "source": "https://bmnboston.com/property/50-stedman-street-boston-ma-02130-2-bed-for-rent-73481618/",
+  "as_of": "MLS 房源 #73481618（2026-04-16 更新）與 ApartmentList 房源描述，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "房源寫「Pets ok with restrictions」，Redfin 標 Dogs allowed、Cats allowed；限制內容沒公開，要問仲介。",
+ "notes_zh": "這棟沒有官網，21 戶由屋主透過 JP Rentals & Sales 等仲介出租。2026-10-26 查 ApartmentList（9/24 更新）、Redfin 都沒有 2b2b 空房；最近一筆 2b2b 是 #107（1,100 呎，2 房 2 套衛），2026-03-02 以 $3,300 上架、29 天租出。Zillow 另有 #304（1,010 呎，2 房 2 衛）$3,300 的租賃紀錄（2026-03-28）。沒找到房型圖，也沒有線上 3D 實景。ApartmentList 的設施標籤寫 On-site laundry，但同一頁的房源描述寫 In unit laundry，看房時要確認。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、房源描述）",
+   "url": "https://www.apartmentlist.com/ma/boston/50-stedman-street"
+  },
+  {
+   "name": "BMN Boston MLS #73481618（#107 2b2b）",
+   "url": "https://bmnboston.com/property/50-stedman-street-boston-ma-02130-2-bed-for-rent-73481618/"
+  },
+  {
+   "name": "Redfin（寵物、停車）",
+   "url": "https://www.redfin.com/MA/Jamaica-Plain/50-Stedman-St-02130/apartment/179938172"
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "official_url": "https://www.avaloncommunities.com/massachusetts/somerville-apartments/avalon-at-assembly-row/",
+ "floorplans_url": "https://www.apartmentlist.com/ma/somerville/avalon-at-assembly-row--6#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "Matterport 3D · B2 兩房兩衛樣板（1,092 sqft）",
+   "url": "https://my.matterport.com/show/?m=84TM8gjdRQs"
+  },
+  {
+   "label": "官網社區平面圖（PDF）",
+   "url": "https://www.avaloncommunities.com/-/media/images/community-photos/new-england/massachusetts/avalon-at-assembly-row/siteplan/assemblyrow_site_plan_final.pdf"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "B1",
+   "sqft": "1,089",
+   "price": "$4,180",
+   "price_min": 4180,
+   "as_of": "2026-10-26",
+   "available": "1 間（#331），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/06c4edd9af595cc43cad4e1ee8560b35.jpg"
+  },
+  {
+   "name": "B2",
+   "sqft": "1,092",
+   "price": "$4,342",
+   "price_min": 4342,
+   "as_of": "2026-10-26",
+   "available": "1 間（#255），12/3 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/0057d219dce5519d3e49a5bff298e377.jpg"
+  },
+  {
+   "name": "B2-1092-sink",
+   "sqft": "1,092–1,192",
+   "price": "$4,347",
+   "price_min": 4347,
+   "as_of": "2026-10-26",
+   "available": "1 間（#502），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/233804cc238d2a654c5808bb0e3ac00a.jpg"
+  },
+  {
+   "name": "B3",
+   "sqft": "1,136",
+   "price": "$4,364–4,689",
+   "price_min": 4364,
+   "as_of": "2026-10-26",
+   "available": "3 間可租：#423 現在入住；#523 現在入住；#521 2027/1/13 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/782be248dd1cb6897824f0d2ed89388a.jpg"
+  },
+  {
+   "name": "B6",
+   "sqft": "1,344",
+   "price": "$4,775–4,790",
+   "price_min": 4775,
+   "as_of": "2026-10-26",
+   "available": "2 間可租：#440 11/13 入住；#310 11/25 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/537955c4e99cafee07a511e85caa037f.jpg"
+  },
+  {
+   "name": "B2-3",
+   "sqft": "1,092",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/94ee17275edbdac7670c7f4a730a79a8.jpg"
+  },
+  {
+   "name": "B4",
+   "sqft": "1,137",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/c967169a43726e1535b8c69d1d42d78d.jpg"
+  },
+  {
+   "name": "B5",
+   "sqft": "1,262",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/45b596c283fdbe8a49cb83393844d789.jpg"
+  },
+  {
+   "name": "B8",
+   "sqft": "1,392",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/18657004f941da9705019945ec982d5b.jpg"
+  },
+  {
+   "name": "B9",
+   "sqft": "1,554",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/11614fe8d15afaa509f29d2da5b9a430.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "車庫：租約含 1 個車位，第 2 個車位 $100/月（ApartmentList）",
+  "parking_surface": "沒找到露天車位資料",
+  "water_sewer_trash": "水和下水道住戶自付；垃圾由社區負責（官網）",
+  "electric_heat": "電和瓦斯住戶自付（官網；沒找到月平均金額）",
+  "internet": "必付網路月費（Standard Plan）：ApartmentList 寫每月必付 $57，官網 15 個月租約的總價比底價多 $63，下面的租金都沒含這筆",
+  "pet_rent": "每隻 $75/月，最多 2 隻（ApartmentList）",
+  "pet_deposit_or_fee": "寵物一次性費用 $500（ApartmentList 寫 flat fee）",
+  "other": "押金 $1,000；鑰匙費 $75（ApartmentList）。目前優惠：10/31 前申請、簽 12 個月約，指定房源送 2 個月租金；部分兩房每月最多便宜 $150，這部分已經算進標價（官網）",
+  "source": "https://www.apartmentlist.com/ma/somerville/avalon-at-assembly-row--6",
+  "as_of": "ApartmentList 和官網，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻。不收攻擊性犬種和外來寵物，具體品種清單沒找到，要問辦公室。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的底價，跟官網同日的價格一致。ApartmentList 寫 12 個月租約；官網顯示 15 個月租約、同樣底價，加上必付網路費後是 $4,243 起。官網的價格是「淨有效租金」，可能已經攤進優惠，實際每月付的錢可能不同，簽約前要確認。Matterport 是樣板間，不是要租的那一間。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/somerville/avalon-at-assembly-row--6"
+  },
+  {
+   "name": "官網（價格、優惠、水電）",
+   "url": "https://www.avaloncommunities.com/massachusetts/somerville-apartments/avalon-at-assembly-row/"
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+{
+ "checked": "2026-10-26",
+ "hubs": [
+  {
+   "id": "kendall",
+   "name_zh": "Kendall Square（劍橋）",
+   "note_zh": "MIT 旁的科技與生技重鎮，Google、Microsoft、IBM 研究室和 Moderna、Biogen 都在這。紅線 Kendall/MIT 站一出來就到。"
+  },
+  {
+   "id": "seaport",
+   "name_zh": "Seaport／Fort Point",
+   "note_zh": "South Station 東邊的新商辦區，Amazon、Vertex、PTC、Toast、Fidelity 都在這。地鐵靠紅線 South Station，區內主要靠銀線（屬公車）。"
+  },
+  {
+   "id": "downtown",
+   "name_zh": "Back Bay／Downtown",
+   "note_zh": "Back Bay 有 Wayfair、DraftKings、Liberty Mutual；金融區與 North Station 一帶有 Klaviyo、State Street、Datadog、Rapid7。綠、橘、紅線都到。"
+  },
+  {
+   "id": "other",
+   "name_zh": "Somerville／Fenway／Brighton",
+   "note_zh": "Somerville 的 Brickbottom 有 Formlabs 和 Generate:Biomedicines（近綠線 East Somerville）；Whoop 在 Kenmore；New Balance 在 Brighton 的 Boston Landing。"
+  },
+  {
+   "id": "route128",
+   "name_zh": "Route 128 科技走廊",
+   "note_zh": "Waltham、Needham、Natick、Bedford、Wilmington 一帶的老牌科技與研發園區，地鐵到不了，基本上要開車。"
+  }
+ ],
+ "companies": [
+  {
+   "name": "Google",
+   "hub": "kendall",
+   "category_zh": "搜尋／雲端／AI",
+   "address": "325 Main St, Cambridge",
+   "lat": 42.362805,
+   "lng": -71.086748,
+   "station": "Kendall/MIT",
+   "walk_min": 2,
+   "note_zh": "Google 在劍橋的工程與研究據點，16 層新大樓就在 Kendall/MIT 站上方",
+   "source": {
+    "name": "Google Locations — Cambridge",
+    "url": "https://about.google/intl/en_us/locations/?region=north-america&office=cambridge"
+   }
+  },
+  {
+   "name": "Microsoft",
+   "hub": "kendall",
+   "category_zh": "軟體／雲端／AI",
+   "address": "1 Memorial Dr, Cambridge",
+   "lat": 42.361628,
+   "lng": -71.081069,
+   "station": "Kendall/MIT",
+   "walk_min": 6,
+   "note_zh": "Microsoft 新英格蘭研發中心（NERD），研究與軟體工程",
+   "source": {
+    "name": "Microsoft New England — Contact",
+    "url": "https://microsoftnewengland.com/contact/"
+   }
+  },
+  {
+   "name": "IBM",
+   "hub": "kendall",
+   "category_zh": "AI 研究",
+   "address": "314 Main St, Cambridge",
+   "lat": 42.362118,
+   "lng": -71.086666,
+   "station": "Kendall/MIT",
+   "walk_min": 1,
+   "note_zh": "IBM Research Cambridge，研發 watsonx 背後的 AI 模型，與 MIT-IBM 實驗室同棟",
+   "source": {
+    "name": "IBM Research — Cambridge",
+    "url": "https://research.ibm.com/labs/cambridge"
+   }
+  },
+  {
+   "name": "HubSpot",
+   "hub": "kendall",
+   "category_zh": "行銷／CRM 軟體",
+   "address": "2 Canal Park, Cambridge",
+   "lat": 42.370142,
+   "lng": -71.076308,
+   "station": "Lechmere",
+   "walk_min": 2,
+   "note_zh": "全球總部，做行銷與客戶管理（CRM）軟體",
+   "source": {
+    "name": "HubSpot — Contact Us",
+    "url": "https://www.hubspot.com/company/contact"
+   }
+  },
+  {
+   "name": "Akamai",
+   "hub": "kendall",
+   "category_zh": "雲端／資安／CDN",
+   "address": "145 Broadway, Cambridge",
+   "lat": 42.364883,
+   "lng": -71.088934,
+   "station": "Kendall/MIT",
+   "walk_min": 6,
+   "note_zh": "全球總部，內容傳遞網路（CDN）、雲端與資安服務",
+   "source": {
+    "name": "SEC EDGAR — Akamai Technologies business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001086222.json"
+   }
+  },
+  {
+   "name": "Moderna",
+   "hub": "kendall",
+   "category_zh": "生技（mRNA）",
+   "address": "325 Binney St, Cambridge",
+   "lat": 42.367466,
+   "lng": -71.088565,
+   "station": "Kendall/MIT",
+   "walk_min": 10,
+   "note_zh": "全球總部，mRNA 疫苗與藥物研發",
+   "source": {
+    "name": "Moderna — Contact Us",
+    "url": "https://www.modernatx.com/en-US/contact-us"
+   }
+  },
+  {
+   "name": "Biogen",
+   "hub": "kendall",
+   "category_zh": "生技（神經科學）",
+   "address": "225 Binney St, Cambridge",
+   "lat": 42.366347,
+   "lng": -71.085178,
+   "station": "Kendall/MIT",
+   "walk_min": 7,
+   "note_zh": "全球總部，神經科學藥物研發",
+   "source": {
+    "name": "SEC EDGAR — Biogen business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0000875045.json"
+   }
+  },
+  {
+   "name": "Takeda",
+   "hub": "kendall",
+   "category_zh": "製藥／生技",
+   "address": "500 Kendall St, Cambridge",
+   "lat": 42.363905,
+   "lng": -71.081208,
+   "station": "Kendall/MIT",
+   "walk_min": 6,
+   "note_zh": "武田製藥美國主要辦公室與研發據點",
+   "source": {
+    "name": "Takeda US — Cambridge (Main Office)",
+    "url": "https://www.takeda.com/en-us/"
+   }
+  },
+  {
+   "name": "Draper",
+   "hub": "kendall",
+   "category_zh": "國防／太空工程",
+   "address": "555 Technology Square, Cambridge",
+   "lat": 42.364615,
+   "lng": -71.090209,
+   "station": "Kendall/MIT",
+   "walk_min": 7,
+   "note_zh": "非營利研發實驗室，做導航、太空與國防系統",
+   "source": {
+    "name": "Draper — Contact",
+    "url": "https://www.draper.com/contact"
+   }
+  },
+  {
+   "name": "Blitzy",
+   "hub": "kendall",
+   "category_zh": "AI 新創（自動寫程式）",
+   "address": "1 Kendall Square, Cambridge",
+   "lat": 42.36667,
+   "lng": -71.090798,
+   "station": "Kendall/MIT",
+   "walk_min": 10,
+   "note_zh": "AI 自動化軟體開發新創；2026 年簽下 One Kendall 擴租，預計 2027 第二季遷入新空間",
+   "source": {
+    "name": "PR Newswire — Blitzy signs Cambridge's largest office deal of 2026",
+    "url": "https://www.prnewswire.com/news-releases/blitzy-signs-cambridges-largest-office-deal-of-2026--sealing-a-52-000-sqft-expansion-302888650.html"
+   }
+  },
+  {
+   "name": "GE Vernova",
+   "hub": "kendall",
+   "category_zh": "能源科技",
+   "address": "58 Charles St, Cambridge",
+   "lat": 42.367366,
+   "lng": -71.080005,
+   "station": "Lechmere",
+   "walk_min": 8,
+   "note_zh": "全球總部，電網、風電與燃氣發電設備",
+   "source": {
+    "name": "SEC EDGAR — GE Vernova business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001996810.json"
+   }
+  },
+  {
+   "name": "Amazon（BOS21）",
+   "hub": "seaport",
+   "category_zh": "電商／雲端（AWS）",
+   "address": "55 Pier 4 Blvd, Boston",
+   "lat": 42.350035,
+   "lng": -71.04514,
+   "station": "South Station",
+   "walk_min": 14,
+   "note_zh": "Amazon 在 Seaport 的主要辦公大樓（AWS 與企業團隊）",
+   "source": {
+    "name": "OpenStreetMap — Amazon Boston, 55 Pier Four Boulevard",
+    "url": "https://www.openstreetmap.org/way/972403145"
+   }
+  },
+  {
+   "name": "Amazon（BOS17）",
+   "hub": "seaport",
+   "category_zh": "電商／雲端（AWS）",
+   "address": "27 Melcher St, Boston",
+   "lat": 42.349836,
+   "lng": -71.050834,
+   "station": "South Station",
+   "walk_min": 7,
+   "note_zh": "Amazon 在 Fort Point 的辦公室（企業與技術團隊）",
+   "source": {
+    "name": "Amazon 內部辦公室清單（GREF BSC Location List，僅員工可見）",
+    "url": null
+   }
+  },
+  {
+   "name": "Vertex Pharmaceuticals",
+   "hub": "seaport",
+   "category_zh": "生技",
+   "address": "50 Northern Ave, Boston",
+   "lat": 42.353593,
+   "lng": -71.046176,
+   "station": "South Station",
+   "walk_min": 12,
+   "note_zh": "全球總部與實驗室，囊腫性纖維化等藥物研發",
+   "source": {
+    "name": "SEC EDGAR — Vertex Pharmaceuticals business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0000875320.json"
+   }
+  },
+  {
+   "name": "PTC",
+   "hub": "seaport",
+   "category_zh": "工業軟體（CAD／PLM）",
+   "address": "121 Seaport Blvd, Boston",
+   "lat": 42.351073,
+   "lng": -71.044704,
+   "station": "South Station",
+   "walk_min": 14,
+   "note_zh": "全球總部，工業設計（CAD）與產品生命週期軟體",
+   "source": {
+    "name": "SEC EDGAR — PTC business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0000857005.json"
+   }
+  },
+  {
+   "name": "Toast",
+   "hub": "seaport",
+   "category_zh": "餐飲科技",
+   "address": "333 Summer St, Boston",
+   "lat": 42.348968,
+   "lng": -71.048196,
+   "station": "South Station",
+   "walk_min": 11,
+   "note_zh": "總部，餐廳點餐收銀（POS）系統",
+   "source": {
+    "name": "SEC EDGAR — Toast business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001650164.json"
+   }
+  },
+  {
+   "name": "GoTo",
+   "hub": "seaport",
+   "category_zh": "遠端連線／IT 軟體",
+   "address": "333 Summer St, Boston",
+   "lat": 42.348968,
+   "lng": -71.048196,
+   "station": "South Station",
+   "walk_min": 11,
+   "note_zh": "前身 LogMeIn，總部與 Toast 同棟，做遠端存取與 IT 管理軟體",
+   "source": {
+    "name": "GoTo — Legal",
+    "url": "https://www.goto.com/legal"
+   }
+  },
+  {
+   "name": "Fidelity Investments",
+   "hub": "seaport",
+   "category_zh": "金融科技",
+   "address": "245 Summer St, Boston",
+   "lat": 42.351265,
+   "lng": -71.053741,
+   "station": "South Station",
+   "walk_min": 3,
+   "note_zh": "總部，資產管理與大型金融科技團隊",
+   "source": {
+    "name": "SEC EDGAR — FMR LLC business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0000315066.json"
+   }
+  },
+  {
+   "name": "Klaviyo",
+   "hub": "downtown",
+   "category_zh": "行銷自動化軟體",
+   "address": "125 Summer St, Boston",
+   "lat": 42.352987,
+   "lng": -71.057451,
+   "station": "South Station",
+   "walk_min": 3,
+   "note_zh": "總部，電商用的 email／簡訊行銷平台",
+   "source": {
+    "name": "SEC EDGAR — Klaviyo business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001835830.json"
+   }
+  },
+  {
+   "name": "State Street",
+   "hub": "downtown",
+   "category_zh": "金融科技",
+   "address": "1 Congress St, Boston",
+   "lat": 42.362657,
+   "lng": -71.060016,
+   "station": "Haymarket",
+   "walk_min": 2,
+   "note_zh": "全球總部，託管銀行與投資科技",
+   "source": {
+    "name": "SEC EDGAR — State Street business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0000093751.json"
+   }
+  },
+  {
+   "name": "Datadog",
+   "hub": "downtown",
+   "category_zh": "雲端監控軟體",
+   "address": "225 Franklin St, Boston",
+   "lat": 42.356128,
+   "lng": -71.053947,
+   "station": "State",
+   "walk_min": 7,
+   "note_zh": "波士頓辦公室，雲端系統監控平台的工程與業務",
+   "source": {
+    "name": "Datadog — Contact",
+    "url": "https://www.datadoghq.com/about/contact/"
+   }
+  },
+  {
+   "name": "ezCater",
+   "hub": "downtown",
+   "category_zh": "餐飲外送平台",
+   "address": "40 Water St, Boston",
+   "lat": 42.357807,
+   "lng": -71.056901,
+   "station": "State",
+   "walk_min": 2,
+   "note_zh": "總部，企業團膳外送訂餐平台",
+   "source": {
+    "name": "ezCater — Contact Us",
+    "url": "https://www.ezcater.com/contact-us"
+   }
+  },
+  {
+   "name": "Overjet",
+   "hub": "downtown",
+   "category_zh": "AI 新創（牙科影像）",
+   "address": "50 Milk St, Boston",
+   "lat": 42.357074,
+   "lng": -71.057597,
+   "station": "State",
+   "walk_min": 3,
+   "note_zh": "總部，用 AI 判讀牙科 X 光",
+   "source": {
+    "name": "SEC EDGAR — Overjet (Form D, 2025-12) business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001809302.json"
+   }
+  },
+  {
+   "name": "Rapid7",
+   "hub": "downtown",
+   "category_zh": "資安",
+   "address": "120 Causeway St, Boston",
+   "lat": 42.365869,
+   "lng": -71.061076,
+   "station": "North Station",
+   "walk_min": 2,
+   "note_zh": "總部，資安偵測與弱點管理軟體，就在 North Station 旁",
+   "source": {
+    "name": "SEC EDGAR — Rapid7 business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001560327.json"
+   }
+  },
+  {
+   "name": "Wayfair",
+   "hub": "downtown",
+   "category_zh": "電商",
+   "address": "4 Copley Place, Boston",
+   "lat": 42.347011,
+   "lng": -71.078052,
+   "station": "Back Bay",
+   "walk_min": 3,
+   "note_zh": "全球總部，線上家具電商",
+   "source": {
+    "name": "SEC EDGAR — Wayfair business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001616707.json"
+   }
+  },
+  {
+   "name": "DraftKings",
+   "hub": "downtown",
+   "category_zh": "運動博彩／遊戲",
+   "address": "222 Berkeley St, Boston",
+   "lat": 42.3507,
+   "lng": -71.073403,
+   "station": "Arlington",
+   "walk_min": 4,
+   "note_zh": "總部，運動博彩與線上遊戲平台",
+   "source": {
+    "name": "SEC EDGAR — DraftKings business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001883685.json"
+   }
+  },
+  {
+   "name": "Liberty Mutual",
+   "hub": "downtown",
+   "category_zh": "保險科技",
+   "address": "175 Berkeley St, Boston",
+   "lat": 42.350061,
+   "lng": -71.071675,
+   "station": "Arlington",
+   "walk_min": 3,
+   "note_zh": "全球總部，保險公司，有大型技術團隊",
+   "source": {
+    "name": "SEC EDGAR — Liberty Mutual Holding Co business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001142872.json"
+   }
+  },
+  {
+   "name": "Salesforce",
+   "hub": "downtown",
+   "category_zh": "雲端軟體（CRM）",
+   "address": "500 Boylston St, Boston",
+   "lat": 42.35043,
+   "lng": -71.073956,
+   "station": "Copley",
+   "walk_min": 4,
+   "note_zh": "波士頓辦公室（19 樓），業務與技術支援",
+   "source": {
+    "name": "Salesforce — Office Locations",
+    "url": "https://www.salesforce.com/company/locations/"
+   }
+  },
+  {
+   "name": "Formlabs",
+   "hub": "other",
+   "category_zh": "3D 列印",
+   "address": "35 Medford St, Somerville",
+   "lat": 42.374398,
+   "lng": -71.0879,
+   "station": "Union Square",
+   "walk_min": 9,
+   "note_zh": "總部，3D 印表機設計與工程",
+   "source": {
+    "name": "Formlabs — Contact",
+    "url": "https://formlabs.com/company/contact/"
+   }
+  },
+  {
+   "name": "Generate:Biomedicines",
+   "hub": "other",
+   "category_zh": "AI 生技",
+   "address": "101 South St, Somerville",
+   "lat": 42.374911,
+   "lng": -71.091186,
+   "station": "Union Square",
+   "walk_min": 5,
+   "note_zh": "總部，用生成式 AI 設計蛋白質藥物",
+   "source": {
+    "name": "Generate:Biomedicines — Contact",
+    "url": "https://generatebiomedicines.com/contact"
+   }
+  },
+  {
+   "name": "Whoop",
+   "hub": "other",
+   "category_zh": "穿戴裝置",
+   "address": "1 Kenmore Square, Boston",
+   "lat": 42.348903,
+   "lng": -71.096206,
+   "station": "Kenmore",
+   "walk_min": 1,
+   "note_zh": "總部，健身穿戴手環（已從 Boylston St 遷到 Kenmore）",
+   "source": {
+    "name": "WHOOP — Privacy Policy (company address)",
+    "url": "https://www.whoop.com/us/en/privacy/"
+   }
+  },
+  {
+   "name": "New Balance",
+   "hub": "other",
+   "category_zh": "運動品牌／運動科學",
+   "address": "100 Guest St, Boston",
+   "lat": 42.357222,
+   "lng": -71.142382,
+   "station": "Boston Landing（通勤鐵路）",
+   "walk_min": 3,
+   "note_zh": "全球總部與運動研究實驗室，在 Brighton 的 Boston Landing",
+   "source": {
+    "name": "Wikipedia — New Balance",
+    "url": "https://en.wikipedia.org/wiki/New_Balance"
+   }
+  },
+  {
+   "name": "Boston Dynamics",
+   "hub": "route128",
+   "category_zh": "機器人",
+   "address": "Smith St, Waltham",
+   "lat": 42.418133,
+   "lng": -71.253599,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "Atlas、Spot 機器人研發與製造；2026/6 宣布 2027 年中起分階段搬到 1601 Trapelo Rd（門牌未證實，座標取自 OpenStreetMap）",
+   "source": {
+    "name": "Boston Dynamics — new 323,000 sq ft Waltham facility (2026-06-24)",
+    "url": "https://bostondynamics.com/news/boston-dynamics-expands-massachusetts-footprint-with-new-323000-square-foot-facility-in-waltham/"
+   }
+  },
+  {
+   "name": "Thermo Fisher Scientific",
+   "hub": "route128",
+   "category_zh": "科學儀器／生技",
+   "address": "168 Third Ave, Waltham",
+   "lat": 42.392271,
+   "lng": -71.261187,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "全球總部，實驗室儀器與生技服務",
+   "source": {
+    "name": "SEC EDGAR — Thermo Fisher Scientific business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0000097745.json"
+   }
+  },
+  {
+   "name": "Pegasystems",
+   "hub": "route128",
+   "category_zh": "企業軟體",
+   "address": "225 Wyman St, Waltham",
+   "lat": 42.404436,
+   "lng": -71.256071,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "全球總部（2021 年從劍橋搬來），流程自動化與 AI 決策軟體",
+   "source": {
+    "name": "Pega — Office Locations",
+    "url": "https://www.pega.com/about/office-locations"
+   }
+  },
+  {
+   "name": "Dassault Systèmes（SOLIDWORKS）",
+   "hub": "route128",
+   "category_zh": "工業軟體（CAD）",
+   "address": "175 Wyman St, Waltham",
+   "lat": 42.402446,
+   "lng": -71.257913,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "波士頓園區，約 1,050 人，SOLIDWORKS 與 3DEXPERIENCE",
+   "source": {
+    "name": "Dassault Systèmes — Boston Campus",
+    "url": "https://www.3ds.com/about/company/office-locations/united-states/boston-campus"
+   }
+  },
+  {
+   "name": "Tripadvisor",
+   "hub": "route128",
+   "category_zh": "旅遊平台",
+   "address": "400 1st Ave, Needham",
+   "lat": 42.297852,
+   "lng": -71.219296,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "全球總部，旅遊評論與訂房平台",
+   "source": {
+    "name": "SEC EDGAR — Tripadvisor business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001526520.json"
+   }
+  },
+  {
+   "name": "SharkNinja",
+   "hub": "route128",
+   "category_zh": "家電",
+   "address": "89 A St, Needham",
+   "lat": 42.30054,
+   "lng": -71.216805,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "全球總部，家電產品設計與工程",
+   "source": {
+    "name": "SEC EDGAR — SharkNinja business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0001957132.json"
+   }
+  },
+  {
+   "name": "MathWorks",
+   "hub": "route128",
+   "category_zh": "科學運算軟體",
+   "address": "1 Apple Hill Dr, Natick",
+   "lat": 42.299521,
+   "lng": -71.350891,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "總部，MATLAB 與 Simulink 的開發",
+   "source": {
+    "name": "MathWorks — Contact Us",
+    "url": "https://www.mathworks.com/company/aboutus/contact_us.html"
+   }
+  },
+  {
+   "name": "iRobot",
+   "hub": "route128",
+   "category_zh": "消費型機器人",
+   "address": "8 Crosby Dr, Bedford",
+   "lat": 42.504941,
+   "lng": -71.242959,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "Roomba 掃地機器人總部；2026 年 1 月重整後由 Picea 持有",
+   "source": {
+    "name": "iRobot — Roomba R Duo at IFA 2026 (Bedford dateline)",
+    "url": "https://media.irobot.com/2026-09-04-iRobot-Unveils-Roomba-R-Duo-at-IFA-2026,-Proving-the-Future-of-Floor-Care-Has-a-Familiar-Name"
+   }
+  },
+  {
+   "name": "Analog Devices",
+   "hub": "route128",
+   "category_zh": "半導體",
+   "address": "1 Analog Way, Wilmington",
+   "lat": 42.52876,
+   "lng": -71.143502,
+   "station": null,
+   "walk_min": null,
+   "note_zh": "全球總部，類比與混合訊號晶片",
+   "source": {
+    "name": "SEC EDGAR — Analog Devices business address (filing 2026)",
+    "url": "https://data.sec.gov/submissions/CIK0000006281.json"
+   }
+  }
+ ]
+}

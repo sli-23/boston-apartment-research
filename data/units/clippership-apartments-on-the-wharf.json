@@ -1,0 +1,91 @@
+{
+ "official_url": "https://www.liveclippership.com/",
+ "floorplans_url": "https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "官網 Virtual Tour",
+   "url": "https://www.liveclippership.com/virtual-tour"
+  },
+  {
+   "label": "Panoskin 360°：公共設施",
+   "url": "https://v1.panoskin.com/?tour=673d328488a8a059b00c06ce"
+  },
+  {
+   "label": "Instagram 實景",
+   "url": "https://www.instagram.com/clippershipwharf/"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "2.2E",
+   "sqft": "1,078",
+   "price": "$4,013",
+   "price_min": 4013,
+   "as_of": "2026-10-26",
+   "available": "1 間（#2-305），12/7 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/4f3347af3126e6411dce8c414a772cc6.jpg"
+  },
+  {
+   "name": "2.2B",
+   "sqft": "1,064",
+   "price": "$4,540–4,838",
+   "price_min": 4540,
+   "as_of": "2026-10-26",
+   "available": "4 間：#1-127 $4,540、#1-521 $4,705 現在入住；#1-421 $4,829 11/21、#1-429 $4,838 12/13 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/7a5d4cb1f56cd8fc7aee952cd43396af.jpg"
+  },
+  {
+   "name": "2.2C",
+   "sqft": "1,134",
+   "price": "$4,981–5,450",
+   "price_min": 4981,
+   "as_of": "2026-10-26",
+   "available": "3 間：#1-225 $4,981 現在入住；#1-426 $5,450 11/7、#1-525 $5,174 12/18 入住；有陽台／露台",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/5867736bd7e3dd8222650906c4e0c0c3.jpg"
+  },
+  {
+   "name": "2.2A",
+   "sqft": "1,018",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/d6a06e8e5cd1f9f364b8335680245301.jpg"
+  },
+  {
+   "name": "2.2D",
+   "sqft": "1,060",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/2826960cc5e1ac2908806b992900d3f0.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "地下車庫：保留車位 $375/月；代客停車 $265/月；訪客 $35/天",
+  "parking_surface": "沒有列室外車位",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；垃圾包含在租金內",
+  "electric_heat": "瓦斯包含在租金內；電由第三方公司收費，住戶自付（沒找到月平均金額）",
+  "internet": "第三方，自己申請、自己付",
+  "pet_rent": "每隻 $35–75/月",
+  "pet_deposit_or_fee": "費用表沒有列寵物押金或一次性寵物費",
+  "other": "標準押金 $1,000；必須買租客責任保險（可選物業方案 $12.36/月）；儲藏室 $55–75/月；遲繳 = 欠款 5%；提前解約 = 2 倍月租；轉換戶 $1,000；逐月租 +$500/月。目前沒看到優惠",
+  "source": "https://communityfees.bozzuto.com/property/B96805/export",
+  "as_of": "官方費用表（Bozzuto，2026-10-26 產生），2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻（ApartmentList）。有狗公園和洗狗區。沒找到體重或品種限制，要問辦公室。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（當天由公寓更新），12 個月租約。官網 Floor Plans 頁只直接列出最便宜的 8 間（都是 studio／1 房），2 房的價格沒辦法在官網核對。平面圖上只有 2.2C 有陽台／露台（10×5 呎），其他 2b2b 沒有。每個 2b2b 都有室內洗烘和 walk-in closet。管理公司是 Bozzuto。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/boston/clippership-apartments-on-the-wharf"
+  },
+  {
+   "name": "官方費用表（PDF）",
+   "url": "https://communityfees.bozzuto.com/property/B96805/export"
+  },
+  {
+   "name": "官網 Floor Plans",
+   "url": "https://www.liveclippership.com/floor-plans"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "official_url": "https://www.thebrynx.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/boston/the-brynx#bedrooms-2",
+ "virtual_tours": [
+  {"label": "Matterport 3D：住戶休息室（不是戶型）", "url": "https://my.matterport.com/show/?model=xoPqqsfkbtW"},
+  {"label": "Instagram 實景", "url": "https://www.instagram.com/thebrynx/"}
+ ],
+ "plans_2b2b": [
+  {"name": "221 – C", "sqft": "933", "price": "$4,539", "price_min": 4539, "as_of": "2026-10-26", "available": "1 間（#221-501），12/25 入住，8 個月租約", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/bf0a513c901aab046ac5221c812363cf.jpg"},
+  {"name": "201 – 42", "sqft": "957", "price": "$4,600", "price_min": 4600, "as_of": "2026-10-26", "available": "1 間（#201-612），現在入住，6 個月租約", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/2631793146b995c3437f6a2d58f26f87.jpg"},
+  {"name": "201 – 31", "sqft": "862", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/264413549ec2edef002804f9b700dc4d.jpg"},
+  {"name": "201 – 22", "sqft": "907", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/eb254b2cc0fc32b4817e18c4ffb5e6cb.jpg"},
+  {"name": "221 – D", "sqft": "954", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/893e12e3f079533348fd1fa0e9cbd505.jpg"},
+  {"name": "201 – 55", "sqft": "958", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/02c5d7eff6c1c8964eb82814038dd6c1.jpg"},
+  {"name": "201 – 11", "sqft": "979", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/270f4f6d9fa30b007a1cca04630bfa5c.jpg"},
+  {"name": "221 – G", "sqft": "998", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/5e24306d0a656ad79d2c479a2b870bd0.jpg"}
+ ],
+ "fees": {
+  "parking_garage": "停車位 $300/位/月，可選（費用表沒寫是室內還是室外；ApartmentList 寫有室外停車場和有頂停車場）",
+  "parking_surface": "同上，費用表只有一種 $300/月 的車位",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；垃圾包含在租金內（ApartmentList）",
+  "electric_heat": "電按用量付給第三方；221 棟另外要付瓦斯（按用量）。沒找到月平均金額",
+  "internet": "自己申請，自己付",
+  "pet_rent": "費用表寫每隻 $50–100/月；ApartmentList 寫貓 $50、狗 $100",
+  "pet_deposit_or_fee": "沒寫",
+  "other": "押金 $500 到一個月租金（看審核結果）；鑰匙費 $50；必須買租客保險；訪客套房 $250/晚；遲繳費和扣款失敗各為月租 10%；換室友 $500；社區內換房 $1,000；提前解約要提前 60 天通知並付月租 200%；申請時總稅前收入要有租金 2 倍。現在沒有租金優惠",
+  "source": "https://www.thebrynx.com/wp-content/uploads/2025/08/Property-Fee-Guide-Brynx.pdf",
+  "as_of": "官方費用表（2025-08 上傳），2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻。貓每月 $50、狗每月 $100。沒有公布品種或體重限制，要問現場管理處。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的（頁面寫「11 小時前由 The Brynx 確認價格」，是認證房源），官網同一天的價格一樣。這兩間顯示的是 6 和 8 個月短租約的價格，12 個月租約可能比較便宜，要跟辦公室確認。另外 #201-714（201 – 40，921 呎，$4,651）是 2 房 1 衛，沒列進來。只找到住戶休息室的 Matterport，沒有找到 2 房戶型的線上實景。",
+ "sources": [
+  {"name": "ApartmentList（房型、價格）", "url": "https://www.apartmentlist.com/ma/boston/the-brynx"},
+  {"name": "官網空房頁", "url": "https://www.thebrynx.com/floorplans/"},
+  {"name": "官方費用表", "url": "https://www.thebrynx.com/wp-content/uploads/2025/08/Property-Fee-Guide-Brynx.pdf"}
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.9,
+   "label": "Apartments.com · 74 條評價（2024-04 存檔，含建築評分的綜合分）"
+  },
+  "summary_zh": "2022 年完工的新大樓，緊鄰 Alewife 紅線站。Apartments.com 2024-04 存檔有 74 條評價、綜合 4.9 分，但大多是 2023 年 4–6 月集中出現、點名帶看人員的「看房體驗」，參考價值要打折。真正住戶的意見：設施新、維修快、隔音不錯；負面的是一位住戶 2023 年多次沒熱水／沒暖氣，另一位因垃圾車噪音換到朝內的戶。2024-04 以後的評價沒有找到。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 4,
+   "points_zh": [
+    "BTS 2020 交通噪音模型：門牌點約 47.3 dB，50 公尺內最高 48.0 dB（來自鐵路）；Fitchburg 通勤鐵路約 160 公尺、Route 2 約 270 公尺",
+    "2023-05 住戶：第一間戶因外面垃圾車有噪音，物業讓他換到朝內的戶",
+    "2023-05 另一位住戶：鄰居之間隔音很好，「容易忘記自己有鄰居」"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 4,
+   "points_zh": [
+    "劍橋市警方開放資料（2025-10 至 2026-09），大樓所在報案區 1110 共 142 起：暴力 1 起、財產 77 起",
+    "最多的是自行車被盜 17、住宅內偷竊 15、車內物品被盜 10",
+    "ApartmentList 列有門禁感應卡（Key fob access）；2023-04 看房者提到車庫是「secure garage」並有充電樁"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "2023 年評價多誇維修團隊修得快、會收拾乾淨，租賃人員熱心",
+    "要打折看：大量五星評價集中在 2023-04 至 06，多數是看房者寫的、點名帶看人員",
+    "2023-05 差評：一月入住後三次沒熱水或暖氣，晚上 11 點報修被告知隔天才能來；也換過兩次房",
+    "現在官網頁尾是 Greystar；舊評價稱 Hanover North Cambridge，換管理後的評價沒找到"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 5,
+   "points_zh": [
+    "戶外泳池、24 小時 Technogym 健身房、兩層樓高的戶外 loggia（瓦斯壁爐、戶外電視、烤肉）",
+    "共享辦公室與私人辦公間、住戶會所、遊戲場、狗狗運動場和洗狗站",
+    "自行車房和修車站、電動車充電、車庫（只限部分戶型）"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 2b2b 開放 4 間：$4,019–4,615（1,027–1,206 sq ft），約每呎 $3.8–3.9",
+    "另加車庫 $250–275/月、寵物 $50–75/月／隻；水電按用量另計",
+    "目前沒有優惠；同區 Hanover Alewife 2b2b 從 $4,016 起，價格相近"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "走路到 Alewife 紅線站很近",
+  "2022 年新大樓，中央空調、室內洗烘",
+  "設施齊全：泳池、健身房、共享辦公室、狗狗運動場",
+  "報案區過去一年只有 1 起暴力案件",
+  "住戶說隔音不錯"
+ ],
+ "cons_zh": [
+  "面街的戶可能聽到垃圾車",
+  "2023 年有住戶多次沒熱水／暖氣",
+  "大量評價是看房體驗，真實住戶評價少",
+  "車庫只限部分戶型",
+  "自行車被盜是附近最常見的報案",
+  "2024 年以後的評價暫時沒找到"
+ ],
+ "quotes": [
+  {
+   "text": "第一間戶因為外面的垃圾車有噪音問題，但大樓配合我們，讓我們換到朝內的戶。",
+   "source": "Apartments.com · 2023-05",
+   "url": "http://web.archive.org/web/20240413155948/https://www.apartments.com/urbane-at-alewife-cambridge-ma/jqxyjl7/"
+  },
+  {
+   "text": "房間很好，鄰居之間隔音做得很好，很容易忘記自己有鄰居。",
+   "source": "Apartments.com · 2023-05",
+   "url": "http://web.archive.org/web/20240413155948/https://www.apartments.com/urbane-at-alewife-cambridge-ma/jqxyjl7/"
+  },
+  {
+   "text": "一月搬進這間後已經有三次沒熱水或暖氣，管理處說太晚了（晚上 11 點）要隔天才能修。",
+   "source": "Apartments.com · 2023-05",
+   "url": "http://web.archive.org/web/20240413155948/https://www.apartments.com/urbane-at-alewife-cambridge-ma/jqxyjl7/"
+  },
+  {
+   "text": "維修團隊很棒，有幾個小問題，他們總是很快修好，還會把東西收拾乾淨。",
+   "source": "Apartments.com · 2023-03",
+   "url": "http://web.archive.org/web/20240413155948/https://www.apartments.com/urbane-at-alewife-cambridge-ma/jqxyjl7/"
+  },
+  {
+   "text": "剛開幕的新大樓有一些施工上的小毛病，但整體是很棒的居住地方。",
+   "source": "Apartments.com · 2023-05",
+   "url": "http://web.archive.org/web/20240413155948/https://www.apartments.com/urbane-at-alewife-cambridge-ma/jqxyjl7/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Apartments.com（2024 存檔）",
+   "url": "http://web.archive.org/web/20240413155948/https://www.apartments.com/urbane-at-alewife-cambridge-ma/jqxyjl7/"
+  },
+  {
+   "name": "Cambridge 犯罪開放資料",
+   "url": "https://data.cambridgema.gov/Public-Safety/Crime-Reports/xuad-73uj"
+  },
+  {
+   "name": "BTS 交通噪音地圖",
+   "url": "https://www.bts.gov/geospatial/national-transportation-noise-map"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Urbane+at+Alewife+50+Cambridgepark+Dr"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Urbane%20at%20Alewife%22"
+  }
+ ],
+ "gaps_zh": "Google、Reddit、Yelp、ApartmentRatings 都攔截了自動抓取，Apartments.com 只有 2024-04 的存檔；ApartmentList 上沒有住戶評價。下面的鏈接可以自己點開看。"
+}

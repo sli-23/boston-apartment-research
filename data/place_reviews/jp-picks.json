@@ -1,0 +1,578 @@
+{
+ "Whole Foods Market|42.3215,-71.1109": {
+  "rating": 4.1,
+  "count": 1431,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=4915664911033544670",
+  "other": [],
+  "summary_zh": "Google 4.1 分（1431 則），Centre St 上的 Whole Foods，有機與素食選擇多、可退 Amazon 包裹，但近期多則負評提到品質下降、價格上漲與店員態度差。",
+  "good_zh": [
+   "有機食品、蔬果與素食肉類替代品選擇多",
+   "可在店內退 Amazon 包裹",
+   "步行可達、方便住附近的人"
+  ],
+  "bad_zh": [
+   "近期負評指食品品質下降、價格持續上漲（有買到長蟲米、牛奶易壞的抱怨）",
+   "有結帳店員態度冷淡的負評",
+   "沙拉吧曾被指有過期品項"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeC7DYo89E9exlBp1DyC2Sk2aSWSLNJoLPxisQMgUPEMN3otQCWekOKHZ0YLtrJ0gtqOFqjRdGJMLCYplztvRmi7VtSO9XFcxhiPAGn1emQA42CuYVVwzlkJmSfBorJHdhSJ6fN=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4915664911033544670",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdgPskdkv3_wzEUUgWnkWL4s-4UY_35qbdnMO-vMbIxIj0dmCnUkO4gVBUB3dFqp1Uyj4DgdAYH2Y-bVwvSqjupovqPRgyaLYWr6j5oZsPk0O5qEtzBmPWKkdDrUkctG5Eafkv9=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=4915664911033544670",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Stop & Shop|42.3092,-71.0810": {
+  "rating": 4,
+  "count": 2044,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=8277166759329430624",
+  "other": [],
+  "summary_zh": "Google 4.0 分（2044 則），Blue Hill Ave 上的大型 Stop & Shop，店面乾淨、員工普遍友善，但近期負評集中在線上取貨出錯、提早鎖門與門口有人逗留。",
+  "good_zh": [
+   "店面乾淨、品項齊全",
+   "多則評論稱員工友善",
+   "有大停車場"
+  ],
+  "bad_zh": [
+   "線上取貨訂單出錯、無人處理的負評",
+   "有提早關門、員工態度差的抱怨",
+   "門口有人逗留拉客；部分商品上鎖；蔬果品質一般"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdCr86kR4EwsIm3nPiPhCA0g8j0pLooSKJzGOJFfUljtpPRIQEFKS4j8rkzfP4geC_-GyblNWMaXQyfPuAEZBK98if2ddQKWSfVyTB3QwmZijwJ0FtK-K91BwVa7sNULDtxurpBOjcTgGY_=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8277166759329430624",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeD_gWg3oT3SSaRtG6u0GAiFf6XApBiDY6ZFqyyiFJPdO-WPoA0WTnvPwAkUM6SXJFzWSPTTL06xeHBwPwhTL4sChbFifvwtGBn2rqD124IyRKWy0G17K-sKbqqwGKZr1O-7Ji2=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8277166759329430624",
+    "credit": "Ashley Tenczar"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeRDx5LihVg0lTbhox8ZiJBKtPtSa9SLQIPu8IL0r31avjQd9rrxGgsZ1LUPAh9wS04DFZVnRcMDbwcdPbE47J7XJnQhqGq47MuxTZvRKCopyy_8fnkU3MxQioI_dtiuqoVgBTx=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=8277166759329430624",
+    "credit": "Ashley Tenczar"
+   }
+  ]
+ },
+ "Daily Table|42.3311,-71.0832": {
+  "rating": 4.4,
+  "count": 392,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9435550911335736052",
+  "other": [],
+  "summary_zh": "Google 4.4 分（392 則），Nubian 廣場旁的非營利平價超市 Daily Table，價格便宜、有現成熟食與素食選擇，但有生鮮不夠新鮮與提早鎖門的負評。",
+  "good_zh": [
+   "價格實惠，商品每週輪換",
+   "有現成三明治、熟食與素食/純素選擇",
+   "店員親切"
+  ],
+  "bad_zh": [
+   "曾有青菜枯萎、水果品質差的負評",
+   "冷凍蝦有凍傷的評論",
+   "有接近打烊前就鎖門的抱怨"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfV338DhmsQtER4TbZUTY4vPI1_B2vwI0uPfPlLd_V1_BEVyYBzN9RCAPz19uEh2XZDu2xTDpmQRJ__apbA1vDuL2HJ_a-yfwbJdiGlef5bR2TuDVUCMz-ESK6E6cH8ghyyRyEVhA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9435550911335736052",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfGO6-9g4wnBX-Cpwgi9KzE74ETIghs4qKzq2Y8_fPlOhhEkfMwPDL1-o9yfWc-RT4y8Gb6pNG6TiClRWaheMz9LlOFDyj9l_1yyJmkSFhz4LXKmO5Uj03-wUudLjJMANaDyRl3=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9435550911335736052",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc8Sbk5zfUfluZAZYlfYQsb9G5N9ei6oJooX5fm2Ytk5ndAZGV5wh2sufhmyQOqHCRRRTvp8QRpOkhF-G2LBviEm9tJ_8TIgOyxyrlMrB27EJeZOGKxr3eHc5Tvo71PveFeEPt2pg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9435550911335736052",
+    "credit": "Kimberly Cough"
+   }
+  ],
+  "matched_name": "Daily Table Grocery - Roxbury"
+ },
+ "Beth Israel Lahey Health Primary Care|42.3056,-71.1092": {
+  "rating": 3,
+  "count": 31,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=16404406711303368615",
+  "other": [],
+  "summary_zh": "Google 3.0 分（31 則），Jackson Square 旁的 Beth Israel Lahey 家庭醫學門診，醫師與護理師評價不錯，但多則負評針對行政櫃台與帳單處理。",
+  "good_zh": [
+   "多則評論稱醫師（如 Dr. Arons）耐心、不趕時間",
+   "部分病人長期就診、覺得團隊專業"
+  ],
+  "bad_zh": [
+   "行政人員被指態度差、不回電",
+   "有預防性檢查被當成診斷收費的帳單糾紛",
+   "有負評指辦公室管理混亂"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe_33a5CSm00ZQAj3mofPZKk1tscNQSRSvaVqu2OnVcC20uJmX4DCVB9rkRTbtbRPW2sisrJgRQmVoRRPL-747qAEZ6uZwgMY9NIJHUIj6r9wppap0-3cElHrVtA_z7LpbUyMEkhA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16404406711303368615",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "matched_name": "Beth Israel Lahey Health Primary Care - Jamaica Plain Family Medicine"
+ },
+ "Lemuel Shattuck Hospital|42.2991,-71.1012": {
+  "rating": 2.9,
+  "count": 72,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=2704775858727693173",
+  "other": [],
+  "summary_zh": "Google 2.9 分（72 則），Morton St 上的州立 Lemuel Shattuck 醫院，主要收治結核病、精神科與特殊族群病人，評價兩極、負評偏多。",
+  "good_zh": [
+   "有評論感謝護理師親切、不催促",
+   "被認為為弱勢病人提供重要服務"
+  ],
+  "bad_zh": [
+   "多則負評指照護品質差、隱私不足",
+   "探病時指引混亂、需安檢",
+   "整體評分偏低，不適合作為一般急診/就醫首選"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcA038wT_rEILVILExS1oSi_zE0ebE01twJZgJd2AezKBrtr8dkj576Q_UrMdGrX22pUUkfbi6rNSd4Ph8DcjOIxAXnsamH9gfAmPpeGc3SVo8JsFB8Dt8uFUBCEzIYFolctMA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2704775858727693173",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeH7FJ83wHYOoi-kPWTVGl9hZEglDF-GK1yPE4UK18Cb2YjzVHAnOemc9649jO8q3n1Vr-G2KgXTPEHGxl4kj3ooSfiCca61R1MdqMOaP41x8pqx5UrQHTsX6dHh3QclCZdBhg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2704775858727693173",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Boston Animal Hospital|42.3310,-71.0638": {
+  "rating": 4.6,
+  "count": 291,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=12808540722410864915",
+  "other": [],
+  "summary_zh": "Google 4.6 分（291 則），South End/Southampton St 的 Boston Animal Hospital，多數飼主稱讚獸醫與技術員親切專業、會回覆 email，但近期也有人力不足、常換醫師的抱怨。",
+  "good_zh": [
+   "獸醫與技術員親切、有耐心",
+   "獸醫會回 email，溝通方便",
+   "長期飼主多給好評（貓狗皆有）"
+  ],
+  "bad_zh": [
+   "近期有人力減少、回應變慢的負評",
+   "每次看診常遇到不同醫師"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcN6hjYnNvkKLZf0loeTAaIju7TMiPL7KoTmD8H9_HOKhJLwwj9RNCnOfW60ynMyTdkMtAfzj4npZmRqEKH0ZrDy2uqLI0kBjKeVLqb0NzBaQfD6y3AfID7ncM4Wy6I7qXNsEu8B9agb5E=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12808540722410864915",
+    "credit": "Kiara Medina"
+   }
+  ]
+ },
+ "Johnson Park|42.3116,-71.1080": {
+  "rating": 4.7,
+  "count": 6,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=1242956467094366414",
+  "other": [],
+  "summary_zh": "Google 4.7 分（6 則），Green St 站旁的 Johnson Park 小型遊戲場，有圍欄、適合幼兒，夏天有噴水池；評論很少。",
+  "good_zh": [
+   "遊樂設施高度低、適合幼兒",
+   "圍欄內空間大可跑動",
+   "有噴水池（splash pad）"
+  ],
+  "bad_zh": [
+   "評論數很少，資訊有限",
+   "主要是兒童遊戲場，不是遛狗用的公園"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfzjuq_dyn1VY1lzKYere2q75qa6f9K8nZXKs7b7-Rn-62zEZs6dLk4ZMcVGIdDclR77HLKytkyZg3sGWGEJCo5nDPI_UVoYgR6kgQrL78XzEDRsM__hd7YQVJ5QSF_UR4WslVQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1242956467094366414",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdGQfrIGqIzqztFVPZtDACmmakt-3Ow83Lh6V4pGs95PGomVlZ5vcuSE3KhuN-K0GMXcKfhFzzKpLohjuLGgoMmVhOntQ_lDWC80Ue14Owf_l8YYEU3vuMsRxIYrWtDavaRiGYO=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=1242956467094366414",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "matched_name": "Johnson Park Playground",
+  "dog": {
+   "fenced": true,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Southwest Corridor Park|42.3069,-71.1099": {
+  "rating": 4.4,
+  "count": 368,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=3321684377486533405",
+  "other": [],
+  "summary_zh": "Google 4.4 分（368 則），連接 Jamaica Plain、Roxbury、South End 到 Back Bay 的 4.1 英里帶狀公園，有步道、自行車道、遊戲場與球場，適合散步跑步。",
+  "good_zh": [
+   "整條步道維護良好，可從 JP 一路走到 Back Bay",
+   "沿途有遊戲場、網球/籃球場與滑板場",
+   "沿 Orange Line，交通方便"
+  ],
+  "bad_zh": [
+   "自行車道上單車速度快，行人要小心",
+   "停車規則複雜"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfEWlGcuf9RnC8b6dcL7j8i6n_RLqxw5FA-hMCPr6fPeWd9hGNzYOCRB72eOfOX4YzaRZTAmYuL_ewBQfEsxsQOP2pdol3eKTA2loBkqt19nuSEWCRzDEFhxoZF8SZH=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3321684377486533405",
+    "credit": "Stephanie Joseph"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLecWrRkB6pZExvUYq4bnYrSWkWLc7qO-hNPjpyaTdY6c83ypF0tZCoV5ld3j_u2oX_wx2vHkTVE6uj35ofVKM-6QHa5YSBvYk-UvjY6WK3UCA1i6lNTYEN3DfohCRPUgmUJFO3U4w=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3321684377486533405",
+    "credit": "Michael Antonio"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfXvc8fSR6E1CELMcSA3NaAOvdCj5VhKHuYeJNEZSscXaUWXCfaIm1AA1oYeFj3ecoFhjKPb7PtAQEBUxEJkoH42Hu2XDnX_lhjr1Fr8GBtGfXMnUuUQSE_8fqdQx3PX6cIY7md=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=3321684377486533405",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "match_note": "線狀公園，最近的有評分 listing（38 New Heath St）距此點約 480 m",
+  "dog": {
+   "fenced": false,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Larz Anderson Park Green Dog Park|42.3134,-71.1355": {
+  "rating": 4.7,
+  "count": 1399,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=5720909889707526595",
+  "other": [],
+  "summary_zh": "Google 4.7 分（1399 則），Brookline 的 Larz Anderson 大公園，有池塘、涼亭、野餐區、遊戲場與大草坡。Google 評論未提及遛狗規定。",
+  "good_zh": [
+   "景色優美，有池塘、涼亭與大草地",
+   "有烤肉野餐區與遊戲場",
+   "空間大，適合長時間散步"
+  ],
+  "bad_zh": [
+   "使用野餐桌需預約，有人被巡查員請離",
+   "有野餐桌老舊、長青苔的評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLff30OdTxVveh-160qNShL3V6Piu3TXYautoqr53GM8TZfOVZPffMXUdywS1kFamdWFVPoUrBTJw_Dn6Jq3fTzEZMM23JO38b5-CeIa84RJ0Unmrd4ZocOLR9ww7wk1VuS7ot3v=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5720909889707526595",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLddwJGaZsy32SCGS41NKq7LJcn140bsdBbHCfpaOHth3rUk_sg5GWUzbpWM8Io7REIM2zVyNslWei1tKcXLWolVQ2R6J6am_LfeLWwOJ6_X-RaGuiZhNXfYv0bpyD7EmRWNMLgIB5pOrowZ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5720909889707526595",
+    "credit": "adam w sidman"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf0YVDJtZuQFADe3CXCzm6EWGgcuwhlCeos45GynR9xLkz-6xpVzrZBMe5SShFNL6m9Sx0t73lf59AnQP3jMmEd4BN_Gn4qnkPqXSvb-JkgfasHlRADcnecGpkiM_U2e5UqNnySgMRfYa0=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=5720909889707526595",
+    "credit": "adam w sidman"
+   }
+  ],
+  "matched_name": "Larz Anderson Park",
+  "match_note": "狗狗區位於 Larz Anderson Park 內，公園 listing 標記距此點約 200 m",
+  "dog": {
+   "fenced": null,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Brother’s Supermarket|42.2857,-71.1096": {
+  "rating": 4,
+  "count": 52,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=12623984522471794895",
+  "other": [],
+  "summary_zh": "Google 4.0 分（52 則），American Legion Hwy 上的社區超市，換新老闆後重新裝修，評論稱乾淨明亮、肉類蔬果新鮮。",
+  "good_zh": [
+   "重新裝修後乾淨、走道寬敞明亮",
+   "肉類與蔬果選擇不錯",
+   "收銀員友善"
+  ],
+  "bad_zh": [
+   "有絞肉隔天就壞的負評",
+   "評論數不多"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdzadFqp74PITeXR3PAI2eeKkELFSISJ99rAjWFHSKqRZwXFa5kFryHG-yDi6omVvOrvx7IQp03ENMC9J-cpnDFY4g6ajXz9Wmff-TBYc0dnIgwlFiAoYzgOqRQkKLye-2Pd3A4LY3U71A=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12623984522471794895",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcCimB_nd-PE9ftTxepH1FDMxqEJeCX0cOlg8lnUg_sqY_BoTkKPf8NoutY_L4VYC5Yi0uZttoSNDsQzGz8kvxH0g_7OyQsSNUv64xHfAo3qkBUF9SoWEM2PRaGcL5VjxDrz3o=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12623984522471794895",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "matched_name": "Brother's Supermarket - American Legion"
+ },
+ "Price Rite|42.2842,-71.1109": {
+  "rating": 4.1,
+  "count": 576,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=16990445453416643971",
+  "other": [],
+  "summary_zh": "Google 4.1 分（576 則），Roslindale 的 Price Rite 平價超市，店面乾淨、員工友善、價格便宜，但有標價與結帳價不符、營業時間資訊錯誤的抱怨。",
+  "good_zh": [
+   "價格便宜，適合大量採買",
+   "店面乾淨、補貨充足",
+   "員工友善、會幫忙搬貨"
+  ],
+  "bad_zh": [
+   "有特價標示與結帳價格不符的負評",
+   "網路上營業時間與實際不同（週日提早關門）"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe8-ZHzfTaLdWKGkJJtR5ZvZS_G4YFSMrPPfQ-bDZP_uMfg70vDt18b5arbrbPDfI9gX9PCHdJyCpHu4CLX7vUlCC-6QeJvY5rFzo4G0ztYlOLeAMZh02xTW0ar5WXqxVcj8QELag=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16990445453416643971",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeKhuTti8fLr0qXLl2a1ZiRg4I5fjLcEPb2TKQ16zX2BdyabZGFAy5oYuRwn3V9-IdAtysTT4rTt4Gr9PKiWncTuQabRptT6o-SaRKGk_Rvk5CDnqyrxG46uYArMFG0pHhSjkno=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16990445453416643971",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdNdkEZuZaFx6WcZpHFGJV4h6J7-my1S8qCAkP6yf2-9Ajfwb_cfDtHE6TRuMBwtQ8w3lLRcozbfcoiVSoU0VxK2vs-3m4JKYSsQgAUzu0oIS4aZ1bH_Aaonk0D7p0JqzdA5O5zAA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16990445453416643971",
+    "credit": "John Ovesen"
+   }
+  ],
+  "matched_name": "Price Rite Marketplace of Roslindale"
+ },
+ "Village Market|42.2862,-71.1296": {
+  "rating": 4,
+  "count": 364,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=14796597815331418247",
+  "other": [],
+  "summary_zh": "Google 4.0 分（364 則），Roslindale Square 的在地獨立超市，空間小但品項多、肉類與麵包新鮮，但有店員態度差、過期肉品的負評。",
+  "good_zh": [
+   "在地經營，小空間卻品項豐富",
+   "肉類價格合理、麵包新鮮",
+   "步行可達，也有停車場"
+  ],
+  "bad_zh": [
+   "有店員與管理層態度差的負評",
+   "有買到過期肉品的抱怨",
+   "停車位有限"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf2QAeiDJ5u7pKuOXr-bE3MaiP-Vp-JVrDrfggSwPFfdin09DKMFVZfARnOffPvumM3ewsOifvoifH5In-nXKW2WEjWI_g_odr9Y97e3jUVpQNrvqcNadVSg4n-LlwooUs-Z_s=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14796597815331418247",
+    "credit": "John Ovesen"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqWp3EbQagzZDyK8ASPGxZfyrodpArSBXx90J6tTg44y302SlGstF7Fb86ddFS4lxnZcXVhv9LZNSb8lFbsoIWBDvSFFqgVbO1MzvgQuUj5AhjuNkfKyJJzkW5TwHtWJZyspY=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14796597815331418247",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfpHIRApt83Co2Gm_aCWghUfWn4I4I0FqeLsSAB6UQf3MJX2mkA2hKgzVy7FtqUrAoijcGoLZtOYl3ZhuzWesPPQoEQTc1ghzK3ZjjPO6JewVdl7I-1pdhh2rzQ7wJBPDGoVoUR=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14796597815331418247",
+    "credit": "John Ovesen"
+   }
+  ]
+ },
+ "Franklin Park|42.3032,-71.0946": {
+  "rating": 4.5,
+  "count": 6064,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=16511650392130326230",
+  "other": [],
+  "summary_zh": "Google 4.5 分（6064 則），波士頓最大的公園（Emerald Necklace 之一），有林間步道、草地、池塘、高爾夫球場與動物園；Google 評論多數在講園內的 Franklin Park Zoo。",
+  "good_zh": [
+   "面積大，有林間步道、草地與小池塘",
+   "有免費停車",
+   "園內有動物園、高爾夫球場與活動舞台"
+  ],
+  "bad_zh": [
+   "評論多數是動物園相關，公園本身資訊較少",
+   "動物園停車可能較難"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdao6QII86NMnJbp-tS_w5Nd0K98ycmegjBhvYfkTU0n6DdopauVuljavSWXcxg9CRM4YzC1UkxjCcej9y8weyDAHq6WrrIxZfXn-v2KBmHUb0OoOEXJl1pCDIqrBlEa6Y-H_pQYjg1X5SH=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16511650392130326230",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "match_note": "大型公園，listing 標記距此點約 570 m；評論多為動物園",
+  "dog": {
+   "fenced": false,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ },
+ "Tropical Foods|42.3332,-71.0823": {
+  "rating": 4.3,
+  "count": 2761,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=13608081199675872446",
+  "other": [],
+  "summary_zh": "Google 4.3 分（2761 則），Melnea Cass Blvd 上的大型拉丁/加勒比海超市 Tropical Foods（El Platanero），乾淨、國際食材多、肉類價格好，但有退貨與結帳的負評。",
+  "good_zh": [
+   "店面乾淨、貨架整齊",
+   "拉丁、加勒比海等國際食材選擇多",
+   "肉類與海鮮價格實惠"
+  ],
+  "bad_zh": [
+   "部分商品價格比一般超市高",
+   "退貨時被盤問的負評",
+   "廁所門無法上鎖"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdpZTvsv3OOfbZjAGK5dgV_iEsngVN5pSTW-46LfBvSf0wCzVTqb3a5wArWtf9JWYP7IlV1bZOg8FJeoD1VxopYC4YQXscU308DyjEIPjwYvPPvbO9iHRGyjN3xUby8uiPp-ufZi6c4mTuI=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13608081199675872446",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdCZ2SDDmtcAp50H2-2Fyl0QmttoADtVBryb6Ue-lmsK0CtTqw3eEgdV4MogMMZzkMrG6d0iBCdAy8nvATi07ureC3Vlw4FytsW6uGlljk74KdhPQ01_Y4Q_pv-QARc5oxsWEh9=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13608081199675872446",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdGLXX-F9l1crZ4sIayMQKyPoCceCgFg-RdpHc6029xpYyPQdrsTh4nL4V_bNIT-0CeObxtmS3z-Xa2g5wh8_48iTkoUcaq3rVfYMAWs36wVT1j6WbOW-lXeSufRmXPa6CUlQ2Fng=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13608081199675872446",
+    "credit": "Nathaniel “Natethegreat” Lamarre"
+   }
+  ],
+  "matched_name": "Tropical Foods (El Platanero)"
+ },
+ "Daily Table|42.2958,-71.0718": {
+  "rating": 4.5,
+  "count": 785,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=13770422135960022308",
+  "other": [],
+  "summary_zh": "Google 4.5 分（785 則），Dorchester Washington St 上的非營利平價超市 Daily Table，蔬果新鮮、價格便宜、有現做熟食，但店小、品項有限。",
+  "good_zh": [
+   "價格便宜，蔬果新鮮",
+   "有開放式廚房現做熟食",
+   "有停車位、店員友善、不擁擠"
+  ],
+  "bad_zh": [
+   "店面較小，不適合一次大採購",
+   "建議注意保存期限；退貨需 24 小時內"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcUKy4r1v8VulcIHwr4KSfQqjeaUnc0bwWtE6gz-GU6Cjf7Ki7YtU4PSBm2p20hUDtchRTmAqRHKuKHin7jvJiRH3ydYWjcZrRtRxW_Sy42cgx2ifs_FRn9PvwoV6iyio0zW2VDcw=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13770422135960022308",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfCAAOcHv4jE8xJXhP6fIvdRnRGZzfRwZ1rhPhossBtTcM-CyAjp9Lkw_XT1qOCjzWwC3Anduo3dDF0efIxPMuTYZ42MKSOud3jMhgmARSTCErgv9dlm_19l9mW513BbK40THBs_Q=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13770422135960022308",
+    "credit": "andrew guu"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfSjtXAVtMKQjFKW2iPqZeLXN2EbGzw52lQNH_MorDX7yoRMsUNbsX41CgLwUAKChyplhvY83UP7LPCC8t_kt1l2Vfibt6mgTRce7M_n1eOovnvB2-nOEfzLHKOVfZfNM-gNurCaQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=13770422135960022308",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "matched_name": "Daily Table Grocery - Dorchester"
+ },
+ "Emmerson Animal Hospital|42.3028,-71.0530": {
+  "rating": 4.6,
+  "count": 171,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=261293836900174485",
+  "other": [],
+  "summary_zh": "Google 4.6 分（171 則），Dorchester Freeport St 的 Emmerson Animal Hospital，評論幾乎都是好評，稱讚醫師與員工親切、手術照護好。",
+  "good_zh": [
+   "醫師與員工親切、對怕生的寵物有耐心",
+   "有手術能力（如十字韌帶手術）評價好",
+   "說明誠實、讓飼主安心"
+  ],
+  "bad_zh": [
+   "有飼主要求看診前鎮靜被拒的評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnFMObk_bjcmhNujApFB73MoyzRvJFF7ou0Hfu4cGFkvKlriQLVNX0bR7C1yDr2Nf9c3WTy94GdwpBJYtnXx7nKRPb18dNhcQXeeD79EplnVhKFP_FRJNCq-gu43O3PcwU21o=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=261293836900174485",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Southwest Corridor Park|42.3127,-71.1058": {
+  "rating": 4.4,
+  "count": 368,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=3321684377486533405",
+  "other": [],
+  "summary_zh": "Southwest Corridor Park 在 Jamaica Plain 這一段（Lamartine St 附近）的 Google 標記沒有評分；整座帶狀公園的主要 listing 為 4.4 分（368 則），有步道、自行車道與遊戲場。",
+  "good_zh": [
+   "整條步道維護良好，可沿 Orange Line 散步",
+   "沿途有遊戲場與球場"
+  ],
+  "bad_zh": [
+   "此段 Google 標記沒有評論",
+   "自行車道上單車速度快，行人要小心"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLewYu5R8sX8kqwwY_xxhd9rQ0XXpuNNwCnFyp2WgBDOqkjuMz_Rr42REemc8MviJCATHwQG_s2IvIi7dVPBCmta8L9WZF8g07ab4LFooBJB7nAWZZ2Z4AumCv00KhGWv_9G5ecB=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=10519236150787995627",
+    "credit": "Google Maps 使用者"
+   }
+  ],
+  "match_note": "此點 44 m 內的 listing（cid 10519236150787995627）無評分；評分取自同一公園主 listing（約 1.2 km）",
+  "nearest_listing_url": "https://www.google.com/maps?cid=10519236150787995627",
+  "dog": {
+   "fenced": false,
+   "off_leash": null,
+   "license_required": null,
+   "water": null,
+   "small_dog_area": null
+  }
+ }
+}

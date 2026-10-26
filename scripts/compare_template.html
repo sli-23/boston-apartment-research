@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F4F1EA">
+<title>公寓排行榜 · Boston 找房</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F4F1EA; --card:#FBFAF6; --ink:#1B1A17; --ink-2:#55524A; --ink-3:#8E897D;
+  --rule:#E2DDD1; --rule-2:#CFC8B8; --accent:#B4532A;
+  --font:"Schibsted Grotesk","Noto Sans TC","PingFang TC",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--paper);color:var(--ink);font-size:14.5px;line-height:1.55;-webkit-font-smoothing:antialiased;font-feature-settings:"tnum" 1}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+header.top{border-bottom:1px solid var(--ink);padding:26px 0 22px}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.eyebrow a{text-decoration:none;border-bottom:1px solid var(--rule-2);letter-spacing:.04em;text-transform:none;font-size:12px;color:var(--ink-2)}
+.eyebrow>span:last-child{display:flex;gap:14px}
+h1{font-size:34px;font-weight:600;letter-spacing:-.02em;margin-top:10px;line-height:1.1}
+.lede{color:var(--ink-2);margin-top:10px;max-width:720px}
+h2{font-size:20px;font-weight:600;margin:36px 0 4px}
+.note{font-size:12.5px;color:var(--ink-3);max-width:820px}
+
+.podium{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--rule);margin-top:16px}
+.pcol{padding:18px 20px 18px 0;border-bottom:1px solid var(--rule)}
+.pcol+.pcol{padding-left:20px;border-left:1px solid var(--rule)}
+.pcol h3{font-size:15px;font-weight:600;display:flex;justify-content:space-between;align-items:baseline}
+.pcol h3 span{font-size:11.5px;font-weight:400;color:var(--ink-3)}
+.pcol ol{list-style:none;margin-top:10px}
+.pcol li{display:grid;grid-template-columns:26px 1fr auto;gap:8px;align-items:baseline;padding:9px 0;border-top:1px solid var(--rule);cursor:pointer}
+.pcol li:first-child{border-top:0}
+.pcol li:hover .nm{text-decoration:underline;text-underline-offset:3px}
+.pcol .rk{font-size:20px;font-weight:600;color:var(--ink-3)}
+.pcol li:first-child .rk{color:var(--accent)}
+.pcol .nm{font-weight:500}
+.pcol .ar{display:block;font-size:11.5px;color:var(--ink-3)}
+.pcol .val{font-weight:600;text-align:right;white-space:nowrap}
+.pcol .val small{display:block;font-weight:400;font-size:11px;color:var(--ink-3)}
+.chip{display:inline-flex;align-items:center;gap:5px}
+.chip i{width:8px;height:8px;display:inline-block}
+
+.tablewrap{overflow-x:auto;border-top:1px solid var(--ink);margin-top:14px;-webkit-overflow-scrolling:touch}
+table{border-collapse:separate;border-spacing:0;width:100%;min-width:1080px;font-size:13px}
+th{position:sticky;top:0;background:var(--paper);text-align:right;font-weight:500;font-size:11.5px;color:var(--ink-3);padding:10px 10px;border-bottom:1px solid var(--rule-2);white-space:nowrap;cursor:pointer;user-select:none}
+th.l,td.l{text-align:left}
+th:hover{color:var(--ink)}
+th.on{color:var(--ink)}
+th .ar{font-size:10px;margin-left:3px}
+td{padding:10px 10px;border-bottom:1px solid var(--rule);text-align:right;white-space:nowrap;background:var(--paper)}
+tr{cursor:pointer}
+tr:hover td{background:var(--card)}
+td.name,th.name{position:sticky;left:0;z-index:2;text-align:left;min-width:200px;max-width:240px;white-space:normal;border-right:1px solid var(--rule)}
+th.name{z-index:3}
+td.name b{font-weight:500}
+td.name small{display:block;color:var(--ink-3);font-size:11px}
+.bar{display:inline-block;height:6px;vertical-align:middle;margin-left:6px;background:var(--ink)}
+.na{color:var(--ink-3)}
+.yes{color:#4E7A4B;font-weight:600}
+.no{color:var(--ink-3)}
+.score{font-weight:600}
+.ai{display:inline-block;font-size:10px;font-weight:600;padding:0 5px;color:#fff;background:linear-gradient(90deg,#3D5A99,#7A5BA6);vertical-align:1px}
+footer{padding:36px 0 60px;font-size:11px;color:var(--ink-3)}
+
+@media (max-width:820px){
+  .wrap{padding:0 16px}
+  h1{font-size:27px}
+  .podium{grid-template-columns:1fr}
+  .pcol,.pcol+.pcol{padding:16px 0;border-left:0}
+  td.name,th.name{min-width:150px;max-width:160px}
+  table{font-size:12.5px}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="eyebrow"><span>Boston 找房 · Ranking · 最後更新 __UPDATED__</span><span><a href="index.html">← 公寓地圖</a><a href="guide.html">生活科普</a></span></div>
+  <h1>公寓排行榜</h1>
+  <p class="lede">21 間公寓按噪音、價格、便利度排名，下面的表格可以點欄位排序，點公寓名稱看詳情。</p>
+</div></header>
+<main class="wrap">
+  <div class="podium" id="podium"></div>
+  <p class="note" style="margin-top:12px" id="method"></p>
+  <h2>完整對比</h2>
+  <p class="note">點欄位標題排序；「—」= 沒有資料。手機可以左右滑動表格。</p>
+  <div class="tablewrap"><table id="tbl"></table></div>
+</main>
+<footer class="wrap">資料：噪音 美國交通部 BTS 2020；價格 ApartmentList / 官網（各公寓「房型價格」頁有日期和來源）；時間 OSRM（開車不含塞車）、MBTA；犯罪 各市警方開放資料。</footer>
+<script>
+const C = /*__COMPARE__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const rows = C.rows;
+
+// convenience = weighted minutes, then min–max scaled to 0–100 (higher = more convenient)
+const W = {subway:2, bos21:1, grocery:1, park:1, vet:1, hospital:.5};
+rows.forEach(r => {
+  const parts = Object.entries(W).map(([k, w]) => r[k] == null ? null : r[k] * w);
+  r.convMin = parts.includes(null) ? null : parts.reduce((a, b) => a + b, 0);
+});
+const cm = rows.map(r => r.convMin).filter(v => v != null), lo = Math.min(...cm), hi = Math.max(...cm);
+rows.forEach(r => r.conv = r.convMin == null ? null : Math.round(100 * (hi - r.convMin) / (hi - lo || 1)));
+$("#method").innerHTML = `便利分的算法：地鐵步行分鐘 × 2 ＋ BOS21、超市、遛狗公園、寵物醫院開車分鐘 ＋ 醫院開車分鐘 × 0.5，加總後換算成 0–100（分鐘越少分數越高）。噪音是大樓位置的 24 小時平均交通噪音（BTS 模型，低於 45 dB 記為 45）。價格是目前 2b2b 最低月租。區域犯罪率是 FBI 2025 每千人（波士頓各社區按 FBI 口徑估算），麻州平均暴力 3.0、財產 10.4。`;
+
+const chip = r => `<span class="chip"><i style="background:${r.color}"></i>${esc(r.area)}</span>`;
+const open = slug => location.href = `index.html#${slug}`;
+
+/* ---------- podiums ---------- */
+const PODS = [
+  ["最安靜", "噪音 dBA 越低越好", r => r.noise, (a, b) => a - b, r => `${r.noise.toFixed(1)} dB<small>50 m 內最吵 ${r.noise50 != null ? Math.round(r.noise50) : "—"}</small>`],
+  ["最便宜", "2b2b 起價", r => r.price, (a, b) => a - b, r => `$${r.price.toLocaleString()}<small>/月起</small>`],
+  ["最便利", "便利分 0–100", r => r.conv, (a, b) => b - a, r => `${r.conv}<small>地鐵 ${r.subway ?? "—"} 分 · BOS21 ${r.bos21 ?? "—"} 分</small>`],
+];
+$("#podium").innerHTML = PODS.map(([t, sub, get, cmp, fmt]) => {
+  const top = rows.filter(r => get(r) != null).sort((a, b) => cmp(get(a), get(b))).slice(0, 5);
+  return `<div class="pcol"><h3>${t}<span>${sub}</span></h3><ol>${top.map((r, i) => `<li data-slug="${r.slug}">
+    <span class="rk">${i + 1}</span><span><span class="nm">${esc(r.name)}</span>${r.ai ? ` <span class="ai">AI 推薦</span>` : ""}<span class="ar">${chip(r)}</span></span><span class="val">${fmt(r)}</span></li>`).join("")}</ol></div>`;
+}).join("");
+document.querySelectorAll(".pcol li").forEach(li => li.onclick = () => open(li.dataset.slug));
+
+/* ---------- table ---------- */
+const yn = v => v === true ? `<span class="yes">✓</span>` : v === false ? `<span class="no">✗</span>` : `<span class="na">—</span>`;
+const bal = v => ({all:`<span class="yes">全部</span>`, some:`<span class="yes">部分</span>`, none:`<span class="no">✗</span>`})[v] || `<span class="na">—</span>`;
+const num = (v, suf = "") => v == null ? `<span class="na">—</span>` : `${v}${suf}`;
+const COLS = [
+  ["name", "公寓", r => r.name, r => `<b>${esc(r.name)}</b>${r.ai ? ` <span class="ai">AI</span>` : ""}<small>${chip(r)}</small>`, "l name"],
+  ["price", "2b2b 起價", r => r.price, r => r.price ? `$${r.price.toLocaleString()}` : `<span class="na">沒空房</span>`],
+  ["noise", "噪音 dB", r => r.noise, r => num(r.noise?.toFixed(1))],
+  ["conv", "便利分", r => r.conv, r => r.conv == null ? num(null) : `<span class="score">${r.conv}</span><span class="bar" style="width:${r.conv * .4}px"></span>`],
+  ["subway", "地鐵步行", r => r.subway, r => num(r.subway, " 分") + (r.line ? ` <small style="color:${r.lineColor}">●</small>` : "")],
+  ["bos17", "BOS17 開車", r => r.bos17, r => num(r.bos17, " 分")],
+  ["bos21", "BOS21 開車", r => r.bos21, r => num(r.bos21, " 分")],
+  ["transit21", "BOS21 大眾運輸", r => r.transit21, r => num(r.transit21, " 分")],
+  ["grocery", "超市", r => r.grocery, r => num(r.grocery, " 分")],
+  ["park", "遛狗公園", r => r.park, r => num(r.park, " 分")],
+  ["vet", "寵物醫院", r => r.vet, r => num(r.vet, " 分")],
+  ["quiet", "住戶：安靜", r => r.quiet, r => num(r.quiet, "/5")],
+  ["safe", "住戶：安全", r => r.safe, r => num(r.safe, "/5")],
+  ["areaViolent", "區域暴力/千人", r => r.areaViolent, r => num(r.areaViolent?.toFixed(1))],
+  ["areaProperty", "區域財產/千人", r => r.areaProperty, r => num(r.areaProperty?.toFixed(1))],
+  ["crime", "附近財產案", r => r.crime, r => num(r.crime)],
+  ["balcony", "陽台", r => ({all:2, some:1, none:0})[r.balcony] ?? -1, r => bal(r.balcony)],
+  ["wd", "套內洗烘", r => r.wd === true ? 1 : r.wd === false ? 0 : -1, r => yn(r.wd)],
+  ["parking", "車位/月", r => r.parkingFee, r => r.parkingFee ? `$${r.parkingFee}` : `<span class="na">—</span>`],
+];
+const HIGHER_BETTER = new Set(["conv", "quiet", "safe", "balcony", "wd"]);
+let sortKey = new URLSearchParams(location.search).get("sort") || "conv", asc = !HIGHER_BETTER.has(sortKey);
+function draw(){
+  const col = COLS.find(c => c[0] === sortKey) || COLS[3];
+  const sorted = [...rows].sort((a, b) => {
+    const x = col[2](a), y = col[2](b);
+    if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;
+    return typeof x === "string" ? (asc ? x.localeCompare(y) : y.localeCompare(x)) : (asc ? x - y : y - x);
+  });
+  $("#tbl").innerHTML = `<thead><tr>${COLS.map(([k, t, , , cls = ""]) => `<th class="${cls} ${k === sortKey ? "on" : ""}" data-k="${k}">${t}${k === sortKey ? `<span class="ar">${asc ? "▲" : "▼"}</span>` : ""}</th>`).join("")}</tr></thead>
+    <tbody>${sorted.map(r => `<tr data-slug="${r.slug}">${COLS.map(([k, , , f, cls = ""]) => `<td class="${cls}">${f(r)}</td>`).join("")}</tr>`).join("")}</tbody>`;
+  document.querySelectorAll("#tbl th").forEach(th => th.onclick = () => {
+    const k = th.dataset.k;
+    if (k === sortKey) asc = !asc; else { sortKey = k; asc = !HIGHER_BETTER.has(k); }
+    history.replaceState(null, "", `?sort=${k}`);
+    draw();
+  });
+  document.querySelectorAll("#tbl tbody tr").forEach(tr => tr.onclick = () => open(tr.dataset.slug));
+}
+draw();
+</script>
+</body>
+</html>

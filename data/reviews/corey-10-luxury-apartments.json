@@ -1,0 +1,132 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.0,
+   "label": "RentCafe · 27 條評價"
+  },
+  "summary_zh": "Melrose 市中心的小型公寓，走 2 分鐘到通勤鐵路 Wyoming Hill 站，坐 15 分鐘到 North Station（官網）。RentCafe 27 條評價平均 4.0，分項裡停車、維修、員工、性價比、位置都是 4.5，噪音 4.0，設施 3.5。主要噪音來源是旁邊的通勤鐵路（Haverhill 線），但 2025-08 有住戶說「雖然離鐵路很近，大樓大部分時候很安靜」；官網也說戶與戶之間有加強隔音。沒有找到住戶談治安的內容，也沒找到 Melrose 的報案統計。設施比較少，沒有泳池或大健身房。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 4,
+   "points_zh": [
+    "RentCafe 噪音分項 4.0/5",
+    "2025-08 住戶：雖然離火車很近，大樓大部分時候很安靜",
+    "官網說戶與戶之間做了高品質隔音；鐵路就在旁邊，靠鐵路那側要實際去聽"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "沒找到住戶談安全的評價",
+    "沒找到 Melrose 這一帶的公開報案統計",
+    "官網說有私人的路外停車位"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 4,
+   "points_zh": [
+    "RentCafe 員工分項 4.5、維修分項 4.5",
+    "2026-07 住戶：人和位置是這裡最好的地方",
+    "辦公室只有平日 9–5，看房要預約"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 3,
+   "points_zh": [
+    "RentCafe 設施分項 3.5，是各項裡最低的",
+    "套內有洗衣機烘乾機、花崗岩檯面、Samsung 不鏽鋼家電、挑高天花板",
+    "沒看到泳池、健身房之類的公共設施"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 4,
+   "points_zh": [
+    "RentCafe 性價比分項 4.5；2025-04 住戶說租金很合理",
+    "2026-10-26 RentCafe 兩房標價 $3,000，但目前沒有空房",
+    "押金 $1,000，申請費只要 $20"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "走 2 分鐘到通勤鐵路，15 分鐘到 North Station",
+  "在 Melrose 市中心，餐廳、咖啡店走路可到",
+  "住戶整體評價不錯（RentCafe 4.0，27 條）",
+  "兩房兩衛標價 $3,000，比劍橋便宜",
+  "有 Matterport 3D 看房"
+ ],
+ "cons_zh": [
+  "目前沒有兩房空房",
+  "緊鄰鐵路，可能有火車聲",
+  "公共設施少",
+  "停車、水電、寵物費用都沒查到",
+  "沒有地鐵，進城靠通勤鐵路（班次比地鐵少）"
+ ],
+ "quotes": [
+  {
+   "text": "雖然火車就在附近，大樓大部分時候還是很安靜。",
+   "source": "RentCafe · 2025-08",
+   "url": "https://www.rentcafe.com/apartments/ma/melrose/corey10/default.aspx"
+  },
+  {
+   "text": "人和位置是這裡最好的地方。",
+   "source": "RentCafe · 2026-07",
+   "url": "https://www.rentcafe.com/apartments/ma/melrose/corey10/default.aspx"
+  },
+  {
+   "text": "不錯的房子，離火車站很近！",
+   "source": "RentCafe · 2026-04",
+   "url": "https://www.rentcafe.com/apartments/ma/melrose/corey10/default.aspx"
+  },
+  {
+   "text": "想在 Melrose 好地段過簡單的生活，這裡是很好的選擇。",
+   "source": "RentCafe · 2025-07",
+   "url": "https://www.rentcafe.com/apartments/ma/melrose/corey10/default.aspx"
+  },
+  {
+   "text": "租金非常合理。",
+   "source": "RentCafe · 2025-04",
+   "url": "https://www.rentcafe.com/apartments/ma/melrose/corey10/default.aspx"
+  }
+ ],
+ "sources": [
+  {
+   "name": "RentCafe",
+   "url": "https://www.rentcafe.com/apartments/ma/melrose/corey10/default.aspx"
+  },
+  {
+   "name": "官網",
+   "url": "https://www.corey10.com"
+  },
+  {
+   "name": "ApartmentRatings（自己看）",
+   "url": "https://www.apartmentratings.com/ma/melrose/corey-10-apartments_9199332346275178625/"
+  },
+  {
+   "name": "Yelp（自己看）",
+   "url": "https://www.yelp.com/biz/corey-10-apartments-melrose"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Corey+10+Luxury+Apartments+10+Corey+St+Melrose+MA"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Corey%2010%22%20Melrose"
+  }
+ ],
+ "gaps_zh": "RentCafe 27 條評價只看得到 6 條短評，看不到每條的星數。Google、Reddit、Yelp、ApartmentRatings 都攔截了自動抓取，上面的鏈接可以自己點開看。沒找到 Melrose 的報案統計。"
+}

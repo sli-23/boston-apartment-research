@@ -1,0 +1,39 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": null,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": false,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": null,
+  "roof_deck": true,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official: 'Private Balconies*' with '*Available in select apartments'; plan-level not stated. https://www.windsorcommunities.com/properties/windsor-at-maxwells-green/",
+  "in_unit_wd": "Official: 'In Home Washer/Dryer' (ApartmentList oddly tags 'On-Site Laundry')",
+  "central_ac": "Official 'Air Conditioning', type not stated",
+  "hardwood": "Official: 'Hardwood-Style Flooring' (not real hardwood)",
+  "pool": "ApartmentList FAQ says no pool; official lists none https://www.apartmentlist.com/ma/somerville/windsor-at-maxwell-s-green",
+  "coworking": "Official 'Network Cafe' / 'Office Space in Select Homes'; site text lists 'Coworking Space'",
+  "bike_storage": "Official description 'Featuring bike storage'",
+  "roof_deck": "Official 'Community Roof Deck'",
+  "elevator": "Official 'Elevators'",
+  "garage_parking": "Official 'Garage Parking'; reserved garage $215/mo (units file)",
+  "ev_charging": "Official 'EV Charging Stations'"
+ }
+}

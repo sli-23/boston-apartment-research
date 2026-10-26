@@ -1,0 +1,137 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 4.4,
+   "label": "ApartmentRatings · 7 條評價（2021-01 存檔）"
+  },
+  "summary_zh": "在東波士頓海邊，看得到波士頓市中心的景，住戶最常誇景觀和員工。評價很少，而且大多是 2020–2021 年的。這棟靠近洛根機場，但找到的評價裡沒有人提到飛機噪音，也沒能確認，看房時最好自己聽聽看。住戶提到的噪音是鄰居週末開派對。也有人抱怨廚餘機附近一直有菸味，兩個月沒解決。附近約 250 公尺內過去一年報案 159 起，有 2 起加重傷害、3 起住宅入室盜竊，沒有搶劫，但有 1 起報案註記有槍擊。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "靠近洛根機場，但找到的評價裡沒有人談飛機聲，無法確認；要白天、晚上各去聽一次",
+    "2020-11 住戶說住戶換得很快，同層新鄰居週末開派對很吵",
+    "ApartmentRatings 住戶給噪音 4/5，算是安靜（2021 存檔）"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "波士頓警方開放資料：大樓約 250 公尺內，2025-10-01 到 2026-10-23 共 159 起報案",
+    "其中簡單傷害 5 起、加重傷害 2 起、住宅入室盜竊 3 起，沒有搶劫；有 1 起註記槍擊、1 起發現彈道證據",
+    "ApartmentRatings 住戶給安全 4.7/5（2021 存檔，只有 7 條評價）"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 4,
+   "points_zh": [
+    "多條評價誇員工友善、幫忙；有住戶已經續約第 4 次",
+    "2021-01 差評：搬入後兩個月一直有菸味，反映多次沒解決；物業回覆會處理",
+    "物業每條評價都有回覆（ApartmentRatings 回覆率 100%）"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "泳池、24 小時健身房、禮賓服務、車庫、電動車充電、寵物美容區、火坑和烤肉區（ApartmentList）",
+    "旁邊有公園，住戶說很適合遛狗",
+    "套內有洗衣機烘乾機；很多戶能看到市中心景觀"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 ApartmentList：D 戶型 911–933 呎，$4,008–4,595",
+    "兩房面積偏小（854–933 呎）",
+    "車位 $225/月，比市中心便宜；部分戶型最多送 1 個月"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "海邊，看得到市中心景觀",
+  "住戶誇員工友善",
+  "有泳池、24 小時健身房",
+  "旁邊有公園，適合養狗",
+  "車位 $225/月，相對便宜"
+ ],
+ "cons_zh": [
+  "靠近機場，飛機噪音沒有住戶說法可以確認",
+  "有住戶抱怨鄰居週末開派對",
+  "有住戶抱怨菸味問題久久沒解決",
+  "兩房面積偏小",
+  "評價很少，大多是 2020–2021 年的"
+ ],
+ "quotes": [
+  {
+   "text": "從搬進來第一天就一直有很嚴重的菸味，已經兩個月了。菸味每隔幾小時就從廚餘機附近冒出來。我跟物業和禮賓反映好幾次，到現在還沒解決。",
+   "source": "ApartmentRatings · 2021-01",
+   "url": "https://web.archive.org/web/20210127001547/https://www.apartmentratings.com/ma/boston/the-eddy-apartments_9199332346275164377/"
+  },
+  {
+   "text": "員工很棒，社區整體很好。最近換了很多住戶，不巧我這層新來的住戶週末開派對很吵。",
+   "source": "ApartmentRatings · 2020-11",
+   "url": "https://web.archive.org/web/20210127001547/https://www.apartmentratings.com/ma/boston/the-eddy-apartments_9199332346275164377/"
+  },
+  {
+   "text": "這是我在 The Eddy 的第四份租約。從我來波士頓開始，這裡就是我的家。",
+   "source": "ApartmentRatings · 2020-12",
+   "url": "https://web.archive.org/web/20210127001547/https://www.apartmentratings.com/ma/boston/the-eddy-apartments_9199332346275164377/"
+  },
+  {
+   "text": "旁邊的公園很適合我的狗，車庫規劃得很好、很方便。",
+   "source": "ApartmentRatings · 2020-06",
+   "url": "https://web.archive.org/web/20210127001547/https://www.apartmentratings.com/ma/boston/the-eddy-apartments_9199332346275164377/"
+  },
+  {
+   "text": "申請過程中員工非常友善、很幫忙。設施也跟介紹的一樣！",
+   "source": "ApartmentList · 2025-01",
+   "url": "https://www.apartmentlist.com/ma/boston/the-eddy"
+  },
+  {
+   "text": "交通很方便，有藍線，機場也在附近……當然會塞車，也有點貴，但整體來說住起來不錯。",
+   "source": "Niche · East Boston 居民（2024-07 存檔）",
+   "url": "https://web.archive.org/web/20240722174843/https://www.niche.com/places-to-live/n/east-boston-boston-ma/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ApartmentRatings（2021 存檔）",
+   "url": "https://web.archive.org/web/20210127001547/https://www.apartmentratings.com/ma/boston/the-eddy-apartments_9199332346275164377/"
+  },
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/boston/the-eddy"
+  },
+  {
+   "name": "波士頓犯罪開放資料",
+   "url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  {
+   "name": "Niche · East Boston（2024 存檔）",
+   "url": "https://web.archive.org/web/20240722174843/https://www.niche.com/places-to-live/n/east-boston-boston-ma/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/The+Eddy+10+New+St+East+Boston"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22The%20Eddy%22%20East%20Boston"
+  }
+ ],
+ "gaps_zh": "沒找到住戶談飛機噪音的評價（Reddit 的搜尋 API 一直被限流，Google、Yelp、Apartments.com 也攔截了抓取）。現有評價只有 7 條，大多是 2020–2021 年的，2022 年以後只找到 ApartmentList 上 1 條。下面的連結可以自己點開看。"
+}

@@ -1,0 +1,68 @@
+{
+ "Pleasant St. Delta|42.4270,-71.0766": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [],
+  "summary_zh": "在 Google 地圖上找不到這個地點的條目，因此沒有評分與評論；是否可帶狗、有無遊樂場也未查到。",
+  "good_zh": [],
+  "bad_zh": [
+   "Google 地圖查無此條目，無評分與評論"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ },
+ "FitzGerald Park|42.4262,-71.0693": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=2297606911052306969",
+  "other": [],
+  "summary_zh": "Google 有條目（170 Centre St）但沒有評分與評論；是否可帶狗、有無遊樂場也未查到。",
+  "good_zh": [],
+  "bad_zh": [
+   "Google 上無評分、無評論，無法判斷品質"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd0zOGL6sMAWPGG65rzUsuHXBSFHNcy1HepUZ4CyFKdQrL1kt26Oks3X-Dyn4WYIhUIDQAIVVo9G6tpArQlmLZWeSUd4MmuZg54JJ9_qj3znxeDv6c3WZH70H6bg-RQBq0y53a6pFsOS7bU=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=2297606911052306969",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Callahan Park|42.4242,-71.0760": {
+  "rating": 4.6,
+  "count": 37,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=12300851163190610950",
+  "other": [
+   {
+    "source": "Google (Fitness Court at Callahan Park)",
+    "rating": 5,
+    "count": 3,
+    "url": "https://www.google.com/maps?cid=2908225400589233415"
+   }
+  ],
+  "summary_zh": "Google 4.6 分（37 則），有大型棒球場與新的戶外健身區（Fitness Court），乾淨、人不多；未查到是否可帶狗或有無遊樂場。",
+  "good_zh": [
+   "新的戶外健身區，可做引體向上、深蹲、跳箱等",
+   "大型棒球場，空間大，小孩可以跑",
+   "乾淨、維護良好，人不多很安靜"
+  ],
+  "bad_zh": [
+   "熱門評論多為 4–7 年前，近況參考有限",
+   "評論未提及廁所與遊樂場"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfH5W-DjkhJgrxlVG4OGL3ecQm9WU-_NSpbQ_OwelNjFwmQSs2dqZ-hLEuLo-AwPBzCQKuS57iM4o5czSwA_EjUDLCz1CFVLghU4zRBNLnzuapW0VGtG_9IBUL-im_MB13bpJR8jQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=12300851163190610950",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ }
+}

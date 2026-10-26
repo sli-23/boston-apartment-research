@@ -1,0 +1,46 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": true,
+  "dishwasher": true,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [
+  "B3",
+  "B4",
+  "B5",
+  "B6"
+ ],
+ "building": {
+  "gym": true,
+  "pool": false,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": true,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": null
+ },
+ "evidence": {
+  "balcony": "Official floor plans page: 'Select residences feature balconies' https://www.livezinc.com/floorplans/ ; ApartmentList 2b2b plan images show BALCONY on B3, B4, B5, B6 (none on B1, B2, B7, B8-R, B9) https://www.apartmentlist.com/ma/cambridge/zinc--1",
+  "in_unit_wd": "ApartmentList 'In Unit Laundry'; plans show WD; official photo 'stacked washer and dryer in a closet'",
+  "central_ac": "ApartmentList 'Air Conditioning' (type not stated)",
+  "dishwasher": "ApartmentList 'Dishwasher'; plans label DW",
+  "hardwood": "Official: 'Resilient Wood Look Flooring' (not real hardwood); ApartmentList lists 'Carpet'",
+  "walk_in_closet": "2b2b plans label WALK-IN CLOSET (B1–B8-R)",
+  "pool": "ApartmentList FAQ: no pool",
+  "garage_parking": "Official: 'Garage Parking Available'",
+  "ev_charging": "Only source is a resident review (ApartmentRatings 2021-01) mentioning free EV charging; may be outdated",
+  "dogs": "Official site has a photo captioned 'dog wash stations'; pet-friendly; ApartmentList does not list species",
+  "concierge": "Residents (ApartmentRatings, mostly 2021 or earlier) praise 24-hour concierge; not on current official list",
+  "bike_storage": "Residents (2020-12) mention an indoor locked bike room",
+  "roof_deck": "Official: '15,000 SF Garden Terrace' (unclear whether it is on the roof)"
+ }
+}

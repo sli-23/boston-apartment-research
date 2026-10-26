@@ -1,0 +1,132 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": null,
+  "summary_zh": "2023 年完工的小樓（官網寫 45 戶，ApartmentHomeLiving 寫 37 戶），走 4 分鐘就到 Green Street 橘線站。住戶評價非常少：Apartments.com、ApartmentList 都沒有評價，Google 評分抓不到；找得到的只有 Reddit 上住戶轉租時寫的介紹（2024-09、2026-02），內容偏正面但是在找人接手，參考價值有限。噪音主要是 Washington St 車流和約 230 公尺外西南走廊（橘線＋Amtrak）的夜間施工鳴笛。附近報案多集中在 Washington St，所以五項分數大多先給中間值 3。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "BTS 2020 交通噪音模型：門牌點約 52.9 dB（道路 51.6、鐵路 50.6），50 公尺內臨路一側最高 60.5 dB，屬一般住宅區水準",
+    "西南走廊（Southwest Corridor，橘線和 Amtrak 東北走廊共用）約 230 公尺；2026-06 r/JamaicaPlain 有人抱怨夜間施工時火車一直鳴笛、半夜被吵醒，住警局附近的人說「聽得非常清楚」，但大家都說不是常態",
+    "Washington St 車流在東側約 100 公尺內；沒找到這棟住戶談室內隔音的評價"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "Boston 警方開放資料（2025-10 至 2026-09，400 公尺內）共 1,790 筆，但其中 1,404 筆落在 Washington St 同一個座標點，看起來是 E-13 警局的登記地址（推測，非警方說明），不代表實際發生在那裡",
+    "扣掉這個點後：暴力類 29 件（一般傷害 18、加重傷害 8、搶劫 3）、財產類 51 件；暴力事件大多在 Washington St 上",
+    "2024-09 住戶轉租貼文形容這一帶「安靜、綠意多」；沒找到住戶談大樓本身門禁或失竊的評價"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "沒有找到任何住戶對物業的評價，分數先給中間值",
+    "由仲介 Fenway Property Advisors 負責出租，小樓沒看到管理處、包裹室資訊",
+    "Reddit 上 2024-09、2026-02 各有住戶找人接手租約（一則 1 房、一則 2 房 2 衛），沒說明搬走原因"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 3,
+   "points_zh": [
+    "官網列：套內洗衣機烘乾機、中央冷暖氣、石英檯面、落地窗、健身房、屋頂露台、電梯",
+    "停車說法不一：官網寫 Garage Parking，ApartmentHomeLiving 寫半遮蔽地面停車場、最多 24 位，2026-02 住戶轉租文寫「Covered parking available」；ApartmentList 寫 $250／月",
+    "小樓設施較少，沒有泳池、會所；沒有住戶評價設施"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-02 住戶轉租 2 房 2 衛 $3,825／月；ApartmentHomeLiving 列 B1（935 呎）$3,600–$4,000",
+    "2024-09 一則 1 房轉租：實際租金 $2,800，扣掉 $7.7k 優惠後平均約 $2,100，代表當時有大額入住優惠",
+    "離橘線最近（約 4 分鐘），但 2 房 2 衛只有 935 呎；電費、網路另付"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "走 4 分鐘到 Green Street 橘線站",
+  "2023 年新樓，套內洗烘、中央空調",
+  "有健身房、屋頂露台、電梯",
+  "住戶轉租文形容街區安靜、綠意多",
+  "入住優惠曾經很大（2024 年 1 房平均省約 $700／月）"
+ ],
+ "cons_zh": [
+  "住戶評價幾乎沒有，物業好壞不明",
+  "靠近西南走廊，夜間鐵路施工時會有火車鳴笛",
+  "Washington St 一帶有一些暴力類報案（扣掉警局座標點後一年 29 件）",
+  "停車是車庫還是地面停車場，各來源說法不一",
+  "2 房 2 衛只有 935 呎，空間偏小"
+ ],
+ "quotes": [
+  {
+   "text": "公寓很漂亮，所在的 Jamaica Plain 街區安靜、綠意多，走 3 分鐘就到 Green St. 橘線站。（住戶找人接手租約時寫的）",
+   "source": "Reddit r/bostonhousing · 2024-09",
+   "url": "https://www.reddit.com/r/bostonhousing/comments/1fild9g/modern_1bd_for_rent_in_jp_for_2100_mo_lease/"
+  },
+  {
+   "text": "我住在 JP 的 Green St 站附近，真的很喜歡！搭 T 去哪都很近，非常方便。",
+   "source": "Reddit r/JamaicaPlain · 2026-08",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1vcw91p/how_is_south_jamaica_plain/p1gbdfj/"
+  },
+  {
+   "text": "這不是常態。我住在警察局附近，聽得非常清楚……早上 6 點在 Green Street 站看到有人在軌道上施工，火車就是在對施工人員鳴笛。",
+   "source": "Reddit r/JamaicaPlain · 2026-06",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1ttmoqm/amtrak_honking/op8527m/"
+  },
+  {
+   "text": "最近剛搬到西南走廊附近，這週之前完全沒注意到 Amtrak 鳴笛，但最近非常吵、一直按，昨晚把我吵醒好幾次。",
+   "source": "Reddit r/JamaicaPlain · 2026-06",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1ttmoqm/amtrak_honking/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Reddit · 211 Green St 1 房轉租（2024-09）",
+   "url": "https://www.reddit.com/r/bostonhousing/comments/1fild9g/modern_1bd_for_rent_in_jp_for_2100_mo_lease/"
+  },
+  {
+   "name": "Reddit · 211 Green Street 2 房 2 衛轉租（2026-02）",
+   "url": "https://www.reddit.com/r/bostonhousing/comments/1r299dv/jp_2bed_2bath_3825month_sublet_5_min_from_ol/"
+  },
+  {
+   "name": "Reddit · 西南走廊火車鳴笛（2026-06）",
+   "url": "https://www.reddit.com/r/JamaicaPlain/comments/1ttmoqm/amtrak_honking/"
+  },
+  {
+   "name": "Boston 警方事件資料",
+   "url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system"
+  },
+  {
+   "name": "BTS 交通噪音地圖",
+   "url": "https://www.bts.gov/geospatial/national-transportation-noise-map"
+  },
+  {
+   "name": "官網",
+   "url": "https://www.211greenst.com/"
+  },
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/boston/211-green-st"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/211+Green+St+Jamaica+Plain+MA"
+  }
+ ],
+ "gaps_zh": "2023 年才完工的小樓，住戶評價非常少：Apartments.com 和 Wayback 存檔都找不到這棟的頁面，ApartmentList 頁面沒有評價，Google 地圖抓取被擋（只回傳空白頁），Reddit（透過 PullPush 存檔）只找到兩則轉租貼文，Jamaica Plain Gazette 沒找到這個開發案的報導，Boston Globe 沒查到。物業、設施、性價比三項沒有住戶意見，分數先給中間值 3，有新評價再更新。治安數字中 1,404 筆集中在同一座標點，判斷為警局地址是推測。"
+}

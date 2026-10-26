@@ -1,0 +1,40 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": null,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [
+  "Layout 04 (Juliet balcony)",
+  "Layout 07 (Juliet balcony)"
+ ],
+ "building": {
+  "gym": null,
+  "pool": null,
+  "garage_parking": null,
+  "ev_charging": null,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": null,
+  "roof_deck": null,
+  "elevator": null,
+  "bike_storage": null,
+  "coworking": null
+ },
+ "evidence": {
+  "balcony": "Official 2019 sales handout feature table marks 'Juliet Balcony' for layouts 03, 04, 06, 07, 10 (2b2b: 04, 07 only). These are Juliet (French) balconies, i.e. a railing at a door, not a usable outdoor balcony. https://www.corey10.com/images/Sales-Handout-12-09-19.pdf",
+  "in_unit_wd": "Official: 'a washer and dryer in every unit'. https://www.corey10.com",
+  "central_ac": "Official: 'Independently controlled high-efficiency heating and cooling' (system type not stated). https://www.corey10.com",
+  "dishwasher": "Not explicitly stated; official only says 'All new stainless-steel appliances'. https://www.corey10.com",
+  "hardwood": "Official: 'Plush, newly carpeted bedrooms' (living-area flooring not stated); set false for bedrooms. https://www.corey10.com",
+  "walk_in_closet": "Handout table: walk-in closet in 2b2b layouts 02, 04, 07, 09 (not 08). https://www.corey10.com/images/Sales-Handout-12-09-19.pdf",
+  "garage_parking": "Official: 'Protected, private, off-street parking availability' - garage vs surface not stated. https://www.corey10.com",
+  "dogs": "Official: 'Fully pet friendly'; RentCafe (per data/units) allows cats and dogs, dogs under 50 lb. RentCafe blocked on recheck.",
+  "gym": "No gym/pool listed on official site; review notes say none seen (data/reviews). Not confirmed, left null."
+ }
+}

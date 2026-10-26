@@ -1,0 +1,124 @@
+{
+ "official_url": "https://www.livecambridgepark.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/cambridge/cambridge-park-apartments#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "Panoskin 360° 全景（設施、各房型、外觀）",
+   "url": "https://v1.panoskin.com/?tour=5d4b3efb49dc1f260b1fa899"
+  },
+  {
+   "label": "Panoskin 360° 單一房型",
+   "url": "https://v1.panoskin.com/?tour=5d4b3efb49dc1f260b1fa899&pano=5d40aa25509a7033f8734a48"
+  },
+  {
+   "label": "Panoskin 360° 外觀",
+   "url": "https://v1.panoskin.com/?tour=62a8aa4b2039d0220208f135"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "1,090 sq. ft.",
+   "sqft": "1,090",
+   "price": "$3,759–4,171",
+   "price_min": 3759,
+   "as_of": "2026-10-26",
+   "available": "5 間：#6133 $3,759 現在入住；#3131 $3,759 現在入住；#1104 $3,860 現在入住；#4139 $4,101 現在入住；#6128 $4,171 12/8 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/bc702dd88d6d5c3abe0ced31268387c9.jpg"
+  },
+  {
+   "name": "1,097 sq. ft.",
+   "sqft": "1,097",
+   "price": "$4,081",
+   "price_min": 4081,
+   "as_of": "2026-10-26",
+   "available": "1 間：#5129 $4,081 10/30 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/1646ceb0e8111f6f4ba2de28b036404e.jpg"
+  },
+  {
+   "name": "1,097 sq. ft. (H)",
+   "sqft": "1,097",
+   "price": "$4,141",
+   "price_min": 4141,
+   "as_of": "2026-10-26",
+   "available": "1 間：#5121 $4,141 12/7 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/dee651591979faccdfc113fbd2dbc50b.jpg"
+  },
+  {
+   "name": "1,155 sq. ft.",
+   "sqft": "1,155",
+   "price": "$4,201",
+   "price_min": 4201,
+   "as_of": "2026-10-26",
+   "available": "1 間：#2111 $4,201 12/2 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/7ec77fa975d34742f399976b7b880e6d.jpg"
+  },
+  {
+   "name": "1,131 sq. ft.",
+   "sqft": "1,131",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/0c7530e69a80b7251b471a10a81cca45.jpg"
+  },
+  {
+   "name": "1,155 sq. ft. (B)",
+   "sqft": "1,155",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/62db731a3d7f6c12f4f51ad322edbe58.jpg"
+  },
+  {
+   "name": "1,173 sq. ft.",
+   "sqft": "1,173",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/0afa878b33fd81249190d6a5aa51d725.jpg"
+  },
+  {
+   "name": "1,216 sq. ft.",
+   "sqft": "1,216",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/7ef89b8ecb3988c6a64fbd1be67ab262.jpg"
+  },
+  {
+   "name": "1,238 sq. ft.",
+   "sqft": "1,238",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/c80f01bfed8eeae180a512b132a771c2.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "預留車位 $200–250/月（費用表沒寫是室內還是室外）；機車位 $100–150/月",
+  "parking_surface": "訪客停車 $15/天",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；垃圾包含在租金內",
+  "electric_heat": "瓦斯包含在租金內；電住戶自己跟第三方公司申請、自付（沒找到月平均金額）",
+  "internet": "自己申請，自己付",
+  "pet_rent": "每月 $75（官方費用表）",
+  "pet_deposit_or_fee": "費用表沒寫寵物押金或一次性費用",
+  "other": "押金 $250；換鎖費 $85（一次性，必付）；必須有租客保險（物業方案 $12.36/月）；儲藏室 $50/月；月租制 $800/月；提前解約費 2 個月租金；換戶 $1,000；搬出協助 $125–275；遲交罰 5%。收入要達租金 2.5 倍。ApartmentList 上目前沒看到優惠",
+  "source": "https://communityfees.bozzuto.com/property/767E2E/export",
+  "as_of": "官方費用表（Bozzuto，2026-10-26 產生）"
+ },
+ "pet_policy_zh": "可以養貓和狗；隻數、品種限制沒寫，ApartmentList 上寫「請聯絡我們」。有大型狗公園。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（頁面寫 35 分鐘前由公寓核實），都是 12 個月租約的總價。房型名稱就是面積（例如「1,090 sq. ft.」），括號裡的字母是同面積的不同格局。1,131、1,155 (B)、1,173、1,216、1,238 呎² 這幾種目前沒空房。官網擋了自動抓取。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/cambridge/cambridge-park-apartments"
+  },
+  {
+   "name": "官方費用表",
+   "url": "https://communityfees.bozzuto.com/property/767E2E/export"
+  },
+  {
+   "name": "官網",
+   "url": "https://www.livecambridgepark.com"
+  }
+ ]
+}

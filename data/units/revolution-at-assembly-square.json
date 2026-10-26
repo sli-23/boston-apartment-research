@@ -1,0 +1,124 @@
+{
+ "official_url": "https://www.revolutionatassemblysquare.com/",
+ "floorplans_url": "https://www.apartmentlist.com/ma/somerville/revolution-at-assembly-square#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "官網影片（YouTube）",
+   "url": "https://youtube.com/watch?v=lFLQkquKHnc"
+  },
+  {
+   "label": "預約實地／自助／視訊看房",
+   "url": "https://schedule.tours/bozzuto-group/revolution/schedule?src=w.pws"
+  },
+  {
+   "label": "Instagram 實景",
+   "url": "https://www.instagram.com/RevolutionSomervilleApts/"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "2 Bed/2 Bath-B4",
+   "sqft": "1,060",
+   "price": "$4,586–4,747",
+   "price_min": 4586,
+   "as_of": "2026-10-26",
+   "available": "2 間（#426 11/9 入住 $4,586；#428 現在入住 $4,747，官網寫 $4,737）",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/0b21feda7303b9611710e99292322fc6.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B6",
+   "sqft": "1,081",
+   "price": "$4,586",
+   "price_min": 4586,
+   "as_of": "2026-10-26",
+   "available": "1 間（#664），11/21 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/11e996d83f676f79aab04f56021a055b.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B1",
+   "sqft": "1,072",
+   "price": "$4,665",
+   "price_min": 4665,
+   "as_of": "2026-10-26",
+   "available": "1 間（#364），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/75df42df9e964fcdcd4b1b0e4cbcb85a.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B9",
+   "sqft": "1,053",
+   "price": "$4,972",
+   "price_min": 4972,
+   "as_of": "2026-10-26",
+   "available": "1 間（#702），11/1 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/a7b7feb8bb3fb4b41d5ed652238d0fd0.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B2",
+   "sqft": "1,037",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "2 Bed/2 Bath-B5",
+   "sqft": "1,118",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "2 Bed/2 Bath-B7",
+   "sqft": "1,128",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "2 Bed/2 Bath-B8",
+   "sqft": "1,096",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  },
+  {
+   "name": "2 Bed/2 Bath-B10",
+   "sqft": "1,035",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": ""
+  }
+ ],
+ "fees": {
+  "parking_garage": "預留車位 $375–600/月（官方費用表）；官網寫有車庫停車",
+  "parking_surface": "費用表沒有列露天車位",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；垃圾包含在租金內",
+  "electric_heat": "電和瓦斯由第三方供應，住戶自付（沒找到月平均金額）",
+  "internet": "自己申請，自己付（第三方）",
+  "pet_rent": "$75/月（官方費用表，沒寫是不是每隻計算）",
+  "pet_deposit_or_fee": "費用表和 ApartmentList 都沒列寵物押金或一次性費用",
+  "other": "標準押金 $0（依審核結果可能調整）；必須有租客責任險（物業方案 $12.36/月）；儲藏室 $150–200/月；換約／轉戶費 $1,000；月租制每月加 $1,000；遲繳費為基本租金 10%；提前解約為 1 個月基本租金。收入需達租金 3 倍。官網和 ApartmentList（2026-10-07 起）都寫「Enjoy Up to One Month of Base Rent on Select Homes」，限部分戶型",
+  "source": "https://communityfees.bozzuto.com/property/6CF2B5/export",
+  "as_of": "官方費用表 PDF 註明 2026-10-26 產生，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻。不收的狗：Pit Bull（Staffordshire Terrier）、Bull Terrier、Husky、Akita、Presa Canario、Mastiff、Rottweiler、German Shepherd、Doberman、Chow Chow 以及這些品種的混種。另外不收狼蛛、爬蟲、雪貂、囓齒類等非一般寵物，魚缸不能超過 20 加侖（ApartmentList）。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList（公寓當天更新）和官網平面圖頁看到的 12 個月租約價格，兩邊一致，只有 #428 差 $10（ApartmentList $4,747、官網 $4,737）。官網寫的是「total monthly leasing price」，但水電、車位、寵物費都另外算。「最多一個月基本租金」優惠只限部分戶型，不確定這些價格有沒有攤進去，簽約前要確認。B7 在 ApartmentList 上還沒有平面圖（顯示 Coming Soon）。沒找到 Matterport 之類的 3D 看房。官網底部寫由 Wood Partners 管理，費用表和看房系統是 Bozzuto 的。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/somerville/revolution-at-assembly-square"
+  },
+  {
+   "name": "官網平面圖",
+   "url": "https://www.revolutionatassemblysquare.com/floor-plans/"
+  },
+  {
+   "name": "官方費用表（Bozzuto）",
+   "url": "https://communityfees.bozzuto.com/property/6CF2B5/export"
+  }
+ ]
+}

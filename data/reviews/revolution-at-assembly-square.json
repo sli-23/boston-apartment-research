@@ -1,0 +1,124 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 5.0,
+   "label": "Apartments.com · 17 條評價（2023-03 存檔，當時叫 Alta Revolution）"
+  },
+  "summary_zh": "2022 年新建，當時叫 Alta Revolution。2022–2023 年的評價幾乎都是五星，大家誇物業團隊、住戶活動多、設施新、離 Assembly 橘線和購物區很近。不過很多是帶看體驗或剛搬進來的人寫的，2022-12-08 一天就集中出現 5 條五星，參考價值要打折扣。只有一條提到噪音，說幾乎聽不到鄰居。2023 年以後的評價沒找到，管理公司後來看起來也換了（現在官網和費用表是 Bozzuto／Wood Partners）。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "一位從郊區搬來的住戶說建築品質好，「幾乎聽不到鄰居的聲音」（2022-12）",
+    "其他評價沒有提到 I-93 或橘線的噪音，也沒有人抱怨吵",
+    "樓下就是 Assembly Row 購物餐飲區，晚上人多，這點沒有住戶評價可以確認"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "評價裡沒有任何關於治安或偷竊的內容",
+    "2022 年評價提到大廳有禮賓人員，會帶訪客去租賃辦公室",
+    "這次沒有重新查 Somerville 警方的開放資料"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 4,
+   "points_zh": [
+    "2022–2023 年評價一致誇租賃和維修團隊友善、回覆快、搬入順利",
+    "物業常辦住戶活動（Ground Floor Project 賭場之夜、聖誕派對），很多人說因此認識鄰居",
+    "要打折看：很多是帶看體驗，2022-12-08 一天出現 5 條五星；之後管理公司可能換了，現在的團隊沒有評價"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 5,
+   "points_zh": [
+    "官網：健身房、泳池、熱水池、遊戲室、隔音音樂間和創作工作室、會議室、庭院火爐、燒烤區",
+    "寵物公園和寵物 spa；2022 年評價提到室內狗公園",
+    "套內全尺寸 Samsung 洗衣機烘乾機、石英檯面、Schlage 智慧鎖"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 兩房兩衛 $4,586–4,972，在這次名單裡偏貴",
+    "預留車位 $375–600/月，再加上水電寵物費",
+    "一位住戶說「離波士頓很近，但在城外，所以錢更划算」（2022-12）"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "步行約 4 分鐘到 Assembly 橘線站",
+  "2022 年新建，設施很多",
+  "有寵物公園和寵物 spa",
+  "住戶活動多，容易認識鄰居",
+  "有住戶說幾乎聽不到鄰居的聲音"
+ ],
+ "cons_zh": [
+  "兩房兩衛租金高",
+  "預留車位 $375–600/月，很貴",
+  "不收 Husky、German Shepherd 等多種大型犬",
+  "評價多半是帶看或剛搬進來的人寫的，又集中在少數幾天",
+  "2023 年以後的評價沒找到，管理公司可能換過"
+ ],
+ "quotes": [
+  {
+   "text": "這棟樓蓋得很好，我們幾乎聽不到鄰居的聲音（這原本是我們擔心的一點）。",
+   "source": "Apartments.com · 2022-12",
+   "url": "http://web.archive.org/web/20230327022040/https://www.apartments.com/alta-revolution-somerville-ma/jms83c7/"
+  },
+  {
+   "text": "很幸運住在這裡！現場的租賃和維修人員友善、熱心、回覆快。",
+   "source": "Apartments.com · 2023-03",
+   "url": "http://web.archive.org/web/20230327022040/https://www.apartments.com/alta-revolution-somerville-ma/jms83c7/"
+  },
+  {
+   "text": "離波士頓很近，上班方便，但在城外，所以錢更划算。",
+   "source": "Apartments.com · 2022-12",
+   "url": "http://web.archive.org/web/20230327022040/https://www.apartments.com/alta-revolution-somerville-ma/jms83c7/"
+  },
+  {
+   "text": "我從沒住過社區感這麼強的地方。",
+   "source": "Apartments.com · 2022-12",
+   "url": "http://web.archive.org/web/20230327022040/https://www.apartments.com/alta-revolution-somerville-ma/jms83c7/"
+  },
+  {
+   "text": "喜歡 Assembly 這一帶走路就能到處去，而且是全新的公寓！",
+   "source": "Apartments.com · 2022-09",
+   "url": "http://web.archive.org/web/20230327022040/https://www.apartments.com/alta-revolution-somerville-ma/jms83c7/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Apartments.com（2023 存檔）",
+   "url": "http://web.archive.org/web/20230327022040/https://www.apartments.com/alta-revolution-somerville-ma/jms83c7/"
+  },
+  {
+   "name": "官網設施頁",
+   "url": "https://www.revolutionatassemblysquare.com/amenities/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Revolution+at+Assembly+Square+290+Revolution+Dr+Somerville"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Revolution%20at%20Assembly%22%20OR%20%22Alta%20Revolution%22"
+  }
+ ],
+ "gaps_zh": "Google、Reddit、Yelp、Apartments.com（即時頁）都攔截了自動抓取；ApartmentRatings 和 Yelp 沒有存檔。只找到 2022–2023 年的 Apartments.com 存檔，2023 年以後的評價和負評都沒找到。治安這次沒查 Somerville 警方資料，只能看評價。上面的鏈接可以自己點開看。"
+}

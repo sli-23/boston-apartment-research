@@ -1,0 +1,42 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": true,
+  "dishwasher": null,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [
+  "B8",
+  "B18"
+ ],
+ "building": {
+  "gym": true,
+  "pool": true,
+  "garage_parking": true,
+  "ev_charging": null,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": null,
+  "bike_storage": null,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official: 'Breathe in fresh air on your first-floor paved patio' (select units only) https://livemasonma.com/amenities/ ; of 23 official 2b2b SVG plans only B8 and B18 show PATIO https://livemasonma.com/floorplans/ ; ApartmentList lists 'Patio / Balcony' https://www.apartmentlist.com/ma/everett/mason",
+  "in_unit_wd": "Official 2b2b floor plans show a W/D closet (e.g. B17); ApartmentList FAQ says no in-unit laundry, but that is just a missing tag",
+  "central_ac": "ApartmentList unit amenity: 'Air Conditioning' (type not stated); official lists Honeywell smart thermostats",
+  "dishwasher": "Not stated in text (official: 'stainless GE appliances'); floor plans show an unlabeled box by the sink; unverified",
+  "hardwood": "Official: 'Stylish wide-plank flooring throughout' + 'Plush carpeted bedrooms' (plank, not real hardwood)",
+  "walk_in_closet": "Official plans label WALK-IN CLOSET (e.g. B17); ApartmentList 'Walk In Closets'",
+  "garage_parking": "Residents (Reddit 2025-12, 2026-08): garage spot $125/mo; official only says 'On-site parking'",
+  "concierge": "CONFLICT: official 'Enjoy daily concierge services' and ApartmentList 'Concierge', but a resident (Reddit 2025-12) says concierge was cancelled in late 2025",
+  "package_room": "Official: 'on-site package acceptance' + 'refrigerated cold storage in package room'",
+  "bike_storage": "Official only mentions 'bike and scooter rentals', no storage room",
+  "coworking": "Official: 'open concept + private onsite co-working spaces'"
+ }
+}

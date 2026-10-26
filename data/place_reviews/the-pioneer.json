@@ -1,0 +1,192 @@
+{
+ "VCA Everett Animal Hospital|42.4028,-71.0455": {
+  "rating": 4.4,
+  "count": 561,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=16968711515827392386",
+  "other": [],
+  "summary_zh": "Google 4.4 分（561 則），醫護親切、可臨時約診、有自家停車場，但費用偏高，少數人抱怨處置與服務態度。",
+  "good_zh": [
+   "臨時/當天約診常能安排",
+   "醫護解說仔細、會追蹤後續",
+   "診所乾淨、有自家停車場"
+  ],
+  "bad_zh": [
+   "費用偏高（評論提到抽血約 550 美元起）",
+   "有包紮不當、櫃台態度差的負評",
+   "非 24 小時急診"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeyIgdwktbHQAzBQbSkPSFNTrl563YJUrW0zNjIR9KFMYZ7sYmhLaSLtyCcDXnoE296Vvqmun2znILtNuyR8wg7qGn4q0dJfGd_8Uxb0Da6a8uWkEz7aPh1ld9Tt8k7mdcD5UJuYQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16968711515827392386",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfyykScSvI4FoW4T5JrhrCwRedk9PmbxiNtKPm9KTJgU1p2k1tJqxOlfSk5y30c1iavzNAT6dcld1nqHh9luZoJW9rzAxRxMBZq-rcdfk_GxCv6Ppc1fZfy6_5N7O3ZTC6mBuMSxS0bfDg=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=16968711515827392386",
+    "credit": "Markus (FAST-MK5)"
+   }
+  ]
+ },
+ "Malden Animal Hospital|42.4301,-71.0590": {
+  "rating": 4.3,
+  "count": 199,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=17471256307206054238",
+  "other": [],
+  "summary_zh": "Google 4.3 分（199 則），整體評分尚可，但近一年負評集中在收費過高、帳單超出估價與特定醫師態度。",
+  "good_zh": [
+   "老客戶稱醫護對老年寵物有耐心",
+   "技術員與櫃台人員較受好評"
+  ],
+  "bad_zh": [
+   "多則近期負評指收費高、帳單比估價高很多",
+   "有未經同意加做檢查的抱怨",
+   "特定醫師態度強勢、不聽飼主意見"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJWlyyZILkANCzGXnQHMdrFXZfcK2Xw0FfzaHaDCmFeuEeDTmJ847hJnK34hgc_bWDd3FyPvEK_8L3fYBvY5vXWyheKcukHuPhBqsfmnBqZFIWw4Rrnth-RdEW5NcLgO_QCG5BGA=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=17471256307206054238",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Bond Vet - Somerville|42.3932,-71.0800": {
+  "rating": 4.5,
+  "count": 446,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=14541669855121980287",
+  "other": [],
+  "summary_zh": "Google 4.5 分（446 則），新穎乾淨的連鎖動物醫院，兼做急症，醫護溫柔、更新檢查結果快。",
+  "good_zh": [
+   "空間新穎乾淨、壓力小，到處有零食",
+   "醫護溫柔細心、檢查結果回報快",
+   "Google 類別含急症服務；有評論稱價格公道"
+  ],
+  "bad_zh": [
+   "連鎖品牌；本次讀到的近期評論幾乎都是好評，負面資訊不足"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLek3075YWp6Q_yNcxVpOH-Sbk38uXwV73x-lgvXydjtiNOgzoiaoiuw--VZCq_fI1nV1iLIg09v_uo53bKsmcjbvv_EWSEdoWDsldnaRv8zOnLRnmBlMjYxRZzZR6cSbFoxGBhZqQZPmKoQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14541669855121980287",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcC5pDAMslbn6B5QYl2Yx7a49mzXsHsKs2AWKNlF13zbRy8v-kS9T2zfv4wbwkzyyFyZNk78yrPak8Qqe3QVF5tgO0DBOWHchlpqNgO4L9sH6snzmrqMtVw-DvzyTMe4ed-BBNc=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=14541669855121980287",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Jacob Scharf Park|42.4041,-71.0443": {
+  "rating": 4.1,
+  "count": 28,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=9072274028681434152",
+  "other": [],
+  "summary_zh": "Google 4.1 分（28 則，Google 上名為 Jacob Scharf Basketball Court），社區籃球場與小公園，有噴水區與野餐桌；是否可帶狗未查到。",
+  "good_zh": [
+   "籃球場有 NBA 三分線",
+   "夏天有噴水區、可野餐",
+   "社區安靜"
+  ],
+  "bad_zh": [
+   "評論多為多年前，近況不明",
+   "有家長覺得設施單調、噴水設備曾故障"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdu_HefcLYFpKwA7s2oObFvavLwhYnIFNDycV-6Dpw-OugKX_kbVOWlOHyfXubI27z6vyryGcpZsojVdSnbDOggUKbVju8XXSXGwml-MX-KWhyzyw8d4X5Pr16EH5yaPrHQJ2tW=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9072274028681434152",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_86lvwRI-y997dQBe8zT93eoB4A9w-zhC3WfpaHTttpfqk_DJR_e6cwrl6C1S9_Tk47SWvqSCbXvKWCjZ7qb4jfjpkSbQlP8ZDXQPRU1-vA-BHw_HBQb7kRGbmsRIpMSHdDrf=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9072274028681434152",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfdjzSy_8PJU7WXg5mHyeFU8YiulW2fw1y0vWNq3uQYNg6Bn99c5Useippr5gH_rTEHP3kZDwMTVVznRQNyKZq40rAcOO40Nf0EaBf9p7QHK3M5HSXhAMXThBjr4aR5T1FSIE37=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=9072274028681434152",
+    "credit": "Kyle Casey"
+   }
+  ]
+ },
+ "Gramstorff Park|42.4078,-71.0430": {
+  "rating": 4.6,
+  "count": 75,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=11454436328539253454",
+  "other": [],
+  "summary_zh": "Google 4.6 分（75 則，John Gramstorf Playground），翻新後的社區遊樂場，有噴水區與有頂野餐區。",
+  "good_zh": [
+   "設施較新、造型特別，有噴水區",
+   "有遮頂野餐區，市府維護佳",
+   "四周有圍欄"
+  ],
+  "bad_zh": [
+   "藏在住宅區，不好找",
+   "有評論提到垃圾與空酒瓶",
+   "非狗公園"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTVFrYTH2wVu50UBT-hIsUGSFIgmbeNAuSHsTdCPkIdGSOaa_1trpLaNCQE1fJG1HGeewbs2DlJsjkDeRktt5SPkPwj4gfTz0k0omGky1UtqjuVPbZkQQatDUAN4hnTT663aE=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11454436328539253454",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcZjx-87Oz6nWeTid7V6WLg3GSsA4Uwo62k0nBlOcZ_W_UIzhDRrudXZQtWipnadGg_R72YRTR_-qLiUtTK88OrZFcjaPlLmj17z6G8mMuuxL0HlBkI8v-jAKI02I9e5shtN6Vn8g=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11454436328539253454",
+    "credit": "SarahLynn Preussner"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHh4GEBMF3DWwW_msxgeKIO6uyqyh0RW_vJCxhF-_QyW3Thlkp9K_b7ICU9p1_zHSTYlxz8VeScs37FEkfPmkpBoqdWhB3YTYw05OL0drln-HBuzubaSIY5qV34RrtEEKKyIeZ0w=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11454436328539253454",
+    "credit": "SarahLynn Preussner"
+   }
+  ]
+ },
+ "Washington Park|42.4057,-71.0358": {
+  "rating": 4.5,
+  "count": 30,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=7195970973199099125",
+  "other": [],
+  "summary_zh": "Google 4.5 分（30 則，Chelsea 的 Washington Park），狗友善的社區公園，有小型兒童遊樂場與樹蔭。",
+  "good_zh": [
+   "評論稱對狗友善、適合遛狗",
+   "有小型兒童遊樂場與樹蔭座位",
+   "周邊路邊停車（需投表）"
+  ],
+  "bad_zh": [
+   "有評論希望加強清潔與草地維護"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcukYS92VUpcwhab8796Wa4EzARwBBCFXSZKyIif1Tt735F5ELa3rfRaFb9xbt33586k8j4xJavIZUS5xsFeuF5o04u-a7WVG3TYz71I5QOGeGqLysPpWQq70WVg4MasEOz1Xkq=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=7195970973199099125",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc8SSQYVOklY2NtV1yIdSQ9Ktfao48FDLL4LwsQPg3GZfUGjq6S25cMNQOsuqtbzEzN6TnIzlh2PQIcTucyLId0sh5AlT0p-lUoYoPx995igzGwcqsaRmbwjLzTyGJ_5unVLQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=7195970973199099125",
+    "credit": "Alexandra Arrivillaga"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcmDNyPHzSoCz0rgTQPNsGDJhwUf2yt0fkgYzR4-ZxqFura4s1_4rmQeoDnZjrb1E5ojv1LeAvM7Z7l_07kj1NB3UfKBrMQDAktTf4iF9TjrrhMYASRafI_F0aiksdPcmm6gSs=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=7195970973199099125",
+    "credit": "Alexandra Arrivillaga"
+   }
+  ]
+ }
+}

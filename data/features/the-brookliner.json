@@ -1,0 +1,46 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": null,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [
+  "B1 (patio)",
+  "B2",
+  "B3",
+  "B4 (patio)",
+  "B5",
+  "B7",
+  "C4",
+  "C40"
+ ],
+ "building": {
+  "gym": true,
+  "pool": false,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": true,
+  "roof_deck": true,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official: 'Balconies and terraces *' + '5th floor homes with oversized terraces *' (* select units) https://thebrookliner.com/amenities/ ; ApartmentList plan images: B1/B4 patio, B2/B3/B5/B7/C4/C40 balcony, B6/C1/C2/C3/C6/C10 none https://www.apartmentlist.com/ma/boston/the-brookliner",
+  "in_unit_wd": "Official: 'In-home washers & dryers'",
+  "central_ac": "Not stated anywhere (official lists Nest thermostats only); ApartmentList FAQ says no AC but that only reflects a missing tag",
+  "dishwasher": "Not stated in text; ApartmentList FAQ says none (missing tag). Floor plans show an unlabeled box by the sink. Unverified",
+  "hardwood": "Official: 'LVT wood look plank flooring throughout' (wood-look vinyl, not real hardwood)",
+  "pool": "ApartmentList FAQ: no pool; official amenity list has none",
+  "package_room": "ApartmentList: 'Package Receiving' (room vs lockers not stated)",
+  "roof_deck": "Official: 'Expansive rooftop terrace' with cabanas, fire pits, grills",
+  "coworking": "Official: 'Work-from-home spaces'"
+ }
+}

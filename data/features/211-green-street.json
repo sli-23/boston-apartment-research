@@ -1,0 +1,40 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": true,
+  "dishwasher": true,
+  "hardwood": null,
+  "walk_in_closet": null
+ },
+ "balcony_2b2b_plans": [],
+ "building": {
+  "gym": true,
+  "pool": null,
+  "garage_parking": true,
+  "ev_charging": null,
+  "dogs": true,
+  "cats": true,
+  "concierge": null,
+  "package_room": null,
+  "roof_deck": true,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": null
+ },
+ "evidence": {
+  "in_unit_wd": "官網 Apartment Features：「Laundry in Every Unit」；ApartmentList 房源描述：「the convenience of in-unit laundry」（ApartmentList 設施標籤卻寫 On-site laundry）。https://www.211greenst.com/ ; https://www.apartmentlist.com/ma/boston/211-green-st",
+  "balcony": "官網：「Private Terraces (select units)」；#202／#302 的 2b2b 房型圖沒畫陽台。https://www.211greenst.com/",
+  "central_ac": "官網：「Central Heating & Cooling」。https://www.211greenst.com/",
+  "dishwasher": "ApartmentHomeLiving 各房型都列 Dishwasher（ApartmentList FAQ 卻說沒有洗碗機）。https://www.apartmenthomeliving.com/apartment-finder/211-Green-St-Jamaica-Plain-MA-02130-20067118",
+  "hardwood": "官網一處寫「hardwood flooring throughout」，另一處寫「Plank Flooring Throughout」；ApartmentHomeLiving 同時列 Vinyl Flooring 和 Hardwood Floors，無法確定。https://www.211greenst.com/",
+  "garage_parking": "官網 Building Luxuries：「Garage Parking」；但 ApartmentHomeLiving 寫 Surface Lot（Partially covered parking），要確認。https://www.211greenst.com/",
+  "dogs": "ApartmentHomeLiving：Dogs、2 Pet Limit、65 Lb Weight Limit、restricted breeds apply；ApartmentList 費用：Dog Rent $75 / month。",
+  "cats": "ApartmentList 費用：Cat Rent $75 / month；ApartmentList 設施標 Cats allowed。https://www.apartmentlist.com/ma/boston/211-green-st",
+  "gym": "官網：「Complimentary Fitness Center」。",
+  "roof_deck": "官網：「Roof Terrace with City Views」。",
+  "elevator": "官網：「Elevator Building」。",
+  "bike_storage": "官網：「Bicycle Storage」。"
+ }
+}

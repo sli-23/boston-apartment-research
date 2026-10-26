@@ -1,0 +1,845 @@
+{
+ "checked": "2026-10-26",
+ "sections": [
+  {
+   "id": "transit",
+   "title_zh": "交通",
+   "items": [
+    {
+     "h_zh": "地鐵與公車票價",
+     "points_zh": [
+      "地鐵單程 $2.40、公車 $1.70，CharlieCard、CharlieTicket、感應式信用卡或現金都同價",
+      "月票 LinkPass $90，地鐵、公車、銀線不限次數，用到當月最後一天",
+      "減價票：地鐵 $1.10、公車 $0.85（需減價卡）"
+     ],
+     "source": {
+      "name": "MBTA – Subway Fares",
+      "url": "https://www.mbta.com/fares/subway-fares"
+     }
+    },
+    {
+     "h_zh": "轉乘規則（2026 秋季試辦）",
+     "points_zh": [
+      "2026/9/1 起試辦：2 小時內地鐵、公車、渡輪無限轉乘，只付其中最貴一段",
+      "全程必須用同一種付款方式才算轉乘",
+      "儲值型 CharlieTicket 與現金不能轉乘",
+      "快線公車（Express Bus）票價降到與一般公車相同 $1.70，快線月票停售"
+     ],
+     "source": {
+      "name": "MBTA – 2026 Fall Fare Pilots",
+      "url": "https://www.mbta.com/fares/2026-fall-fare-pilots"
+     }
+    },
+    {
+     "h_zh": "機場銀線 SL1",
+     "points_zh": [
+      "從 Logan 機場上車一律免費",
+      "SL1 停靠機場每個航廈，終點 South Station，可轉紅線與通勤火車"
+     ],
+     "source": {
+      "name": "MBTA – Logan Airport",
+      "url": "https://www.mbta.com/destinations/logan-airport"
+     }
+    },
+    {
+     "h_zh": "銀線通勤 Seaport",
+     "points_zh": [
+      "SL1 站點：South Station → Courthouse → World Trade Center → Silver Line Way → 機場各航廈",
+      "從 South Station 往 Seaport 的 Courthouse、World Trade Center 都在 SL1 上"
+     ],
+     "source": {
+      "name": "MBTA V3 API – Route 741 (SL1) stops",
+      "url": "https://api-v3.mbta.com/stops?filter[route]=741"
+     }
+    },
+    {
+     "h_zh": "銀線票價",
+     "points_zh": [
+      "SL1、SL2、SL3 按地鐵票價計 $2.40，不是公車價",
+      "一般公車 $1.70；減價卡 $0.85",
+      "2 小時內同一付款方式轉乘，只付最貴的一段"
+     ],
+     "source": {
+      "name": "MBTA – Bus Fares",
+      "url": "https://www.mbta.com/fares/bus-fares"
+     }
+    },
+    {
+     "h_zh": "感應式付款（Tap to Ride）",
+     "points_zh": [
+      "公車、地鐵、銀線、渡輪可直接用感應式信用卡、手機或手錶刷卡，票價與 CharlieCard 相同",
+      "感應付款不能用在通勤火車，也不能搭配日票、週票、月票",
+      "整趟要用同一張卡或同一支手機，轉乘才會算"
+     ],
+     "source": {
+      "name": "MBTA – Fares",
+      "url": "https://www.mbta.com/fares"
+     }
+    },
+    {
+     "h_zh": "CharlieCard",
+     "points_zh": [
+      "地鐵站售票機或站務人員處可取得；Charlie Service Center、許多市政廳與 Boston 公共圖書館有免費空白卡",
+      "可用信用卡、現金或 EBT 在售票機儲值；月票可設定自動續購（Auto-pay）",
+      "官網註明餘額無法線上查詢，要到售票機查；官網未列出可用的 Charlie app"
+     ],
+     "source": {
+      "name": "MBTA – CharlieCard",
+      "url": "https://www.mbta.com/charliecard"
+     }
+    },
+    {
+     "h_zh": "通勤火車（Commuter Rail）",
+     "points_zh": [
+      "車站分為 1A 到 10 區，依上下車區間計價，單程 $2.40–$13.25",
+      "月票：實體 CharlieTicket $90–$426、mTicket app $80–$416",
+      "用 mTicket app 買票，上車前啟用，有效 3 小時",
+      "CharlieCard 只有載了月票才能搭通勤火車"
+     ],
+     "source": {
+      "name": "MBTA – Commuter Rail Fares",
+      "url": "https://www.mbta.com/fares/commuter-rail-fares"
+     }
+    },
+    {
+     "h_zh": "班距與末班車（依 MBTA 時刻表）",
+     "points_zh": [
+      "平日尖峰：紅線、橘線約每 4–5 分鐘一班；離峰約 5–6 分鐘",
+      "週末紅線、橘線約每 6–7 分鐘；綠線 E 支線平日約 8 分鐘",
+      "週日至週四晚末班車約凌晨 12:45 經過市中心（Park St / Downtown Crossing）",
+      "週五、週六晚延長，末班約凌晨 1:40–1:45"
+     ],
+     "source": {
+      "name": "MBTA V3 API – 時刻表（2026/10/27、11/6–11/8 查詢）",
+      "url": "https://api-v3.mbta.com/schedules"
+     }
+    },
+    {
+     "h_zh": "Bluebikes 共享單車",
+     "points_zh": [
+      "年費會員 $133.50，一般車每趟 45 分鐘內免費，電輔車每分鐘 $0.10",
+      "單次 $3（30 分鐘內）；一日卡 $11.99（每趟 2 小時內）",
+      "非會員騎電輔車每分鐘 $0.33"
+     ],
+     "source": {
+      "name": "Bluebikes – Pricing",
+      "url": "https://bluebikes.com/pricing"
+     }
+    }
+   ]
+  },
+  {
+   "id": "driving",
+   "title_zh": "開車與停車",
+   "items": [
+    {
+     "h_zh": "Boston 居民停車證",
+     "points_zh": [
+      "免費；需麻州車籍、登記地址在你的 Boston 住址（principally garaged）",
+      "附當期帳單或簽好的租約作住址證明；收據不算",
+      "搬入後 10 天內申請，線上約 10 個工作天寄到；到市政廳 Room 224 可當天拿",
+      "要先繳清欠的罰單；只限你所在社區使用，不發訪客證"
+     ],
+     "source": {
+      "name": "City of Boston – How to get a resident parking permit",
+      "url": "https://www.boston.gov/departments/parking-clerk/how-get-resident-parking-permit"
+     }
+    },
+    {
+     "h_zh": "Cambridge 居民停車證",
+     "points_zh": [
+      "目前 $25，2026/12/1 起漲到 $75；65 歲以上或身障牌免費",
+      "車輛需在 RMV 登記於 Cambridge 住址、garage code 為 Cambridge",
+      "住址證明需 30 天內：1 份水電帳單或 2 份郵件；不能有未繳罰單",
+      "每年 3/31 到期；可線上申請（郵寄）或到 344 Broadway 臨櫃"
+     ],
+     "source": {
+      "name": "City of Cambridge – Parking Permits",
+      "url": "https://www.cambridgema.gov/Departments/transportation/parkingpermits"
+     }
+    },
+    {
+     "h_zh": "Somerville 居民停車證",
+     "points_zh": [
+      "每輛 $50，續期也是 $50；65 歲以上或身障牌免費",
+      "新住戶可先申請免費臨時證，最長 30 天",
+      "注意：靠近紅、橘、綠線約半英里的「新建案」住戶不能申請路邊停車證（含訪客證），簽約前先查限制地址清單",
+      "訪客證：2 天 $30–35、3 天 $50"
+     ],
+     "source": {
+      "name": "City of Somerville – Traffic and Parking",
+      "url": "https://www.somervillema.gov/departments/traffic-and-parking"
+     }
+    },
+    {
+     "h_zh": "Boston 下雪緊急狀態",
+     "points_zh": [
+      "宣布後停在標示「Snow Emergency Artery」的路段會被開單並拖吊",
+      "部分停車場、車庫有居民折扣價，詳見市府清單",
+      "只有宣布緊急狀態時才能用占位物（space saver），解除後 48 小時內要收；South End、Bay Village 全面禁止",
+      "車被拖可查拖吊資料庫或打 617-343-4629"
+     ],
+     "source": {
+      "name": "City of Boston – Managing Winter and Snow",
+      "url": "https://www.boston.gov/snow"
+     }
+    },
+    {
+     "h_zh": "Cambridge 下雪緊急狀態",
+     "points_zh": [
+      "標示「No Parking during Snow Emergency」的街道不能停，違者開單拖吊",
+      "持居民停車證可免費停指定車庫（如 Green Street、First Street、CambridgeSide），解除後 2 小時內要開走",
+      "到 camb.ma/emergencyalerts 訂閱簡訊、email 或電話通知"
+     ],
+     "source": {
+      "name": "City of Cambridge – Snow Center",
+      "url": "https://www.cambridgema.gov/snow"
+     }
+    },
+    {
+     "h_zh": "Somerville 下雪緊急狀態",
+     "points_zh": [
+      "宣布後 4 小時內把車移到門牌「雙號」那一側（少數例外有標示）",
+      "停錯邊等違規罰 $100；拖吊 $132 加每日 $35 保管費",
+      "禁止用占位物佔車位",
+      "到 somervillema.gov/alerts 訂閱 City Alerts，或打 311（617-666-3311）"
+     ],
+     "source": {
+      "name": "City of Somerville – Winter Guide",
+      "url": "https://www.somervillema.gov/snow"
+     }
+    },
+    {
+     "h_zh": "Boston 掃街",
+     "points_zh": [
+      "白天掃街一般 4/1–11/30（North End、South End、Beacon Hill 到 12/31，3/1 再開始）；夜間掃街全年",
+      "被拖吊 $132，另加每 24 小時 $35 保管費",
+      "上 notify.boston.gov 查街道並訂閱 email 提醒；以現場告示牌為準"
+     ],
+     "source": {
+      "name": "City of Boston – Street Cleaning",
+      "url": "https://www.boston.gov/departments/public-works/street-cleaning-boston"
+     }
+    },
+    {
+     "h_zh": "Boston 常見停車罰單",
+     "points_zh": [
+      "掃街 $40、只限居民停車區 $60",
+      "消防栓前 $100、天候緊急狀態 $45",
+      "逾期未繳會再加滯納金"
+     ],
+     "source": {
+      "name": "City of Boston – Parking ticket fines and codes",
+      "url": "https://www.boston.gov/departments/parking-clerk/parking-ticket-fines-and-codes"
+     }
+    },
+    {
+     "h_zh": "Cambridge 掃街",
+     "points_zh": [
+      "4 月到 12 月，每條街兩側每月掃一次",
+      "2024 年 9 月起違規罰 $100",
+      "用市府「My Schedule」查你家地址的掃街日，或訂閱提醒"
+     ],
+     "source": {
+      "name": "City of Cambridge – Street Cleaning",
+      "url": "https://www.cambridgema.gov/Services/streetcleaning"
+     }
+    },
+    {
+     "h_zh": "搬來麻州：車籍與駕照",
+     "points_zh": [
+      "成為麻州居民後就必須立刻登記車輛，法律沒有寬限期",
+      "登記前要先買麻州車險，由持照保險經紀人在申請表上蓋章簽名",
+      "登記後 7 天內要完成驗車拿到 inspection sticker"
+     ],
+     "source": {
+      "name": "Mass.gov – Transfer your registration and title from out of state",
+      "url": "https://www.mass.gov/how-to/transfer-your-registration-and-title-from-out-of-state"
+     }
+    },
+    {
+     "h_zh": "換麻州駕照",
+     "points_zh": [
+      "要預約 RMV 服務中心，可先線上填申請，但不能全程線上辦",
+      "帶外州駕照；駕照有效或過期未滿 1 年，免筆試和路考",
+      "Class D（一般汽車）換照費 $115",
+      "官方頁面沒有寫明換照期限，搬來後盡早預約"
+     ],
+     "source": {
+      "name": "Mass.gov – Transfer your out-of-state license to Massachusetts",
+      "url": "https://www.mass.gov/how-to/transfer-your-real-or-standard-out-of-state-drivers-or-motorcycle-license-to-massachusetts"
+     }
+    },
+    {
+     "h_zh": "強制車險最低額度",
+     "points_zh": [
+      "2025/7/1 起提高：對他人體傷每人 $25,000 / 每事故 $50,000",
+      "財損最低 $30,000",
+      "另需 PIP（個人傷害保障，上限 $8,000）與無保險駕駛體傷 $25,000/$50,000"
+     ],
+     "source": {
+      "name": "Mass.gov – Basics of auto insurance",
+      "url": "https://www.mass.gov/info-details/basics-of-auto-insurance"
+     }
+    },
+    {
+     "h_zh": "車輛年稅（Excise）",
+     "points_zh": [
+      "每年每 $1,000 車價課 $25，由 1/1 時車輛登記所在的城鎮開單",
+      "車價以原廠建議售價乘年份比例：新車年 90%、第 2 年 60%、第 3 年 40%、第 4 年 25%、之後 10%",
+      "年中才登記的車，按當月起到 12/31 的月數比例計"
+     ],
+     "source": {
+      "name": "Mass.gov – A brief introduction to motor vehicle excise",
+      "url": "https://www.mass.gov/info-details/a-brief-introduction-to-motor-vehicle-excise"
+     }
+    },
+    {
+     "h_zh": "車庫月租行情（參考）",
+     "points_zh": [
+      "SpotHero 列出的 Boston 月租車位約 $135–$545，網站寫平均約 $255/月",
+      "市中心（State St、Summer St）列出的價格在 $530–$545",
+      "這是商業平台的即時報價，不是官方統計，實際依大樓而定"
+     ],
+     "source": {
+      "name": "SpotHero – Boston Monthly Parking",
+      "url": "https://spothero.com/city/monthly/boston-parking"
+     }
+    }
+   ]
+  },
+  {
+   "id": "renting",
+   "title_zh": "租房規則",
+   "items": [
+    {
+     "h_zh": "仲介費新法（2025/8/1 生效）",
+     "points_zh": [
+      "誰僱用仲介就由誰付；房東請的仲介，費用不能轉嫁給房客",
+      "房東不能把仲介費當成簽約條件，也不能改名成 admin fee、leasing fee 或灌進首月、末月租金",
+      "只有你自己簽約僱用、專門替你談判的仲介，才可以向你收費；簽約前仲介必須書面揭露誰僱用、誰付、金額",
+      "被違法收費可向州檢察長投訴（617-727-8400），房東最高可能賠 3 倍"
+     ],
+     "source": {
+      "name": "Mass.gov – FAQ about residential rental broker's fees",
+      "url": "https://www.mass.gov/info-details/frequently-asked-questions-about-residential-rental-brokers-fees"
+     }
+    },
+    {
+     "h_zh": "入住時房東最多能收什麼",
+     "points_zh": [
+      "第一個月租金、最後一個月租金",
+      "押金最多一個月租金",
+      "換鎖與鑰匙的成本",
+      "除此之外不能要求其他預付費用"
+     ],
+     "source": {
+      "name": "M.G.L. c.186 §15B",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B"
+     }
+    },
+    {
+     "h_zh": "押金規定",
+     "points_zh": [
+      "押金要存在麻州銀行的獨立、有利息帳戶；30 天內要給你寫明銀行與帳號的收據",
+      "入住 10 天內房東要給書面屋況清單，記下既有損壞",
+      "押金放滿 1 年要付利息（5% 或銀行實際較低利率）；預付的末月租金也要計息",
+      "退租後 30 天內要退還；違規房東可能要賠 3 倍押金"
+     ],
+     "source": {
+      "name": "M.G.L. c.186 §15B",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B"
+     }
+    },
+    {
+     "h_zh": "含鉛油漆（家有 6 歲以下孩童）",
+     "points_zh": [
+      "適用 1978 年前建造、有 6 歲以下孩童同住的房子",
+      "含鉛油漆危害必須移除或覆蓋，房東與屋主都有責任",
+      "房東不能因為你有小孩而拒租或趕你走",
+      "Boston 兒童鉛中毒預防計畫：617-534-5965"
+     ],
+     "source": {
+      "name": "City of Boston – Lead Information for Renters (2026)",
+      "url": "https://www.boston.gov/sites/default/files/file/2026/07/Lead%20Information%20for%20Renters_English.pdf"
+     }
+    },
+    {
+     "h_zh": "9 月 1 日搬家潮",
+     "points_zh": [
+      "Boston 大部分租約在 9 月初交接",
+      "搬家卡車別開 Storrow Drive，限高 10 英尺",
+      "搬家後記得通知郵局、Parking Clerk、水電公司與銀行改地址",
+      "房客入住時，房子必須有暖氣、合格出口與廁所，並有可用的煙霧與一氧化碳偵測器"
+     ],
+     "source": {
+      "name": "City of Boston – Moving",
+      "url": "https://www.boston.gov/moving"
+     }
+    },
+    {
+     "h_zh": "搬家卡車臨停證（Boston）",
+     "points_zh": [
+      "一日兩格非計費車位 $69（含 2 張告示牌）；計費車位再加 $40",
+      "線上至少提前 15 天申請、臨櫃至少 3 天，最早 8 週前",
+      "告示牌至少在早上 7 點開始前 48 小時立好",
+      "8/31–9/2 部分熱門搬家地點會預先封出臨停區，不需申請"
+     ],
+     "source": {
+      "name": "City of Boston – Reserve a parking spot for your moving truck",
+      "url": "https://www.boston.gov/departments/parking-clerk/reserve-parking-spot-your-moving-truck"
+     }
+    },
+    {
+     "h_zh": "租屋保險",
+     "points_zh": [
+      "房東的保險不保你的個人物品",
+      "租屋險通常包含財物損失與第三方責任",
+      "Boston 市府估計麻州租屋險約每月 $10–$30"
+     ],
+     "source": {
+      "name": "City of Boston – Renters insurance",
+      "url": "https://www.boston.gov/departments/housing/renters-insurance"
+     }
+    },
+    {
+     "h_zh": "租金管制現況",
+     "points_zh": [
+      "麻州自 1994 年全州公投後禁止租金管制，至今仍有效",
+      "2026 年恢復租金管制的公投案，州最高法院於 6/23 判定不得上 11 月選票",
+      "因此 Boston、Cambridge、Somerville 目前都沒有租金管制"
+     ],
+     "source": {
+      "name": "CommonWealth Beacon – High court strikes rent control question from ballot",
+      "url": "https://commonwealthbeacon.org/ballot-questions/mass-high-court-strikes-rent-control-question-from-ballot/"
+     }
+    },
+    {
+     "h_zh": "暖氣與熱水是房東的責任",
+     "points_zh": [
+      "每年 9/15 到 6/15 房東要提供暖氣",
+      "白天至少 68°F、夜間至少 64°F",
+      "熱水溫度應在 110–130°F"
+     ],
+     "source": {
+      "name": "City of Boston – Home heating help for tenants",
+      "url": "https://www.boston.gov/departments/311/home-heating-help-tenants"
+     }
+    }
+   ]
+  },
+  {
+   "id": "utilities",
+   "title_zh": "水電網路",
+   "items": [
+    {
+     "h_zh": "電力：Eversource",
+     "points_zh": [
+      "Boston、Cambridge、Somerville 的電力都在 Eversource 服務範圍",
+      "搬入前上 Eversource 網站開戶，記得把入住日設好",
+      "Boston 居民停車證接受水電帳單當住址證明"
+     ],
+     "source": {
+      "name": "Eversource – Communities We Serve",
+      "url": "https://www.eversource.com/residential/services/communities-we-serve"
+     }
+    },
+    {
+     "h_zh": "瓦斯：National Grid 或 Eversource",
+     "points_zh": [
+      "Eversource 瓦斯地址查詢的城鎮清單包含 Cambridge、Somerville，以及 Boston 的 Hyde Park、Mattapan、Roslindale",
+      "不在清單內的地址，可能由麻州另一家瓦斯公司 National Grid 供應",
+      "用兩家網站輸入地址查詢，或直接問房東是哪家"
+     ],
+     "source": {
+      "name": "Eversource – Gas availability check (MA)",
+      "url": "https://www.eversource.com/YG/Availability/default.aspx?comp=ma"
+     }
+    },
+    {
+     "h_zh": "電價參考數據",
+     "points_zh": [
+      "美國能源資訊署（EIA）：麻州住宅平均電價 2026 年 8 月 30.48 美分/度",
+      "2025 年 8 月為 30.55 美分/度",
+      "實際帳單依用電量而定；可靠的分城市月均帳單資料未找到"
+     ],
+     "source": {
+      "name": "EIA – Electric Power Monthly Table 5.6.A",
+      "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a"
+     }
+    },
+    {
+     "h_zh": "網路選擇（Boston）",
+     "points_zh": [
+      "Comcast/Xfinity 是 Boston 的既有有線業者",
+      "Verizon Fios 正擴展到 Boston 各社區",
+      "Astound（RCN）只在 Boston 部分社區提供",
+      "可用性依地址與大樓而定，簽約前請房東或管理處確認"
+     ],
+     "source": {
+      "name": "City of Boston – Cable options in Boston",
+      "url": "https://www.boston.gov/departments/broadband-and-cable/cable-options-boston"
+     }
+    },
+    {
+     "h_zh": "Starry 無線網路",
+     "points_zh": [
+      "服務範圍包含 Back Bay、South End、Dorchester、East Boston、Brighton 等，以及 Cambridge 的 Central、Harvard、Kendall Square",
+      "200M $30、500M $40、Gigabit $45/月（需用簽帳卡付款，否則每月多 $5）",
+      "官網註明：可用方案依地址而定"
+     ],
+     "source": {
+      "name": "Starry – Boston",
+      "url": "https://starry.com/cities/boston"
+     }
+    },
+    {
+     "h_zh": "Boston 垃圾與回收",
+     "points_zh": [
+      "收運日前一晚 5 點後才能把垃圾放出去",
+      "下載免費 Trash Day app 查收運日、設定提醒",
+      "漏收或其他問題打 311"
+     ],
+     "source": {
+      "name": "City of Boston – Trash and Recycling",
+      "url": "https://www.boston.gov/trash-and-recycling"
+     }
+    },
+    {
+     "h_zh": "Cambridge 垃圾與回收",
+     "points_zh": [
+      "垃圾桶在前一晚 6 點後或當天早上 7 點前放出",
+      "袋裝垃圾只能當天早上放，不能前一晚放",
+      "收運當天晚上 6 點前要把桶子收回"
+     ],
+     "source": {
+      "name": "City of Cambridge – Curbside Collections",
+      "url": "https://www.cambridgema.gov/services/curbsidecollections"
+     }
+    },
+    {
+     "h_zh": "床墊不能丟一般垃圾",
+     "points_zh": [
+      "麻州規定床墊要回收，Boston 不會跟一般垃圾一起收",
+      "6 戶以下的建築可上網預約路邊收床墊，每年最多 10 件",
+      "7 戶以上的大樓請找管理處或私人清運"
+     ],
+     "source": {
+      "name": "City of Boston – Mattress Recycling",
+      "url": "https://www.boston.gov/departments/public-works/mattress-recycling"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pets",
+   "title_zh": "寵物",
+   "items": [
+    {
+     "h_zh": "Boston 狗牌",
+     "points_zh": [
+      "6 個月以上的狗都要登記，每年 4/1 前完成",
+      "結紮 $15、未結紮 $30；需狂犬病疫苗證明與結紮證明",
+      "可線上、郵寄或到 1010 Massachusetts Ave 辦理",
+      "沒登記罰 $50"
+     ],
+     "source": {
+      "name": "City of Boston – How to license your dog",
+      "url": "https://www.boston.gov/departments/animal-care-and-control/how-license-your-dog"
+     }
+    },
+    {
+     "h_zh": "Cambridge 狗牌",
+     "points_zh": [
+      "6 個月以上的狗都要登記；年度為 4/1 到 3/31，不管何時辦都在 3/31 到期",
+      "結紮 $20、未結紮 $30；需 30 天內的住址證明與狂犬病疫苗證明",
+      "要使用 Cambridge 的狗狗放繩區，必須有有效的 Cambridge 狗牌",
+      "沒登記罰 $50"
+     ],
+     "source": {
+      "name": "City of Cambridge – Annual Dog License",
+      "url": "https://www.cambridgema.gov/services/annualdoglicense"
+     }
+    },
+    {
+     "h_zh": "Somerville 狗牌與牽繩",
+     "points_zh": [
+      "6 個月以上的狗都要登記，每年 1 月更新，效期到 12/31",
+      "除了標示的放繩區，市內任何地方都要牽繩",
+      "放繩區需狗牌、項圈掛牌與疫苗有效；晚上 10 點到早上 8 點不開放",
+      "違規每次罰 $50"
+     ],
+     "source": {
+      "name": "City of Somerville – Dog licensing, vaccination and ownership",
+      "url": "https://www.somervillema.gov/departments/programs/dog-licensing-vaccination-and-ownership"
+     }
+    },
+    {
+     "h_zh": "Boston 公園與放繩區",
+     "points_zh": [
+      "公園內狗要牽繩（繩長最多 8 英尺），兒童遊戲區、球場不能進",
+      "放繩區例如 Peters Park（South End）、DeFilippo Playground（North End）、Ronan Park（Dorchester）",
+      "Boston Common 有輪流更換草坪區塊的放繩區"
+     ],
+     "source": {
+      "name": "City of Boston – Dogs and Boston parks",
+      "url": "https://www.boston.gov/departments/parks-and-recreation/dogs-and-boston-parks"
+     }
+    },
+    {
+     "h_zh": "狂犬病疫苗（州法）",
+     "points_zh": [
+      "狗、貓、雪貂滿 6 個月必須接種",
+      "從外州帶來還沒接種的，要在抵達 30 天內或滿 6 個月時（取較晚者）接種",
+      "依疫苗廠商建議間隔補打；狗的疫苗牌要掛在項圈或胸背帶上"
+     ],
+     "source": {
+      "name": "M.G.L. c.140 §145B",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXX/Chapter140/Section145B"
+     }
+    },
+    {
+     "h_zh": "24 小時動物急診：Angell",
+     "points_zh": [
+      "MSPCA-Angell 動物醫學中心，350 South Huntington Ave, Boston（Jamaica Plain）",
+      "24/7 急診，電話 617-522-7282",
+      "寵物緊急狀況建議先打電話再出發"
+     ],
+     "source": {
+      "name": "MSPCA-Angell – 24/7 Emergency & Critical Care",
+      "url": "https://www.mspca.org/veterinarycare/hospital-locations/boston/24-7-emergency-critical-care/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "weather",
+   "title_zh": "天氣與生活",
+   "items": [
+    {
+     "h_zh": "冬天的實況",
+     "points_zh": [
+      "1 月平均高溫約 37°F、低溫約 23°F（約 3°C / -5°C）",
+      "年均降雪約 49 英寸，主要在 12 月到 3 月；1、2 月各約 14 英寸",
+      "4 月和 11 月偶爾也會下一點雪"
+     ],
+     "source": {
+      "name": "NOAA NCEI – 1991–2020 Climate Normals, Boston Logan (USW00014739)",
+      "url": "https://www.ncei.noaa.gov/access/us-climate-normals/"
+     }
+    },
+    {
+     "h_zh": "東北風暴（Nor'easter）",
+     "points_zh": [
+      "沿美國東岸的風暴，因沿海吹東北風得名",
+      "9 月到隔年 4 月最常見也最猛",
+      "可能帶來大雨或大雪、強風，偶有沿海淹水"
+     ],
+     "source": {
+      "name": "NWS – Nor'easters",
+      "url": "https://www.weather.gov/safety/winter-noreaster"
+     }
+    },
+    {
+     "h_zh": "雪後的日常",
+     "points_zh": [
+      "Boston 屋主要在雪停後 3 小時內清出至少 42 英寸寬的人行道（夜間下雪從日出後 3 小時起算）",
+      "發動車子前先清掉排氣管周圍至少 1 英尺的雪，避免一氧化碳中毒",
+      "停車距路口至少 20 英尺、離路緣不超過 1 英尺",
+      "訂閱 AlertBoston 接收緊急通知"
+     ],
+     "source": {
+      "name": "City of Boston – Managing Winter and Snow",
+      "url": "https://www.boston.gov/snow"
+     }
+    },
+    {
+     "h_zh": "冬季準備清單",
+     "points_zh": [
+      "車上備好冬季求生包：鏟子、刮冰器、沙或貓砂（防滑）、跨接線、手電筒、毛毯",
+      "家裡備手電筒、不易腐壞的食物和水、常用藥",
+      "要學會依不同低溫穿衣"
+     ],
+     "source": {
+      "name": "NWS – Before a Winter Storm",
+      "url": "https://www.weather.gov/safety/winter-before"
+     }
+    },
+    {
+     "h_zh": "夏天高溫",
+     "points_zh": [
+      "Boston 宣布高溫緊急狀態時，BCYF 社區中心會開放成冷氣避暑中心",
+      "電扇無法預防中暑；窗型冷氣要裝牢、季初季末清濾網",
+      "絕對不要把小孩或寵物留在車內"
+     ],
+     "source": {
+      "name": "City of Boston – Keeping cool in the heat",
+      "url": "https://www.boston.gov/departments/emergency-management/keeping-cool-heat"
+     }
+    },
+    {
+     "h_zh": "白天長短",
+     "points_zh": [
+      "冬至（12/21）日出約 7:10、日落約 16:15，白天約 9 小時",
+      "夏至（6/21）日出約 5:08、日落約 20:25（夏令時間），白天約 15 小時 17 分",
+      "冬天下午 4 點多就天黑，通勤回家時多半已經是晚上"
+     ],
+     "source": {
+      "name": "USNO Astronomical Applications – Sun rise/set (Boston, 2026)",
+      "url": "https://aa.usno.navy.mil/data/RS_OneDay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "title_zh": "安全小提示",
+   "items": [
+    {
+     "h_zh": "自行車失竊很常見",
+     "points_zh": [
+      "Cambridge 2024 年通報 499 起自行車竊案",
+      "約 76% 被偷的車其實有上鎖；小偷常帶破壞剪或撬棍",
+      "61% 發生在街道或人行道，至少 12% 在大樓停車場或自行車室",
+      "9、10 月是 2024 年的高峰期"
+     ],
+     "source": {
+      "name": "Cambridge Police – 2024 Annual Crime Report",
+      "url": "https://www.cambridgema.gov/departments/cambridgepolice/publications/2024/2024annualcrimereport"
+     }
+    },
+    {
+     "h_zh": "鎖車與登記",
+     "points_zh": [
+      "用 U 型鎖或堅固的鎖，把車架和前輪一起鎖在車架上，不要鎖在號誌桿或停車計費器上",
+      "記下車架號碼、拍你和車的合照，被偷時報警附上",
+      "Somerville 可透過 WRAP 計畫向警方登記自行車與電子產品",
+      "Somerville 指出約 20% 的電子產品竊案中，失主的車沒上鎖"
+     ],
+     "source": {
+      "name": "City of Somerville – WRAP Anti-Theft Program",
+      "url": "https://www.somervillema.gov/departments/programs/wrap-anti-theft-program"
+     }
+    },
+    {
+     "h_zh": "包裹被偷",
+     "points_zh": [
+      "Cambridge 2024 年通報 315 起包裹竊案，創歷史新高，實際數字可能更多",
+      "包裹放門口台階或門廳時最容易被偷",
+      "Boston 警方建議：安排有人收件、用包裹櫃或指定時段送達、裝門鈴攝影機、追蹤每件包裹"
+     ],
+     "source": {
+      "name": "Boston Police – Holiday and package delivery safety tips",
+      "url": "https://police.boston.gov/2025/12/11/holiday-and-package-delivery-safety-tips-from-the-boston-police-department-2/"
+     }
+    },
+    {
+     "h_zh": "車子與公寓門禁",
+     "points_zh": [
+      "即使只離開一下，也要關窗鎖車；貴重物品別留在看得到的地方",
+      "住公寓不要撐著大門或讓陌生人跟著進來，有人這樣做可通報房東",
+      "Cambridge 警方非緊急電話 617-349-3300"
+     ],
+     "source": {
+      "name": "Cambridge Police – Crime Prevention",
+      "url": "https://www.cambridgema.gov/departments/cambridgepolice/crimeprevention"
+     }
+    }
+   ]
+  }
+ ],
+ "climate": {
+  "source": {
+   "name": "NOAA NCEI – U.S. Climate Normals 1991–2020, Boston Logan Intl AP (USW00014739)",
+   "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USW00014739&format=csv&dataTypes=MLY-TMAX-NORMAL,MLY-TMIN-NORMAL,MLY-PRCP-NORMAL,MLY-SNOW-NORMAL&units=standard"
+  },
+  "months": [
+   {
+    "m": 1,
+    "high_f": 36.8,
+    "low_f": 23.1,
+    "precip_in": 3.39,
+    "snow_in": 14.3
+   },
+   {
+    "m": 2,
+    "high_f": 39.0,
+    "low_f": 24.6,
+    "precip_in": 3.21,
+    "snow_in": 14.4
+   },
+   {
+    "m": 3,
+    "high_f": 45.5,
+    "low_f": 31.1,
+    "precip_in": 4.17,
+    "snow_in": 9.0
+   },
+   {
+    "m": 4,
+    "high_f": 56.4,
+    "low_f": 40.8,
+    "precip_in": 3.63,
+    "snow_in": 1.6
+   },
+   {
+    "m": 5,
+    "high_f": 66.5,
+    "low_f": 50.3,
+    "precip_in": 3.25,
+    "snow_in": 0.0
+   },
+   {
+    "m": 6,
+    "high_f": 76.2,
+    "low_f": 59.7,
+    "precip_in": 3.89,
+    "snow_in": 0.0
+   },
+   {
+    "m": 7,
+    "high_f": 82.1,
+    "low_f": 66.0,
+    "precip_in": 3.27,
+    "snow_in": 0.0
+   },
+   {
+    "m": 8,
+    "high_f": 80.4,
+    "low_f": 65.1,
+    "precip_in": 3.23,
+    "snow_in": 0.0
+   },
+   {
+    "m": 9,
+    "high_f": 73.1,
+    "low_f": 58.2,
+    "precip_in": 3.56,
+    "snow_in": 0.0
+   },
+   {
+    "m": 10,
+    "high_f": 62.1,
+    "low_f": 47.5,
+    "precip_in": 4.03,
+    "snow_in": 0.2
+   },
+   {
+    "m": 11,
+    "high_f": 51.6,
+    "low_f": 37.9,
+    "precip_in": 3.66,
+    "snow_in": 0.7
+   },
+   {
+    "m": 12,
+    "high_f": 42.2,
+    "low_f": 29.2,
+    "precip_in": 4.3,
+    "snow_in": 9.0
+   }
+  ],
+  "annual_snow_in": 49.2,
+  "note_zh": "數據為 NOAA 官方 1991–2020 年 Boston Logan 機場氣候常年值（月平均最高/最低溫、降水量、降雪量），直接取自 NCEI 資料服務。年降雪 49.2 英寸、年降水 43.59 英寸、年均高溫 59.3°F、低溫 44.5°F。這是 30 年平均，單一年份可能差很多。"
+ }
+}

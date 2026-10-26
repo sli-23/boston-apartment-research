@@ -1,0 +1,38 @@
+{
+ "Magnolia Park|42.4007,-71.1430": {
+  "rating": 4.6,
+  "count": 140,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=11392537436625330002",
+  "other": [],
+  "summary_zh": "Google 4.6 分（140 則），Arlington 社區公園，有遊樂場、沙坑、球場，旁邊有社區花園與狗公園。",
+  "good_zh": [
+   "遊樂場大小孩皆宜，有沙坑與籃球場、足球場",
+   "旁邊有狗公園與社區花園",
+   "鄰近自行車道與地鐵站"
+  ],
+  "bad_zh": [
+   "遊樂場沒有完整圍欄",
+   "只有流動廁所",
+   "鄰里小孩多，常很熱鬧"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc9O2wa9CwdDZA1hpy8_uiMjpTxjDMMhBy9dMtKFwUgcOsdTg72dHZzSnSVlSfwGsllYm5ts16oJVBykHAhox2hG-DH6N-EQvSk0eDFJWgSiaS7gr-dcJ2k7RXXRkFM74a0PbH-9A=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11392537436625330002",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeINy60BU_HZLwFI6aHABxKUHkfH1RQNJUNNS0XA48yHLl2ox-waCG9-ggmk331SWNNST3HKGWqKzQo7wP9fP9kEYGWRsIkmxgx5Wt8u6b8XjNVCNfrrbus0Qi9res7JINo1Is07g=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11392537436625330002",
+    "credit": "Te Liu"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfAmgChr4V_7-4zEZKfG5gZwa_zGIWENA7PaQi8cYIx6LBm_ll0p6Iv2Me_xE0ybc4zsIi-0_MmdjLz3JciOMdzbGl2ndoXhmqagfwGXzn9HcFtSLId7coioDVbp0Y2WIWgSRiu=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=11392537436625330002",
+    "credit": "Te Liu"
+   }
+  ]
+ }
+}

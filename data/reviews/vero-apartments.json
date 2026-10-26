@@ -1,0 +1,108 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": null,
+  "summary_zh": "2021 年建成的新樓，沒找到住戶評價：ApartmentList 沒有，Apartments.com 2023 年存檔是 0 條，Google、Reddit、Yelp 都擋了抓取。官網說走路 2 個街區到銀線（Silver Line）站。噪音來源沒有住戶說法，沒能確認。Chelsea 整體在 Niche 的安全評級是 C，有居民抱怨垃圾、老鼠、停車難、酒吧多、塞車，但這是整個 Chelsea，不一定是這棟附近。Chelsea 的警方報案資料沒找到。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "沒找到住戶談噪音的評價",
+    "官網說這裡是舊工業區改造的社區",
+    "Niche 上 Chelsea 居民說酒吧到處都是、塞車嚴重（指整個 Chelsea）"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "Niche 給 Chelsea 整體犯罪與安全評級 C（2022-01 存檔）",
+    "沒找到這棟附近的警方報案資料",
+    "沒有住戶談大樓本身的安全"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "沒找到住戶評價，無法判斷",
+    "官網寫費用「清楚、事先說明」，有公開費用表，但沒能讀到內容"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "泳池、健身房、會所、影音室、遊戲室、撞球台、地滾球場、火坑和烤肉區（ApartmentList、官網）",
+    "狗狗洗澡和自助美容區、電動車充電；車庫有電梯直達",
+    "套內有洗衣機烘乾機、陽台、步入式衣櫃、大浴缸"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 4,
+   "points_zh": [
+    "2026-10-26 ApartmentList：兩房兩衛 1,038–1,272 呎，$3,100–3,355，四棟裡最便宜、面積也大",
+    "但多數是 14–16 個月租約的價格，12 個月可能更貴",
+    "有「最多送 6 週免租」優惠（2026-06 登出）"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "四棟裡租金最低，兩房兩衛 $3,100 起",
+  "面積大，1,000–1,400 呎",
+  "2021 年新樓",
+  "設施多：泳池、健身房、遊戲室",
+  "走路 2 個街區到銀線站（官網）"
+ ],
+ "cons_zh": [
+  "完全沒找到住戶評價",
+  "Chelsea 整體安全評級 C",
+  "掛牌價多是 14–16 個月租約",
+  "車位、水電費用沒查到",
+  "沒找到附近的報案資料"
+ ],
+ "quotes": [
+  {
+   "text": "Chelsea 雖然不是 Dorchester，但也不算很好。路和人行道需要大修，街上垃圾和老鼠到處都是，停車非常難。每個街角都有酒吧……而且塞車很嚴重。不過到處都有便利商店，吃的不用愁！",
+   "source": "Niche · Chelsea 居民（2022-01 存檔）",
+   "url": "https://web.archive.org/web/20220121172345/https://www.niche.com/places-to-live/chelsea-suffolk-ma/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/chelsea/vero-apartments--1"
+  },
+  {
+   "name": "Apartments.com（2023 存檔，0 條評價）",
+   "url": "https://web.archive.org/web/20230327015600/https://www.apartments.com/vero-apartments-chelsea-ma/hm25ph3/"
+  },
+  {
+   "name": "Niche · Chelsea（2022 存檔）",
+   "url": "https://web.archive.org/web/20220121172345/https://www.niche.com/places-to-live/chelsea-suffolk-ma/"
+  },
+  {
+   "name": "官網（2025-12 存檔）",
+   "url": "https://web.archive.org/web/20251230052439/https://www.veroapartmentsma.com/vero-apartments-chelsea-ma"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Vero+Apartments+255+Vale+St+Chelsea"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=%22Vero%22%20Chelsea%20apartments"
+  }
+ ],
+ "gaps_zh": "沒找到任何住戶評價，也沒找到 Chelsea 的報案開放資料。Google、Reddit、Yelp、ApartmentRatings 都攔截了自動抓取，下面的連結可以自己點開看。噪音來源（高速公路、機場航線等）沒能確認。"
+}

@@ -1,0 +1,62 @@
+{
+ "Sidney I. Shapiro Park|42.4051,-71.0401": {
+  "rating": 5,
+  "count": 4,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=6604814771763473443",
+  "other": [],
+  "summary_zh": "Google 5.0 分（僅 4 則，Sidney Shapiro Playground），新建的遊樂場，有涼亭、鞦韆與小型噴水池；是否可帶狗未查到。",
+  "good_zh": [
+   "新遊樂場，設施新穎",
+   "有涼亭、鞦韆與小型噴水池（splash pad）"
+  ],
+  "bad_zh": [
+   "評論數很少（4 則，僅 1 則有文字），參考性低",
+   "未查到廁所、停車與是否可帶狗的資訊"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4LheuUsaDtC89JXJzRvX2LGuvtLYsrPwKMHIPbxdmWwpN-Jxp5QrZTxiB73P81tkTDyQ5DTTucD-d9vII4wb7r02HKpUPZYMKrn59__l3gUwn7ll-rag614FFhX9m2DZbuic3=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6604814771763473443",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_9PLHpKiv-vmtOau1ZQPOTDFyASerkBEAoXnsELnK6HZ1J8dV7IDi-y1YTzj5ypcjL0Zm9oEtRM005MM0R_QA9G36kLclYQfN2WJQK9NEjK4YyBA-cXaezkuEZN6ofZM3AxX_=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=6604814771763473443",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ },
+ "Island End Park|42.3936,-71.0484": {
+  "rating": 4.2,
+  "count": 26,
+  "source": "Google",
+  "url": "https://www.google.com/maps?cid=15907043793538344481",
+  "other": [],
+  "summary_zh": "Google 4.2 分（26 則），Chelsea 河邊的小公園，有木棧道、涼亭與波士頓天際線景觀，可遛狗，但入口難找、岸邊垃圾多。",
+  "good_zh": [
+   "木棧道、涼亭與長椅，可看波士頓天際線與船",
+   "評論提到會帶狗來散步",
+   "安靜隱密，有歷史解說牌，可走到 Mary O'Malley 公園"
+  ],
+  "bad_zh": [
+   "近期評論稱照 Google 導航走到銀行停車場後方被圍籬擋住",
+   "岸邊沼澤有不少垃圾",
+   "步道燈不亮，晚上很暗；沒有遊樂場"
+  ],
+  "checked": "2026-10-26",
+  "photos": [
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLehAZe2WmFjksuUeGrvXAbzBwbZs2Xw4XUE9aJu1jqPiyGYDHtaLPZDzO579dFluZ47qJUrC8wHSQm7fhyj0WVcWbSGMt4HgZyzIZ2tCbizj_0eEqDnsoQTtTXhTjUlanxS0OQ=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=15907043793538344481",
+    "credit": "Google Maps 使用者"
+   },
+   {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8VyYnC3kPHIg9jx1DjOtTK1VHWZ9yDAyesEjeEn2iKs0GbSXrDtjmIUJ2XLGSICUDu9K-9lMTtaGuQHJ3MXjMFIw7KABLEQdwjAQOgVcxsugG_RKLpyJdnBfQveOrFkW72I0=w600-h400-k-no",
+    "page": "https://www.google.com/maps?cid=15907043793538344481",
+    "credit": "Google Maps 使用者"
+   }
+  ]
+ }
+}

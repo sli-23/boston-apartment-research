@@ -1,0 +1,344 @@
+{
+ "official_url": "https://www.jmaldencenter.com/",
+ "floorplans_url": "https://www.apartmentlist.com/ma/malden/j-malden-center#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "Matterport 3D · 2 房 2 衛樣板",
+   "url": "https://my.matterport.com/show/?m=uJMg63RZsr3"
+  },
+  {
+   "label": "Matterport 3D · 會所／中庭",
+   "url": "https://my.matterport.com/show/?m=NXUETTtSfkC"
+  },
+  {
+   "label": "Matterport 3D · 泳池平台",
+   "url": "https://my.matterport.com/show/?m=YaTtp92sLv2"
+  },
+  {
+   "label": "Panoskin 360° · 外觀、大廳、設施",
+   "url": "https://v1.panoskin.com/?tour=5ee098325a50d04128578989"
+  },
+  {
+   "label": "Instagram 實景",
+   "url": "https://www.instagram.com/jmaldencenter/"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "C09",
+   "sqft": "1,057–1,086",
+   "price": "$3,551",
+   "price_min": 3551,
+   "as_of": "2026-10-26",
+   "available": "1 間（#476），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/4df7a521ec7eafc31b8d3b673346624c.jpg"
+  },
+  {
+   "name": "C07",
+   "sqft": "1,203",
+   "price": "$3,700",
+   "price_min": 3700,
+   "as_of": "2026-10-26",
+   "available": "1 間（#471），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/278ff330fa37f894c2a8638848b49fee.jpg"
+  },
+  {
+   "name": "C05.1",
+   "sqft": "1,126",
+   "price": "$3,782",
+   "price_min": 3782,
+   "as_of": "2026-10-26",
+   "available": "1 間（#639），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/2b17a1b3e1f4d0bc4c81f767a69f174d.jpg"
+  },
+  {
+   "name": "C08",
+   "sqft": "1,123",
+   "price": "$3,782",
+   "price_min": 3782,
+   "as_of": "2026-10-26",
+   "available": "1 間（#472），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ebe53f8c23a7dbdeb152d522c5d56816.jpg"
+  },
+  {
+   "name": "C14",
+   "sqft": "1,057",
+   "price": "$3,794",
+   "price_min": 3794,
+   "as_of": "2026-10-26",
+   "available": "1 間（#330），12/12 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/09a2b295d923c6092fb1be32c1339cab.jpg"
+  },
+  {
+   "name": "C17",
+   "sqft": "1,141–1,145",
+   "price": "$3,888",
+   "price_min": 3888,
+   "as_of": "2026-10-26",
+   "available": "1 間（#585），12/26 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/bc88175c7d9ab933dc313874ba3a0588.jpg"
+  },
+  {
+   "name": "C18",
+   "sqft": "1,265",
+   "price": "$3,906",
+   "price_min": 3906,
+   "as_of": "2026-10-26",
+   "available": "1 間（#101），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/8a7d69196deaf7497075c990a8e41d80.jpg"
+  },
+  {
+   "name": "C10",
+   "sqft": "1,247",
+   "price": "$3,915",
+   "price_min": 3915,
+   "as_of": "2026-10-26",
+   "available": "1 間（#281），2027/1/19 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e1b647cd91d7d961ef76e14f33d8685f.jpg"
+  },
+  {
+   "name": "C01",
+   "sqft": "1,239",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e874f14f06688998da5d5f58dc801abe.jpg"
+  },
+  {
+   "name": "C01.1",
+   "sqft": "1,280",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/cafa8d737538a9ede492664338172db8.jpg"
+  },
+  {
+   "name": "C02",
+   "sqft": "1,046–1,049",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/95ca8d0f14310981afa1515fc4d6c3c3.jpg"
+  },
+  {
+   "name": "C02.1",
+   "sqft": "1,101",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/881a525344b6767a2a737bce4dcc9ffe.jpg"
+  },
+  {
+   "name": "C02.2",
+   "sqft": "1,052",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/f9a207167a4ca93a938b0ff521e8a8f3.jpg"
+  },
+  {
+   "name": "C02.3",
+   "sqft": "1,059",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/99d34a0857bf8eabcbef59bb004c86cc.jpg"
+  },
+  {
+   "name": "C03",
+   "sqft": "1,266–1,271",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/8ada9d0462585dc6bda7ed76a4956014.jpg"
+  },
+  {
+   "name": "C04",
+   "sqft": "1,120",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ccab4da125cfc18d95f8af5418bf73b3.jpg"
+  },
+  {
+   "name": "C05",
+   "sqft": "1,110–1,114",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/59420f1f666ba943673727947b39c9b4.jpg"
+  },
+  {
+   "name": "C05.2",
+   "sqft": "1,089",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/85b229ffe9932ba6d5555402cca50775.jpg"
+  },
+  {
+   "name": "C06",
+   "sqft": "1,075",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/3fdb0f579ecaf521dcc94aa9a6382686.jpg"
+  },
+  {
+   "name": "C07.1",
+   "sqft": "1,113",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/86bf4282bb52596b36894141d1f3d12c.jpg"
+  },
+  {
+   "name": "C07.HC",
+   "sqft": "1,203",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/55f1ab5293dca9867bd1b817b8fcb633.jpg"
+  },
+  {
+   "name": "C08.1",
+   "sqft": "1,109",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/f4aae44fe743e4c6e9a384dead634b84.jpg"
+  },
+  {
+   "name": "C10.1",
+   "sqft": "1,216",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/9c1ff993d8d9af8904034186473f50b9.jpg"
+  },
+  {
+   "name": "C11",
+   "sqft": "1,154",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/0c1f571fa4ad9eba9ec941689cc325eb.jpg"
+  },
+  {
+   "name": "C11.HC",
+   "sqft": "1,154",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/094525cb33a5ea6d29f8328b825e705a.jpg"
+  },
+  {
+   "name": "C12",
+   "sqft": "1,226–1,231",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/b50e1899d2d6558a7ab847bea95043e2.jpg"
+  },
+  {
+   "name": "C12.1",
+   "sqft": "1,160",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e8d5b4311b43ad7987ec44037f256093.jpg"
+  },
+  {
+   "name": "C13",
+   "sqft": "1,080",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/451d09964c91a4094d38842847aac9f3.jpg"
+  },
+  {
+   "name": "C13.1",
+   "sqft": "1,105",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/1c316484acbd46350511540ac158976d.jpg"
+  },
+  {
+   "name": "C13.2",
+   "sqft": "1,142",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/dccc3c87cc055351c879051d3fb84a9c.jpg"
+  },
+  {
+   "name": "C13.HC",
+   "sqft": "1,080",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/88f1ece9cf4ac131d74f34a820f62ca3.jpg"
+  },
+  {
+   "name": "C13.HC1",
+   "sqft": "1,142",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/3fd316344d991deedd8c622a7d506f98.jpg"
+  },
+  {
+   "name": "C14.HC",
+   "sqft": "1,058",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/79666fd57e9b8fc832d4cd2c42b3acc7.jpg"
+  },
+  {
+   "name": "C15",
+   "sqft": "1,311",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/93997aa62dc5643de6594b553f159ea7.jpg"
+  },
+  {
+   "name": "C16",
+   "sqft": "1,181–1,186",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/70b8085e8620e3865a92884174c25ee4.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "車庫／停車場車位 $150/月，每輛車計（ApartmentList、Apartments.com 都寫 $150）；完整停車規定要問辦公室",
+  "parking_surface": "沒找到另外的露天車位價格",
+  "water_sewer_trash": "水和下水道住戶自付（按用量）；垃圾包含在租金內。住戶反映水費偏貴，Reddit 有人說是因為市政府按商業費率收費",
+  "electric_heat": "電、瓦斯住戶自付（沒找到月平均金額）",
+  "internet": "沒找到資料，應該是自己申請",
+  "pet_rent": "每隻貓或狗 $75/月（Apartments.com、ApartmentList 寫法一致；ApartmentList 另一欄寫 $50，以 $75 為準，簽約前確認）",
+  "pet_deposit_or_fee": "沒找到寵物押金或一次性費用",
+  "other": "押金 $500 起；申請費 ApartmentList 寫每人 $50，2025-11 Apartments.com 存檔寫 $0，要再確認；換鎖費 $18.50（一次性）；儲藏室 $40/月；必須買租客保險。租約 3–15 個月可選。目前優惠：11/30 前入住、簽 13 個月以上，最多送 1 個月免租（限新租客）",
+  "source": "https://www.apartmentlist.com/ma/malden/j-malden-center",
+  "as_of": "ApartmentList 2026-10-26 讀取；部分費用來自 Apartments.com 2025-11-20 存檔"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻，沒有體重限制。要交寵物近照和疫苗紀錄，每次續約都要重交。禁養攻擊性犬種，包括 Pit Bull、Rottweiler、德國牧羊犬、哈士奇、阿拉斯加雪橇犬、杜賓、鬆獅、聖伯納、大丹、秋田、各種 Staffordshire、美國鬥牛犬、土佐、獒犬類、Cane Corso、狼犬混種，以及這些品種的混種。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格，是 12 個月租約的價格（頁面資料 2026-10-26 更新）。「最多送 1 個月」的優惠要簽 13 個月以上，價格裡是否已經攤進優惠沒寫清楚，要問辦公室。ApartmentList 上同一個戶型有兩筆重複資料，這裡只列有房源的那一組。官網只放 Matterport 樣板間和 Panoskin 實景，不是實際要租的那一間。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/malden/j-malden-center"
+  },
+  {
+   "name": "官網（寵物規定）",
+   "url": "https://www.jmaldencenter.com/"
+  },
+  {
+   "name": "Apartments.com（2025-11 存檔，費用、3D 看房）",
+   "url": "http://web.archive.org/web/20251120020042/https://www.apartments.com/j-malden-center-malden-ma/j356v66/"
+  }
+ ]
+}

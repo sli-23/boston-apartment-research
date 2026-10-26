@@ -1,0 +1,34 @@
+{
+ "official_url": "https://www.thebenjaminseaport.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/boston/the-benjamin#bedrooms-2",
+ "virtual_tours": [
+  {"label": "360° 實景（3 房戶型，不是 2 房）", "url": "https://helixmedia360.com/10-17/The.Benjamin.Clean.html?s=pano259"}
+ ],
+ "plans_2b2b": [
+  {"name": "2 C - 1", "sqft": "1,112", "price": "$8,420", "price_min": 8420, "as_of": "2026-10-26", "available": "1 間（#1420），12/6 入住，13 個月租約", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/2663843f053a3018b63b802d9d8c5029.jpg"},
+  {"name": "2 B - 1", "sqft": "1,245", "price": "$8,460–8,565", "price_min": 8460, "as_of": "2026-10-26", "available": "2 間（#909，12/12 入住；#1209，12/24 入住），13 個月租約", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/b03f86054bc945d8cf38a0c169a4fd10.jpg"},
+  {"name": "2 D - 1", "sqft": "1,090", "price": "$8,484", "price_min": 8484, "as_of": "2026-10-26", "available": "1 間（#1701），現在入住，15 個月租約", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/defd3116293ccfc6ed8c62473ec4a0f2.jpg"},
+  {"name": "2 A - 1", "sqft": "1,032", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/73850c4654e0d769a1446296e6b720e1.jpg"},
+  {"name": "2K - 1", "sqft": "997", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/2b282b0e1de6c9c5db168d9e2ade827d.jpg"},
+  {"name": "2 D - 1 ADA（無障礙）", "sqft": "沒寫", "price": "目前沒空房", "as_of": "", "available": "", "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e1cc687b383d71dd3d45c36110f1523c.jpg"}
+ ],
+ "fees": {
+  "parking_garage": "指定車位 $575/月，每位租約人限 1 位；電動車位 $625/月，另加 ChargePoint 充電費",
+  "parking_surface": "沒有",
+  "water_sewer_trash": "水、下水道、垃圾、代收垃圾（如適用）、除蟲都由住戶付（沒找到金額）",
+  "electric_heat": "電費住戶自己付給電力公司；ApartmentList 寫瓦斯包含在租金內",
+  "internet": "沒找到",
+  "pet_rent": "貓 $50/月、狗 $80/月",
+  "pet_deposit_or_fee": "官網沒寫",
+  "other": "儲藏室小 $125/月、大 $375/月；簽帳卡繳租 $3.95/次，信用卡 3%；提前解約要提前 30 天書面通知，付兩個月租金並退回優惠；租約 1–16 個月；月收入要有基本租金的 2.5 倍，擔保人要 4 倍；預約公共空間每小時 $75–300。現在沒有租金優惠",
+  "source": "https://www.thebenjaminseaport.com/faqs/",
+  "as_of": "官網 FAQ，2026-10-26 讀取"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻，沒有體重限制，要先做 Pet Screening 並經管理處同意。禁養 Akita、Pit Bull、Doberman、German Shepherd、Great Dane、Husky、Malamute、Rottweiler、狼犬混種等品種；服務動物通常不受品種限制。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的（頁面寫「11 小時前由 The Benjamin 確認價格」），是頁面寫的租約長度下的總價；換租約長度價格會變。官網 FAQ 說目前沒有線上虛擬看房，唯一找到的 360° 實景是 3 房戶型。沒有找到官方費用表（Canva/PDF），費用來自官網 FAQ；申請費、押金、入住費都沒寫。",
+ "sources": [
+  {"name": "ApartmentList（房型、價格）", "url": "https://www.apartmentlist.com/ma/boston/the-benjamin"},
+  {"name": "官網 FAQ", "url": "https://www.thebenjaminseaport.com/faqs/"},
+  {"name": "Berkshire Residential", "url": "https://www.berkshireresi.com/"}
+ ]
+}

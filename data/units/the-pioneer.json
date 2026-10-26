@@ -1,0 +1,144 @@
+{
+ "official_url": "https://www.thepioneereverett.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/everett/the-pioneer#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "Panoskin 360° 全景（外觀、大廳、設施）",
+   "url": "https://v1.panoskin.com/?tour=5d1dbd4e34cb071d7b2ac629"
+  },
+  {
+   "label": "Panoskin 360° 兩房實景",
+   "url": "https://v1.panoskin.com/?tour=5d1dbd4e34cb071d7b2ac629&pano=5d0bad7f623e21191aa08614"
+  },
+  {
+   "label": "Panoskin 360° 全景（另一組）",
+   "url": "https://v1.panoskin.com/?tour=62a7d5fbcc37af4bfc2be947"
+  },
+  {
+   "label": "Instagram 實景",
+   "url": "https://www.instagram.com/pioneereverett/"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "2 Bed/2 Bath-B4",
+   "sqft": "1,056",
+   "price": "$3,130–3,222",
+   "price_min": 3130,
+   "as_of": "2026-10-26",
+   "available": "2 間：#449 $3,130 現在入住；#651 $3,222 11/13 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/4ed1e1f6bff1d157a5f372b4634da272.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B3",
+   "sqft": "1,027",
+   "price": "$3,165–3,202",
+   "price_min": 3165,
+   "as_of": "2026-10-26",
+   "available": "3 間：#664 $3,165 現在入住；#625 $3,187 現在入住；#444 $3,202 現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/50adfe334407c0944bf2231e4f285e22.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B2",
+   "sqft": "1,008",
+   "price": "$3,269",
+   "price_min": 3269,
+   "as_of": "2026-10-26",
+   "available": "1 間：#637 $3,269 12/29 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/1d13c17842ff646c8c502ab3d1c28ee4.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath Den-BD2",
+   "sqft": "1,169",
+   "price": "$3,424",
+   "price_min": 3424,
+   "as_of": "2026-10-26",
+   "available": "1 間：#563 $3,424 12/25 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/172deb979ce68e8c7a1a96c00ffd0d2f.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B1",
+   "sqft": "959",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/020733793e2668c8fe1e794b3e85f810.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B5",
+   "sqft": "1,093",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ede55a98abe34344c362caf7a9f25b4f.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B7",
+   "sqft": "1,110",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/8e857219ac99ec72851adea831f864c9.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B6",
+   "sqft": "1,110",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/719fed6c4e79fbd34649a6de76ecedf5.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath Den-BD1",
+   "sqft": "1,156",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/60db0d7aef083bf5cb82f7081d365493.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath Den-BD3",
+   "sqft": "1,180",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/17afb13b6655f079bc9382bd44eda669.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath Den-BD4",
+   "sqft": "1,230",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/92230871a35a2fc3407841dc14fb1c44.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "預留車位 $100/月（官方費用表沒寫是室內還是室外；官網說有門禁的有頂停車場）",
+  "parking_surface": "訪客停車 $10–25/天",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；垃圾包含在租金內",
+  "electric_heat": "電和瓦斯住戶自己跟第三方公司申請、自付（沒找到月平均金額）",
+  "internet": "自己申請，自己付",
+  "pet_rent": "每月 $30–50（官方費用表）",
+  "pet_deposit_or_fee": "費用表沒寫寵物押金或一次性費用",
+  "other": "押金 $750；必須有租客保險（物業方案 $20.60/月，可自己買）；儲藏室 $50/月；短租（12 個月以下）要加價；月租制 $750/月；提前解約費 1 個月租金；換戶 $2,000；遲交罰 5%。收入要達租金 2.5 倍，租期 6–18 個月。現在有優惠：10/31 前入住現房送 1 個月免租（有限制）",
+  "source": "https://communityfees.bozzuto.com/property/2D5364/export",
+  "as_of": "官方費用表（Bozzuto，2026-10-26 產生）；優惠和租期條件來自 ApartmentList，2026-10-26"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻，狗按 Bozzuto 禁養品種清單限制（ApartmentList 資料）。社區有 250 呎長的狗狗跑道和寵物美容室（官網）。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（頁面寫 34 分鐘前由公寓核實），都是 12 個月租約的總價。現在有「送 1 個月免租」的優惠，這個價格有沒有把優惠攤進去沒寫清楚，簽約前要問辦公室。另外還有 B5-ADU、B3-ADU、BD2-ADU 等無障礙版本戶型，目前沒有空房，沒列出。B1、B5、B6、B7、BD1、BD3、BD4 目前沒空房。BD 開頭的是兩房兩衛加書房（den）。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/everett/the-pioneer"
+  },
+  {
+   "name": "官方費用表",
+   "url": "https://communityfees.bozzuto.com/property/2D5364/export"
+  },
+  {
+   "name": "官網",
+   "url": "https://www.thepioneereverett.com"
+  }
+ ]
+}

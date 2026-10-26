@@ -1,0 +1,43 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": true,
+  "dishwasher": true,
+  "hardwood": false,
+  "walk_in_closet": true
+ },
+ "balcony_2b2b_plans": [
+  "B1",
+  "B4",
+  "B5",
+  "B7"
+ ],
+ "building": {
+  "gym": true,
+  "pool": false,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": true,
+  "package_room": true,
+  "roof_deck": null,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "balcony": "Official amenity page does not mention balconies https://www.livealder.com/features-amenities/ ; ApartmentList lists 'Patio / Balcony'; 2b2b plan images: BALCONY on B1, B4, B5, B7; JULIETTE BALCONY only on B3, B6; none on B2 https://www.apartmentlist.com/ma/boston/alder-at-allston-yards",
+  "in_unit_wd": "Official: 'Stacked washers & dryers'; FAQ: each apartment includes a washer and dryer",
+  "central_ac": "ApartmentList unit amenity 'Air Conditioning' (type not stated); official mentions only smart thermostats",
+  "dishwasher": "Official: 'Electrical smooth surface ranges and dishwashers'",
+  "hardwood": "Official: 'Wood-grain flooring' (not real hardwood)",
+  "walk_in_closet": "Official: 'Spacious walk-in closets'",
+  "pool": "ApartmentList FAQ: no pool; not on the official list",
+  "concierge": "Official: 'Resident concierge'; Services page: 'Weekday Concierge'",
+  "package_room": "Official FAQ: 'secure, enclosed package room' (ButterflyMX access)",
+  "coworking": "Official: 'Private meeting rooms and flexible working spaces'"
+ }
+}

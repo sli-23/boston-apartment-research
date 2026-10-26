@@ -1,0 +1,24 @@
+{
+ "Carter Park|42.4016,-71.0391": {
+  "rating": null,
+  "count": null,
+  "source": "Google",
+  "url": null,
+  "other": [
+   {
+    "source": "Google（同名條目，位置相距約 1.2 公里，未確認為同一處）",
+    "rating": 3.0,
+    "count": 2,
+    "url": "https://www.google.com/maps?cid=18149080457327062044"
+   }
+  ],
+  "summary_zh": "此位置在 Google 地圖上查無對應公園條目，評分未找到；同名的 Google「Carter Park」條目（3.0 分、2 則）位置相距約 1.2 公里，無法確認是同一處。",
+  "good_zh": [],
+  "bad_zh": [
+   "查無可靠評分與評論",
+   "是否可帶狗、有無遊樂場未查到"
+  ],
+  "checked": "2026-10-26",
+  "photos": []
+ }
+}

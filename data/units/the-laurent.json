@@ -1,0 +1,293 @@
+{
+ "official_url": "https://www.livethelaurent.com",
+ "floorplans_url": "https://www.apartmentlist.com/ma/cambridge/the-laurent#bedrooms-2",
+ "virtual_tours": [
+  {
+   "label": "Instagram 實景",
+   "url": "https://www.instagram.com/livethelaurent/"
+  },
+  {
+   "label": "官網房型頁（沒找到 3D 看房）",
+   "url": "https://www.livethelaurent.com/floor-plans/"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "2 Bed/2 Bath-B3",
+   "sqft": "977",
+   "price": "$3,920",
+   "price_min": 3920,
+   "as_of": "2026-10-26",
+   "available": "1 間：#B219 $3,920 12/11 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/f7f42afda906484596c4c04d410b23be.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B4",
+   "sqft": "977",
+   "price": "$3,935",
+   "price_min": 3935,
+   "as_of": "2026-10-26",
+   "available": "1 間：#B123 $3,935 現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/087b23c01008ad17779d792039ee516d.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B1",
+   "sqft": "995–1,013",
+   "price": "$3,950–3,980",
+   "price_min": 3950,
+   "as_of": "2026-10-26",
+   "available": "2 間：#C405 $3,950 12/30 入住；#B523 $3,980 現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/bbbc5ae2c9a77c711c85145cddc7ee16.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B25",
+   "sqft": "1,128",
+   "price": "$4,040",
+   "price_min": 4040,
+   "as_of": "2026-10-26",
+   "available": "1 間：#A219 $4,040 現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/6170a29df9b2de7cd5e602a2acf60577.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B11",
+   "sqft": "1,150",
+   "price": "$4,095",
+   "price_min": 4095,
+   "as_of": "2026-10-26",
+   "available": "1 間：#C528 $4,095 現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/882d64033e79c07d34e8dd84bf12175a.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B13",
+   "sqft": "1,113",
+   "price": "$4,100",
+   "price_min": 4100,
+   "as_of": "2026-10-26",
+   "available": "1 間：#C501 $4,100 11/2 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/7b571e4898ae9f1d004057c49902bd0a.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B22",
+   "sqft": "1,089–1,197",
+   "price": "$4,110–4,255",
+   "price_min": 4110,
+   "as_of": "2026-10-26",
+   "available": "2 間：#A625 $4,110 現在入住；#A525 $4,255 現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/189d4c4db4e4252d68135304e54e0403.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B6",
+   "sqft": "1,103–1,112",
+   "price": "$4,150",
+   "price_min": 4150,
+   "as_of": "2026-10-26",
+   "available": "1 間：#B735 $4,150 11/26 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/0be820df08615e722bc165aa6c05ee69.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B15",
+   "sqft": "1,248",
+   "price": "$4,325",
+   "price_min": 4325,
+   "as_of": "2026-10-26",
+   "available": "1 間：#B534 $4,325 11/7 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/8b53da96bd0d7e9ff9121fc462be4ccd.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B8",
+   "sqft": "967",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/0a2bec537e83f54366045c1827836a71.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B2",
+   "sqft": "975",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/99c56b937d15275c79000f54a6701dfb.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B23",
+   "sqft": "988",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/42f91de7e0edbd91617b3f5e588779cb.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B5",
+   "sqft": "1,055",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/a977748199740b304e71c2b3f1f4ca19.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B7",
+   "sqft": "1,056",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/c1b97028464bce0e14af0c64cec57398.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B26",
+   "sqft": "1,060",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/f3b86642c34d527c256274ed1957c2c2.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B28",
+   "sqft": "1,083",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/418459ea1311dcbc35f1ae893ae0f641.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B21（1,084 呎²）",
+   "sqft": "1,084",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/8c05099feaad18fd3b8515f7fa277999.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B21（1,093–1,107 呎²）",
+   "sqft": "1,093–1,107",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/d02771d1f2625970d4ade54f57b0c85a.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B24",
+   "sqft": "1,106",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/63de707b7e173424ef3cf034f4601cf5.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B18",
+   "sqft": "1,110–1,211",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/8e25288911788e58ccf9eb0ee3c33b08.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B14",
+   "sqft": "1,113–1,186",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/898c9bc63c789b3fd7923d4b679fd7ff.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B10",
+   "sqft": "1,124–1,128",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/f9770d2e9fbc918c4faf1a236887e54c.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B12",
+   "sqft": "1,150",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/4b99fd039376717cb2abf4d69a514d21.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B16",
+   "sqft": "1,156",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e44ad8cbdf332c9958c2342d6aed315d.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B27",
+   "sqft": "1,178",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/062cff5f07659666aebac4bdc275b23f.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath-B20",
+   "sqft": "1,197",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/f25aaf6a241b3a38c920196a48f13a1d.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath Den-B3D",
+   "sqft": "1,212",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/d6b0761078475d78135274f728b81af2.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath Den-B1D",
+   "sqft": "1,282",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ec58a780aa9dbf8901eebf2b9c3c148d.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath Den-B2D",
+   "sqft": "1,282",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/69def59800a7a2e31b9f5b5ba78ac172.jpg"
+  },
+  {
+   "name": "2 Bed/2 Bath Den-B4D",
+   "sqft": "1,556",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/f0cf6edc963ce4b45a86c123fbe64dee.jpg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "預留車位 $250/月（費用表沒寫是室內還是室外）；電動車充電按用量，第三方收費",
+  "parking_surface": "費用表沒列",
+  "water_sewer_trash": "水和下水道按用量計費，住戶自付；垃圾包含在租金內",
+  "electric_heat": "電和瓦斯住戶自己跟第三方公司申請、自付（沒找到月平均金額）",
+  "internet": "物業的網路 $50/月（費用表列為選購）",
+  "pet_rent": "每月 $45–75（官方費用表）",
+  "pet_deposit_or_fee": "費用表沒寫寵物押金或一次性費用",
+  "other": "押金 $500；必須有租客保險（物業方案 $12.36/月）；儲藏室 $55–250/月；月租制 $1,000/月；提前解約費 2 個月租金；換戶 $1,000；遲交罰基本租金的 10%。收入要達租金 3 倍。現在有優惠：當天看房、簽 12 個月以上，最多減半個月基本租金（有限制）",
+  "source": "https://communityfees.bozzuto.com/property/F1B958/export",
+  "as_of": "官方費用表（Bozzuto，2026-10-26 產生）；優惠來自 ApartmentList 和官網，2026-10-26"
+ },
+ "pet_policy_zh": "費用表有寵物月租（$45–75），所以可以養寵物，官網有寵物美容室和狗狗清洗站；但能養哪些、幾隻、品種限制都沒查到，要問辦公室。",
+ "notes_zh": "租金是 2026-10-26 在 ApartmentList 看到的價格（頁面寫 33 分鐘前由公寓核實），都是 12 個月租約的總價。兩房兩衛一共 30 種格局，目前 9 種有空房；Den 是加書房的戶型；B21 有兩個不同面積的版本。半個月減租的優惠是否已經算在價格裡沒寫，簽約前要問。ApartmentList 和官網都沒有 3D 看房。",
+ "sources": [
+  {
+   "name": "ApartmentList（房型、價格）",
+   "url": "https://www.apartmentlist.com/ma/cambridge/the-laurent"
+  },
+  {
+   "name": "官方費用表",
+   "url": "https://communityfees.bozzuto.com/property/F1B958/export"
+  },
+  {
+   "name": "官網",
+   "url": "https://www.livethelaurent.com"
+  }
+ ]
+}

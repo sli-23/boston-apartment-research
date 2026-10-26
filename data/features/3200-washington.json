@@ -1,0 +1,46 @@
+{
+ "checked": "2026-10-26",
+ "unit": {
+  "balcony": "some",
+  "in_unit_wd": true,
+  "central_ac": null,
+  "dishwasher": true,
+  "hardwood": false,
+  "walk_in_closet": null
+ },
+ "balcony_2b2b_plans": [
+  "2 Bed Type A",
+  "2 Bed Type I"
+ ],
+ "building": {
+  "gym": true,
+  "pool": null,
+  "garage_parking": true,
+  "ev_charging": true,
+  "dogs": true,
+  "cats": true,
+  "concierge": false,
+  "package_room": true,
+  "roof_deck": true,
+  "elevator": true,
+  "bike_storage": true,
+  "coworking": true
+ },
+ "evidence": {
+  "in_unit_wd": "官網 Features：「Every unit at 3200 Washington features ... in-apartment washer/dryers for private use.」；Apartment Amenities 列 Washer/Dryer；2 房房型圖 Type A／F／I 都在衣櫃內畫了 W/D。https://www.3200washingtonjp.com/features/",
+  "balcony": "官網 Apartment Amenities：「Patio/Balcony*」（* Only available in select apartments）；房型圖 Type A、Type I 畫有斜線的戶外平台（看起來是陽台），Type F 沒有。https://www.3200washingtonjp.com/amenities",
+  "central_ac": "官網只寫「Air Conditioner」，沒說是不是中央空調。",
+  "dishwasher": "官網 Apartment Amenities：「Dishwasher」。",
+  "hardwood": "官網：「luxury laminate flooring」（仿木地板，不是實木）。https://www.3200washingtonjp.com/features/",
+  "garage_parking": "官網 FAQ：「We do have a garage but there are no spots available at the moment」。https://www.3200washingtonjp.com/faq",
+  "ev_charging": "官網 Community Amenities：「EV Charging Stations」。",
+  "dogs": "官網：Dogs Max 2 Allowed、Max weight 40 lb each、Rent $75；Breed restrictions apply。https://www.3200washingtonjp.com/amenities",
+  "cats": "官網：Cats Max 2 Allowed、Rent $40。",
+  "concierge": "官網只有「Breakfast/Coffee Concierge」（早餐咖啡服務），沒有門房。",
+  "package_room": "官網：「Package Receiving」。",
+  "roof_deck": "官網：「Sundeck」，FAQ 列 Roof Lounge、Roof Top。",
+  "coworking": "官網：「Business Center」，Features 頁寫有 library 和 conference room。",
+  "bike_storage": "官網：「Bike Racks」、「Bike Repair Shop」。",
+  "gym": "官網：「Fitness Center」，FAQ 說 24 小時開放。"
+ }
+}

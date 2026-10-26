@@ -1,0 +1,94 @@
+{
+ "checked": "2026-10-26",
+ "overall": {
+  "google_rating": null,
+  "google_count": null,
+  "alt": {
+   "value": 5,
+   "label": "ApartmentList · 只有 1 條評分"
+  },
+  "summary_zh": "這是比較新的大樓（384 戶，Greystar 管理），網路上幾乎找不到住戶評價：ApartmentList 只有 1 條評分，Apartments.com、Reddit 都沒找到。從地圖看，大樓 400 公尺內有 Route 16（Revere Beach Pkwy）快速道路、Everett Ave 主幹道和通勤鐵路（Newburyport/Rockport 線），車流和火車聲可能是主要噪音來源；離 Logan 機場不遠，有沒有飛機航道經過沒查證。沒找到住戶提到的安全問題，也沒找到犯罪統計。建議實地去聽一下噪音，並問附近住戶。"
+ },
+ "dimensions": [
+  {
+   "key": "noise",
+   "label_zh": "安靜程度",
+   "score": 3,
+   "points_zh": [
+    "沒有住戶評價提到噪音",
+    "OpenStreetMap：400 公尺內有 Route 16 快速道路、Everett Ave 和通勤鐵路，靠路或靠鐵軌的戶型可能會吵",
+    "飛機航道沒查證，看房時可以留意"
+   ]
+  },
+  {
+   "key": "safety",
+   "label_zh": "安全",
+   "score": 3,
+   "points_zh": [
+    "沒找到住戶談安全的評價",
+    "沒找到 Everett 這一區的犯罪統計，分數只是中間值，不代表實際情況"
+   ]
+  },
+  {
+   "key": "management",
+   "label_zh": "物業管理",
+   "score": 3,
+   "points_zh": [
+    "Greystar 管理；沒找到住戶對物業的具體評價",
+    "ApartmentList 的介紹說「評價誇員工友善」，但那是網站自動生成的摘要，不是住戶原話"
+   ]
+  },
+  {
+   "key": "amenities",
+   "label_zh": "設施",
+   "score": 4,
+   "points_zh": [
+    "官網列出：共享辦公空間、健身房、泳池和中庭、高爾夫模擬器、瑜伽室、Makerspace 手作空間",
+    "套內有洗衣機烘乾機、陽台（部分戶型）、硬木地板",
+    "ApartmentList 唯一一條評分給設施 4 分"
+   ]
+  },
+  {
+   "key": "value",
+   "label_zh": "性價比",
+   "score": 3,
+   "points_zh": [
+    "2026-10-26 兩房兩衛 $3,360–4,095/月（15 個月租約），在這次看的幾棟裡偏便宜",
+    "現在有送 6 週租金的優惠",
+    "ApartmentList 唯一一條評分給性價比 3 分；交通不如緊鄰地鐵站的大樓方便（Transit Score 62）"
+   ]
+  }
+ ],
+ "pros_zh": [
+  "房子新，設施多（泳池、高爾夫模擬器、共享辦公）",
+  "兩房兩衛租金相對低",
+  "現在有送 6 週租金的優惠",
+  "有 SightMap 可以線上看哪間空著"
+ ],
+ "cons_zh": [
+  "幾乎沒有住戶評價可以參考",
+  "附近有 Route 16 快速道路和通勤鐵路，可能有噪音",
+  "不在地鐵站旁邊，Transit Score 62",
+  "停車和寵物費用沒查到"
+ ],
+ "quotes": [],
+ "sources": [
+  {
+   "name": "ApartmentList",
+   "url": "https://www.apartmentlist.com/ma/everett/maxwell"
+  },
+  {
+   "name": "官網",
+   "url": "https://www.livemaxwellma.com/"
+  },
+  {
+   "name": "Google 評價（自己看）",
+   "url": "https://www.google.com/maps/search/Maxwell+Apartments+102+Mill+Rd+Everett+MA"
+  },
+  {
+   "name": "Reddit 搜索",
+   "url": "https://www.reddit.com/search/?q=Maxwell%20Everett%20apartments"
+  }
+ ],
+ "gaps_zh": "沒找到任何住戶原話評價，所以沒有引用。Google、Yelp、ApartmentRatings、Reddit 都攔截了自動抓取；Apartments.com 和 Wayback 存檔也沒找到這棟樓的頁面。噪音判斷只根據地圖，不是住戶說的。下面的鏈接可以自己點開看。"
+}

@@ -1,0 +1,241 @@
+{
+ "official_url": "https://livemasonma.com",
+ "floorplans_url": "https://livemasonma.com/floorplans/",
+ "virtual_tours": [
+  {
+   "label": "360 度虛擬導覽（公共設施、大廳）",
+   "url": "https://v1.panoskin.com/?tour=639258d41cb93b2f4ebc613b"
+  },
+  {
+   "label": "SightMap 互動樓層圖（可看每間空房位置）",
+   "url": "https://sightmap.com/embed/zlpoy928wg4"
+  },
+  {
+   "label": "Instagram 實景",
+   "url": "https://www.instagram.com/Masonapartments/"
+  }
+ ],
+ "plans_2b2b": [
+  {
+   "name": "B17",
+   "sqft": "1,056",
+   "price": "$3,410",
+   "price_min": 3410,
+   "as_of": "2026-10-26",
+   "available": "1 間（#237），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/ecd3bd93e32c7923c4d217ac9bf76492.jpg"
+  },
+  {
+   "name": "B21",
+   "sqft": "1,083",
+   "price": "$3,435",
+   "price_min": 3435,
+   "as_of": "2026-10-26",
+   "available": "1 間（#180），11/19 入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/2a2f60c08d12fee7a5a4b81eeb89853e.jpg"
+  },
+  {
+   "name": "B5",
+   "sqft": "914",
+   "price": "$3,450",
+   "price_min": 3450,
+   "as_of": "2026-10-26",
+   "available": "1 間（#514），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e6ecceeccb2f2e96a0e310ecda819360.jpg"
+  },
+  {
+   "name": "B8",
+   "sqft": "989",
+   "price": "$3,655",
+   "price_min": 3655,
+   "as_of": "2026-10-26",
+   "available": "1 間（#105），現在入住（只在官網看到）",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B8_2b2b_989sf.svg"
+  },
+  {
+   "name": "B25",
+   "sqft": "1,165",
+   "price": "$3,900",
+   "price_min": 3900,
+   "as_of": "2026-10-26",
+   "available": "1 間（#521），現在入住",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/55b59b7e03a1bdcf51d65681e9de4de1.jpg"
+  },
+  {
+   "name": "B6",
+   "sqft": "982",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B6_2b2b_982sf.svg"
+  },
+  {
+   "name": "B7.1",
+   "sqft": "988",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/d2348ba8b49016c5c55b4e92e6ec3fb7.jpg"
+  },
+  {
+   "name": "B7.2",
+   "sqft": "990",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B7.2_2b2b_990sf-.svg"
+  },
+  {
+   "name": "B9.A",
+   "sqft": "990",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B9.A_2b2b_990sf.svg"
+  },
+  {
+   "name": "B10",
+   "sqft": "1,002",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B10_2b2b_1002sf.svg"
+  },
+  {
+   "name": "B11",
+   "sqft": "1,005",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/e47975873d8434e70d979ac7c21c08e7.jpg"
+  },
+  {
+   "name": "B12.A",
+   "sqft": "1,018",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/7f815799dddb9c35dc44f854bb3a30fe.jpg"
+  },
+  {
+   "name": "B13",
+   "sqft": "1,021",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B13_2b2b_1021sf.svg"
+  },
+  {
+   "name": "B14",
+   "sqft": "1,023",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B14_2b2b_1023sf.svg"
+  },
+  {
+   "name": "B15",
+   "sqft": "1,054",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B15_2b2b_1054sf.svg"
+  },
+  {
+   "name": "B18",
+   "sqft": "1,058",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B18_2b2b_1058sf.svg"
+  },
+  {
+   "name": "B19",
+   "sqft": "1,080",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/36bdb4e373dddcad9c9227ee8737dd2d.jpg"
+  },
+  {
+   "name": "B20.A",
+   "sqft": "1,080",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B20.A_2b2b_1080sf.svg"
+  },
+  {
+   "name": "B22",
+   "sqft": "1,095",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B22_2b2b_1095sf.svg"
+  },
+  {
+   "name": "B23",
+   "sqft": "1,105",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/9a7694327a26740fd9b35de132834315.jpg"
+  },
+  {
+   "name": "B24",
+   "sqft": "1,112",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://cdn.apartmentlist.com/image/upload/f_auto,q_auto,t_web-base/7257c3a90055426e7b440f961535e379.jpg"
+  },
+  {
+   "name": "B26.A",
+   "sqft": "1,369",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B26.A_2b2b_1369sf.svg"
+  },
+  {
+   "name": "B27",
+   "sqft": "1,369",
+   "price": "目前沒空房",
+   "as_of": "",
+   "available": "",
+   "image": "https://livemasonma.com/assets/images/MasonFP_B27_2b2b_1369sf.svg"
+  }
+ ],
+ "fees": {
+  "parking_garage": "預留車庫車位 $125/月（兩位住戶分別在 2025-12 和 2026-08 的 Reddit 貼文說的，官方費用沒抓到）",
+  "parking_surface": "沒找到",
+  "water_sewer_trash": "住戶自付。住戶（2025-12，約 1,100 平方英尺兩房）說水費約 $70/月",
+  "electric_heat": "住戶自付（National Grid）。同一位住戶說電約 $200/月、瓦斯約 $40/月",
+  "internet": "$60/月，必須付，由 White Sky 提供（住戶貼文）",
+  "pet_rent": "貓 $50/月、狗 $75/月（ApartmentList）",
+  "pet_deposit_or_fee": "沒找到",
+  "other": "現在送 6 週免租（有附加條件，ApartmentList，2026-08 起）。提前解約：2025-12 住戶說被要求付約 $10,000。申請條件：家庭稅前總收入要有房租的 3 倍",
+  "source": "https://www.reddit.com/r/ChelseaMA/comments/1pe8vpr/vero_or_v2_or_the_pioneer/nuq3wsu/",
+  "as_of": "寵物費、優惠：ApartmentList 2026-10-26；車位、網路、水電：Reddit 住戶貼文 2025-12 / 2026-08。官網的費用清單是嵌入小工具，抓不到"
+ },
+ "pet_policy_zh": "可以養貓和狗，每戶最多 2 隻（ApartmentList）。樓內有寵物美容室。沒找到品種限制。",
+ "notes_zh": "租金是 2026-10-26 在官網看到的價格，官網寫的是 15 個月租約的「每月總租賃價格」（含每月強制費用，不含水電等按用量計費的項目）；同一天 ApartmentList 寫的是一樣的數字，但標 12 個月租約，簽約前要確認。ApartmentList 上 B17、B23、B25 叫 B17.Den、B23.Den、B25.Den，可能多一個小書房。B8 只在官網有，平面圖用官網的 SVG。Realync 樣品屋影片只有 studio 和一房，沒有兩房。",
+ "sources": [
+  {
+   "name": "官方網站（房型、價格）",
+   "url": "https://livemasonma.com/floorplans/"
+  },
+  {
+   "name": "ApartmentList（房型、價格、寵物費、優惠）",
+   "url": "https://www.apartmentlist.com/ma/everett/mason"
+  },
+  {
+   "name": "Reddit 住戶貼文（水電、車位、網路）",
+   "url": "https://www.reddit.com/r/ChelseaMA/comments/1pe8vpr/vero_or_v2_or_the_pioneer/nuq3wsu/"
+  },
+  {
+   "name": "Reddit 轉租貼文（2026-08，車位、網路）",
+   "url": "https://www.reddit.com/r/bostonhousing/comments/1vlq0c4/"
+  }
+ ]
+}
