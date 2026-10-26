@@ -19,7 +19,7 @@
   {
    "id": "other",
    "name_zh": "Somerville／Fenway／Brighton",
-   "note_zh": "Somerville 的 Brickbottom 有 Formlabs 和 Generate:Biomedicines（近綠線 East Somerville）；Whoop 在 Kenmore；New Balance 在 Brighton 的 Boston Landing。"
+   "note_zh": "Somerville 的 Brickbottom 有 Formlabs 和 Generate:Biomedicines（近綠線 Union Square）；Whoop 在 Kenmore；New Balance 在 Brighton 的 Boston Landing。"
   },
   {
    "id": "route128",
@@ -219,8 +219,8 @@
    "walk_min": 7,
    "note_zh": "Amazon 在 Fort Point 的辦公室（企業與技術團隊）",
    "source": {
-    "name": "Amazon 內部辦公室清單（GREF BSC Location List，僅員工可見）",
-    "url": null
+    "name": "OpenStreetMap（27 Melcher Street, Boston 地址紀錄）",
+    "url": "https://www.openstreetmap.org/search?query=27%20Melcher%20Street%20Boston"
    }
   },
   {
